@@ -1,7 +1,5 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<p>Testing changes</p>
-
 <div class="sidebar">
 <p id="first">Online Resources</p>
 <a href="http://search.proquest.com/legislativeinsight" target="_blank">ProQuest Legislative Insight</a>
