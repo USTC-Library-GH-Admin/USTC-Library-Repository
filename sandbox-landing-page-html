@@ -1,7 +1,5 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<p>I'm making a new version of the library website!</p>
-
 <div class="sidebar">
 <p id="first">Online Resources</p>
 <a href="http://search.proquest.com/legislativeinsight" target="_blank">ProQuest Legislative Insight</a>
