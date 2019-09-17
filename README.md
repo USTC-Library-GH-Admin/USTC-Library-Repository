@@ -1,12 +1,6 @@
 # website-testing
 
-This is a repository to save and edit code for the Koha website! The benefits of Github are that it automatically saves each version of a file, even if we edit it, so we can always refer or revert to old code if necessary. 
-
-If you click on sandbox-landing-page-html, I copied the current code under the landing page section for the sandbox (as of 2:32 pm) into that file. If you click on the History tab, it’ll save old versions of the code and show you what specific lines were changed between versions. You can save directly over the code (which is nice because if you make a mistake, you still have the old versions of the code saved). 
-
-You can also create “pull requests,” which create a branch or an alternate version of the code – that way, the original file is completely intact, along with a different version of the code that you can compare or experiment with. You can see one in the Pull Requests tab in sandbox-landing-page-html, called Pull Request Demo. You can see the changes in the File Changed tab, and leave comments on the code. It could be useful if you’re experimenting with changes and wanted to jot down notes or thoughts on the code.
-
-Unfortunately, there’s no “test” function, so you can’t directly see what the code would look like as a website. It also doesn’t note mistakes or errors in the code, so we should still edit code in Code Writer (when it’s working again). Still, like we were talking about at lunch, it’ll help save our changes to the code in one central place, without worrying about things getting spread across different text files. Plus, it’s useful for saving backups to the code. Later today or tomorrow, I’ll add instructions in the Github repository just for reference. Have fun and be free to explore and test things as much as you’d like!
+This is a repository to save and edit code for the Koha website! The benefits of Github are that it automatically saves each version of a file, even if we edit it, so we can always refer or revert to old code if necessary. Please feel free to explore this website, and add any discoveries about Github to the Readme file.
 
 ----------
 
@@ -56,3 +50,5 @@ Checking the Edit History of a File:
 1. Click on a file
 2. Click on the History tab at the top of the code
 3. You can select the version of the file you'd like to see. Additions to the code are in green, and deleted lines are indicated in red.
+
+-----
