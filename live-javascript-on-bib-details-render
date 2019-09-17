@@ -1,0 +1,19 @@
+bib.marc.fields('910').forEach(function(field){
+var newelm = $('<div class="bibdata"><span class="biblabel"> Sima number:</span> ' + 
+field.html({filter: 'a'}) + '</div>'); 
+$('.bibdata.isbndata').last().after(newelm);
+});
+
+bib.marc.fields('999').forEach(function(field){
+var newelm = $('<div class="bibdata"><span class="biblabel"> Bib number:</span> ' +
+field.html({filter: 'c'}) + '</div>');
+ $('.bibdata.subjectdata').first().before(newelm);
+});
+
+bib.marc.fields('956').forEach(function(field){
+var newelm = $('<div class="bibdata"><span class="biblabel"> Bib number:</span> ' +
+field.html({filter: 'c'}) + '</div>');
+ $('.bibdata.subjectdata').first().before(newelm);
+});
+
+if(bib.marc.has('050') ) { element.find('.lccallnumdata').hide(); }
