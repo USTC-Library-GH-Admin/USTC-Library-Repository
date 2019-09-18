@@ -52,3 +52,12 @@ Checking the Edit History of a File:
 3. You can select the version of the file you'd like to see. Additions to the code are in green, and deleted lines are indicated in red.
 
 -----
+
+How to Make Folders:
+
+1. Create or edit a file
+2. Click on the title. At the start of the title, type in the name of the folder, then a /. You can keep doing this to create new folders as much as you like. Finish with the filename, without a / at the end.
+
+Note: You can't create empty folders.
+
+-----
