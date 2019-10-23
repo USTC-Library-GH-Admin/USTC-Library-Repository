@@ -2,16 +2,41 @@
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Sid": "DenyAllGetRequestsUnlessFromKoha",
+            "Sid": "OnlyAllowGETsFromCourt",
             "Effect": "Deny",
             "Principal": "*",
             "Action": "s3:GetObject",
             "Resource": "arn:aws:s3:::ustc-library-test-bucket/*",
             "Condition": {
-                "StringNotLike": {
+                "ForAnyValue:StringNotLike": {
+                    "aws:username": [
+                        "efernandes",
+                        "atyous"
+                    ],
                     "aws:Referer": "https://ustc.kohalibrary.com/*"
                 }
             }
+        },
+		 {
+      "Sid": "PutObjectsIntelligentTiering",
+      "Effect": "Allow",
+      "Principal": {
+                "AWS": 
+				["arn:aws:iam::928851227149:user/efernandes",
+				 "arn:aws:iam::928851227149:user/atyous"
+				]
+      },
+      "Action": "s3:PutObject",
+      "Resource": [
+        "arn:aws:s3:::ustc-library-test-bucket/*"
+      ],
+      "Condition": {
+        "StringEquals": {
+          "s3:x-amz-storage-class": [
+            "INTELLIGENT_TIERING"
+          ]
         }
+      }
+    }
     ]
 }
