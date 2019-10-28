@@ -1,0 +1,49 @@
+Public WithEvents objExplorer As Outlook.Explorer
+Public WithEvents objInspectors As Outlook.Inspectors
+Public WithEvents objMail As Outlook.MailItem
+
+Private Sub Application_Startup()
+    Set objExplorer = Outlook.Application.ActiveExplorer
+    Set objInspectors = Outlook.Application.Inspectors
+End Sub
+
+Private Sub objExplorer_Activate()
+    On Error Resume Next
+    If objExplorer.Selection.Item(1).Class = olMail Then
+       Set objMail = objExplorer.Selection.Item(1)
+    End If
+End Sub
+
+Private Sub objInspectors_NewInspector(ByVal Inspector As Inspector)
+    If Inspector.CurrentItem.Class = olMail Then
+       Set objMail = Inspector.CurrentItem
+    End If
+End Sub
+
+Private Sub objMail_Forward(ByVal Forward As Object, Cancel As Boolean)
+    Dim objRegExp As Object
+    Dim strHTMLBody As String
+ 
+    Forward.Display
+    strHTMLBody = Forward.HTMLBody
+ 
+    'Find email addresses in the body via Regular Expression
+    Set objRegExp = CreateObject("vbscript.RegExp")
+    With objRegExp
+        .Pattern = "(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|""(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*"")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])"
+        .IgnoreCase = True
+        .Global = True
+    End With
+ 
+    'Remove email addresses
+    If objRegExp.Test(strHTMLBody) Then
+       Set objFoundResults = objRegExp.Execute(strHTMLBody)
+       For i = 1 To objFoundResults.Count
+           Forward.HTMLBody = Replace(Forward.HTMLBody, objFoundResults.Item(i - 1).Value, "")
+       Next
+    End If
+ 
+    'Remove useless characters
+    Forward.HTMLBody = Replace(Forward.HTMLBody, "[mailto:]", "")
+    Forward.HTMLBody = Replace(Forward.HTMLBody, "()", "")
+End Sub
