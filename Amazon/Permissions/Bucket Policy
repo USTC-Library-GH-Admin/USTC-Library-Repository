@@ -9,34 +9,14 @@
             "Resource": "arn:aws:s3:::ustc-library-test-bucket/*",
             "Condition": {
                 "ForAnyValue:StringNotLike": {
-                    "aws:username": [
-                        "efernandes",
-                        "atyous"
-                    ],
-                    "aws:Referer": "https://ustc.kohalibrary.com/*"
+                    "aws:Referer": "https://ustc.kohalibrary.com/*",
+		    "NotIpAddress": {
+			"aws:SourceIp": [
+				"123.456.789.10/11",
+				"123.456.789.10/11""
+			]
                 }
             }
-        },
-		 {
-      "Sid": "PutObjectsIntelligentTiering",
-      "Effect": "Allow",
-      "Principal": {
-                "AWS": 
-				["arn:aws:iam::928851227149:user/efernandes",
-				 "arn:aws:iam::928851227149:user/atyous"
-				]
-      },
-      "Action": "s3:PutObject",
-      "Resource": [
-        "arn:aws:s3:::ustc-library-test-bucket/*"
-      ],
-      "Condition": {
-        "StringEquals": {
-          "s3:x-amz-storage-class": [
-            "INTELLIGENT_TIERING"
-          ]
         }
-      }
-    }
-    ]
+  ]
 }
