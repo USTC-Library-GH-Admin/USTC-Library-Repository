@@ -133,29 +133,20 @@
 </div
 
 <div id="Cases Decided on Appeal" class="tabcontent">
- <h1>Cases Decided on Appeal</h1>
-<h2> Latest Opinion</h2>
-<p>Belanger, Eric</p>
-<p>Docket No. 5252-17L</p>
-<p>TC Memo 2019-1</p>
-<p>Judge Vasquez</p>
-<br>
-<p>Affirmed</p>
-<p>USCA 5th Circuit</p>
-<p>09/12/2019</p>
-<p><b><a href="http://www.ca5.uscourts.gov/opinions/unpub/19/19-60145.0.pdf" target="_blank">Opinion</a></b></p><p>
-<br>
-</p><h2> Previous Opinion</h2>
-<p>Burnett, Conrad Prentiss, Jr.</p>
-<p>Docket No. 7767-17L</p>
-<p>TC Memo 2018-205</p>
-<p>Judge Gerber</p>
-<br>
-<p>Affirmed</p>
-<p>USCA 4th Circuit</p>
-<p>09/06/2019</p>
-<p><b><a href="http://www.ca4.uscourts.gov/opinions/191277.U.pdf" target="_blank">Opinion</a></b></p><p>
-</p></div>
+<h1>Cases Decided on Appeal</h1>
+<iframe id="forum_embed2"
+  src="javascript:void(0)"
+  scrolling="no"
+  frameborder="0"
+  width="100%"
+  height="700">
+</iframe>
+<script type="text/javascript">
+  document.getElementById('forum_embed2').src =
+     'https://groups.google.com/forum/embed/?place=forum/cases-decided-on-appeal'
+     + '&showsearch=true&showpopout=false&showtabs=false'
+     + '&parenturl=' + encodeURIComponent(window.location.href);
+</script> 
 
 <div id="Library Bulletin" class="tabcontent">
   <h1>September Library Bulletin</h1>
