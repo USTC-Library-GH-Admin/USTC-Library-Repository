@@ -1,0 +1,6 @@
+select module,action,
+object_type,count(*) 
+from action_logs  where 
+object_type = "dlso" and
+timestamp between "__FROMDATE__" and "__TODATE__"
+group by module,action,object_type;
