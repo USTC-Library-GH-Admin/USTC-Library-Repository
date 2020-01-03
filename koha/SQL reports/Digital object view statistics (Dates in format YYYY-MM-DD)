@@ -1,6 +1,12 @@
-select module,action,
-object_type,count(*) 
-from action_logs  where 
+select substr(info,locate("uuid",info)+7,36) uuid,
+biblio.biblionumber,
+module,action ,
+title,
+count(distinct(action_id))
+from action_logs 
+ join dlso_bib on (dlso_id =substr(action_logs.info,locate("uuid",action_logs.info)+7,36) ) 
+join biblio on (biblio.biblionumber = bib_id)
+where 
 object_type = "dlso" and
-timestamp between "__FROMDATE__" and "__TODATE__"
-group by module,action,object_type;
+action_logs.timestamp between "__FROMDATE__" and "__TODATE__"
+group by substr(info,locate("uuid",info)+7,36),module,action
