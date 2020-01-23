@@ -1,0 +1,73 @@
+Copy the fields under Find and Replace exactly as is (excluding the Find: and Replace: parts)
+
+Headers:
+
+First, we need to add special headers to the XML file for proper data formatting. 
+
+Find: 
+xmlns:mods="http://www.loc.gov/mods/v3"
+
+Replace: 
+xmlns:mods="http://www.loc.gov/mods/v3" xmlns:rts="https://www.loc.gov/standards/rights/METSRights.xsd" xmlns:textMD="https://www.loc.gov/standards/textMD/"
+
+Admin and TechMD:
+
+This time, we need to add metadata for file creation, formatting, and administration. 
+
+Find: 
+</METS:dmdSec>
+
+Replace: 
+</METS:dmdSec><METS:amdSec><METS:techMD><METS:mdWrap MDTYPE="PDF"><METS:xmlData></METS:xmlData></METS:mdWrap></METS:techMD><METS:rightsMD ID="ADMD"><METS:mdWrap MDTYPE="other" OTHERMDTYPE="METSRights"><METS:xmlData><rts:RightsDeclaration MDRIGHTSCATEGORY="Public Domain"><rts:Context CONTEXTCLASS="General Public"><rts:ConstraintDescription>Public Domain</rts:ConstraintDescription></rts:Context></rts:RightsDeclaration></METS:xmlData></METS:mdWrap></METS:rightsMD><METS:digiProvMD><METS:xmlData><textMD:textMD><textMD:encoding><textMD:encoding_platform>Windows 10</textMD:encoding_platform><textMD:encoding_software>Opus FreeFlow</textMD:encoding_software><textMD:encoding_software>SobekCM</textMD:encoding_software><textMD:encoding_software>MarcEdit 7</textMD:encoding_software><textMD:encoding_agent>Erin Fernandes</textMD:encoding_agent><textMD:encoding_agent>Allison Tyous</textMD:encoding_agent></textMD:encoding><textMD:pageOrder>Left-to-right</textMD:pageOrder><textMD:representationSequence>Reading-order</textMD:representationSequence><textMD:lineOrientation>Horizontal</textMD:lineOrientation><textMD:lineLayout>Top-to-bottom</textMD:lineLayout><textMD:characterFlow>Left-to-right</textMD:characterFlow></textMD:textMD></METS:xmlData></METS:digiProvMD></METS:amdSec>
+
+Identifier:
+
+We need to add information to the identifier fields to explain what they are identifying.
+
+Find: <mods:identifier>
+
+Replace (for Koha numbers): 
+<mods:identifier type="koha">
+
+Replace (for Public Law numbers):
+<mods:identifier type="public law">
+
+Changing Extent to Form:
+
+SobekCM automatically fills out some fields differently from the GPO's guidelines. This helps switch the fields to match the GPO's guidelines for MODS metadata.
+
+Find: 
+<mods:extent>txt--rdacontent; computer--rdamedia; computer file--rdacarrier; text file--rdaft--PDF</mods:extent>
+
+Replace: 
+<mods:form type="digital">txt--rdacontent; computer--rdamedia; computer file--rdacarrier; text file--rdaft--PDF</mods:form>
+
+Specifying the URL Type:
+
+Find: 
+<mods:url displayLabel="Related URL">
+
+Replace: 
+<mods:url displayLabel="Content Detail">
+
+Page numbers: 
+
+I use the extent to explain page numbers - it can help with ensuring you've selected hte right document.
+
+Find:
+<mods:physicalDescription>
+
+Replace:
+<mods:physicalDescription><mods:extent unit="pages">xxxxx</mods:extent>
+
+Batch deletions:
+
+Finally, while I recommend doing MARC-related batch edits in Excel, you can do so in this step if you forgot to do it in Excel.
+
+Find (enter one of the following, minus brackets but including the spaces): 
+[ $2 ], $b, $c, $d, $e, $t, $x, $v, $z
+
+Replace:
+[ ] (in other words, press the space bar once)
+
+There are metadata fields that are manually edited, depending on the document or document type (easy example: number of pages). This handles the batch edits, however.
