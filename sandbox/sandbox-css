@@ -67,6 +67,11 @@ tr:nth-child(even) {
     background-color: #ffffff;
 }
 
+/* Collapse list of library bulletins */
+#LibraryBulletinList {
+  display:none;
+}
+
 /* Articles list style */
 
 ul.a {list-style-type: disc;}
