@@ -1,21 +1,35 @@
 {
-	"Version": "2012-10-17",
-	"Statement": [{
-		"Sid": "OnlyAllowGETsFromCourt",
-		"Effect": "Deny",
-		"Principal": "*",
-		"Action": "s3:GetObject",
-		"Resource": "arn:aws:s3:::ustc-library-test-bucket/*",
-		"Condition": {
-			"ForAnyValue:StringNotLike": {
-				"aws:Referer": "https://ustc.kohalibrary.com/*"
-				},
-			"NotIpAddress": {
-				"aws:SourceIp": [
-					"123.456.789.10/11",
-					"123.456.789.10/11"
-				]
-			}
-		}
-	}]
+    "Version": "2012-10-17",
+    "Id": "Policy1582812977147",
+    "Statement": [
+        {
+            "Sid": "Stmt1582812932484",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::ustc-staging/*",
+            "Condition": {
+                "StringLike": {
+                    "aws:Referer": "https://ustc.kohalibrary.com/*"
+                }
+            }
+        },
+        {
+            "Sid": "Stmt1582812970659",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::ustc-staging/*",
+            "Condition": {
+                "IpAddress": {
+                    "aws:SourceIp": [
+                        "65.246.108.0/24",
+                        "65.246.109.0/24",
+                        "65.246.110.0/24",
+                        "65.246.111.0/24"
+                    ]
+                }
+            }
+        }
+    ]
 }
