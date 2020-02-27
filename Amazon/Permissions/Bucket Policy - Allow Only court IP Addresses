@@ -1,0 +1,23 @@
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1582809977592",
+    "Statement": [
+        {
+            "Sid": "CourtIPAddressesOnly",
+            "Effect": "Deny",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::ustc-staging/*",
+            "Condition": {
+                "NotIpAddress": {
+                    "aws:SourceIp": [
+                        "65.246.108.0/24",
+                        "65.246.109.0/24",
+                        "65.246.110.0/24",
+                        "65.246.111.0/24"
+                    ]
+                }
+            }
+        }
+    ]
+}
