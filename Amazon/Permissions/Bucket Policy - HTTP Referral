@@ -1,0 +1,17 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "httpReferralGETs",
+            "Effect": "Deny",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::ustc-library-test-bucket/*",
+            "Condition": {
+                "StringNotLike": {
+                    "aws:Referer": "https://ustc.kohalibrary.com/*"
+                }
+            }
+        }
+    ]
+}
