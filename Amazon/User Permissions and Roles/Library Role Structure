@@ -1,0 +1,31 @@
+We currently have eight roles in total:
+
+1.	Library S3 God User – all permissions in S3
+2.	Library S3 Super User – all “list,” “get” and “put” requests in S3
+3.	Library Glacier God User – all permissions in AWS Glacier
+4.	Library Marketplace Regular User – all “view,” “describe,” and “list” permissions for Marketplace and Marketplace Management services
+5.	Library Billing Regular User – all “view” permissions for the billing console, and all permissions for Cost Explorer
+6.	Library Lambda Regular User – all “list” and “get” requests in Lambda
+7.	Library IAM God User – all permissions in IAM (to be reviewed)
+8.	Library AWS Support God User – all permissions in AWS Support
+
+The roles should be distributed as follows:
+
+1.	Nancy: S3 God, Glacier God, Marketplace Regular, Billing Regular, Lambda Regular, IAM God, AWS Support God
+2.	Allison: S3 God, Glacier God, Marketplace Regular, Billing Regular, Lambda Regular, AWS Support God
+3.	Erin: S3 God, Glacier God, Marketplace Regular, AWS Support God
+4.	Jen: S3 Super, AWS Support God
+5.	Virginia: S3 Super, AWS Support God
+
+To review our reasoning behind each of the roles:
+
+1.	S3 God User: After Friday’s meeting, we discussed promoting me and Allison to God Users for the library’s S3 account. This will ensure we have all of the permissions we are currently using for S3. 
+2.	S3 Super User: Similarly, we’ve decided on having Jen and Virginia as S3 Super Users. 
+3.	Glacier God User: According to the policy generators, S3 and Glacier are still considered two separate services. The library plans on using Glacier for long-term archival storage. Thus, we need permissions to run all actions in Glacier so we can create storage buckets there and transfer objects in and out of them.
+4.	Marketplace Regular User: In the role spreadsheet you created, you gave us permissions to browse the marketplace. This role should give us the ability to freely browse the software in the marketplace, but without permitting us to purchase anything. This way, if we want to propose add-ons, we can pull a link from the marketplace and discuss it with OIS. Bear in mind that there are several Marketplace services – I think I added all of the “view” or “get” permissions for these services, but my list may not be comprehensive.
+5.	Billing Regular User: Ensures we can view the library’s expenditures on the billing console, as well as allowing us to use the Cost Explorer for a more detailed breakdown of our AWS budget.
+6.	Lambda Regular User: If we decide to use Lambda to automate bucket policies, we assume OIS and AWS will design the Lambda policy. We would like for some of our users to be able to view the Lambda function for the library to make sure it’s working properly.
+7.	IAM God User: As we talked about last Friday, Nancy needs to be able to add users for librarians and freely change roles. By giving her all IAM permissions, she will be able to carry out these necessary tasks. We’ll talk with Truong about confirming what exactly we need for these permissions, and will revise this role where necessary.
+8.	AWS Support God User: By assigning all permissions for opening tickets and communicating with AWS Support, all librarians can file cases directly with the support team.
+
+Bear in mind that we don’t have all the information or names for all of the accounts in the Tax Court. I’ve structured these documents under the assumption that they will only affect the library’s account and VPC.
