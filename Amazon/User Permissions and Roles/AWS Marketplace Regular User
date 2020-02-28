@@ -1,0 +1,27 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1582637429501",
+      "Action": [
+        "aws-marketplace-management:viewMarketing",
+        "aws-marketplace-management:viewReports",
+        "aws-marketplace-management:viewSettings",
+        "aws-marketplace-management:viewSupport"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Stmt1582637535008",
+      "Action": [
+        "aws-marketplace:DescribeChangeSet",
+        "aws-marketplace:DescribeEntity",
+        "aws-marketplace:ListChangeSets",
+        "aws-marketplace:ListEntities"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
