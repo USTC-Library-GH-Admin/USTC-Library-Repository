@@ -1,0 +1,32 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1582572284573",
+      "Action": [
+        "lambda:GetAccountSettings",
+        "lambda:GetAlias",
+        "lambda:GetEventSourceMapping",
+        "lambda:GetFunction",
+        "lambda:GetFunctionConcurrency",
+        "lambda:GetFunctionConfiguration",
+        "lambda:GetFunctionEventInvokeConfig",
+        "lambda:GetLayerVersion",
+        "lambda:GetLayerVersionPolicy",
+        "lambda:GetPolicy",
+        "lambda:GetProvisionedConcurrencyConfig",
+        "lambda:ListAliases",
+        "lambda:ListEventSourceMappings",
+        "lambda:ListFunctionEventInvokeConfigs",
+        "lambda:ListFunctions",
+        "lambda:ListLayerVersions",
+        "lambda:ListLayers",
+        "lambda:ListProvisionedConcurrencyConfigs",
+        "lambda:ListTags",
+        "lambda:ListVersionsByFunction"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
