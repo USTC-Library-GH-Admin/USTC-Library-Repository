@@ -1,0 +1,385 @@
+############################################Identity IAM Resources###########################################################
+## Library - IAM Policy
+resource "aws_iam_policy" "ustc-library-iam-policy" {
+  name        = "ustc-library-iam-policy"
+  description = "Policy for IAM access."
+
+  policy = <<EOF
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:CreateServiceSpecificCredential",
+                "iam:GetAccountPasswordPolicy",
+                "iam:DeactivateMFADevice",
+                "iam:DeleteAccessKey",
+                "iam:ListRoleTags",
+                "iam:GenerateServiceLastAccessedDetails",
+                "iam:UpdateOpenIDConnectProviderThumbprint",
+                "iam:ListServiceSpecificCredentials",
+                "iam:ListSigningCertificates",
+                "iam:AddRoleToInstanceProfile",
+                "iam:SetSecurityTokenServicePreferences",
+                "iam:SimulateCustomPolicy",
+                "iam:DeleteServerCertificate",
+                "iam:UploadSSHPublicKey",
+                "iam:ListRolePolicies",
+                "iam:DeleteOpenIDConnectProvider",
+                "iam:GetCredentialReport",
+                "iam:ListPolicies",
+                "iam:UpdateServiceSpecificCredential",
+                "iam:GetRole",
+                "iam:ListSAMLProviders",
+                "iam:GetPolicy",
+                "iam:RemoveClientIDFromOpenIDConnectProvider",
+                "iam:ListEntitiesForPolicy",
+                "iam:UpdateRoleDescription",
+                "iam:UpdateServerCertificate",
+                "iam:GetOpenIDConnectProvider",
+                "iam:GetRolePolicy",
+                "iam:CreateInstanceProfile",
+                "iam:GenerateCredentialReport",
+                "iam:TagRole",
+                "iam:ResetServiceSpecificCredential",
+                "iam:GetServiceLastAccessedDetails",
+                "iam:GetServiceLinkedRoleDeletionStatus",
+                "iam:ListInstanceProfilesForRole",
+                "iam:PassRole",
+                "iam:EnableMFADevice",
+                "iam:ResyncMFADevice",
+                "iam:ListAttachedGroupPolicies",
+                "iam:UpdateSAMLProvider",
+                "iam:ListAccessKeys",
+                "iam:DeleteInstanceProfile",
+                "iam:ListGroupPolicies",
+                "iam:GetSSHPublicKey",
+                "iam:ListRoles",
+                "iam:GetContextKeysForCustomPolicy",
+                "iam:CreateServiceLinkedRole",
+                "iam:DeleteVirtualMFADevice",
+                "iam:ListAccountAliases",
+                "iam:UpdateRole",
+                "iam:GetUser",
+                "iam:ListGroups",
+                "iam:AddClientIDToOpenIDConnectProvider",
+                "iam:DeleteServiceSpecificCredential",
+                "iam:GetLoginProfile",
+                "iam:DeleteSAMLProvider",
+                "iam:GetPolicyVersion",
+                "iam:DeleteGroup",
+                "iam:ListServerCertificates",
+                "iam:RemoveRoleFromInstanceProfile",
+                "iam:UpdateGroup",
+                "iam:CreateRole",
+                "iam:ListVirtualMFADevices",
+                "iam:CreateLoginProfile",
+                "iam:ListSSHPublicKeys",
+                "iam:SimulatePrincipalPolicy",
+                "iam:ListAttachedRolePolicies",
+                "iam:CreateAccountAlias",
+                "iam:GetAccountAuthorizationDetails",
+                "iam:ChangePassword",
+                "iam:UpdateLoginProfile",
+                "iam:GetServerCertificate",
+                "iam:CreateGroup",
+                "iam:GetAccessKeyLastUsed",
+                "iam:UpdateAccessKey",
+                "iam:UpdateSSHPublicKey",
+                "iam:DeleteSigningCertificate",
+                "iam:UpdateAccountPasswordPolicy",
+                "iam:GetUserPolicy",
+                "iam:ListGroupsForUser",
+                "iam:DeleteServiceLinkedRole",
+                "iam:GetGroupPolicy",
+                "iam:GetAccountSummary",
+                "iam:GetServiceLastAccessedDetailsWithEntities",
+                "iam:ListPoliciesGrantingServiceAccess",
+                "iam:DeleteSSHPublicKey",
+                "iam:CreateSAMLProvider",
+                "iam:CreateVirtualMFADevice",
+                "iam:ListMFADevices",
+                "iam:GetGroup",
+                "iam:GetOrganizationsAccessReport",
+                "iam:GetContextKeysForPrincipalPolicy",
+                "iam:AddUserToGroup",
+                "iam:RemoveUserFromGroup",
+                "iam:GenerateOrganizationsAccessReport",
+                "iam:ListAttachedUserPolicies",
+                "iam:GetSAMLProvider",
+                "iam:DeleteLoginProfile",
+                "iam:UploadSigningCertificate",
+                "iam:GetInstanceProfile",
+                "iam:ListUserPolicies",
+                "iam:ListInstanceProfiles",
+                "iam:TagUser",
+                "iam:CreateOpenIDConnectProvider",
+                "iam:UploadServerCertificate",
+                "iam:ListPolicyVersions",
+                "iam:ListOpenIDConnectProviders",
+                "iam:ListUsers",
+                "iam:UpdateSigningCertificate",
+                "iam:ListUserTags"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+EOF
+}
+
+## Library - s3 God Policy
+resource "aws_iam_policy" "ustc-library-s3-god" {
+  name        = "ustc-library-s3-god"
+  description = "S3 Policy allowing full access"
+
+  policy = <<EOF
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1582571954035",
+      "Action": "s3:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
+EOF
+}
+
+## Library - Lambda
+resource "aws_iam_policy" "ustc-library-lambda" {
+  name        = "ustc-library-lambda"
+  description = "Lambda policy allowing read only access."
+
+  policy = <<EOF
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1582572284573",
+      "Action": [
+        "lambda:GetAccountSettings",
+        "lambda:GetAlias",
+        "lambda:GetEventSourceMapping",
+        "lambda:GetFunction",
+        "lambda:GetFunctionConcurrency",
+        "lambda:GetFunctionConfiguration",
+        "lambda:GetFunctionEventInvokeConfig",
+        "lambda:GetLayerVersion",
+        "lambda:GetLayerVersionPolicy",
+        "lambda:GetPolicy",
+        "lambda:GetProvisionedConcurrencyConfig",
+        "lambda:ListAliases",
+        "lambda:ListEventSourceMappings",
+        "lambda:ListFunctionEventInvokeConfigs",
+        "lambda:ListFunctions",
+        "lambda:ListLayerVersions",
+        "lambda:ListLayers",
+        "lambda:ListProvisionedConcurrencyConfigs",
+        "lambda:ListTags",
+        "lambda:ListVersionsByFunction"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
+EOF
+}
+
+## Library - s3 Super User
+resource "aws_iam_policy" "ustc-library-s3-superuser" {
+  name        = "ustc-library-s3-superuser"
+  description = "Policy attached to AssumeRole for SRE admins."
+
+  policy = <<EOF
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1582572147382",
+      "Action": [
+        "s3:GetAccountPublicAccessBlock",
+        "s3:GetBucketAcl",
+        "s3:GetBucketCORS",
+        "s3:GetBucketLocation",
+        "s3:GetBucketLogging",
+        "s3:GetBucketNotification",
+        "s3:GetBucketObjectLockConfiguration",
+        "s3:GetBucketPolicy",
+        "s3:GetBucketPolicyStatus",
+        "s3:GetBucketPublicAccessBlock",
+        "s3:GetBucketRequestPayment",
+        "s3:GetBucketTagging",
+        "s3:GetBucketVersioning",
+        "s3:GetBucketWebsite",
+        "s3:GetEncryptionConfiguration",
+        "s3:GetInventoryConfiguration",
+        "s3:GetLifecycleConfiguration",
+        "s3:GetMetricsConfiguration",
+        "s3:GetObject",
+        "s3:GetObjectAcl",
+        "s3:GetObjectLegalHold",
+        "s3:GetObjectRetention",
+        "s3:GetObjectTagging",
+        "s3:GetObjectTorrent",
+        "s3:GetObjectVersion",
+        "s3:GetObjectVersionAcl",
+        "s3:GetObjectVersionForReplication",
+        "s3:GetObjectVersionTagging",
+        "s3:GetObjectVersionTorrent",
+        "s3:GetReplicationConfiguration",
+        "s3:ListAccessPoints",
+        "s3:ListAllMyBuckets",
+        "s3:ListBucket",
+        "s3:ListBucketMultipartUploads",
+        "s3:ListBucketVersions",
+        "s3:ListJobs",
+        "s3:ListMultipartUploadParts",
+        "s3:PutAccelerateConfiguration",
+        "s3:PutAccessPointPolicy",
+        "s3:PutAccountPublicAccessBlock",
+        "s3:PutAnalyticsConfiguration",
+        "s3:PutBucketAcl",
+        "s3:PutBucketCORS",
+        "s3:PutBucketLogging",
+        "s3:PutBucketNotification",
+        "s3:PutBucketObjectLockConfiguration",
+        "s3:PutBucketPolicy",
+        "s3:PutBucketPublicAccessBlock",
+        "s3:PutBucketRequestPayment",
+        "s3:PutBucketTagging",
+        "s3:PutBucketVersioning",
+        "s3:PutBucketWebsite",
+        "s3:PutEncryptionConfiguration",
+        "s3:PutInventoryConfiguration",
+        "s3:PutLifecycleConfiguration",
+        "s3:PutMetricsConfiguration",
+        "s3:PutObject",
+        "s3:PutObjectAcl",
+        "s3:PutObjectLegalHold",
+        "s3:PutObjectRetention",
+        "s3:PutObjectTagging",
+        "s3:PutObjectVersionAcl",
+        "s3:PutObjectVersionTagging",
+        "s3:PutReplicationConfiguration"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
+EOF
+}
+
+## Library - Glacier God User
+resource "aws_iam_policy" "ustc-library-glacier-god" {
+  name        = "ustc-library-glacier-god"
+  description = "Policy for full glacier access"
+
+  policy = <<EOF
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1582571921692",
+      "Action": "glacier:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
+EOF
+}
+
+## Library - Support God User
+resource "aws_iam_policy" "ustc-library-support-god" {
+  name        = "ustc-library-support-god"
+  description = "Policy attached to allow support access"
+
+  policy = <<EOF
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1582663689592",
+      "Action": "support:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
+EOF
+}
+
+## Library - Billing
+resource "aws_iam_policy" "ustc-library-billing-user" {
+  name        = "ustc-library-billing-user"
+  description = "Policy for access to AWS Support"
+
+  policy = <<EOF
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1582647751828",
+      "Action": "ce:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Stmt1582647759260",
+      "Action": [
+        "aws-portal:ViewAccount",
+        "aws-portal:ViewBilling",
+        "aws-portal:ViewPaymentMethods",
+        "aws-portal:ViewUsage"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
+EOF
+}
+
+## Library - Marketplace
+resource "aws_iam_policy" "ustc-library-marketplace-user" {
+  name        = "ustc-library-marketplace-user"
+  description = "Policy for access to AWS marketplace"
+
+  policy = <<EOF
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1582637429501",
+      "Action": [
+        "aws-marketplace-management:viewMarketing",
+        "aws-marketplace-management:viewReports",
+        "aws-marketplace-management:viewSettings",
+        "aws-marketplace-management:viewSupport"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Stmt1582637535008",
+      "Action": [
+        "aws-marketplace:DescribeChangeSet",
+        "aws-marketplace:DescribeEntity",
+        "aws-marketplace:ListChangeSets",
+        "aws-marketplace:ListEntities"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
+EOF
+}
+
