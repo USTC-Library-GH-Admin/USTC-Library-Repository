@@ -2,8 +2,22 @@
   "Version": "2012-10-17",
   "Statement": [
     {
-      "Sid": "Stmt1582663689592",
+      "Sid": "Stmt1585225084318",
       "Action": "support:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Stmt1585225194511",
+      "Action": [
+        "trustedadvisor:DescribeAccount",
+        "trustedadvisor:DescribeAccountAccess",
+        "trustedadvisor:DescribeCheckItems",
+        "trustedadvisor:DescribeCheckRefreshStatuses",
+        "trustedadvisor:DescribeCheckSummaries",
+        "trustedadvisor:DescribeChecks",
+        "trustedadvisor:DescribeNotificationPreferences"
+      ],
       "Effect": "Allow",
       "Resource": "*"
     }
