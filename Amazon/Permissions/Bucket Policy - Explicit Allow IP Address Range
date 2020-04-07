@@ -1,0 +1,25 @@
+{
+    "Id": "Policy1582809977592",
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1582809972968",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Effect": "Allow",
+            "Resource": "arn:aws:s3:::ustc-staging/*",
+            "Condition": {
+                "IpAddress": {
+                    "aws:SourceIp": [
+                        "65.246.108.0/24",
+                        "65.246.109.0/24",
+                        "65.246.110.0/24",
+                        "65.246.111.0/24"
+                    ]
+                }
+            },
+            "Principal": "*"
+        }
+    ]
+}
