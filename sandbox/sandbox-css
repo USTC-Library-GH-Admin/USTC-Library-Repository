@@ -67,15 +67,9 @@ tr:nth-child(even) {
     background-color: #ffffff;
 }
 
-/* Collapse list of library bulletins */
-#LibraryBulletinList {
-  display:none;
-}
-
 /* Articles list style */
 
 ul.a {list-style-type: disc;}
-
 
 /* Bib rec access */
 .classification-tag { display: block; }
@@ -349,3 +343,46 @@ span.shelfbrowser.callnumber { display: inherit; }
 .marc500 { display: block; padding-bottom: 2px; }
 
 .marc856 { font-size: 15px; font-weight: bold; }
+
+/* Dropdown list style */
+
+.dropbtn {
+  background-color: #000066;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2980B9;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+   background-color: #7fc6bc;
+}
+
+.show {display: block;}
