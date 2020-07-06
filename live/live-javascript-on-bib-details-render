@@ -16,4 +16,10 @@ field.html({filter: 'c'}) + '</div>');
  $('.bibdata.subjectdata').first().before(newelm);
 });
 
+bib.marc.fields('505').forEach(function(field){
+var newelm = $('<div class="bibdata"><span class="biblabel"> Bib number:</span> ' +
+field.html({filter: 'c'}) + '</div>');
+ $('.bibdata.subjectdata').first().before(newelm);
+});
+
 if(bib.marc.has('050') ) { element.find('.lccallnumdata').hide(); }
