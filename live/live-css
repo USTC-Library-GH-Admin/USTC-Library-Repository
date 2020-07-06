@@ -157,6 +157,12 @@ margin-left: 1em;
        padding: 20px;
 }
 
+.results-list-facets {
+    color: #000099;
+background: #5fb9ad;
+    padding: 20px 0px;
+}
+
 #facets {
     color: white;
     background: #e4e6e8;
