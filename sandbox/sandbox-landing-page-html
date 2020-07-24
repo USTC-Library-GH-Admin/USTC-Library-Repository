@@ -16,10 +16,11 @@
 <div class="tab">
 <button class="tablinks" onclick="openNews(event, 'Welcome')" id="defaultOpen">Welcome</button>
 	<button class="tablinks" onclick="openNews(event, 'Online Resources')">Online Resources</button>
+	<button class="tablinks" onclick="openNews(event, 'Legislative History')">Legislative History</button>
   <button class="tablinks" onclick="openNews(event, 'Articles of Interest')">Articles of Interest</button>
   <button class="tablinks" onclick="openNews(event, 'Cases Decided on Appeal')">Cases Decided on Appeal</button>
 <button class="tablinks" onclick="openNews(event, 'Library Bulletin')" id="defaultOpen">Library Bulletin</button>
-<button class="tablinks" onclick="openNews(event, 'Upcoming Training')">Upcoming Training</button>
+<button class="tablinks" onclick="openNews(event, 'Training')">Upcoming Training</button>
 </div>
 
 <div id="Welcome" class="tabcontent">
@@ -62,6 +63,12 @@
 
 <h2>Model Rules</h2>
 <li><a href="http://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/model_rules_of_professional_conduct_table_of_contents.html" target="_blank">Model Rules of Professional Conduct</a></li> 
+
+</div>
+
+<div id="Legislative History" class="tabcontent">
+  <h1>Legislative History</h1>
+<h2>Below is a link to the Library's Eletronic Legislative History collection Training:</h2>
 
 </div>
 
