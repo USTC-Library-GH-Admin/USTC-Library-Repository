@@ -16,11 +16,11 @@
 <div class="tab">
 <button class="tablinks" onclick="openNews(event, 'Welcome')" id="defaultOpen">Welcome</button>
 	<button class="tablinks" onclick="openNews(event, 'Online Resources')">Online Resources</button>
-	<button class="tablinks" onclick="openNews(event, 'Legislative History')">Legislative History</button>
+<button class="tablinks" onclick="openNews(event, 'Legislative History')">Legislative History</button>
   <button class="tablinks" onclick="openNews(event, 'Articles of Interest')">Articles of Interest</button>
   <button class="tablinks" onclick="openNews(event, 'Cases Decided on Appeal')">Cases Decided on Appeal</button>
 <button class="tablinks" onclick="openNews(event, 'Library Bulletin')" id="defaultOpen">Library Bulletin</button>
-<button class="tablinks" onclick="openNews(event, 'Training')">Upcoming Training</button>
+<button class="tablinks" onclick="openNews(event, 'Upcoming Training')">Upcoming Training</button>
 </div>
 
 <div id="Welcome" class="tabcontent">
@@ -68,11 +68,12 @@
 
 <div id="Legislative History" class="tabcontent">
   <h1>Legislative History</h1>
-<h2>Below is a link to the Library's Eletronic Legislative History collection Training:</h2>
-<a hre="http://djkanotherone.s3-website-us-east-1.amazonaws.com/" target="_blank">LH link</a>
+<h2>Below is a link to the Library's Electronic Legislative History collection</h2>
+<a href="http://djkanotherone.s3-website-us-east-1.amazonaws.com/" target="_blank">LH link</a>
 <p>This is still a massive work in progress. Site should be responsive, but need to fix sticky sidebar nav<p>
 
 </div>
+
 
 <div id="Articles of Interest" class="tabcontent">
 
@@ -307,6 +308,11 @@ WHICH HAVE BEEN DECIDED ON APPEAL</h2>
             <div id="myDropdown" class="dropdown-content">
               <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-01.pdf">January 2020</a></li>
               <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-02.pdf">February 2020</a></li>
+              <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-03.pdf">March 2020</a></li>
+              <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-04.pdf">April 2020</a></li>
+              <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-05.pdf">May 2020</a></li>
+              <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-06.pdf">June 2020</a></li>
+              <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-07.pdf">July 2020</a></li>
             </div>
           </ul>
 		
@@ -385,32 +391,4 @@ function openNews(evt, newsArt) {
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
-</script>
-
-
-<script type="text/javascript">
-var allSpan = document.getElementsByTagName('span');
-
-for(var x = 0; x < allSpan.length; x++)
-{
-    allSpan[x].onclick=function()
-    {
-        if(this.parentNode)
-        {
-            var childList = this.parentNode.getElementsByTagName('li');
-            for(var y = 0; y< childList.length;y++)
-            {
-                var currentState = childList[y].style.display;
-                if(currentState=="block")
-                {
-                    childList[y].style.display="none";
-                }
-                else
-                {
-                    childList[y].style.display="block";
-                }
-            }
-        }
-    }
-}
 </script>
