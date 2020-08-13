@@ -370,9 +370,25 @@ window.onclick = function(event) {
 
 <div id="Upcoming Training" class="tabcontent">
   <h1>Upcoming Training</h1>
-<h2>Next Training:</h2>
-  <p>Our monthly Bloomberg Law training has been postponed until further notice.</p>
+<h2>Tip and Tricks Brown Bag Lunch - 8/19 at 1 PM</h2>
+  <p>As mentioned in the most recent library bulletin, we will be holding a tips & tricks brown bag session via zoom next Wednesday at 1pm.  The meeting information is at the end of this email.  Anyone at the Court is invited, including externs.  Feel free to share with anyone in the Court who you think might be interested.</p>
 
+<p>There is a list of things learned over the past few months about online only research – where to find some commonly asked for resources, what can’t be found online, common pain points seen regularly etc.  We’re going to be using Lexis Advance, Westlaw, Bloomberg Law, HeinOnline and probably more.  We can all learn some new tricks!</p>
+
+<p>More than anything we'd like to hear from you about what you’re struggling to find.  You can bring those questions to the meeting and surprise me or if you’d like to send them to me earlier and they can be added them to the list.  Names will be left out of the discussion.  </p>
+
+
+Topic: Tips & Tricks Brown Bag
+<br>
+Time: Aug 19, 2020 01:00 PM Eastern Time (US and Canada)
+<br>
+Join ZoomGov Meeting
+<br>
+<a href="https://www.zoomgov.com/j/1602248966?pwd=QXdPaDJaK2wwckRmQ3hiaThzMnNCZz09"> Zoom link</a>
+<br>
+Meeting ID: 160 224 8966
+<br>
+Passcode: 984038
 </div>
 <script>
 function openNews(evt, newsArt) {
