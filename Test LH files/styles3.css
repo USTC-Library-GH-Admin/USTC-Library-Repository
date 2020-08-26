@@ -3,6 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
+
 body {margin: 0;}
 
 /* Header */
@@ -11,6 +12,11 @@ body {margin: 0;}
   padding: 30px;
   text-align: center;
   font-size: 25px;
+}
+
+.homepage-link {
+	text-decoration: none;
+	color:white;
 }
 
 body {
@@ -48,9 +54,18 @@ body {
 }
 
 
+/* Style the Breadcrumb navigation */
+
+.breadcrumbs {
+
+}
+
+.breadcrumbs a {
+
+}
+
 /* Style the content */
 .content {
-  
   background-color: white;
   padding: 5px;
   margin-top: 20px;
@@ -60,8 +75,6 @@ body {
 div.content {
   margin-left: 25%;
   padding: 1px 16px;
-
-  
 }
 
 @media screen and (max-width: 900px) {
