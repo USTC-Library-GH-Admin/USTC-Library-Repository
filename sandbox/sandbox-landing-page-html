@@ -14,13 +14,15 @@
 </div>
 
 <div class="tab">
-<button class="tablinks" onclick="openNews(event, 'Welcome')" id="defaultOpen">Welcome</button>
+<button class="tablinks" value="Welcome" onclick="openNews(event, 'Welcome')" id="defaultOpen">Welcome</button>
 	<button class="tablinks" onclick="openNews(event, 'Free Online Resources')"> Free Online Resources</button>
   <button class="tablinks" onclick="openNews(event, 'Articles of Interest')">Articles of Interest</button>
   <button class="tablinks" onclick="openNews(event, 'Cases Decided on Appeal')">Cases Decided on Appeal</button>
 <button class="tablinks" onclick="openNews(event, 'Library Bulletin')" id="defaultOpen">Library Bulletin</button>
 <button class="tablinks" onclick="openNews(event, 'Selected Online Treatises')">Selected Online Treatises</button>
 <button class="tablinks" onclick="openNews(event, 'Upcoming Training')">Upcoming Training</button>
+<br/>
+<br/>
 </div>
 
 <div id="Welcome" class="tabcontent">
