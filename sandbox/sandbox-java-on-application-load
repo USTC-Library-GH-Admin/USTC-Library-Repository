@@ -1,3 +1,4 @@
+$("#public-masthead nav ul.nav").prepend('<li><a href="/" target="_self">Home</a></li>');
 $("#public-masthead .rfi-link").html('Comments <span class="caret faded"></span>');
 
 /* When the user clicks on the button, 
