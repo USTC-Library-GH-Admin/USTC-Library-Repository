@@ -320,6 +320,11 @@ white-space: unset;
 max-width: 50px;
 }
 
+#treatises{
+font-size: small;
+text-align: left;
+}
+
 </style>
 
 #staff-masthead .koha-logo a {
