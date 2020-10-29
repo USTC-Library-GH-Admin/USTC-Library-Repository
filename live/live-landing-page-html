@@ -16,10 +16,10 @@
 <div class="tab">
 <button class="tablinks" onclick="openNews(event, 'Welcome')" id="defaultOpen">Welcome</button>
 	<button class="tablinks" onclick="openNews(event, 'Free Online Resources')"> Free Online Resources</button>
+	<button class="tablinks" onclick="openNews(event, 'Selected Online Treatises')">Selected Online Treatises</button>
   <button class="tablinks" onclick="openNews(event, 'Articles of Interest')">Articles of Interest</button>
   <button class="tablinks" onclick="openNews(event, 'Cases Decided on Appeal')">Cases Decided on Appeal</button>
 <button class="tablinks" onclick="openNews(event, 'Library Bulletin')" id="defaultOpen">Library Bulletin</button>
-<button class="tablinks" onclick="openNews(event, 'Selected Online Treatises')">Selected Online Treatises</button>
 <button class="tablinks" onclick="openNews(event, 'Upcoming Training')">Upcoming Training</button>
 <br/>
 <br/>
@@ -65,6 +65,23 @@
 
 <h2>Model Rules</h2>
 <li><a href="http://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/model_rules_of_professional_conduct_table_of_contents.html" target="_blank">Model Rules of Professional Conduct</a></li> 
+
+</div>
+
+<div id="Selected Online Treatises" class="tabcontent">
+  <h1>Selected Online Treatises</h1>
+
+    <li><a href="https://advance.lexis.com/api/permalink/62a6a1a1-307a-43b6-a8c6-174d84cd8f10/?context=1000516" target="_blank">Federal Courtroom Evidence</a></li>
+    <li><a href="https://advance.lexis.com/api/permalink/aec9a31f-82c5-43f5-aaeb-80ac70575c93/?context=1000516" target="_blank">Federal Rules of Evidence Manual</a></li>
+    <li><a href="https://advance.lexis.com/api/permalink/6f3a36a2-16ee-4cfd-8c00-073a13ee9328/?context=1000516" target="_blanl">Weinstein's Evidence Manual</a></li>
+    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/FederalTaxTreatisesWGL/ElliottFederalTaxCollectionsLiensLeviesWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Tax Collections: Liens and Levies</a></li>
+    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/EstatePlanningEstateTaxTreatisesWGL/BogdanskiFederalTaxValuationWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Tax Valuation</a></li>
+    <li><a href="https://www.westlaw.com/Browse/Home/FormFinder/TaxFormFinder/BittkerEmoryStrengFederalIncomeTaxationofCorporationsShareholdersFormsWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Income Taxation of Corporations and Shareholders</a></li>
+    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/BusinessEntitiesTreatisesWGL/BittkerLokkenFederalTaxationofIncomeEstatesGiftsWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Taxation of Income, Estates and Gifts</a></li>
+    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/BusinessEntitiesTreatisesWGL/McKeeNelsonWhitmireFederalTaxationofPartnershipsPartnersWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Taxation of Partnerships and Partners</a></li>
+    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/BusinessEntitiesTreatisesWGL/SaltzmanBookIRSPracticeProcedureWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">IRS Practice and Procedure</a></li>
+    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/FederalTaxTreatisesWGL/KafkaCavanaghLitigationofFederalCivilTaxControversiesWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Litigation of Federal Civil Tax Controversies</a></li>
+
 
 </div>
 
@@ -394,23 +411,6 @@ WHICH HAVE BEEN DECIDED ON APPEAL</h2>
   <br>
 </div>
 
-
-<div id="Selected Online Treatises" class="tabcontent">
-  <h1>Selected Online Treatises</h1>
-
-    <li><a href="https://advance.lexis.com/api/permalink/62a6a1a1-307a-43b6-a8c6-174d84cd8f10/?context=1000516" target="_blank">Federal Courtroom Evidence</a></li>
-    <li><a href="https://advance.lexis.com/api/permalink/aec9a31f-82c5-43f5-aaeb-80ac70575c93/?context=1000516" target="_blank">Federal Rules of Evidence Manual</a></li>
-    <li><a href="https://advance.lexis.com/api/permalink/6f3a36a2-16ee-4cfd-8c00-073a13ee9328/?context=1000516" target="_blanl">Weinstein's Evidence Manual</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/FederalTaxTreatisesWGL/ElliottFederalTaxCollectionsLiensLeviesWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Tax Collections: Liens and Levies</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/EstatePlanningEstateTaxTreatisesWGL/BogdanskiFederalTaxValuationWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Tax Valuation</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/FormFinder/TaxFormFinder/BittkerEmoryStrengFederalIncomeTaxationofCorporationsShareholdersFormsWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Income Taxation of Corporations and Shareholders</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/BusinessEntitiesTreatisesWGL/BittkerLokkenFederalTaxationofIncomeEstatesGiftsWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Taxation of Income, Estates and Gifts</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/BusinessEntitiesTreatisesWGL/McKeeNelsonWhitmireFederalTaxationofPartnershipsPartnersWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Taxation of Partnerships and Partners</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/BusinessEntitiesTreatisesWGL/SaltzmanBookIRSPracticeProcedureWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">IRS Practice and Procedure</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/FederalTaxTreatisesWGL/KafkaCavanaghLitigationofFederalCivilTaxControversiesWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Litigation of Federal Civil Tax Controversies</a></li>
-
-
-</div>
 
 <div id="Upcoming Training" class="tabcontent">
   
