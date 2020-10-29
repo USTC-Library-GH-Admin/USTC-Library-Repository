@@ -394,3 +394,19 @@ span.shelfbrowser.callnumber { display: inherit; }
 .show {display: block;}
 
 li a.homeLink { display: none; }
+
+#HowToFind {
+color: #333;
+font: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+text-align: left;
+}
+
+#HowToFindTitle {
+font-size: 20px;
+color: #009933;
+}
+
+#HowToFindHeader {
+color: #009933;
+}
