@@ -394,3 +394,5 @@ span.shelfbrowser.callnumber { display: inherit; }
 .show {display: block;}
 
 li a.homeLink { display: none; }
+
+</style>
