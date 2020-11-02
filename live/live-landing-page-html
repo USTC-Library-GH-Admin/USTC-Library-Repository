@@ -15,14 +15,12 @@
 
 <div class="tab">
 <button class="tablinks" value="Welcome" onclick="openNews(event, 'Welcome')" id="defaultOpen">Welcome</button>
-<button class="tablinks" onclick="openNews(event, 'Free Online Resources')"> Free Online Resources</button>
+	<button class="tablinks" onclick="openNews(event, 'Free Online Resources')"> Free Online Resources</button>
 <button class="tablinks" onclick="openNews(event, 'Selected Online Treatises')">Selected Online Treatises</button>
-<button class="tablinks" onclick="openNews(event, 'Articles of Interest')">Articles of Interest</button>
-<button class="tablinks" onclick="openNews(event, 'Cases Decided on Appeal')">Cases Decided on Appeal</button>
+    <button class="tablinks" onclick="openNews(event, 'Articles of Interest')">Articles of Interest</button>
+  <button class="tablinks" onclick="openNews(event, 'Cases Decided on Appeal')">Cases Decided on Appeal</button>
 <button class="tablinks" onclick="openNews(event, 'Library Bulletin')" id="defaultOpen">Library Bulletin</button>
 <button class="tablinks" onclick="openNews(event, 'Upcoming Training')">Upcoming Training</button>
-<br/>
-<br/>
 </div>
 
 <div id="Welcome" class="tabcontent">
@@ -48,7 +46,7 @@
 <p><center><b id="HowToFindTitle">How do I find...</b></center></p>
 
 <ul style="list-style-type:disc;">
-<li><b id="HowToFindHeader">Cumulative Bulletin</b> – available in full text on <a href="https://www.westlaw.com/Browse/Home/AdministrativeDecisionsGuidance/FederalAdministrativeDecisionsGuidance/DepartmentoftheTreasuryUSTREAS/InternalRevenueServiceIRS/IRSCumulativeBulletin?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0">Westlaw</a> and <a href="https://advance.lexis.com/api/permalink/7644d7bd-c4c5-4550-b52c-2c6dc0ce7757/?context=1000516">Lexis</a> without pincites and <a href="https://heinonline.org/HOL/Index?index=usfed/ircb&collection=tera">HeinOnline</a> if you need pincites (you must be on the Court’s network to access Hein). </li>
+<li><b id="HowToFindHeader">Cumulative Bulletin</b> – available in full text on <a href="https://www.westlaw.com/Browse/Home/AdministrativeDecisionsGuidance/FederalAdministrativeDecisionsGuidance/DepartmentoftheTreasuryUSTREAS/InternalRevenueServiceIRS/IRSCumulativeBulletin?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0"><u>Westlaw</u></a> and <a href="https://advance.lexis.com/api/permalink/7644d7bd-c4c5-4550-b52c-2c6dc0ce7757/?context=1000516"><u>Lexis</u></a> without pincites and <a href="https://heinonline.org/HOL/Index?index=usfed/ircb&collection=tera"><u>HeinOnline</u></a> if you need pincites (you must be on the Court’s network to access Hein). </li>
 <br/>
 <li><b id="HowToFindHeader">Older Internal Revenue code versions: </b>
 <br/>Westlaw: code 1990-present 
@@ -61,9 +59,9 @@
 <br/>HeinOnline: The entire Code of Federal Regulations 1938-present 
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hein also contains Treasury Regulations that predate the CFR</li>
 <br/>
-<li><b id="HowToFindHeader">IRMs</b> – <a href="https://advance.lexis.com/api/permalink/b9e44963-b08a-4bac-a4c5-b36ac4a8bab8/?context=1001091">Lexis</a> is easier (2012-present) or <a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/ResearchInstituteofAmericaRIA/FederalTaxationRIA/InternalRevenueManualIRMCurrentEdition/InternalRevenueManualIRMAll?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0">Westlaw</a> (1997-present)</li>
+<li><b id="HowToFindHeader">IRMs</b> – <a href="https://advance.lexis.com/api/permalink/b9e44963-b08a-4bac-a4c5-b36ac4a8bab8/?context=1001091"><u>Lexis</u></a> is easier (2012-present) or <a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/ResearchInstituteofAmericaRIA/FederalTaxationRIA/InternalRevenueManualIRMCurrentEdition/InternalRevenueManualIRMAll?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0"><u>Westlaw</u></a> (1997-present)</li>
 <br/>
-<li><b id="HowToFindHeader">Tax Treaties (including background material):</b> <a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/ResearchInstituteofAmericaRIA/InternationalTaxationRIA/TaxTreatiesRIA?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0">Westlaw,</a> <a href="https://advance.lexis.com/api/permalink/9a266ffb-c9e7-4f7e-b2a5-177c28e1c370/?context=1000516">Lexis,</a> <a href="https://www.bloomberglaw.com/product/tax/page/page_international">Bloomberg Law</a> (use the treaty finder in upper right-hand column), <a href="https://www.irs.gov/businesses/international-businesses/united-states-income-tax-treaties-a-to-z">IRS.gov</a></li>
+<li><b id="HowToFindHeader">Tax Treaties (including background material):</b> <a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/ResearchInstituteofAmericaRIA/InternationalTaxationRIA/TaxTreatiesRIA?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0"><u>Westlaw</u>,</a> <a href="https://advance.lexis.com/api/permalink/9a266ffb-c9e7-4f7e-b2a5-177c28e1c370/?context=1000516"><u>Lexis</u>,</a> <a href="https://www.bloomberglaw.com/product/tax/page/page_international"><u>Bloomberg Law</u></a> (use the treaty finder in upper right-hand column), <a href="https://www.irs.gov/businesses/international-businesses/united-states-income-tax-treaties-a-to-z"><u>IRS.gov</u></a></li>
 <br/>
 <li><b id="HowToFindHeader">CCH pagination for TC Memo decisions</b> – Bloomberg Law/Bloomberg Law Tax 
 <li>Click on the pagination link in the upper right-hand corner of the opinion and either slide the button or click the radial button (depending on whether you’re using BLaw or BLaw Tax) </li>
@@ -77,7 +75,7 @@
 </ul>
 </div>
 
-</div>
+  </div>
 
 <div id="Free Online Resources" class="tabcontent">
 <h1>Free Online Resources</h1>
@@ -103,22 +101,6 @@
 
 </div>
 
-<div id="Selected Online Treatises" class="tabcontent">
-  <h1>Selected Online Treatises</h1>
-
-    <li><a href="https://advance.lexis.com/api/permalink/62a6a1a1-307a-43b6-a8c6-174d84cd8f10/?context=1000516" target="_blank">Federal Courtroom Evidence</a></li>
-    <li><a href="https://advance.lexis.com/api/permalink/aec9a31f-82c5-43f5-aaeb-80ac70575c93/?context=1000516" target="_blank">Federal Rules of Evidence Manual</a></li>
-    <li><a href="https://advance.lexis.com/api/permalink/6f3a36a2-16ee-4cfd-8c00-073a13ee9328/?context=1000516" target="_blanl">Weinstein's Evidence Manual</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/FederalTaxTreatisesWGL/ElliottFederalTaxCollectionsLiensLeviesWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Tax Collections: Liens and Levies</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/EstatePlanningEstateTaxTreatisesWGL/BogdanskiFederalTaxValuationWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Tax Valuation</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/FormFinder/TaxFormFinder/BittkerEmoryStrengFederalIncomeTaxationofCorporationsShareholdersFormsWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Income Taxation of Corporations and Shareholders</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/BusinessEntitiesTreatisesWGL/BittkerLokkenFederalTaxationofIncomeEstatesGiftsWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Taxation of Income, Estates and Gifts</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/BusinessEntitiesTreatisesWGL/McKeeNelsonWhitmireFederalTaxationofPartnershipsPartnersWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Taxation of Partnerships and Partners</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/BusinessEntitiesTreatisesWGL/SaltzmanBookIRSPracticeProcedureWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">IRS Practice and Procedure</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/FederalTaxTreatisesWGL/KafkaCavanaghLitigationofFederalCivilTaxControversiesWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Litigation of Federal Civil Tax Controversies</a></li>
-
-</div>
-
 <div id="Legislative History" class="tabcontent">
   <h1>Legislative History</h1>
 <h2>Below is a link to the Library's Electronic Legislative History collection</h2>
@@ -126,6 +108,7 @@
 <p>This is still a massive work in progress. Yes, all of the 112th Congress are the same PL, but this was just to give an idea of format. Let us know what you think. Thanks!<p>
 
 </div>
+
 
 <div id="Articles of Interest" class="tabcontent">
 
@@ -139,6 +122,30 @@
      + '&showsearch=true&showpopout=false&showtabs=false'
      + '&parenturl=' + encodeURIComponent(window.location.href);
 </script> 
+
+<p>1.</p>
+
+<object data="https://groups.google.com/u/0/g/articles-of-interest-feed?pli=1" width="600" height="400"> <embed src="https://groups.google.com/u/0/g/articles-of-interest-feed?pli=1" width="600" height="400"> </embed>Test</object>
+
+<p>2.</p>
+
+<embed src=https://groups.google.com/u/0/g/articles-of-interest-feed?pli=" width="600" height="400" />
+
+<p>3.</p>
+
+<script>$("#testLoad").load("https://groups.google.com/u/0/g/articles-of-interest-feed?pli=1");</script>
+<p id="testLoad"></p>
+
+<p>4.</p>
+
+<div> 
+    <object type="text/html" data="https://groups.google.com/u/0/g/articles-of-interest-feed?pli=1" width="800px" height="600px">
+    </object>
+ </div>
+
+<p>5.</p>
+
+<link rel="import" href="http://stackoverflow.com">
 
 <p>To view the RSS in another window, please <a href="https://groups.google.com/forum/?oldui=1#!forum/articles-of-interest-feed">click here.</a></p>
 
@@ -382,8 +389,6 @@ WHICH HAVE BEEN DECIDED ON APPEAL</h2>
               <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-07.pdf">July 2020</a></li>
               <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-08.pdf">August 2020</a></li>
               <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-09.pdf">September 2020</a></li>
-              <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-10.pdf">October 2020</a></li>
-              <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-11.pdf">November 2020</a></li>
             </div>
           </ul>
     
@@ -411,17 +416,30 @@ WHICH HAVE BEEN DECIDED ON APPEAL</h2>
   <br>
 </div>
 
+
+<div id="Selected Online Treatises" class="tabcontent">
+  <h1>Selected Online Treatises</h1>
+
+    <li><a href="https://advance.lexis.com/api/permalink/62a6a1a1-307a-43b6-a8c6-174d84cd8f10/?context=1000516" target="_blank">Federal Courtroom Evidence</a></li>
+    <li><a href="https://advance.lexis.com/api/permalink/aec9a31f-82c5-43f5-aaeb-80ac70575c93/?context=1000516" target="_blank">Federal Rules of Evidence Manual</a></li>
+    <li><a href="https://advance.lexis.com/api/permalink/6f3a36a2-16ee-4cfd-8c00-073a13ee9328/?context=1000516" target="_blanl">Weinstein's Evidence Manual</a></li>
+    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/FederalTaxTreatisesWGL/ElliottFederalTaxCollectionsLiensLeviesWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Tax Collections: Liens and Levies</a></li>
+    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/EstatePlanningEstateTaxTreatisesWGL/BogdanskiFederalTaxValuationWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Tax Valuation</a></li>
+    <li><a href="https://www.westlaw.com/Browse/Home/FormFinder/TaxFormFinder/BittkerEmoryStrengFederalIncomeTaxationofCorporationsShareholdersFormsWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Income Taxation of Corporations and Shareholders</a></li>
+    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/BusinessEntitiesTreatisesWGL/BittkerLokkenFederalTaxationofIncomeEstatesGiftsWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Taxation of Income, Estates and Gifts</a></li>
+    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/BusinessEntitiesTreatisesWGL/McKeeNelsonWhitmireFederalTaxationofPartnershipsPartnersWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Federal Taxation of Partnerships and Partners</a></li>
+    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/BusinessEntitiesTreatisesWGL/SaltzmanBookIRSPracticeProcedureWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">IRS Practice and Procedure</a></li>
+    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/FederalTaxTreatisesWGL/KafkaCavanaghLitigationofFederalCivilTaxControversiesWGL?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0" target="_blank">Litigation of Federal Civil Tax Controversies</a></li>
+
+
+</div>
+
 <div id="Upcoming Training" class="tabcontent">
   
   <h1>Upcoming Training</h1>
-
-<p>
-  <b>Regulatory & Administrative Sources</b><br>
-    Wednesday, November 4th - 12:30 pm
-<br>
-<br>
-Zoom invitation to follow
- </p>
+ 
+  <p>11/4 @ 12:30 – regulatory history and administrative material (part of law clerk orientation) <br/>
+Zoom invitation to follow </p>
 
 </div>
 
