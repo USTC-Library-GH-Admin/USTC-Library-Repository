@@ -17,15 +17,10 @@
 <button class="tablinks" value="Welcome" onclick="openNews(event, 'Welcome')" id="defaultOpen">Welcome</button>
 	<button class="tablinks" onclick="openNews(event, 'Free Online Resources')"> Free Online Resources</button>
 <button class="tablinks" onclick="openNews(event, 'Selected Online Treatises')">Selected Online Treatises</button>
-    <button class="tablinks" onclick="openNews(event, 'Legislative History')">Legislative History</button>
     <button class="tablinks" onclick="openNews(event, 'Articles of Interest')">Articles of Interest</button>
   <button class="tablinks" onclick="openNews(event, 'Cases Decided on Appeal')">Cases Decided on Appeal</button>
 <button class="tablinks" onclick="openNews(event, 'Library Bulletin')" id="defaultOpen">Library Bulletin</button>
 <button class="tablinks" onclick="openNews(event, 'Upcoming Training')">Upcoming Training</button>
-<button class="tablinks"><a style="color:white;" href="https://groups.google.com/u/0/g/articles-of-interest-feed?pli=1">Articles of Interest Separate Window</a></button>
-<button class="tablinks"><a style="color:white;" href="https://groups.google.com/u/0/g/cases-decided-on-appeal">Cases Separate Window</a></button>
-<br/>
-<br/>
 </div>
 
 <div id="Welcome" class="tabcontent">
@@ -51,7 +46,9 @@
 <p><center><b id="HowToFindTitle">How do I find...</b></center></p>
 
 <ul style="list-style-type:disc;">
-<li><b id="HowToFindHeader">Cumulative Bulletin</b> – available in full text on <a href="https://www.westlaw.com/Browse/Home/AdministrativeDecisionsGuidance/FederalAdministrativeDecisionsGuidance/DepartmentoftheTreasuryUSTREAS/InternalRevenueServiceIRS/IRSCumulativeBulletin?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0">Westlaw</a> and <a href="https://advance.lexis.com/api/permalink/7644d7bd-c4c5-4550-b52c-2c6dc0ce7757/?context=1000516">Lexis</a> without pincites and <a href="https://heinonline.org/HOL/Index?index=usfed/ircb&collection=tera">HeinOnline</a> if you need pincites (you must be on the Court’s network to access Hein). </li>
+<li><b id="HowToFindHeader">Cumulative Bulletin</b> – available in full text on <a href="https://www.westlaw.com/Browse/Home/AdministrativeDecisionsGuidance/FederalAdministrativeDecisionsGuidance/DepartmentoftheTreasuryUSTREAS/InternalRevenueServiceIRS/IRSCumulativeBulletin?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0"><u>Westlaw</u></a> and <a href="https://advance.lexis.com/api/permalink/7644d7bd-c4c5-4550-b52c-2c6dc0ce7757/?context=1000516"><u>Lexis</u></a> without pincites and <a href="https://heinonline.org/HOL/Index?index=usfed/ircb&collection=tera"><u>HeinOnline</u></a> if you need pincites (you must be on the Court’s network to access Hein). </li>
+<br/>
+<li><b id="HowToFindHeader">Explanatory Notes to Tax Court Rules:</b> <a href="https://heinonline.org/HOL/Index?index=usfed/tcrustc&collection=usfed"><u>HeinOnline</u></a> </li>
 <br/>
 <li><b id="HowToFindHeader">Older Internal Revenue code versions: </b>
 <br/>Westlaw: code 1990-present 
@@ -64,9 +61,9 @@
 <br/>HeinOnline: The entire Code of Federal Regulations 1938-present 
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hein also contains Treasury Regulations that predate the CFR</li>
 <br/>
-<li><b id="HowToFindHeader">IRMs</b> – <a href="https://advance.lexis.com/api/permalink/b9e44963-b08a-4bac-a4c5-b36ac4a8bab8/?context=1001091">Lexis</a> is easier (2012-present) or <a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/ResearchInstituteofAmericaRIA/FederalTaxationRIA/InternalRevenueManualIRMCurrentEdition/InternalRevenueManualIRMAll?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0">Westlaw</a> (1997-present)</li>
+<li><b id="HowToFindHeader">IRMs</b> – <a href="https://advance.lexis.com/api/permalink/b9e44963-b08a-4bac-a4c5-b36ac4a8bab8/?context=1001091"><u>Lexis</u></a> is easier (2012-present) or <a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/ResearchInstituteofAmericaRIA/FederalTaxationRIA/InternalRevenueManualIRMCurrentEdition/InternalRevenueManualIRMAll?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0"><u>Westlaw</u></a> (1997-present)</li>
 <br/>
-<li><b id="HowToFindHeader">Tax Treaties (including background material):</b> <a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/ResearchInstituteofAmericaRIA/InternationalTaxationRIA/TaxTreatiesRIA?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0">Westlaw,</a> <a href="https://advance.lexis.com/api/permalink/9a266ffb-c9e7-4f7e-b2a5-177c28e1c370/?context=1000516">Lexis,</a> <a href="https://www.bloomberglaw.com/product/tax/page/page_international">Bloomberg Law</a> (use the treaty finder in upper right-hand column), <a href="https://www.irs.gov/businesses/international-businesses/united-states-income-tax-treaties-a-to-z">IRS.gov</a></li>
+<li><b id="HowToFindHeader">Tax Treaties (including background material):</b> <a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/ResearchInstituteofAmericaRIA/InternationalTaxationRIA/TaxTreatiesRIA?transitionType=Default&contextData=(sc.Default)&VR=3.0&RS=cblt1.0"><u>Westlaw</u>,</a> <a href="https://advance.lexis.com/api/permalink/9a266ffb-c9e7-4f7e-b2a5-177c28e1c370/?context=1000516"><u>Lexis</u>,</a> <a href="https://www.bloomberglaw.com/product/tax/page/page_international"><u>Bloomberg Law</u></a> (use the treaty finder in upper right-hand column), <a href="https://www.irs.gov/businesses/international-businesses/united-states-income-tax-treaties-a-to-z"><u>IRS.gov</u></a></li>
 <br/>
 <li><b id="HowToFindHeader">CCH pagination for TC Memo decisions</b> – Bloomberg Law/Bloomberg Law Tax 
 <li>Click on the pagination link in the upper right-hand corner of the opinion and either slide the button or click the radial button (depending on whether you’re using BLaw or BLaw Tax) </li>
@@ -394,7 +391,7 @@ WHICH HAVE BEEN DECIDED ON APPEAL</h2>
               <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-07.pdf">July 2020</a></li>
               <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-08.pdf">August 2020</a></li>
               <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-09.pdf">September 2020</a></li>
-              <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-10.pdf">October 2020</a></li>
+			  <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-10.pdf">October 2020</a></li>
             </div>
           </ul>
     
@@ -444,18 +441,7 @@ WHICH HAVE BEEN DECIDED ON APPEAL</h2>
   
   <h1>Upcoming Training</h1>
  
-  <p>No upcoming training at this time. Please check back later. </p>
-    <br>
-        <h1>Past trainings and resources</h1>
-            <br>
-            <tr> 
-                <td bgcolor="#FFFFFF"> <ul> 
-                    <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/kb+staff+documents/Tips++Tricks+training+08-19-2020.pdf" target="_blank">Basic Library Research: Tips & Tricks</a></li>
-                    <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/kb+staff+documents/value-of-secondary-sources.pdf" target="_blank">Using Secondary Sources</a></li>
-                    <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/kb+staff+documents/Legislative+History+Resources+Presentation+10-14-2020.pdf" target="_blank">Legislative History</a> - <a href="https://www.zoomgov.com/rec/play/v5AtI-D6qjk3HdLEswSDUfJ8W9W4eKms0CZMrvcLnkm9UXkBMVvyNLMaMeamrYLluxAMfjzn3jY_0sC1?continueMode=true" target="_blank">Video</a></li>
-                    <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/kb+staff+documents/Regulations+and+Administrative+Law+11042020.pdf" target="_blank">Regulatory and Administrative Sources</a> - <a href="https://www.zoomgov.com/rec/play/vsIlJe-s_2g3SYCUuASDBqd4W9TpLaqs0XMaqfYNzBrhUiIEYFWhYrcRM7ZuWfUtSUCHAlV6Yrsfxu55?continueMode=true" target="_blank">Video</a></li> 
-                </ul></td> 
-              </tr>
+  <p>There is no upcoming training at this time. Please check back.</p>
 
 </div>
 
