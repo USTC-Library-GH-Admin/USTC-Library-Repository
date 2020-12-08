@@ -17,15 +17,10 @@
 <button class="tablinks" value="Welcome" onclick="openNews(event, 'Welcome')" id="defaultOpen">Welcome</button>
 	<button class="tablinks" onclick="openNews(event, 'Free Online Resources')"> Free Online Resources</button>
 <button class="tablinks" onclick="openNews(event, 'Selected Online Treatises')">Selected Online Treatises</button>
-    <button class="tablinks" onclick="openNews(event, 'Legislative History')">Legislative History</button>
     <button class="tablinks" onclick="openNews(event, 'Articles of Interest')">Articles of Interest</button>
   <button class="tablinks" onclick="openNews(event, 'Cases Decided on Appeal')">Cases Decided on Appeal</button>
 <button class="tablinks" onclick="openNews(event, 'Library Bulletin')" id="defaultOpen">Library Bulletin</button>
 <button class="tablinks" onclick="openNews(event, 'Upcoming Training')">Upcoming Training</button>
-<button class="tablinks"><a style="color:white;" href="https://groups.google.com/u/0/g/articles-of-interest-feed?pli=1">Articles of Interest Separate Window</a></button>
-<button class="tablinks"><a style="color:white;" href="https://groups.google.com/u/0/g/cases-decided-on-appeal">Cases Separate Window</a></button>
-<br/>
-<br/>
 </div>
 
 <div id="Welcome" class="tabcontent">
@@ -178,7 +173,7 @@
 </div>
 
 <div id="Library Bulletin" class="tabcontent">
-  <h1>November 2020 Library Bulletin</h1>
+  <h1>December 2020 Library Bulletin</h1>
 <h2>PROCEEDINGS BEFORE THE TAX COURT
 WHICH HAVE BEEN TAKEN TO THE SUPREME COURT</h2>
 
@@ -224,36 +219,25 @@ WHICH HAVE BEEN TAKEN TO THE SUPREME COURT</h2>
 </tr>
 
   <tr>
-    <td>Davis, Ronald E. </td>
-    <td>Docket No. 17419-16L 
-<br/>TCM 2018-197  </td>
-    <td>USCA 10th Cir. 
-<br/>788 F.App’x. 618 
+    <td>Adams, Jon D.</td>
+    <td>Docket No. 17289-18 
+<br/>TCM 2019-99 </td>
+    <td>USCA 5th Cir. 
+<br/>811 F.App’x 276 
 <br/>Affirmed </td>
 <td>Cert Denied 
-<br/>10/5/2020 </td>
+<br/>11/23/2020</td>
   </tr>
 
   <tr>
-    <td>Hefflin, James. R. & Patti A. Hefflin</td>
-    <td>Docket No. 7164-17L 
-<br/>Order</td>
-    <td>USCA 9th Cir. 
-<br/>797 F.App’x. 334 
+    <td>Sadjadi, Edward F. and Cynthia M. Sadjadi</td>
+    <td>Docket No. 6351-18L 
+<br/>TCM 2019-58 </td>
+    <td>USCA 5th Cir. 
+<br/>816 F.App’x. 997
 <br/>Affirmed</td>
 <td>Cert Denied 
-<br/>10/5/2020 </td>
-  </tr>
-
-  <tr>
-    <td>Kannry, Jack S. & Joyce F. Kannry</td>
-    <td>Docket No. 19091-16L 
-<br/>Order</td>
-    <td>USCA 2nd Cir. 
-<br/>788 F.App’x. 88 
-<br/>Affirmed </td>
-<td>Cert Denied 
-<br/>10/5/2020 </td>
+<br/>11/16/2020 </td>
   </tr>
 
 <tr>
@@ -264,11 +248,25 @@ WHICH HAVE BEEN TAKEN TO THE SUPREME COURT</h2>
 </tr>
 
   <tr>
-      <tr>
-    <td>No cases</td>
-    <td> </td>
-    <td> </td>
-<td> </td>
+    <td>Hefflin, James and Patti A. Hefflin </td>
+    <td>Docket No.7164-17L 
+<br/>Order</td>
+    <td>USCA 9th Cir. 
+<br/>797 F.App’x 334
+<br/>Affirmed</td>
+<td>Denied 
+<br/>11/23/2020 </td>
+  </tr>
+
+  <tr>
+    <td>Kannry, Jack S. & Joyce F. Kannry</td>
+    <td>Docket No. 19091-16L 
+<br/>Order</td>
+    <td>USCA 2nd Cir. 
+<br/>788 F,App’x 88 
+<br/>Affirmed</td>
+<td>Denied 
+<br/>11/23/2020 </td>
   </tr>
 
   </tbody>
@@ -286,54 +284,87 @@ WHICH HAVE BEEN DECIDED ON APPEAL</h2>
   </tr>
   
   <tr>
-    <td>Archer, Darrell </td>
-    <td>Cohen</td>
-    <td>Docket Nos. 10444-16 
-<br>12414-16 
-<br>TCM 2018-111 </td>
+    <td>Berry, Ronald Gene & Linda Kathryn Berry</td>
+    <td>Kerrigan</td>
+    <td>Docket No. 14090-15 
+<br>TCM 2018-143 </td>
     <td>Affirmed
-        <br>821 F. App’x. 865 
+        <br>828 F. App’x 431 
     <br>(9th Circuit, 2020)</td>
  </tr>
  
-<tr>
- <td>Duncan, Dann Lee and Kathrine Gay Duncan</td>
-<td>Ashford </td>
- <td>Docket No. 26727-13 
-<br>TCM 2018-190 </td>
-  <td>Affirmed
-    <br>821 F. App’x. 893
+  <tr>
+    <td>Brown, Michael D.  </td>
+    <td>Kerrigan</td>
+    <td>Docket No. 18104-17L 
+<br>TCM 2019-121</td>
+    <td>Affirmed in part, vacated in part and remanded 
+        <br>826 F. App’x 673 
     <br>(9th Circuit, 2020)</td>
  </tr>
- 
-<tr>
- <td>George, Claude Tate </td>
-    <td>Halpern</td>
- <td>Docket No. 26045-15 
-<br>TCM 2019-128 </td>
-  <td>Affirmed
-    <br>821 F. App’x. 76 
-    <br>(3rd Circuit, 2020)</td>
+
+  <tr>
+    <td>Castaneda, Ruby & Julie Castaneda </td>
+    <td>Cohen</td>
+    <td>Docket No. 14074-14 
+<br>TCM 2018-173 </td>
+    <td>Affirmed
+        <br>828 F. App’x 471 
+    <br>(9th Circuit, 2020)</td>
  </tr>
 
-<tr>
-    <td>Goldsmith, Scott Kimrey</td>
-    <td>Holmes</td>
-    <td>Docket No. 13335-12
-    <br>TCM 2017-20</td>
-     <td>Affirmed
-        <br>822 F. App’x. 510 
-        <br>(8th Circuit, 2020)</td>
+  <tr>
+    <td>Langston, Carlos and Pamela Langston</td>
+    <td>Nega</td>
+    <td>Docket No. 4270-17 
+<br>TCM 2019-19</td>
+    <td>Affirmed
+        <br>827 F. App’x 900 
+    <br>(10th Circuit, 2020)</td>
  </tr>
 
-<tr>
-    <td>Johnson, Paul Edwin and Susan H. Johnson</td>
-    <td>Guy</td>
-    <td>Docket No. 14429-18
-    <br>Order</td>
-     <td>Affirmed
-        <br>972 F.3d 655 
-        <br>(5th Circuit, 2020)</td>
+  <tr>
+    <td>Mitsubishi Cement Corporation & Subsidiaries, A Delaware Corporation </td>
+    <td>Cohen</td>
+    <td>Docket No. 7161-16 
+<br>TCM 2018-152
+<br>TCM 2017-160  </td>
+    <td>Affirmed
+        <br>829 F. App’x 248 
+    <br>(9th Circuit, 2020)</td>
+ </tr>
+
+  <tr>
+    <td>Pine Mountain Preserve, LLLP, f.k.a. Chelsea Preserve, LLLP, Eddleman Properties, LLC, TMP </td>
+    <td>Lauber 
+<br>Morrison </td>
+    <td>Docket No. 8956-13 
+<br>151 TC 247
+<br>TCM 2018-214</td>
+    <td>Reversed in part/affirmed in part/vacated/remanded 
+        <br>978 F.3d 1200 
+    <br>(11th Circuit, 2020)</td>
+ </tr>
+
+  <tr>
+    <td>Ronning, Scott C., Estate of, Deceased, Harlan L. Paul, Personal Representative </td>
+    <td>Morrison</td>
+    <td>Docket No. 22469-11 
+<br>TCM 2019-38</td>
+    <td>Affirmed
+        <br>126 AFTR 2d 2020-6419
+    <br>(11th Circuit, 2020)</td>
+ </tr>
+
+  <tr>
+    <td>Veal-Hill, Pamela E. </td>
+    <td>Morrison</td>
+    <td>Docket No. 1517-17 
+<br>Order</td>
+    <td>Sanctions granted T/P & attorneys 
+        <br>976 F.3d 775 
+        <br>826 F. App’x 565 
+        <br>(7th Circuit, 2020)</td>
  </tr>
 
 </tbody></table>
@@ -345,37 +376,79 @@ WHICH HAVE BEEN DECIDED ON APPEAL</h2>
 
 <ul class="a">
 
-<li><a href="https://1.next.westlaw.com/Document/I56f7345007f711eb8d72ea09bc954834/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3a000001753325c99b8fbca85d%3FNav%3DNEWS%26fragmentIdentifier%3DI56f7345007f711eb8d72ea09bc954834%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=6794404e83dad16ddd079381a15030fe&list=NEWS&rank=58&sessionScopeId=f6be24363b4705116449f8c2f3c6d56c04f6adf42bcfcb7b9982fa04d2102b91&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">$24 Million in Transfers Were Not Gifts, by Maria M. Pirrone, 230 Journal of Accountancy 68 (September 1, 2020)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I2a9f0761f95611eabea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dd3b005e790ec87c%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI2a9f0761f95611eabea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=889004b5b822277ac3d81006ef0350cb&list=ANALYTICAL&rank=1&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">The 1969 Tax Reform Act and Charities: Fifty Years Later, by Philip Hackney, 17 Pittsburgh Tax Review 235 (Spring 2020) </a></li><br>
 
-<li><a href="https://www.bloomberglaw.com/product/tax/document/X7R1NNL4000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvZjA3ZmFiNjRlYTkxNTdjYWRlZDczNzk2ZjNhZmM1OWIiXV0--f1dc99a3790900a1efac66ddae53a10a1a60d447&guid=830b5215-993f-4405-b108-97342b446f6a&search32=RzSFjW44c0rI6IWFwlDUYw%3D%3DDZJceVZgxrGj9wGyEjseINDqxWpg1ncNEpFt8lwHPjIur3tcjhLE4SqXCU7HDKEeUQkgor9so2-wHfp8P_ZCHcydF-t-q-bD_H_Q5erLsjEcsVpLq8RtL6PBF9tPI4idU0ieezDUFz_h6uz-jnQhkm3d9odMrfewLWGSMgaGI1_7Ipahh0-5KVzmTyvuTTGrW1bbQ_XD4mDbVlhzD4IrqbOKW7Yes-IHA5OH7tD5tiL8nbAf7Ag3qBbFL8u6IY4wZVtx6FL3amKZgaOLgNiKq-Uit8l4sq6n9gIAlOV3ynOsUDV6Ih2t4chPgLPo7QcOV0KVKAyZ--ZtduV0EiD9NlvmVbVlMuLoKswoFy9hGf3Am3mmHPnzNjFO1L-nk7Ed">The Basics of Establishing and Operating a 501(c)(3) Organization, by James W. Standard, 61 Tax Management Memorandum 316 (October 12, 2020)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/Ic0f6604c0a6811ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad73aa6000001757ae47ebf5bc29c3a%3FNav%3DANALYTICAL%26fragmentIdentifier%3DIc0f6604c0a6811ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=13e6649c834fc7534191cb62d88f353a&list=ANALYTICAL&rank=2&sessionScopeId=5e5e4bdb70295a1c99560d3f226c9e08e91a57ad8a5a8cd28cfb5ee0e41ef445&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">The “Ambiguity” Fallacy, by Ryan D. Doerfler, 88 George Washington Law Review 1110 (September 2020) </a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/Id9da564d09fe11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3a00000175333408158fbcb3d5%3FNav%3DANALYTICAL%26fragmentIdentifier%3DId9da564d09fe11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=ef1220b1e59e67e2628b7af2833f8572&list=ANALYTICAL&rank=11&sessionScopeId=f6be24363b4705116449f8c2f3c6d56c04f6adf42bcfcb7b9982fa04d2102b91&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Canceled Debt Owed to Former Employer Resulted in Ordinary Income, Not Capital Gain, 105 Practical Tax Strategies 24 (October 2020)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I64febc1019ab11ebb2968098c1e7bb4e/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad73aa6000001757adb73835bc292f1%3FNav%3DNEWS%26fragmentIdentifier%3DI64febc1019ab11ebb2968098c1e7bb4e%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=162c0152323930b6dc5ef4306f4d4496&list=NEWS&rank=16&sessionScopeId=5e5e4bdb70295a1c99560d3f226c9e08e91a57ad8a5a8cd28cfb5ee0e41ef445&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Analysis of and Reflections on Recent Cases and Rulings, 51 The Tax Adviser 682 (October 1, 2020) </a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/I0c202b260f7f11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3a0000017533210de58fbca433%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI0c202b260f7f11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=6f071d121f24f2b260ffeffb015d5cee&list=ANALYTICAL&rank=1&sessionScopeId=f6be24363b4705116449f8c2f3c6d56c04f6adf42bcfcb7b9982fa04d2102b91&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Discounts for Lack of Control and Marketability in Business Valuations, by Seth Webber, Cameron Scott and Casey Karlsen, 47 Estate Planning 4 (October 2020)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I9dca4838231f11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dcf3b1e2790e885f%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI9dca4838231f11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=54494cebf72bd90677fb4ef120b5d3e0&list=ANALYTICAL&rank=18&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Analyzing Five Obscure IRS Actions in 2020 with Serious Implications for Conservation Easement Disputes, by Hale E. Sheppard, 48 Real Estate Taxation 14 (Fourth Quarter 2020) </a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/Id9da565109fe11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3a00000175333408158fbcb3d5%3FNav%3DANALYTICAL%26fragmentIdentifier%3DId9da565109fe11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=ef1220b1e59e67e2628b7af2833f8572&list=ANALYTICAL&rank=13&sessionScopeId=f6be24363b4705116449f8c2f3c6d56c04f6adf42bcfcb7b9982fa04d2102b91&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Eighth Circuit: 30-Day Time Limit to Petition Tax Court in Collection Case Is Jurisdictional, 105 Practical Tax Strategies 27 (October 2020)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I3ce6a7a0237f11eb942ed6fa035012ef/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dd0b6256790e9ce1%3FNav%3DNEWS%26fragmentIdentifier%3DI3ce6a7a0237f11eb942ed6fa035012ef%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=15cd146049d24a5b31de8055c3953052&list=NEWS&rank=3&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Carrybacks, Carryovers, Statutes of Limitations, Audits, and Joint Committee on Taxation Review-Practical and Procedural Aspects of Tax Attribute Planning, by Jason Dimopoulos, 72 Tax Executive 30 (November/December 2020) </a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/Id9da563f09fe11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3a00000175333408158fbcb3d5%3FNav%3DANALYTICAL%26fragmentIdentifier%3DId9da563f09fe11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=ef1220b1e59e67e2628b7af2833f8572&list=ANALYTICAL&rank=4&sessionScopeId=f6be24363b4705116449f8c2f3c6d56c04f6adf42bcfcb7b9982fa04d2102b91&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Fines and Penalties: Proposed Regulations under Section 162(f) and 6050X, by Stacy Rickard Bibelhauser, 105 Practical Tax Strategies 11 (October 2020)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/Id3aa182af88511eabea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dd2feeba790ebe27%3FNav%3DANALYTICAL%26fragmentIdentifier%3DId3aa182af88511eabea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=f42efe78efb051bb9311ccac8cae9fae&list=ANALYTICAL&rank=18&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Chevron as Construction, by Lawrence B. Solum and Cass R. Sunstein, 105 Cornell Law Review 1465 (July 2020) </a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/I49f03e5007f711eb9d93ae3541aff7bd/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3a000001753325c99b8fbca85d%3FNav%3DNEWS%26fragmentIdentifier%3DI49f03e5007f711eb9d93ae3541aff7bd%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=6794404e83dad16ddd079381a15030fe&list=NEWS&rank=38&sessionScopeId=f6be24363b4705116449f8c2f3c6d56c04f6adf42bcfcb7b9982fa04d2102b91&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Golf Course Easement Served a Valid Conservation Purpose, by Charles J. Reichert, 230 Journal of Accountancy 67 (September 1, 2020)</a></li><br>
+<li><a href="https://www.bloomberglaw.com/product/tax/document/XCQL4MQK000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvNDZlMjc5OGQ4OTllNjQyYjlmMzVhYzRmZDI0NTIyMmUiXV0--4276cce06e89d4e88550bf7561c9ad5e0b9be7d4&guid=fc82ee8c-ec80-45d4-9dc3-d12e1c408200&search32=gL-oPomqzfqm3YNjcJu3hw%3D%3D_sTOZDYQIlubF7if68AyfNt9pEcmWLTh4ILQKvH4zt7wbwSGiSh4kcWjqTN4-vm6qkoFDVbODhaG5BBTrLtC8jKEEzVOneJLPxLVRouisjFm2GqLo2aRR3_SZCwKBY2lOAJ84DH0-RRMQS57F-bM5bB_Zibh_F4KGLAk7GBBS0Pdi2AHnq4H8ZKEok4__VSGMZXVwRv0V9D4tulHGNrs0-fybAfB_6r8wagSvn9YWXVoon4IN0YTlGh1IB-hfj-EDfRhW5XY_LDgjlkrqgo_AeE8RO54tPROsQA_xKmV5ROR8b7vBGltGecFC3IRME4CotsEKp9ZYgucgQYj0uULBuOXPgI8lSVS4Asf2Ba_alKtlX2Cd3IP6gUixDAfBtdBwdVsycgsiSn_wuSecA8ItCCx0hg0bGqKieHIYZpAa3lSqs1rPlmp6ov5YqeMQYHlZnzd-hFCbZBUnX4yxSzkph_heTinR5l6Y-GvJDpeQx9D4B0hVUHVL9sDx5TpxQlNFDw0GxXRdKLrMl2LN_4BHjCpZxMhVgldIhz3AvRjFDFkiCAJPTz6thD4DNXQRpiyhpyMLB61WeCt2_9cAU1d9PXJlUdpXgbAQulor_N0oJiQrtMRI0wFDB8CeyMwQt2XkOk2N82AFj37XH5lR8F-MaU6OAQpLAqXmY6jWvPZ5EuvjYvTEZorqKSKDQ-F3a2rFiEi-iybEMKDcH5ZSHhVCIsfdKNY8QESwjomdV_ajjT-PYABQtxigkktUOxdbxCPpMHGbqozFOivHJ4lxY3-PQhAP5zD_Q5MymUjZF6L5ZHtCsCC6CfvTj39OaixUIkgFgkbC00zWJZVDKwlnfNtTkQJcqkUHXqyps0SFsJndFBdn540a1O5D_fkglvCsfT3L5HrvuFWsmXhfvb3XpytFgd894lOX902ZlntRC6nqGBw2d_SLfpQxRHvHhDIPpSmzqdAb6u8BA5QL3B_RDuEYcRv-1NE8OyK3Lj20aOstElFJ12afgUQJzvBpCut7rBrYwo0mMxpyuHuZZHEHWMpJaDy42U6avwz9Bv651mIrcD7GemzMg8hNP2fdWJeNHt6eGWtI_EbnVKn5xZg-cKMpp0K13E0YoFT6B6uWarLXxy7NNspt-lX3YoTrX4BQjYcPXkzXTAH28nPJwZ66C0FKqfV0pgK3pX-dbRCo0H4PUQBftRaO1Mpv9Tz65uugXGUQlittOCrmEey1IW_cDUlDG62GCwaJ5ckX37U6S73154%3D">Comparing Source of Income and FDII Eligibility for Software and Digital Content Deliveries, by Gary Sprague, 49 Tax Management International Journal 550 (November 13, 2020) </a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/I33e26faf09ff11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3a0000017533382e918fbcb7b0%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI33e26faf09ff11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=eccd858808b07c2e014580328653e493&list=ANALYTICAL&rank=14&sessionScopeId=f6be24363b4705116449f8c2f3c6d56c04f6adf42bcfcb7b9982fa04d2102b91&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">IRS Announces First Syndicated Conservation Easement Initiative Settlement, 32 Taxation of Exempts 46 (November/December 2020)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/Ia8f6a643decd11eabea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dcf3b1e2790e885f%3FNav%3DANALYTICAL%26fragmentIdentifier%3DIa8f6a643decd11eabea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=54494cebf72bd90677fb4ef120b5d3e0&list=ANALYTICAL&rank=17&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Conservation Easement Enforcement: IRS Quietly Eliminates Procedural Protections for Appraiser, by Hale E. Sheppard, 47 Real Estate Taxation 19 (Third Quarter 2020) </a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/Id9da565709fe11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3a00000175333408158fbcb3d5%3FNav%3DANALYTICAL%26fragmentIdentifier%3DId9da565709fe11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=ef1220b1e59e67e2628b7af2833f8572&list=ANALYTICAL&rank=16&sessionScopeId=f6be24363b4705116449f8c2f3c6d56c04f6adf42bcfcb7b9982fa04d2102b91&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">IRS Offer to Settle Was Not ‘Initial Determination’ for Purposes of Penalty Approval Rule, 105 Practical Tax Strategies 30 (October 2020)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/Ie13df6ff262d11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dcc789f3790e5dd0%3FNav%3DANALYTICAL%26fragmentIdentifier%3DIe13df6ff262d11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=1bcf03feb494ee6e03155c8aa81e4cff&list=ANALYTICAL&rank=4&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Discrimination Settlements – Income Tax Considerations, by Robert S. Barnett, 133 Journal of Taxation 5 (December 2020) </a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/I33e26fad09ff11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3a0000017533382e918fbcb7b0%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI33e26fad09ff11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=eccd858808b07c2e014580328653e493&list=ANALYTICAL&rank=13&sessionScopeId=f6be24363b4705116449f8c2f3c6d56c04f6adf42bcfcb7b9982fa04d2102b91&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Nonprofit Corporation under State Law Not Allowed to Make S Election, 32 Taxation of Exempts 44 (November/December 2020)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I06b9c0f017ad11ebae0b95d401a3f279/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad73aa6000001757adb73835bc292f1%3FNav%3DNEWS%26fragmentIdentifier%3DI06b9c0f017ad11ebae0b95d401a3f279%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=162c0152323930b6dc5ef4306f4d4496&list=NEWS&rank=30&sessionScopeId=5e5e4bdb70295a1c99560d3f226c9e08e91a57ad8a5a8cd28cfb5ee0e41ef445&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Divorce Settlement Payments Do Not Increase LLC Basis, by James A. Beavers, 51 The Tax Adviser 682 (October 1, 2020) </a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/I358e64c7f7d511eabea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3a0000017533320c098fbcb223%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI358e64c7f7d511eabea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=4181baf36d3d248b5f72bd88e05431a2&list=ANALYTICAL&rank=2&sessionScopeId=f6be24363b4705116449f8c2f3c6d56c04f6adf42bcfcb7b9982fa04d2102b91&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Proposed Regs Define ‘Real Property’ for Section 1031: IRS Gets It Mostly Right but Insists on Perpetuating Earlier Mistake, by Louis Weller, Richard Lipton, Jon Christianson, and Matthew Carlson, 133 Journal of Taxation 7 (October 2020)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I49fbd4361da211ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dcaa378f790e4107%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI49fbd4361da211ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=6e4b8d305c827d7b65a223ac3136a259&list=ANALYTICAL&rank=1&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">The Estate Planning Tsunami of 2020, by Jonathan G. Blattmachr and Carlyn S. McCaffrey, 47 Estate Planning 4 (November 2020) </a></li><br>
 
-<li><a href="https://www.bloomberglaw.com/product/tax/document/X1FG01U0000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvYzJjZWY0MjBhNDJkZTk4ZjkxNzQ0ZWRjZTRmNmY3MzkiXV0--08d471d8e667f89dba8585d2e026fbc2114b5c5a&guid=6198c893-29f8-481a-846d-5ae47317c3a9&search32=Q1sY2T2nd-Dzpw1SRI6i4Q%3D%3DOEeHz3TOjGeeNSc1QPqZiGQW61JgZvOHUaBe5L-S0wxdG5HHi_hSpq4JTgmJeA_Qhp9GB1XIzr7a0asyOTFAXWE8z_arWYK4gnHi2gXLejyJoWDkJgLTpJV2uBhL5zy5f15TyVblBeL2e45ALLNV8n0rVL5Mwy_dr6jhPsS-ueRvnMlsc5ubW7vw-27pZC22bCMlz0erc5gnXqjtbGbj-DMt5yqBfxl2JBhVKPypRflmNRK188N6i63LmiT5eDVmE3wkZI0BXUjeaYVDDmr2H3Q9f6TXmyyw7--Tc3gsUhn5yVDYUsP7W-g6UqAf8FSa_gSeufPio-qexi15wNH22YN_UtGv4if4GDhLidyU-9Ce-ji1cV0FaxjLTsNHchj9UY7Tjb09rAiYGEuMYOuhrNkbxvtrUGq_1tqM5fp1MspiUEZo92uSt5ecq_t0GWuIV-cShwUsBojSYK05qIBvVkbGeGU1FRlzeelZdxX_dpK7TuhRcZVmcnO068UsOKlmEtiWdlPDxhNauhPtHrpF_U1ektaAysxBfJsYVJwxaXNb6z7ucJPltteZIYb97Zq3">Questioning the Imputation of Fair Market Rental Income to a Nonresident Alien’s Foreign Corporation, by Michael J. Miller, 49 Tax Management International Journal 495 (October 9, 2020)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I4d478af617dc11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad73aa6000001757ad9a77b5bc29153%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI4d478af617dc11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=d71b689e6d7ae00e426dd40995d5c6a4&list=ANALYTICAL&rank=1&sessionScopeId=5e5e4bdb70295a1c99560d3f226c9e08e91a57ad8a5a8cd28cfb5ee0e41ef445&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Federal Tax Court Jurisdiction and Substantive Tax Law: The Lessons of Laurence Gluck and Sandra Prusock v. Commissioner, by Robert S. Schwartz, 35 Practical Tax Lawyer 3 (November 2020) </a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/Id9da564709fe11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3a00000175333408158fbcb3d5%3FNav%3DANALYTICAL%26fragmentIdentifier%3DId9da564709fe11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=ef1220b1e59e67e2628b7af2833f8572&list=ANALYTICAL&rank=8&sessionScopeId=f6be24363b4705116449f8c2f3c6d56c04f6adf42bcfcb7b9982fa04d2102b91&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Second Circuit: Renovated Mansion’s Sale Generated Capital Loss, Not Ordinary Loss, 105 Practical Tax Strategies 21 (October 2020)</a></li><br>
+<li><a href="https://www.bloomberglaw.com/product/tax/document/X6AFNG08000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvMDVkNWZiYzhhMzE1Mzg4ODFmYWVkNDk4ZmI2NmI1NTQiXV0--b28aee39e4a6f45281b595cf6e8384bc3acc8c2d&guid=fbcdf279-e773-466b-b3b6-d05c75236433&search32=pvNWbtWIPxSMpVop-cc27w%3D%3DbVlJVMlPdxqnFnmn73lNdISuTcQGQx8G_AnyIf3KKvAP-2R2Cvl9cYaYajCHg_dZzOF9au3C1Ake8DMmVQc3xg20YrauA3UXzY3bqNIjR24PbMgDXk4tYsyMD2TE9WQA0BzoX-_gDVymrnq74EOXc90om5EYoPMz2IsbiNUV41rUR6mDkF8-AQiInhlNam-6AyMdmzV_9OBvQfOTrMoUnSqn931rQxT2ZtyDJGpPzU6fL8z8VlgmmlXFe5PkVQBPdhlLgF5v3x645RZV7Qao6EGcjRYmqGXiKndvgQ0mg7qrq_qBrKVff6QPyjRw6aL1k9pmVbKzXNYvZzzndflyCttk8MpO_VI1f1DEY5JxudEYfa37nR6tYdvutoAWxh244B53qBoeA6Gfra6dlxr98j6LyQ6SUQ0GjXukUCWGiZBA23M1xEdGEO06N-0Z0CMMMVkkYivCknGRaOSkryCyP9UdV2pNmSYuJc3CLaYWwNB4XJ6liRegJzJlo8hQTzm9_jpb9MMQW5exPNzFAY6Q1Mrmxen6qxU5r3KRzANXd3FDkcLW1g7BkdztsNoRm7Cr">The Future of Shipping Transfer Pricing, by J. Harold McClure, 49 Tax Management International Journal 523 (November 13, 2020) </a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/Ibc3091e00cac11eb8fb9c161716ed310/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3a000001753325c99b8fbca85d%3FNav%3DNEWS%26fragmentIdentifier%3DIbc3091e00cac11eb8fb9c161716ed310%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=6794404e83dad16ddd079381a15030fe&list=NEWS&rank=22&sessionScopeId=f6be24363b4705116449f8c2f3c6d56c04f6adf42bcfcb7b9982fa04d2102b91&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Settlement Agreement’s Capital Gain Allocation Withstands Challenge by IRS, 230 Journal of Accountancy 48 (October 1, 2020)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I9dca4836231f11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dcf3b1e2790e885f%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI9dca4836231f11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=54494cebf72bd90677fb4ef120b5d3e0&list=ANALYTICAL&rank=19&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Get Real! Proposed Regulations Define Real Property for Purposes of Section 1031 by David L. Friedline and Joyce Welch, 48 Real Estate Taxation 4 (Fourth Quarter 2020) </a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/Ibc2f32500cac11eb9a02f6d6d39c9370/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3a000001753325c99b8fbca85d%3FNav%3DNEWS%26fragmentIdentifier%3DIbc2f32500cac11eb9a02f6d6d39c9370%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=6794404e83dad16ddd079381a15030fe&list=NEWS&rank=20&sessionScopeId=f6be24363b4705116449f8c2f3c6d56c04f6adf42bcfcb7b9982fa04d2102b91&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Tax Consequences of Data Breaches and Identity Theft, by Patrick M Ryle, 230 Journal of Accountancy 39 (October 1, 2020)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I37f8f7d8d78011eabea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dd2cafa5790eba64%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI37f8f7d8d78011eabea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=38a9a30e62f558c83377ccc9df8ac7b7&list=ANALYTICAL&rank=3&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">How Circuits Can Fix Their Splits, by Wyatt G. Sassman, 103 Marquette Law Review 1401 (Summer 2020) </a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/I358e64d3f7d511eabea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3a0000017533320c098fbcb223%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI358e64d3f7d511eabea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=4181baf36d3d248b5f72bd88e05431a2&list=ANALYTICAL&rank=8&sessionScopeId=f6be24363b4705116449f8c2f3c6d56c04f6adf42bcfcb7b9982fa04d2102b91&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Tax-Exempt Status Denied for Charitable Restaurant, 133 Journal of Taxation 34 (October 2020)</a></li><br>
+<li><a href="https://www.bloomberglaw.com/product/tax/document/XDETV6US000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvNmEyYjQ0MTg2M2U3ZjE0YzJhZjg3OTQyN2ViZjU5ZmMiXV0--7fc31f64099d1f56eea445fc5d7c116fda9e6b0e&guid=a1396342-aef1-4f37-be06-30da9f3fe3f9&search32=7YhGfMUkQctUkyioMGZ0Ag%3D%3DQZ2GSvBieWWjIKoSYV4tgdnjYHCEBp6fFhTY0A2bhNw-xa1CSYLI-bZEh-GanijB8togjJOvjPoSAoxa3thzPZKTeSnvqeYnMphDeL7Z2xzAFdZc_R9sG9wdg27o3r_9ecVc7ANGQ_fX3UPlQLuaWLRVH0obRZK0sfVcjlD5f1wboKeJLP7VE4WIorwrAK61zbIDwar933LE76FSePDiv0i_Qb_Ibz-H6gOiKrv7z1DOKgdKbhYMlK3Cua81BHitdpLXBAN_rrLVehDnQkxjednlcHNBSs_--BcunfmARR9XWnPaAMOA5qeriwyxuFkJe4jPOOcHSsa-LW8ZXqAhMN27ldHThMIaIv6lWg1Vo7OVH_3ujCz0qsYgADss7Oijtze_iZ-Tmq74XoIGWpzqtKSda5qhC96lb9U-WMvKsMhU2HtKL__ZKWd4n-CvU31R4ebaJBOpzGzcqWNVydhbjJXwb231AB2NHdNYz2FTziMYS82YgBFTr4TSWfRElNgC">The IRS Should Cage the Crypto Kraken, by Jason Morton, 65 Tax Management Memorandum 333 (October 26, 2020) </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/Ia8f6a64bdecd11eabea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dcf3b1e2790e885f%3FNav%3DANALYTICAL%26fragmentIdentifier%3DIa8f6a64bdecd11eabea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=54494cebf72bd90677fb4ef120b5d3e0&list=ANALYTICAL&rank=7&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Land and Mobile Home Seller May Use Installment Method to Report Income from Sales of Land Only, 47 Real Estate Taxation 41 (Third Quarter 2020) </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/Ie13df703262d11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dcc789f3790e5dd0%3FNav%3DANALYTICAL%26fragmentIdentifier%3DIe13df703262d11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=1bcf03feb494ee6e03155c8aa81e4cff&list=ANALYTICAL&rank=6&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Newest IRS Action in Conservation Easement Disputes: Same Data Used Against Different Parties, by Hale E. Sheppard, 133 Journal of Taxation 14 (December 2020) </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I19d8f1351b4611ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dcee4c22790e82cc%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI19d8f1351b4611ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=f0ad952dc475d4b6218dd5508a3181e2&list=ANALYTICAL&rank=9&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Nonprofit Corporation Under State Law Not Allowed to Make S Election, 105 Practical Tax Strategies 31 (November 2020) </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/Ic0f6604e0a6811ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad73aa6000001757ae47ebf5bc29c3a%3FNav%3DANALYTICAL%26fragmentIdentifier%3DIc0f6604e0a6811ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=13e6649c834fc7534191cb62d88f353a&list=ANALYTICAL&rank=3&sessionScopeId=5e5e4bdb70295a1c99560d3f226c9e08e91a57ad8a5a8cd28cfb5ee0e41ef445&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">The Power to Vacate a Rule, by Mila Sohoni, 88 George Washington Law Review 1121 (September 2020) </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I2a9f0765f95611eabea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dd3b005e790ec87c%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI2a9f0765f95611eabea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=889004b5b822277ac3d81006ef0350cb&list=ANALYTICAL&rank=3&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">The Private Foundation Excise Tax on Self-Dealing: Contours, Comparisons, and Character, 17 Pittsburgh Tax Review 297 (Spring 2020) </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I2a9f0763f95611eabea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dd3b005e790ec87c%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI2a9f0763f95611eabea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=889004b5b822277ac3d81006ef0350cb&list=ANALYTICAL&rank=2&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">The Private Foundation Rules at Fifty: How Did We Get Them and Do They Meet Current Needs?, by James J. Fishman, 17 Pittsburgh Tax Review 247 (Spring 2020) </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I2a9f076bf95611eabea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dd3b005e790ec87c%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI2a9f076bf95611eabea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=889004b5b822277ac3d81006ef0350cb&list=ANALYTICAL&rank=6&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Private Operating Foundation Reform and J. Paul Getty, 17 Pittsburgh Tax Review 387 (Spring 2020) </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I89a4ace018da11eb9eca97a66b7117b7/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad73aa6000001757adb73835bc292f1%3FNav%3DNEWS%26fragmentIdentifier%3DI89a4ace018da11eb9eca97a66b7117b7%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=162c0152323930b6dc5ef4306f4d4496&list=NEWS&rank=9&sessionScopeId=5e5e4bdb70295a1c99560d3f226c9e08e91a57ad8a5a8cd28cfb5ee0e41ef445&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Procedural Avenues for Taxpayers with Balances Due to the IRS, 51 The Tax Adviser 635 (October 1, 2020) </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I4d478afa17dc11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad73aa6000001757ad9a77b5bc29153%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI4d478afa17dc11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=d71b689e6d7ae00e426dd40995d5c6a4&list=ANALYTICAL&rank=3&sessionScopeId=5e5e4bdb70295a1c99560d3f226c9e08e91a57ad8a5a8cd28cfb5ee0e41ef445&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Proceeding with a Valuation Case Involving Closely Held Business Interests before the United States Tax Court (Part 2), by Jerald David August, 35 Practical Tax Lawyer 19 (November 2020) </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/Ia8f6a63fdecd11eabea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dcf3b1e2790e885f%3FNav%3DANALYTICAL%26fragmentIdentifier%3DIa8f6a63fdecd11eabea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=54494cebf72bd90677fb4ef120b5d3e0&list=ANALYTICAL&rank=13&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Real Estate Professional Treatment: Easier Said Than Done, by Brian Dowis, Mary Anderson, and Ted D. Englebrecht, 47 Real Estate Taxation 4 (Third Quarter 2020) </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I89e5114018da11eb9eca97a66b7117b7/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad73aa6000001757adb73835bc292f1%3FNav%3DNEWS%26fragmentIdentifier%3DI89e5114018da11eb9eca97a66b7117b7%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=162c0152323930b6dc5ef4306f4d4496&list=NEWS&rank=12&sessionScopeId=5e5e4bdb70295a1c99560d3f226c9e08e91a57ad8a5a8cd28cfb5ee0e41ef445&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Recent Developments in Estate Planning, 51 The Tax Adviser 646 (October 1, 2020) </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I9dca483e231f11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dcf3b1e2790e885f%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI9dca483e231f11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=54494cebf72bd90677fb4ef120b5d3e0&list=ANALYTICAL&rank=8&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Second Circuit: Renovated Mansion’s Sale Generated Capital Loss, Not Ordinary Loss, 48 Real Estate Taxation 36 (Fourth Quarter 2020) </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I49fbd43c1da211ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dcaa378f790e4107%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI49fbd43c1da211ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=6e4b8d305c827d7b65a223ac3136a259&list=ANALYTICAL&rank=4&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Shifting Capital Gains to a Charity May Be Easier Than You Thought, by Howard M. Zaritsky, 47 Estate Planning 43 (November 2020) </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/Ie13df701262d11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dcc789f3790e5dd0%3FNav%3DANALYTICAL%26fragmentIdentifier%3DIe13df701262d11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=1bcf03feb494ee6e03155c8aa81e4cff&list=ANALYTICAL&rank=5&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Tax Consequences Associated with Reputation-Enhancement Expenditures, by Jay A. Soled, Leonard Goodman, and Patrick M. Ryle, 133 Journal of Taxation 10 (December 2020)  </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I19d8f13f1b4611ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dcee4c22790e82cc%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI19d8f13f1b4611ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=f0ad952dc475d4b6218dd5508a3181e2&list=ANALYTICAL&rank=14&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Tax Court Interprets Effective Date Provision of Innocent Spouse Relief Amendments, 105 Practical Tax Strategies 40 (November 2020) </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I0094e0b017ad11eb98a7ba49cf8c648b/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad73aa6000001757adb73835bc292f1%3FNav%3DNEWS%26fragmentIdentifier%3DI0094e0b017ad11eb98a7ba49cf8c648b%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=162c0152323930b6dc5ef4306f4d4496&list=NEWS&rank=31&sessionScopeId=5e5e4bdb70295a1c99560d3f226c9e08e91a57ad8a5a8cd28cfb5ee0e41ef445&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Taxpayer Allowed to Challenge Underlying Liability in CDP Hearing, 51 The Tax Adviser 684 (October 1, 2020) </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/Ie2683fc0283611ebad20d7307ae5df80/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dcb2433d790e486c%3FNav%3DNEWS%26fragmentIdentifier%3DIe2683fc0283611ebad20d7307ae5df80%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=2834a46840bdf83fb93cdb28111053a6&list=NEWS&rank=24&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Taxpayers Are Allowed Charitable Contribution Deductions for Land, by Charles J. Reichert, 230 Journal of Accountancy 58 (November 2020) </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I06ba5d3017ad11eb8ffee747514aa8d5/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad73aa6000001757adb73835bc292f1%3FNav%3DNEWS%26fragmentIdentifier%3DI06ba5d3017ad11eb8ffee747514aa8d5%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=162c0152323930b6dc5ef4306f4d4496&list=NEWS&rank=29&sessionScopeId=5e5e4bdb70295a1c99560d3f226c9e08e91a57ad8a5a8cd28cfb5ee0e41ef445&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Timely Filing from Foreign Countries, by Dan Wise, 51 The Tax Adviser 668 (October 1, 2020) </a></li><br>
+
+<li><a href="https://www.bloomberglaw.com/product/blaw/document/XE90V6QG000000?criteria_id=4006fd1ca595bfa7526081aec9421f46&searchGuid=72f7957c-3b6a-43c9-9c3d-2cb439aac8b8&search32=OBfKUYNXUO35n_0FerlCgg==CWFATNeKBNGxXSfsQqQNt-rHp-eUefs1K8IGru6s_iNl-qS7zMeL7gsXWs8tEz3MatdC1xhJFVdn31auXXtXCjzrkn_TaVRxeWJuZTI2NeWjlNk_9DKlmcsUwYoB93ZYcrt_IspLnKKTxqRwD9RoW9fDXLh_RF9urHKf-VzCxG0=">Turning Off Grantor Trust Status: Mechanics, Tax Implications, Effect on Entities, Abusive Transactions, and State Law Obstacles, by David Kirk, Nickolas Davidson, and Paul Schuh, 45 Tax Management Estates, Gifts and Trusts Journal 338 (November 12, 2020) </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I744cff5de40a11eabea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dd359aa4790ec361%3FNav%3DANALYTICAL%26fragmentIdentifier%3DI744cff5de40a11eabea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=bb26190dfba625605ca051d669180fae&list=ANALYTICAL&rank=4&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Valuing Community Property Businesses: The Good, the Bad, and the Ugly of Louisiana Law, by Sally Brown Richardson, 80 Louisiana Law Review 809 (Spring 2020) </a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/Ia8f6a645decd11eabea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad00000175dcf3b1e2790e885f%3FNav%3DANALYTICAL%26fragmentIdentifier%3DIa8f6a645decd11eabea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=54494cebf72bd90677fb4ef120b5d3e0&list=ANALYTICAL&rank=15&sessionScopeId=6bf53730e6a3330f0a9378c31018a7b63d6b24ff7c594e131222e0f82bbc859f&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">When Is a Rental Activity Considered a Section 162 Trade or Business? by Steve Thompson and Randy Serrett, 47 Real Estate Taxation 31 (Third Quarter 2020) </a></li><br>
 
 </ul>
 
@@ -397,7 +470,8 @@ WHICH HAVE BEEN DECIDED ON APPEAL</h2>
               <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-08.pdf">August 2020</a></li>
               <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-09.pdf">September 2020</a></li>
 	      <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-10.pdf">October 2020</a></li>
-	       <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-11.pdf">November 2020</a></li>
+	      <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-11.pdf">November 2020</a></li>
+			  
             </div>
           </ul>
     
@@ -447,18 +521,7 @@ WHICH HAVE BEEN DECIDED ON APPEAL</h2>
   
   <h1>Upcoming Training</h1>
  
-  <p>No upcoming training at this time. Please check back later. </p>
-    <br>
-        <h1>Past trainings and resources</h1>
-            <br>
-            <tr> 
-                <td bgcolor="#FFFFFF"> <ul> 
-                    <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/kb+staff+documents/Tips++Tricks+training+08-19-2020.pdf" target="_blank">Basic Library Research: Tips & Tricks</a></li>
-                    <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/kb+staff+documents/value-of-secondary-sources.pdf" target="_blank">Using Secondary Sources</a></li>
-                    <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/kb+staff+documents/Legislative+History+Resources+Presentation+10-14-2020.pdf" target="_blank">Legislative History</a> - <a href="https://www.zoomgov.com/rec/play/v5AtI-D6qjk3HdLEswSDUfJ8W9W4eKms0CZMrvcLnkm9UXkBMVvyNLMaMeamrYLluxAMfjzn3jY_0sC1?continueMode=true" target="_blank">Video</a></li>
-                    <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/kb+staff+documents/Regulations+and+Administrative+Law+11042020.pdf" target="_blank">Regulatory and Administrative Sources</a> - <a href="https://www.zoomgov.com/rec/play/vsIlJe-s_2g3SYCUuASDBqd4W9TpLaqs0XMaqfYNzBrhUiIEYFWhYrcRM7ZuWfUtSUCHAlV6Yrsfxu55?continueMode=true" target="_blank">Video</a></li> 
-                </ul></td> 
-              </tr>
+  <p>There is no upcoming training at this time. Please check back.</p>
 
 </div>
 
