@@ -2,14 +2,14 @@
 
 <div class="sidebar">
 <br>
-<a href="https://www.bloomberglaw.com" target="_blank">Bloomberg Law</a>
+<a href="https://www.bloomberglaw.com/start" target="_blank">Bloomberg Law</a>
 <a href="https://www.bloomberglaw.com/product/tax/page/page_federal" target="_blank">Bloomberg Law: Tax</a>
 <a href="https://heinonline.org/HOL/Welcome" target="_blank">HeinOnline</a>
-<a href="http://www.law360.com/" target="_blank">Law 360</a>
+<a href="https://www.law360.com/" target="_blank">Law 360</a>
 <a href="https://signin.lexisnexis.com/lnaccess/app/signin?back=https%3A%2F%2Fadvance.lexis.com%3A443%2F&amp;aci=la" target="_blank">Lexis Advance</a><a href="https://www.oed.com/" target="_blank">Oxford English Dictionary</a>
-<a href="http://search.proquest.com/legislativeinsight" target="_blank">ProQuest Legislative Insight</a>
-<a href="http://www.taxnotes.com" target="_blank">Tax Notes</a>
-<a href="http://1.next.westlaw.com/" target="_blank">Westlaw</a>
+<a href="https://search.proquest.com/legislativeinsight" target="_blank">ProQuest Legislative Insight</a>
+<a href="https://www.taxnotes.com" target="_blank">Tax Notes</a>
+<a href="https://1.next.westlaw.com/" target="_blank">Westlaw</a>
 <br>
 </div>
 
@@ -19,9 +19,9 @@
 <button class="tablinks" onclick="openNews(event, 'Selected Online Treatises')">Selected Online Treatises</button>
 <button class="tablinks" onclick="openNews(event, 'Legislative History')">Legislative History</button>
     <button class="tablinks" onclick="openNews(event, 'Articles of Interest')">Articles of Interest</button>
- <button class="tablinks"><a style="color:white" href="https://groups.google.com/u/0/g/articles-of-interest-feed">Articles of Interest 2</a></button>
+ <a style="color:white" href="https://groups.google.com/u/0/g/articles-of-interest-feed"><button class="tablinks">Articles of Interest 2</button></a>
   <button class="tablinks" onclick="openNews(event, 'Cases Decided on Appeal')">Cases Decided on Appeal</button>
- <button class="tablinks"><a style="color:white" href="https://groups.google.com/u/0/g/cases-decided-on-appeal">Cases Decided on Appeal 2</a></button>
+ <a style="color:white" href="https://groups.google.com/u/0/g/cases-decided-on-appeal"><button class="tablinks">Cases Decided on Appeal 2</button></a>
 <button class="tablinks" onclick="openNews(event, 'Library Bulletin')" id="defaultOpen">Library Bulletin</button>
 <button class="tablinks" onclick="openNews(event, 'Upcoming Training')">Upcoming Training</button>
 </div>
@@ -127,30 +127,6 @@
      + '&showsearch=true&showpopout=false&showtabs=false'
      + '&parenturl=' + encodeURIComponent(window.location.href);
 </script> 
-
-<p>1.</p>
-
-<object data="https://groups.google.com/u/0/g/articles-of-interest-feed?pli=1" width="600" height="400"> <embed src="https://groups.google.com/u/0/g/articles-of-interest-feed?pli=1" width="600" height="400"> Test</object>
-
-<p>2.</p>
-
-<embed src="https://groups.google.com/u/0/g/articles-of-interest-feed?pli=&quot;" width="600" height="400">
-
-<p>3.</p>
-
-<script>$("#testLoad").load("https://groups.google.com/u/0/g/articles-of-interest-feed?pli=1");</script>
-<p id="testLoad"></p>
-
-<p>4.</p>
-
-<div> 
-    <object type="text/html" data="https://groups.google.com/u/0/g/articles-of-interest-feed?pli=1" width="800px" height="600px">
-    </object>
- </div>
-
-<p>5.</p>
-
-<link rel="import" href="http://stackoverflow.com">
 
 <p>To view the RSS in another window, please <a href="https://groups.google.com/forum/?oldui=1#!forum/articles-of-interest-feed">click here.</a></p>
 
@@ -376,6 +352,7 @@ by John C. Zimmerman, 47 Corporate Taxation 22 (November/December 2020)
             </div>
           </ul>
     
+		
         <br>
         
         <li><button onclick="myFunction2()" class="dropbtn">2019 Library Bulletins</button></li>
@@ -413,6 +390,7 @@ by John C. Zimmerman, 47 Corporate Taxation 22 (November/December 2020)
     <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/BusinessEntitiesTreatisesWGL/McKeeNelsonWhitmireFederalTaxationofPartnershipsPartnersWGL?transitionType=Default&amp;contextData=(sc.Default)&amp;VR=3.0&amp;RS=cblt1.0" target="_blank">Federal Taxation of Partnerships and Partners</a></li>
     <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/BusinessEntitiesTreatisesWGL/SaltzmanBookIRSPracticeProcedureWGL?transitionType=Default&amp;contextData=(sc.Default)&amp;VR=3.0&amp;RS=cblt1.0" target="_blank">IRS Practice and Procedure</a></li>
     <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/FederalTaxTreatisesWGL/KafkaCavanaghLitigationofFederalCivilTaxControversiesWGL?transitionType=Default&amp;contextData=(sc.Default)&amp;VR=3.0&amp;RS=cblt1.0" target="_blank">Litigation of Federal Civil Tax Controversies</a></li>
+
 
 </div>
 
