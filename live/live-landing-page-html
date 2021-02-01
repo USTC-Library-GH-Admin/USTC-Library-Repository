@@ -2,14 +2,14 @@
 
 <div class="sidebar">
 <br>
-<a href="https://www.bloomberglaw.com" target="_blank">Bloomberg Law</a>
+<a href="https://www.bloomberglaw.com/start" target="_blank">Bloomberg Law</a>
 <a href="https://www.bloomberglaw.com/product/tax/page/page_federal" target="_blank">Bloomberg Law: Tax</a>
 <a href="https://heinonline.org/HOL/Welcome" target="_blank">HeinOnline</a>
-<a href="http://www.law360.com/" target="_blank">Law 360</a>
+<a href="https://www.law360.com/" target="_blank">Law 360</a>
 <a href="https://signin.lexisnexis.com/lnaccess/app/signin?back=https%3A%2F%2Fadvance.lexis.com%3A443%2F&amp;aci=la" target="_blank">Lexis Advance</a><a href="https://www.oed.com/" target="_blank">Oxford English Dictionary</a>
-<a href="http://search.proquest.com/legislativeinsight" target="_blank">ProQuest Legislative Insight</a>
-<a href="http://www.taxnotes.com" target="_blank">Tax Notes</a>
-<a href="http://1.next.westlaw.com/" target="_blank">Westlaw</a>
+<a href="https://search.proquest.com/legislativeinsight" target="_blank">ProQuest Legislative Insight</a>
+<a href="https://www.taxnotes.com" target="_blank">Tax Notes</a>
+<a href="https://1.next.westlaw.com/" target="_blank">Westlaw</a>
 <br>
 </div>
 
@@ -328,8 +328,23 @@ by John C. Zimmerman, 47 Corporate Taxation 22 (November/December 2020)
 <h2>Library Bulletin Archive</h2>
 
   <ul id="LibraryBulletinArchive">
-    <!--  Menu item with two levels of sub menu -->      
-		 <li><button onclick="myFunction()" class="dropbtn">2020 Library Bulletins</button></li>
+    <!--  Menu item with three levels of sub menu -->   
+	
+	<li><button onclick="myFunction()" class="dropbtn">2021 Library Bulletins</button></li>
+          <!-- sub menu (level 3) -->
+          <ul>
+            <div id="myDropdown" class="dropdown-content">   
+			<li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2021-01.pdf" target="_blank">January 2021</a></li>
+			
+			</div>
+          </ul>
+    
+		
+        <br>
+		
+
+
+ <li><button onclick="myFunction()" class="dropbtn">2020 Library Bulletins</button></li>
           <!-- sub menu (level 3) -->
           <ul>
             <div id="myDropdown" class="dropdown-content">
@@ -443,4 +458,14 @@ window.onclick = function(event) {
     }
   }
 }
-</script>
+</script><!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+</head>
+<body>
+
+
+
+</body>
+</html>
