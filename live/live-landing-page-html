@@ -344,10 +344,10 @@ by John C. Zimmerman, 47 Corporate Taxation 22 (November/December 2020)
 		
 
 
- <li><button onclick="myFunction()" class="dropbtn">2020 Library Bulletins</button></li>
+ <li><button onclick="myFunction2()" class="dropbtn">2020 Library Bulletins</button></li>
           <!-- sub menu (level 3) -->
           <ul>
-            <div id="myDropdown" class="dropdown-content">
+            <div id="myDropdown2" class="dropdown-content">
               <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-01.pdf">January 2020</a></li>
               <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-02.pdf">February 2020</a></li>
               <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-03.pdf">March 2020</a></li>
@@ -367,10 +367,10 @@ by John C. Zimmerman, 47 Corporate Taxation 22 (November/December 2020)
 		
         <br>
         
-        <li><button onclick="myFunction2()" class="dropbtn">2019 Library Bulletins</button></li>
+        <li><button onclick="myFunction3()" class="dropbtn">2019 Library Bulletins</button></li>
           <!-- sub menu (level 3) -->
           <ul>
-            <div id="myDropdown2" class="dropdown-content">
+            <div id="myDropdown3" class="dropdown-content">
             <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2019-01+and+02.pdf" target="_blank">January/February 2019</a></li>
 			<li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2019-03.pdf" target="_blank">March 2019</a></li>
 			<li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2019-04.pdf" target="_blank">April 2019</a></li>
@@ -443,6 +443,9 @@ function myFunction() {
 
 function myFunction2() {
   document.getElementById("myDropdown2").classList.toggle("show");
+}
+function myFunction3() {
+  document.getElementById("myDropdown3").classList.toggle("show");
 }
 
 // Close the dropdown if the user clicks outside of it
