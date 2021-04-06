@@ -1,155 +1,5 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<div class="sidebar">
-<br>
-<a href="https://www.bloomberglaw.com/start" target="_blank">Bloomberg Law</a>
-<a href="https://www.bloomberglaw.com/product/tax/page/page_federal" target="_blank">Bloomberg Law: Tax</a>
-<a href="https://heinonline.org/HOL/Welcome" target="_blank">HeinOnline</a>
-<a href="https://www.law360.com/" target="_blank">Law 360</a>
-<a href="https://signin.lexisnexis.com/lnaccess/app/signin?back=https%3A%2F%2Fadvance.lexis.com%3A443%2F&amp;aci=la" target="_blank">Lexis Advance</a><a href="https://www.oed.com/" target="_blank">Oxford English Dictionary</a>
-<a href="https://search.proquest.com/legislativeinsight" target="_blank">ProQuest Legislative Insight</a>
-<a href="https://www.taxnotes.com" target="_blank">Tax Notes</a>
-<a href="https://1.next.westlaw.com/" target="_blank">Westlaw</a>
-<br>
-</div>
-
-<div class="tab">
-<button class="tablinks" value="Welcome" onclick="openNews(event, 'Welcome')" id="defaultOpen">Welcome</button>
-	<button class="tablinks" onclick="openNews(event, 'Free Online Resources')"> Free Online Resources</button>
-<button class="tablinks" onclick="openNews(event, 'Selected Online Treatises')">Selected Online Treatises</button>
-    <button class="tablinks" onclick="openNews(event, 'Articles of Interest')">Articles of Interest</button>
-  <button class="tablinks" onclick="openNews(event, 'Cases Decided on Appeal')">Cases Decided on Appeal</button>
-<button class="tablinks" onclick="openNews(event, 'Library Bulletin')" id="defaultOpen">Library Bulletin</button>
-<button class="tablinks" onclick="openNews(event, 'Upcoming Training')">Upcoming Training</button>
-</div>
-
-<div id="Welcome" class="tabcontent">
-  <h1>Welcome to the US Tax Court Library Catalog</h1>
-<br>
-<p class="ex1">You do not need to log into the system to search the catalog.</p>
-
-<br>
-
-<p class="ex1"><b>To log in:</b> Click "Log in" at the upper-right hand corner of this screen.</p>
-
-<p class="ex1">Logging in also enables you to put holds on books and create your own lists.</p>
-
-<p class="ex1">For best results: take advantage of the pull-down menu to search by title, author, etc., or click on "Advanced Search" for more options.</p>
-
-<p class="ex1">Library staff members are available to answer your questions via phone, e-mail or in person.</p>
-
-<p class="ex1">One-on-one appointments with a librarian are always available.</p>
-
-<p class="ex1">If you need help, please contact the Library at ext. 4585 or <a href="mailto:Library@ustaxcourt.gov">Library@ustaxcourt.gov</a>.</p>
-
-<div id="HowToFind">
-<p></p><center><b id="HowToFindTitle">How do I find...</b></center><p></p>
-
-<ul style="list-style-type:disc;">
-<li><b id="HowToFindHeader">Cumulative Bulletin</b> – available in full text on <a href="https://www.westlaw.com/Browse/Home/AdministrativeDecisionsGuidance/FederalAdministrativeDecisionsGuidance/DepartmentoftheTreasuryUSTREAS/InternalRevenueServiceIRS/IRSCumulativeBulletin?transitionType=Default&amp;contextData=(sc.Default)&amp;VR=3.0&amp;RS=cblt1.0"><u>Westlaw</u></a> and <a href="https://advance.lexis.com/api/permalink/7644d7bd-c4c5-4550-b52c-2c6dc0ce7757/?context=1000516"><u>Lexis</u></a> without pincites and <a href="https://heinonline.org/HOL/Index?index=usfed/ircb&amp;collection=tera"><u>HeinOnline</u></a> if you need pincites (you must be on the Court’s network to access Hein). </li>
-<br>
-<li><b id="HowToFindHeader">Explanatory Notes to Tax Court Rules:</b> <a href="https://heinonline.org/HOL/Index?index=usfed/tcrustc&amp;collection=usfed"><u>HeinOnline</u></a> </li>
-<br>
-<li><b id="HowToFindHeader">Older Internal Revenue code versions: </b>
-<br>Westlaw: code 1990-present 
-<br>Lexis: code 1992-present 
-<br>HeinOnline has the complete official US Code (1925-1926 to 2018 – the first Internal Revenue code was compiled in 1939)</li> 
-<br>
-<li><b id="HowToFindHeader">Older Treasury Regulations: </b>
-<br>Westlaw: 1984-present 
-<br>Lexis: 1981-present 
-<br>HeinOnline: The entire Code of Federal Regulations 1938-present 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hein also contains Treasury Regulations that predate the CFR</li>
-<br>
-<li><b id="HowToFindHeader">IRMs</b> – <a href="https://advance.lexis.com/api/permalink/b9e44963-b08a-4bac-a4c5-b36ac4a8bab8/?context=1001091"><u>Lexis</u></a> is easier (2012-present) or <a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/ResearchInstituteofAmericaRIA/FederalTaxationRIA/InternalRevenueManualIRMCurrentEdition/InternalRevenueManualIRMAll?transitionType=Default&amp;contextData=(sc.Default)&amp;VR=3.0&amp;RS=cblt1.0"><u>Westlaw</u></a> (1997-present)</li>
-<br>
-<li><b id="HowToFindHeader">Tax Treaties (including background material):</b> <a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/ResearchInstituteofAmericaRIA/InternationalTaxationRIA/TaxTreatiesRIA?transitionType=Default&amp;contextData=(sc.Default)&amp;VR=3.0&amp;RS=cblt1.0"><u>Westlaw</u>,</a> <a href="https://advance.lexis.com/api/permalink/9a266ffb-c9e7-4f7e-b2a5-177c28e1c370/?context=1000516"><u>Lexis</u>,</a> <a href="https://www.bloomberglaw.com/product/tax/page/page_international"><u>Bloomberg Law</u></a> (use the treaty finder in upper right-hand column), <a href="https://www.irs.gov/businesses/international-businesses/united-states-income-tax-treaties-a-to-z"><u>IRS.gov</u></a></li>
-<br>
-<li><b id="HowToFindHeader">CCH pagination for TC Memo decisions</b> – Bloomberg Law/Bloomberg Law Tax 
-</li><li>Click on the pagination link in the upper right-hand corner of the opinion and either slide the button or click the radial button (depending on whether you’re using BLaw or BLaw Tax) </li>
-<br>
-<li>Bloomberg Law pagination:
-<br><a href="https://ustc-koha-homepage.s3.amazonaws.com/koha+images/landing+page+images/bothke+v.+commissioner%2C+39+t.c.m.+(cch)+826%2C+t.c.+.jpg"><img src="https://ustc-koha-homepage.s3.amazonaws.com/koha+images/landing+page+images/bothke+v.+commissioner%2C+39+t.c.m.+(cch)+826%2C+t.c.+.jpg" width="100%" height="100%"></a></li>
-<br>
-<li>Bloomberg Law Tax pagination:
-<br><a href="https://ustc-koha-homepage.s3.amazonaws.com/koha+images/landing+page+images/little+v.+commissioner%2C+69+t.c.m.+(cch)+1575%2C+t.c.jpg"><img src="https://ustc-koha-homepage.s3.amazonaws.com/koha+images/landing+page+images/little+v.+commissioner%2C+69+t.c.m.+(cch)+1575%2C+t.c.jpg" width="100%" height="100%&quot;"></a></li>
-
-</ul>
-</div>
-
-  </div>
-
-<div id="Free Online Resources" class="tabcontent">
-<h1>Free Online Resources</h1>
-<h2>Internal Revenue Code (Current)</h2>
-<li><a href="http://www.law.cornell.edu/uscode/text/26" target="_blank">Internal Revenue Code</a></li> 
-
-<h2>Treasury Regulations (Current)</h2>
-<li><a href="http://www.ecfr.gov/cgi-bin/text-idx?sid=209f70be853526c6977d1cfec387ee56&amp;c=ecfr&amp;tpl=/ecfrbrowse/Title26/26tab_02.tpl" target="_blank">Treasury Regulations</a></li>
-
-<h2>Codes of Conduct</h2>
-<li><a href="https://www.uscourts.gov/rules-policies/judiciary-policies/ethics-policies/published-advisory-opinions" target="_blank">Advisory Opinions</a></li> 
-<li><a href="http://www.uscourts.gov/RulesAndPolicies/CodesOfConduct/CodeConductUnitedStatesJudges.aspx" target="_blank">Code of Conduct for United States Judges</a></li> 
-
-<h2>Federal Procedural Rules</h2>
-<li><a href="http://www.law.cornell.edu/rules/frap" target="_blank">Federal Rules of Appellate Procedure</a></li> 
-<li><a href="http://www.law.cornell.edu/rules/frbp" target="_blank">Federal Rules of Bankruptcy Procedure</a></li> 
-<li><a href="https://www.law.cornell.edu/rules/frcp" target="_blank">Federal Rules of Civil Procedure</a></li> 
-<li><a href="http://www.law.cornell.edu/rules/frcrmp" target="_blank">Federal Rules of Criminal Procedure</a></li>
-<li><a href="http://www.law.cornell.edu/rules/fre" target="_blank">Federal Rules of Evidence</a></li>
-
-<h2>Model Rules</h2>
-<li><a href="http://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/model_rules_of_professional_conduct_table_of_contents.html" target="_blank">Model Rules of Professional Conduct</a></li> 
-
-</div>
-
-<div id="Legislative History" class="tabcontent">
-  <h1>Legislative History</h1>
-<h2>Below is a link to the Library's Electronic Legislative History collection</h2>
-<a href="https://djkanotherone.s3.amazonaws.com/legislative-history-index.html" target="_blank">Test Legislative History Collection</a>
-<p>This is still a massive work in progress. Yes, all of the 112th Congress are the same PL, but this was just to give an idea of format. Let us know what you think. Thanks!</p><p>
-
-</p></div>
-
-
-<div id="Articles of Interest" class="tabcontent">
-
-<h1>Articles of Interest</h1>
-
-<iframe id="forum_embed" src="javascript:void(0)" scrolling="no" frameborder="0" width="100%" height="900">
-</iframe>
-<script type="text/javascript">
-  document.getElementById('forum_embed').src =
-     'https://groups.google.com/forum/embed/?place=forum/articles-of-interest-feed'
-     + '&showsearch=true&showpopout=false&showtabs=false'
-     + '&parenturl=' + encodeURIComponent(window.location.href);
-</script> 
-
-<p>To view the RSS in another window, please <a href="https://groups.google.com/forum/?oldui=1#!forum/articles-of-interest-feed">click here.</a></p>
-
-<p>To view an archive of old Articles dating back to October 2019, please <a href="https://groups.google.com/forum/?oldui=1#!forum/articles-of-interest-archive">click here.</a></p>
-
-</div>
-
-<div id="Cases Decided on Appeal" class="tabcontent">
-<h1>Cases Decided on Appeal</h1>
-<iframe id="forum_embed2" src="javascript:void(0)" scrolling="no" frameborder="0" width="100%" height="700">
-</iframe>
-<script type="text/javascript">
-  document.getElementById('forum_embed2').src =
-     'https://groups.google.com/forum/embed/?place=forum/cases-decided-on-appeal'
-     + '&showsearch=true&showpopout=false&showtabs=false'
-     + '&parenturl=' + encodeURIComponent(window.location.href);
-</script> 
-
-<p>To view the RSS in another window, please <a href="https://groups.google.com/forum/?oldui=1#!forum/cases-decided-on-appeal">click here.</a></p>
-
-<p>To view an archive of old Cases dating back to October 2019, please <a href="https://groups.google.com/forum/?oldui=1#!forum/cases-decided-on-appeal-archive">click here.</a></p>
-
-</div>
-
 <div id="Library Bulletin" class="tabcontent">
-  <h1>March 2021 Library Bulletin</h1>
+  <h1>April 2021 Library Bulletin</h1>
 <h2>PROCEEDINGS BEFORE THE TAX COURT
 WHICH HAVE BEEN TAKEN TO THE SUPREME COURT</h2>
 
@@ -167,15 +17,11 @@ WHICH HAVE BEEN TAKEN TO THE SUPREME COURT</h2>
 <td> </td>
 
   <tr>
-    <td>Northern California Small Business Assistants, Inc. </td>
-    <td>Order 
-<br>Docket. No.10594-15</td>
-    <td>USCA 9th Cir.
-<br>962 F.3d 1082 
-<br>Affirmed </td>
-    <td>Cert Applied 
-<br>1/25/2021</td>
- </tr>
+    <td>No cases</td>
+    <td> </td>
+    <td> </td>
+<td> </td>
+  </tr>
  
  <tr>
     <th>Certiorari Granted:</th>
@@ -197,16 +43,11 @@ WHICH HAVE BEEN TAKEN TO THE SUPREME COURT</h2>
 <td> </td>
 </tr>
   <tr>
-    <td>Ryskamp, John Henry</td>
-    <td>Order
-<br>Docket No. 6595-19 
- </td>
-    <td>USCA 9th Cir.
-<br>816 F. App’x. 207 
-<br>Affirmed</td>
-    <td>Cert Denied
-<br>2/22/2021</td>
- </tr>
+    <td>No cases</td>
+    <td> </td>
+    <td> </td>
+<td> </td>
+  </tr>
 
 <tr>
     <th>Rehearing Denied:</th>
@@ -235,56 +76,39 @@ WHICH HAVE BEEN DECIDED ON APPEAL</h2>
   </tr>
   
   <tr>
-    <td>Benham, Daniel Doyle</td>
-    <td>Foley</td>
-    <td>Docket No. 25406-18
-<br>Order</td>
-    <td>Affirmed
-<br>127 AFTR 2d 2021-516 
-<br>(6th Circuit, 2020)</td>
- </tr>
-
-  <tr>
-    <td>Eldridge, Carrie Rae</td>
-    <td>Marvel</td>
-    <td>Docket No. 14744-18 
-<br>Order</td>
-    <td>Affirmed
-<br>835 F. App’x. 271
-<br>(9th Circuit, 2021)</td>
- </tr>
-
-  <tr>
-    <td>Gregory, Damian A. &
-<br>Shayla A. Gregory</td>
-    <td>Buch</td>
-    <td>Docket No. 1465-17 
-<br>152 TC 129</td>
-    <td>Vacated and Remanded 
-<br>126 AFTR 2d 2020-7273
-<br>(3rd Circuit, 2020) </td>
- </tr>
-
-  <tr>
-    <td>Llanos, William A.</td>
+    <td>Byers, Ronald E.</td>
     <td>Kerrigan</td>
-    <td>Docket No. 9890-18 
+    <td>Docket No. 8432-18L
 <br>Order</td>
     <td>Affirmed
-<br>835 F. App’x. 267
-<br>(9th Circuit, 2021)</td>
+<br>838 F. App’x 214
+<br>(8th Circuit, 202q)</td>
  </tr>
 
   <tr>
-    <td>Smith, Martha G. & 
-<br>George S. Lakner</td>
-    <td>Lauber</td>
-    <td>Docket Nos. 8847-12, 
-<br>25714-12, 12293-14 
-<br>TCM 2018-127</td>
-    <td>Affirmed
-<br>126 AFTR 2d 2020-7255
-<br>(DC Circuit, 2021)</td>
+    <td>-Coffey, Judith S., 
+<br>Government of the US Virgin Islands, 
+<br>Intervenor 
+<br>-Coffey, James, Estate of, 
+<br>Judith Coffey, Executrix</td>
+    <td>Holmes</td>
+    <td>Docket Nos. 4949-10 
+<br>                        4720-10 
+<br>150 TC 60</td>
+    <td>Reversed and Remanded 
+<br>on Rehearing
+<br>987 F.3d 808
+<br>(8th Circuit, 2021)</td>
+ </tr>
+
+  <tr>
+    <td>Harris, Joshua</td>
+    <td>Carluzzo</td>
+    <td>Docket No. 22369-16
+<br>Order</td>
+    <td>Vacated and Remanded 
+<br>Docket No. 22369-16
+<br>(2nd Circuit, 2021) </td>
  </tr>
  
 </tbody></table>
@@ -296,172 +120,52 @@ WHICH HAVE BEEN DECIDED ON APPEAL</h2>
 
 <ul class="a">
 
-<li><a href="https://1.next.westlaw.com/Document/I5801574b701c11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad62af000000177bbb7bce992dd21ac%3FpcidPrev%3Db9d05310d4c34d518c8cecd4af4f5944%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI5801574b701c11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=c610514b0b58e89085d8b7458e2189df&list=ANALYTICAL&rank=3&sessionScopeId=14eb7a9cac108fa4ff54861a50b132f4cd6d1fa424812c018034109d71251e29&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">20 Recent IRS Enforcement Actions in Conservation Easement Disputes: Awareness and Preparation Are Key, by Hale E. Sheppard, Esq., 134 Journal of Taxation 15 (March 2021) </a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/Ic9efbd70874411eba5e6e5d8d712873b/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3f000001788e60853792653bdb%3Fppcid%3Dafefd1f1dc844ca48bc8646e905b5ce8%26Nav%3DNEWS%26fragmentIdentifier%3DIc9efbd70874411eba5e6e5d8d712873b%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=ddb29cc46ef290d533be7fffa355ae77&list=NEWS&rank=37&sessionScopeId=674fa8bcc245cfbb85c01701a6b5ee144146cec3f6c17df79ac3caeef6436e16&ppcid=afefd1f1dc844ca48bc8646e905b5ce8&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Acquiring the Tax Benefits of a Corporation, by Ray A. Knight and Lee G. Knight, 231 Journal of Accountancy 36 (February 1, 2021)</a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/I9d48877761e611ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad62af000000177bbaf9a3d92dd1bb6%3FpcidPrev%3D12bd24b2584a4dc6a42821fb1370fcbc%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI9d48877761e611ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=d5131ff4a3967459452161ed12ef80e1&list=ANALYTICAL&rank=2&sessionScopeId=14eb7a9cac108fa4ff54861a50b132f4cd6d1fa424812c018034109d71251e29&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Client Gift of Vacation Home to SLATs: Valuable Technique but Traps to Consider, by Patrick Gordon, Esq., Courtney Dolaway, Esq., David Neufeld, Esq., Brian Boak, et al., 48 Estate Planning 10 (February 2021) </a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/If91e36456dbb11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3f000001788e871a6892655d0a%3Fppcid%3D40a665f4458c4eecb41dd7cc318fad5e%26Nav%3DANALYTICAL%26fragmentIdentifier%3DIf91e36456dbb11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=96903123afbf04f51fc110235a4bb072&list=ANALYTICAL&rank=9&sessionScopeId=4a34375f88b6466f2e0def72e0c370f1e9118cc7a190d00662668e51654f2237&ppcid=40a665f4458c4eecb41dd7cc318fad5e&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Conversation Easements and Pine Mountain: Favorable Rulings by Court of Appeals and Pending Issues, by Hale E. Sheppard, 32 Taxation of Exempts 12 (March/April 2021)</a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/I9d48877f61e611ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad62af000000177bbaf9a3d92dd1bb6%3FpcidPrev%3Dbea7dea382b5405eb23af124350ae8ca%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI9d48877f61e611ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=d5131ff4a3967459452161ed12ef80e1&list=ANALYTICAL&rank=6&sessionScopeId=14eb7a9cac108fa4ff54861a50b132f4cd6d1fa424812c018034109d71251e29&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29"> Deductions for a Gig Economy, by Jane R. Livingstone, 48 Estate Planning 30 (February 2021) </a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/Ic9e97be0874411ebb5e69fa9683f9ff5/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3f000001788e60853792653bdb%3Fppcid%3Dafefd1f1dc844ca48bc8646e905b5ce8%26Nav%3DNEWS%26fragmentIdentifier%3DIc9e97be0874411ebb5e69fa9683f9ff5%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=ddb29cc46ef290d533be7fffa355ae77&list=NEWS&rank=9&sessionScopeId=674fa8bcc245cfbb85c01701a6b5ee144146cec3f6c17df79ac3caeef6436e16&ppcid=afefd1f1dc844ca48bc8646e905b5ce8&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Conservation Easements Were Granted in Perpetuity, by Mark A. McCoon, 231 Journal of Accountancy 49 (March 1, 2021)</a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/Iba6d65d7652c11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad62af000000177bbb61a3192dd2050%3FpcidPrev%3Dcfd3e0da3ae3411cb6a10488da365ab4%26Nav%3DANALYTICAL%26fragmentIdentifier%3DIba6d65d7652c11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=898721f327039c6577804515fdbe75ff&list=ANALYTICAL&rank=5&sessionScopeId=14eb7a9cac108fa4ff54861a50b132f4cd6d1fa424812c018034109d71251e29&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">IRS Guidance Reduces Reporting on Foreign Pension and Other Savings Plans but Does Not Clarify Income Tax Liabilities, by Marnin J. Michaels, Lyubomir Georgiev, Elliott Murray, et al., 32 Journal of International Taxation 35 (February 2021) </a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/Idc9edec5e28811eabea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3f000001788e784fc8926552a4%3Fppcid%3D801f1ae9b0f146d3995c249e3dbd95f2%26Nav%3DANALYTICAL%26fragmentIdentifier%3DIdc9edec5e28811eabea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=cf9bdc5f4bc24fc650f5546c617fdae6&list=ANALYTICAL&rank=20&sessionScopeId=674fa8bcc245cfbb85c01701a6b5ee144146cec3f6c17df79ac3caeef6436e16&ppcid=801f1ae9b0f146d3995c249e3dbd95f2&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Curbing (or Not) Foreign Influence on U.S. Politics and Policies through the Federal Taxation of Charities, by Johnny Rex Buckles, 79 Maryland Law Review 590 (2020)</a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/Idbc830ce6dc011ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad73aa600000177bbd98b2f75c895ad%3FpcidPrev%3Dd779ac5b9f9c4915a19a88077b4fab5b%26Nav%3DANALYTICAL%26fragmentIdentifier%3DIdbc830ce6dc011ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=d2a500010549a946cad2baee202d97ab&list=ANALYTICAL&rank=4&sessionScopeId=14eb7a9cac108fa4ff54861a50b132f4cd6d1fa424812c018034109d71251e29&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">New IRS Enforcement Campaign to Stop Tax Violations by Nonresident Aliens Renting and Selling U.S. Real Property, by Hale E. Sheppard, Esq., 48 Real Estate Taxation 22 (First Quarter, 2021) </a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I243058c0880e11eba8addf101dfebc10/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3d000001784a9d2f8c6a95e060%3Fppcid%3D6aecbb7a87934d4da658f6d9205b31e4%26Nav%3DNEWS%26fragmentIdentifier%3DI243058c0880e11eba8addf101dfebc10%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Category%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=0b9fe41c677981502a27394de0523c5e&list=NEWS&rank=4&sessionScopeId=082d9a2c344b14e331e9716b52b35980dfb4f53ca4aa01d07fa2f0800d86341b&ppcid=6aecbb7a87934d4da658f6d9205b31e4&originationContext=categorypagelisting&transitionType=SearchItem&contextData=%28sc.Category%29">Developments in Individual Taxation, by David R. Baldwin, Robert Caplan, Mary Kay Foss, et al., 52 The Tax Adviser 166 (March 2021)</a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/Iba6d65d9652c11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad62af000000177bbb61a3192dd2050%3FpcidPrev%3Dcfd3e0da3ae3411cb6a10488da365ab4%26Nav%3DANALYTICAL%26fragmentIdentifier%3DIba6d65d9652c11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=898721f327039c6577804515fdbe75ff&list=ANALYTICAL&rank=6&sessionScopeId=14eb7a9cac108fa4ff54861a50b132f4cd6d1fa424812c018034109d71251e29&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Practical Transfer Pricing Strategies in the Covid Environment, by Frank J. Vari, 32 Journal of International Taxation 45 (February 2021) </a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I7dd1ec02824711ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3f000001788e9d40f1926570ee%3Fppcid%3Dfc741472a38646e99a1608290cc0082b%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI7dd1ec02824711ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=072b539fd18c7ccd7a28e06a46d35e6b&list=ANALYTICAL&rank=3&sessionScopeId=4a34375f88b6466f2e0def72e0c370f1e9118cc7a190d00662668e51654f2237&ppcid=fc741472a38646e99a1608290cc0082b&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Every Taxpayer Counts: Nina Olson’s Impact on Low-Income Taxpayer Clinics, by T. Keith Fogg, 18 Pittsburgh Tax Review 53 (Fall 2020)</a></li><br>
 
-<li><a href="https://www.bloomberglaw.com/product/tax/document/X1MD0LDS000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvNTEzOTRmM2Q1NWE3ZmNkODI0ZjIxZWFjOTI5MjhkZTMiXV0--64b0939bc7afcbcb43354d42b61c6e0ae37d710a&guid=c7ac73f0-1020-4266-9b69-9b7feba08402&search32=RN6o3jY5b0G9qc_sY0Al3g%3D%3DwvdqKUpU7d6rMQGdm1H-TOV9g-NKKJyh3mkmv__2wnLnzEFmcngV-n9J5ROQkeW_zHvTc5fLc4ITkutm1oELVpkwfT05Lj3IVEUWptSlfe9qspuv9OTl3W0NhSO0GBoDcqGXn0MU_MUiF7-85peri2S_JBUgRgdm0WBm9D_oUjotYRa6NbZmsnO1ZknH9_u6AOfjC_RiussNzLhVps6ildH1QHhFQnT2wM4wyaxR5sXY6eFgllY6Qkh7xxXbWkH1oCTW1G__sKftVcGxcTo8PAmgTA42KJqmNwNH75JVcXPHhHNqhRgSOW0BV1hrE-2MYifqRo3YaiZgMvJ1fdNe8U2zir3QkbFPh8cwEewx_dYXZhCZ4Rze0v0KfuSczxH4qkW9sufU5QAdrfElvGlXNA%3D%3D">Pricing of Intercompany Loans or Debt Versus Equity? ‘BlackRock’ and Other Selected Cases in Light of Recent OECD Guidance, by J. Harold McClure, 50 Tax Management International 98 (February 5, 2021) </a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I6c1808b47bf511ebbea4f0dc9fb69570/View/FullText.html?ppcid=06b5a146832e4e9d9f75a819e703611e&originationContext=documenttoc&transitionType=CategoryPageItem&contextData=%28sc.Category%29">Finding a Fix for Powell, by Jonathan G. Blattmachr, Mitchell M. Gans, and Elizabeth T. Pierson, 48 Estate Planning 16 (March 2021)</a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/Ibd2d407f65bf11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad73aa600000177bbd3414975c890ac%3FpcidPrev%3D60efa748dd3a45afa10d331ad0916d92%26Nav%3DANALYTICAL%26fragmentIdentifier%3DIbd2d407f65bf11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=40806d9396d6583abefa5dada556cd8b&list=ANALYTICAL&rank=5&sessionScopeId=14eb7a9cac108fa4ff54861a50b132f4cd6d1fa424812c018034109d71251e29&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">The Promise of Senior Judges, by Marin K. Levy, 115 Northwestern University Law Review 1227 (2021) </a></li><br>
+<li>Forget What You Know: Keefe Shows There’s No Hope for Dealer-Investor Jurisprudence, by Matthew E. Rappaport, 38 Journal of Taxation of Investments 39 (Winter 2021) (*Article not available online. Contact the library for a copy of the article.)</li><br>
 
-<li><a href="https://www.bloomberglaw.com/product/tax/document/XCN0U2KG000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvNzcwNWQxYThkMzE1OTY0NDdhMmM1M2I0M2QyM2MxY2MiXV0--e61c311d2165106771b8ff50a9ab7458ca032f02&guid=dc7df69e-865d-44b1-804e-8bccd3108ca0&search32=1mRDqhbwvaDfDgYQkM0yGA%3D%3DCWOFH1CnMAvFCbik5jvicyAfnm3yWApW0LMSGD4ZZL_2cra8mH7bl6KIgcQ-2mDLBnyFMiN_YZ9CzPSjTx3HrLcgrsuKB1nLJKrTlvw0PjuS7wCv4USrsX9ODYazruAMWxBkLZWRFlcKizCr6XkZyOLdEec8H3dF7infG0B4zfxAhP9akBczwUuFVgSd7uUZ_6WlMK2wFkQsEz8r8hCp6mCkG_vLvSfzuMD9HM41xC8so6bnoaV3MFrnThdLEK1IPO2RK8oyM4nC5JPGiWZ0DQ2V5-AFUAnOAf0muOg6vQwYGpP7zEWG-TddYox-2RdpyQprtkwxEp_FX_2lmM4lSEyPhkRH6MHAQtiN50BR8zdJe85VuPBRzh3dg_0WgAgy">Tax Court in MidCo Case Awards Taxpayers Summary Judgment on Both Substantive and Procedural Grounds, Raising Some Questions, by Joel E. Miller, 62 Tax Management Memorandum 37 (February 15, 2021)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I75d0ce38819511ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3f000001788e9e25e2926571e3%3Fppcid%3D5aa4cd7c73234558b0d224a9e0b91382%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI75d0ce38819511ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=0c3ec0615dcbbf1f8936fe2c289331f5&list=ANALYTICAL&rank=1&sessionScopeId=4a34375f88b6466f2e0def72e0c370f1e9118cc7a190d00662668e51654f2237&ppcid=5aa4cd7c73234558b0d224a9e0b91382&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">The International Tax Regime and Global Power Shifts, by Eduardo Baistrocchi, 40 Virginia Tax Review 219 (Winter 2021)</a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I9edb3247674d11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3f000001788e987eec92656b23%3Fppcid%3D523bb2ab7c804234ba8518beac5d6f43%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI9edb3247674d11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=a46ea14f09ba18f85beb2895d6bb7592&list=ANALYTICAL&rank=3&sessionScopeId=4a34375f88b6466f2e0def72e0c370f1e9118cc7a190d00662668e51654f2237&ppcid=523bb2ab7c804234ba8518beac5d6f43&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Judicial Review of Good Cause Determinations under the Administrative Procedure Act, by Kyle Schneider 237 (January 2021)</a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I7dd1ec08824711ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3f000001788e9d40f1926570ee%3Fppcid%3Dfc741472a38646e99a1608290cc0082b%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI7dd1ec08824711ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=072b539fd18c7ccd7a28e06a46d35e6b&list=ANALYTICAL&rank=6&sessionScopeId=4a34375f88b6466f2e0def72e0c370f1e9118cc7a190d00662668e51654f2237&ppcid=fc741472a38646e99a1608290cc0082b&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Nina E. Olson: A Legislative Legacy, by Danshera Wetherington Cords, 18 Pittsburgh Tax Review 139 (Fall 2020)</a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I7dd1ec06824711ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3f000001788e9d40f1926570ee%3Fppcid%3Dfc741472a38646e99a1608290cc0082b%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI7dd1ec06824711ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=072b539fd18c7ccd7a28e06a46d35e6b&list=ANALYTICAL&rank=5&sessionScopeId=4a34375f88b6466f2e0def72e0c370f1e9118cc7a190d00662668e51654f2237&ppcid=fc741472a38646e99a1608290cc0082b&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Nina Olson: A Champion for Taxpayer-Centered Tax Administration, by Leslie Book, 18 Pittsburgh Tax Review 121 (Fall 2020)</a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I7dd1ec04824711ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3f000001788e9d40f1926570ee%3Fppcid%3Dfc741472a38646e99a1608290cc0082b%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI7dd1ec04824711ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=072b539fd18c7ccd7a28e06a46d35e6b&list=ANALYTICAL&rank=4&sessionScopeId=4a34375f88b6466f2e0def72e0c370f1e9118cc7a190d00662668e51654f2237&ppcid=fc741472a38646e99a1608290cc0082b&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Nina’s Leadership As a Servant Leader and Her Impact on States’ Taxpayer Rights, by Diana L. Leyden, 18 Pittsburgh Tax Review 109 (Fall 2020)</a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/Ic9e695b0874411eba0e08bbcc092c829/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3f000001788e60853792653bdb%3Fppcid%3Dafefd1f1dc844ca48bc8646e905b5ce8%26Nav%3DNEWS%26fragmentIdentifier%3DIc9e695b0874411eba0e08bbcc092c829%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=ddb29cc46ef290d533be7fffa355ae77&list=NEWS&rank=21&sessionScopeId=674fa8bcc245cfbb85c01701a6b5ee144146cec3f6c17df79ac3caeef6436e16&ppcid=afefd1f1dc844ca48bc8646e905b5ce8&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">President of Not-For-Profit Organization Denied Passthrough Losses, by Charles J. Reichert, 231 Journal of Accountancy 48 (March 1, 2021)</a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/Id4b31b35772e11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3f000001788e81872d92655906%3Fppcid%3D3138f46f7ccc44d1993a82b6b1dafc13%26Nav%3DANALYTICAL%26fragmentIdentifier%3DId4b31b35772e11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=bf341668433db19e7f88ba1afbcce1d0&list=ANALYTICAL&rank=3&sessionScopeId=4a34375f88b6466f2e0def72e0c370f1e9118cc7a190d00662668e51654f2237&ppcid=3138f46f7ccc44d1993a82b6b1dafc13&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">The Procedural ABCs for Refund Claims and Litigation, by Kevin E. Packman and Andrew H. Weinstein, 106 Practical Tax Strategies 4 (March 2021)</a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I948c8f44771511ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3f000001788e7fefaf92655823%3Fppcid%3Da5355b77ce7e477595932985576ea5ad%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI948c8f44771511ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=ff697ffc8f4beb4ebc01fcc6bb8a21c0&list=ANALYTICAL&rank=2&sessionScopeId=4a34375f88b6466f2e0def72e0c370f1e9118cc7a190d00662668e51654f2237&ppcid=a5355b77ce7e477595932985576ea5ad&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Proceeding with a Valuation Case Involving Closely Held Business Interests before the United States Tax Court (Part 3), by Jerald David August, 35 Practical Tax Lawyer 22 (March 2021)</a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I6c1808b27bf511ebbea4f0dc9fb69570/View/FullText.html?ppcid=b4560360b3fe44b69101cbe6f61545ae&originationContext=documenttoc&transitionType=CategoryPageItem&contextData=%28sc.Category%29">Selected Issues Associated with Like-Kind Exchanges, by Roger McEowen, 48 Estate Planning 4 (March 2021)</a></li><br>
+
+<li>Short Takes: Recent Developments of Interest to Investors, Journal of Taxation of Investments 85 (Winter 2021) (*Article not available online. Contact the library for a copy of the article.)</li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I7dd1ec0c824711ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3f000001788e9d40f1926570ee%3Fppcid%3Dfc741472a38646e99a1608290cc0082b%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI7dd1ec0c824711ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=072b539fd18c7ccd7a28e06a46d35e6b&list=ANALYTICAL&rank=8&sessionScopeId=4a34375f88b6466f2e0def72e0c370f1e9118cc7a190d00662668e51654f2237&ppcid=fc741472a38646e99a1608290cc0082b&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Showing Us How to Get It Done: Nina Olson, by Caroline D. Ciraolo, 18 Pittsburgh Tax Review 183 (Fall 2020)</a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/Id4b31b45772e11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3f000001788e81872d92655906%3Fppcid%3D3138f46f7ccc44d1993a82b6b1dafc13%26Nav%3DANALYTICAL%26fragmentIdentifier%3DId4b31b45772e11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=bf341668433db19e7f88ba1afbcce1d0&list=ANALYTICAL&rank=11&sessionScopeId=4a34375f88b6466f2e0def72e0c370f1e9118cc7a190d00662668e51654f2237&ppcid=3138f46f7ccc44d1993a82b6b1dafc13&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Tax Court Holds That Section 72(T) 10% Early Distribution Amount Is Tax, Not Penalty, 106 Practical Tax Strategies 37 (March 2021)</a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I68b3bfa68e8f11ebbea4f0dc9fb69570/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3f000001788e9edadb92657294%3Fppcid%3Dd7681af90ef14e4fb88fa5cd5aa33676%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI68b3bfa68e8f11ebbea4f0dc9fb69570%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=1b50494df945363d34e8e5db4c177d9f&list=ANALYTICAL&rank=2&sessionScopeId=4a34375f88b6466f2e0def72e0c370f1e9118cc7a190d00662668e51654f2237&ppcid=d7681af90ef14e4fb88fa5cd5aa33676&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">The Taxpayer Bill of Rights and the Right to Be Informed: The Positive or Negative Way You Look at It, Stephanie Hunter McMahon, 74 Tax Lawyer 195 (Winter 2021)</a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/Id0138c40874411eba226ba78e5ecc6a8/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3f000001788e60853792653bdb%3Fppcid%3Dafefd1f1dc844ca48bc8646e905b5ce8%26Nav%3DNEWS%26fragmentIdentifier%3DId0138c40874411eba226ba78e5ecc6a8%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=ddb29cc46ef290d533be7fffa355ae77&list=NEWS&rank=56&sessionScopeId=674fa8bcc245cfbb85c01701a6b5ee144146cec3f6c17df79ac3caeef6436e16&ppcid=afefd1f1dc844ca48bc8646e905b5ce8&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Taxpayers Not Allowed Ponzi Loss Safe Harbor, by Charles J. Reichert, 231 Journal of Accountancy 46 (February 1, 2021)</a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/Ica507b10874411eba824a01d1c1bf194/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3f000001788e60853792653bdb%3Fppcid%3Dafefd1f1dc844ca48bc8646e905b5ce8%26Nav%3DNEWS%26fragmentIdentifier%3DIca507b10874411eba824a01d1c1bf194%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=ddb29cc46ef290d533be7fffa355ae77&list=NEWS&rank=22&sessionScopeId=674fa8bcc245cfbb85c01701a6b5ee144146cec3f6c17df79ac3caeef6436e16&ppcid=afefd1f1dc844ca48bc8646e905b5ce8&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Theft Loss of Marital Property Disallowed, by Maria M. Pirrone, 231 Journal of Accountancy 50 (March 1, 2021)</a></li><br>
+
+<li><a href="https://1.next.westlaw.com/Document/I1855a5e07d1a11eb941abe64ab12b16e/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad6ad3f000001788e85297492655b8d%3Fppcid%3Dbf98e0c9fb4a42d9ad77b9260a9f61ed%26Nav%3DNEWS%26fragmentIdentifier%3DI1855a5e07d1a11eb941abe64ab12b16e%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=2a8ef9ac58a868b86b9febe1dbdc71df&list=NEWS&rank=6&sessionScopeId=4a34375f88b6466f2e0def72e0c370f1e9118cc7a190d00662668e51654f2237&ppcid=bf98e0c9fb4a42d9ad77b9260a9f61ed&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">To Rely On or Not to Rely On? Sub-Regulatory Tax Guidance in Turbulent Times, by Matt Lerner, Shiukay Hung, Alexandra Minkovich, et al., 73 Tax Executive 30 (Jan/Feb 2021)</a></li><br>
 
 </ul>
-
-<h2>Library Bulletin Archive</h2>
-
-  <ul id="LibraryBulletinArchive">
-    <!--  Menu item with three levels of sub menu -->   
-	
-	<li><button onclick="myFunction()" class="dropbtn">2021 Library Bulletins</button></li>
-          <!-- sub menu (level 3) -->
-          <ul>
-            <div id="myDropdown" class="dropdown-content">   
-			<li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2021-01.pdf" target="_blank">January 2021</a></li>
-			<li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2021-02.pdf" target="_blank">February 2021</a></li>
-			<li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2021-03.pdf" target="_blank">March 2021</a></li>
-			
-			</div>
-          </ul>
-    
-		
-        <br>
-		
-
-
- <li><button onclick="myFunction2()" class="dropbtn">2020 Library Bulletins</button></li>
-          <!-- sub menu (level 3) -->
-          <ul>
-            <div id="myDropdown2" class="dropdown-content">
-              <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-01.pdf">January 2020</a></li>
-              <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-02.pdf">February 2020</a></li>
-              <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-03.pdf">March 2020</a></li>
-              <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-04.pdf">April 2020</a></li>
-              <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-05.pdf">May 2020</a></li>
-              <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-06.pdf">June 2020</a></li>
-              <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-07.pdf">July 2020</a></li>
-              <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-08.pdf">August 2020</a></li>
-              <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-09.pdf">September 2020</a></li>
-	      <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-10.pdf">October 2020</a></li>
-	      <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-11.pdf">November 2020</a></li>
-              <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2020-12.pdf">December 2020</a></li>
-			  
-            </div>
-          </ul>
-    
-		
-        <br>
-        
-        <li><button onclick="myFunction3()" class="dropbtn">2019 Library Bulletins</button></li>
-          <!-- sub menu (level 3) -->
-          <ul>
-            <div id="myDropdown3" class="dropdown-content">
-            <li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2019-01+and+02.pdf" target="_blank">January/February 2019</a></li>
-			<li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2019-03.pdf" target="_blank">March 2019</a></li>
-			<li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2019-04.pdf" target="_blank">April 2019</a></li>
-			<li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2019-05.pdf" target="_blank">May 2019</a></li>
-			<li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2019-06.pdf" target="_blank">June 2019</a></li>
-			<li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2019-07.pdf" target="_blank">July 2019</a></li>
-			<li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2019-08.pdf" target="_blank">August 2019</a></li>
-			<li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2019-09.pdf" target="_blank">September 2019</a></li>
-			<li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2019-10.pdf" target="_blank">October 2019</a></li>
-			<li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2019-11.pdf" target="_blank">November 2019</a></li>
-			<li><a href="https://ustc-koha-homepage.s3.amazonaws.com/library+bulletin+archive/library+bulletin+2019-12.pdf" target="_blank">December 2019</a></li>
-            </div>
-          </ul>
-  </ul>
-  <br>
-</div>
-
-
-<div id="Selected Online Treatises" class="tabcontent">
-  <h1>Selected Online Treatises</h1>
-
-    <li><a href="https://advance.lexis.com/api/permalink/62a6a1a1-307a-43b6-a8c6-174d84cd8f10/?context=1000516" target="_blank">Federal Courtroom Evidence</a></li>
-    <li><a href="https://advance.lexis.com/api/permalink/aec9a31f-82c5-43f5-aaeb-80ac70575c93/?context=1000516" target="_blank">Federal Rules of Evidence Manual</a></li>
-    <li><a href="https://advance.lexis.com/api/permalink/6f3a36a2-16ee-4cfd-8c00-073a13ee9328/?context=1000516" target="_blanl">Weinstein's Evidence Manual</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/FederalTaxTreatisesWGL/ElliottFederalTaxCollectionsLiensLeviesWGL?transitionType=Default&amp;contextData=(sc.Default)&amp;VR=3.0&amp;RS=cblt1.0" target="_blank">Federal Tax Collections: Liens and Levies</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/EstatePlanningEstateTaxTreatisesWGL/BogdanskiFederalTaxValuationWGL?transitionType=Default&amp;contextData=(sc.Default)&amp;VR=3.0&amp;RS=cblt1.0" target="_blank">Federal Tax Valuation</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/FormFinder/TaxFormFinder/BittkerEmoryStrengFederalIncomeTaxationofCorporationsShareholdersFormsWGL?transitionType=Default&amp;contextData=(sc.Default)&amp;VR=3.0&amp;RS=cblt1.0" target="_blank">Federal Income Taxation of Corporations and Shareholders</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/BusinessEntitiesTreatisesWGL/BittkerLokkenFederalTaxationofIncomeEstatesGiftsWGL?transitionType=Default&amp;contextData=(sc.Default)&amp;VR=3.0&amp;RS=cblt1.0" target="_blank">Federal Taxation of Income, Estates and Gifts</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/BusinessEntitiesTreatisesWGL/McKeeNelsonWhitmireFederalTaxationofPartnershipsPartnersWGL?transitionType=Default&amp;contextData=(sc.Default)&amp;VR=3.0&amp;RS=cblt1.0" target="_blank">Federal Taxation of Partnerships and Partners</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/BusinessEntitiesTreatisesWGL/SaltzmanBookIRSPracticeProcedureWGL?transitionType=Default&amp;contextData=(sc.Default)&amp;VR=3.0&amp;RS=cblt1.0" target="_blank">IRS Practice and Procedure</a></li>
-    <li><a href="https://www.westlaw.com/Browse/Home/SecondarySources/TaxSecondarySources/WarrenGorhamLamontWGL/FederalTaxTreatisesWGL/KafkaCavanaghLitigationofFederalCivilTaxControversiesWGL?transitionType=Default&amp;contextData=(sc.Default)&amp;VR=3.0&amp;RS=cblt1.0" target="_blank">Litigation of Federal Civil Tax Controversies</a></li>
-
-
-</div>
-
-<div id="Upcoming Training" class="tabcontent">
-  
-  <h1>Upcoming Training</h1>
- 
-  <p>Courtlink Training - March 17 at 2P. Zoom info to follow.</p>
-
-</div>
-
-<script>
-function openNews(evt, newsArt) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(newsArt).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
-
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function myFunction2() {
-  document.getElementById("myDropdown2").classList.toggle("show");
-}
-function myFunction3() {
-  document.getElementById("myDropdown3").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script><!DOCTYPE html>
-<html>
-<head>
-	<title>Page Title</title>
-</head>
-<body>
-
-
-
-</body>
-</html>
