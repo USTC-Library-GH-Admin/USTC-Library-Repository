@@ -18,10 +18,8 @@
 	<button class="tablinks" onclick="openNews(event, 'Free Online Resources')"> Free Online Resources</button>
 <button class="tablinks" onclick="openNews(event, 'Selected Online Treatises')">Selected Online Treatises</button>
 <button class="tablinks" onclick="openNews(event, 'Legislative History')">Legislative History</button>
-    <button class="tablinks" onclick="openNews(event, 'Articles of Interest')">Articles of Interest</button>
- <a style="color:white" href="https://groups.google.com/u/0/g/articles-of-interest-feed"><button class="tablinks">Articles of Interest 2</button></a>
-  <button class="tablinks" onclick="openNews(event, 'Cases Decided on Appeal')">Cases Decided on Appeal</button>
- <a style="color:white" href="https://groups.google.com/u/0/g/cases-decided-on-appeal"><button class="tablinks">Cases Decided on Appeal 2</button></a>
+ <a style="color:white" href="https://groups.google.com/u/0/g/articles-of-interest-feed"><button class="tablinks">Articles of Interest</button></a>
+ <a style="color:white" href="https://groups.google.com/u/0/g/cases-decided-on-appeal"><button class="tablinks">Cases Decided on Appeal</button></a>
 <button class="tablinks" onclick="openNews(event, 'Library Bulletin')" id="defaultOpen">Library Bulletin</button>
 <button class="tablinks" onclick="openNews(event, 'Upcoming Training')">Upcoming Training</button>
 </div>
@@ -461,14 +459,4 @@ window.onclick = function(event) {
     }
   }
 }
-</script><!DOCTYPE html>
-<html>
-<head>
-	<title>Page Title</title>
-</head>
-<body>
-
-
-
-</body>
-</html>
+</script>
