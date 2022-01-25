@@ -4,6 +4,7 @@
 <br>
 <a href="https://www.bloomberglaw.com/start" target="_blank">Bloomberg Law</a>
 <a href="https://www.bloomberglaw.com/product/tax/page/page_federal" target="_blank">Bloomberg Law: Tax</a>
+<a href="https://www.legalbluebook.com/" target="_blank">The Bluebook: A Uniform System of Citation</a>
 <a href="https://heinonline.org/HOL/Welcome" target="_blank">HeinOnline</a>
 <a href="https://www.law360.com/" target="_blank">Law 360</a>
 <a href="https://signin.lexisnexis.com/lnaccess/app/signin?back=https%3A%2F%2Fplus.lexis.com%3A443%2F&amp;aci=lp" target="_blank">Lexis+</a><a href="https://www.oed.com/" target="_blank">Oxford English Dictionary</a>
@@ -16,8 +17,8 @@
 <button class="tablinks" value="Welcome" onclick="openNews(event, 'Welcome')" id="defaultOpen">Welcome</button>
 	<button class="tablinks" onclick="openNews(event, 'Free Online Resources')"> Free Online Resources</button>
 <button class="tablinks" onclick="openNews(event, 'Selected Online Treatises')">Selected Online Treatises</button>
- <a style="color:white" href="https://groups.google.com/u/0/g/articles-of-interest-feed"><button class="tablinks">Articles of Interest</button></a>
- <a style="color:white" href="https://groups.google.com/u/0/g/cases-decided-on-appeal"><button class="tablinks">Cases Decided on Appeal</button></a>
+
+
 <button class="tablinks" onclick="openNews(event, 'Library Bulletin')" id="defaultOpen">Library Bulletin</button>
 <button class="tablinks" onclick="openNews(event, 'Upcoming Training')">Upcoming Training</button>
 </div>
@@ -265,7 +266,7 @@ WHICH HAVE BEEN DECIDED ON APPEAL</h2>
   </tr>
   
   <tr>
-    <td>Bloomer, Mark Anthony </td>
+    <td>Blommer, Mark Anthony </td>
     <td>Foley</td>
     <td>Docket No. 469-20
     <br> Order</td>
