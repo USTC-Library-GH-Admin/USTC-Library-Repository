@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there -->
+    <title>USTC Electronic Legislative History Collection - PL 112-96</title>
+<!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
+    <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+
+<!--Header - this lets the header link back to the ELH website homepage - keep intact-->
+	<div class="header">
+	   <h1><a class="homepage-link" href="https://ustc-elh-static-website.s3.s3.amazonaws.com/legislative-history-index.html">USTC Electronic Legislative History Collection</a></h1>
+	</div>
+<!--End of header-->
+
+<!--This section gives us the navigation bar to the left - keep intact; if you need to update the sidebar, go to the "nav.html" file and edit that-->
+	<div id="nav-placeholder">
+
+	</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("https://ustc-elh-static-website.s3.amazonaws.com/javascript+sidebar/nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+      
+<!--Content of webpage-->
+	<div class="content">
+
+<!--Breadcrumbs - this appears at the top of the page to help users navigate to pages furhter back in the hierarchy - keep intact-->
+	<div class="breadcrumbs">
+	   <script language="javascript" src="https://ustc-elh-static-website.s3.amazonaws.com/breadcrumbs+script/breadcrumb_script.js"></script> 
+	</div>
+<!--end of breadcrumbs-->
+
+
+<!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
+<h1>PL 112-96</h1>
+<h1>Middle Class Tax Relief and Job Creation Act of 2012</h1>
+
+<!--CHANGE: this can be tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy.-->
+<!--I recommend editing this section last, after you know what to expect in terms of contents.-->
+		
+<!--This section is the PL Table of Contents Javascript anchors - this takes a user directly to the part of the page that has an "anchor" on it.-->
+<!-- These anchors need to be modified on a case-by-case basis - the anchors are based on pub types present in the legislative history collection.-->
+<!-- Modify "value" to be your anchor. In the next section, you will run into "id"s, which will need to be filled in with the "value"s from this section.-->
+<!-- Once they match, you will be able to jump to different sections instantly by selecting them from the dropdown menu.-->
+	<br/>
+	<form action="#" onsubmit="return false;">
+	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
+	  <option value="index">Select Publication Type</option>
+      <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
+	  <option value="public-law">Public Law</option>
+	  <option value="reports">Reports</option>
+	  <option value="conference report">Conference Report</option>
+	  <option value="related reports">Related Reports</option>
+	  <option value="hearings">Hearings</option>
+	  <option value="committee prints">Committee Prints</option>
+	  <option value="committee documents">Committee Documents</option>
+	  <option value="hr 3630">H.R. 3630</option>
+	  <option value="related-bills">Related Bills</option>
+	  <option value="resolutions">Resolutions</option>
+	  <option value="congressional-record">Congressional Record</option>
+	</select>
+	</form>
+	<br/>
+<!-- End of PL Table of Contents Javascript anchors -->
+
+<ol type="1">
+
+<!--CHANGE: the "Title of pub" for all items should be replaced with the title from Jen and Nancy's Table of Contents-->
+<!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
+<!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
+<!--The table of contents file can really come in handy from here on out!-->
+<h2 id="public-law">Public Law</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/public+law/pl+112-96.pdf" target="_self">Public Law 112-96 (H.R. 3630), An act to provide incentives for the creation of jobs, and for other purposes, February 22, 2012, 126 Stat. 156</a></li>
+	
+<!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
+<h2 id="reports">Reports</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/reports/house+report+112-87+part+1.pdf" target="_self">House Report 112-87, Part 1, "JOBS Act of 2001", to accompany H.R. 1745, House Committee on Ways and Means, May 23, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/reports/house+report+112-328.pdf" target="_self">House Report 112-328, "Providing for Consideration of the Bill (H.R. 3630) to Provide Incentives for the Creation of Jobs, and for Other Purposes", to accompany H. Res. 491, House Committee on Rules, December 12, 2011</a></li>
+	
+<h2 id="conference report">Conference Report</h2>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/conference+report/house+report+112-399.pdf" target="_self">House Report 112-399, "Middle Class Tax Relief and Job Creation Act of 2012", to accompany H.R. 3630, Committee on Conference, February 16, 2012</a></li>
+	
+<h2 id="related reports">Related Reports</h2>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+reports/house+report+112-335.pdf" target="_self">House Report 112-335, "Providing for Consideration of the Senate Amendments to the Bill (H.R. 3630) to Provide Incentives for the Creation of Jobs, and for Other Purposes; Providing for Consideration of the Resolution (H. Res. 501) Expressing the Sense of the House of Representatives Regarding Any Final Measure to Extend the Payroll Tax Holiday, Extend Federally Funded Unemployment Insurance Benefits, or Prevent Decreases in Reimbursement for Physicians Who Provide Care to Medicare Beneficiaries", to accompany H. Res. 502 December 19, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+reports/house+report+112-400.pdf" target="_self">House Report 112-400, "Providing for Consideration of the Conference Report to Accompany the Bill (H.R. 3630) to Provide Incentives for the Creation of Jobs, and For Other Purposes", to accompany H. Res. 554, House Committee on Rules, February 16, 2012</a></li>
+	
+<h2 id="hearings">Hearings</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/hearings/serial+no.+112-hr1.pdf" target="_self">"Improving Efforts to Help Unemployed Americans Find Jobs", hearing before the Subcommittee on Human Resources of the House Committee on Ways and Means (Serial No. 112-HR1), February 10, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/hearings/senate+hearing+112-166.pdf" target="_self">"Safeguarding Our Future: Building a Nationwide Network for First Responders", hearings before the Senate Committee on Commerce, Science, and Transportation (Senate Hearing 112-166), February 16, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/hearings/serial+no.+112-hr2.pdf" target="_self">"Human Resources Subcommittee Hearing on The Use of Data Matching to Improve Customer Service, Program Integrity, and Taxpayer Savings", hearing before the Subcommittee on Human Resources of the House Committee on Ways and Means (Serial No. 112-HR2), March 11, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/hearings/serial+no.+112-51.pdf" target="_self">"Creating an Interoperable Public Safety Network", hearing before the Subcommittee on Communications and Technology of the House Committee on Energy and Commerce (Serial No. 112-51), May 25, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/hearings/senate+hearing+112-404.pdf" target="_self">"Preserving Integrity, Preventing Overpayments, and Eliminating Fraud in the Unemployment Insurance System", hearing before the Senate Committee on Finance (Senate Hearing 112-404), June 22, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/hearings/serial+no.+112-76.pdf" target="_self">"Legislative Hearing to Address Spectrum and Public Safety Issues", hearing before the Subcommittee on Communications and Technology of the House Committee on Energy and Commerce (Serial No. 112-76), July 15, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/hearings/serial+no.+112-hr6.pdf" target="_self">"Improving Work and Other Welfare Reform Goals", hearing before the Subcommittee on Human Resources to the House Committee on Ways and Means (Serial No.  112-HR6), September 8, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/hearings/serial+no.+112-78.pdf" target="_self">"Take Two: The President's Proposal to Stimulate the Economy and Create Jobs", hearing before the Subcommittee on Regulatory Affairs, Stimulus Oversight and Government Spending of the House Committee on Oversight (Serial No. 112-78), September 13, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/hearings/serial+no.+112-hr08.pdf" target="_self">"Moving From Unemployment Checks to Paychecks: Assessing the President's Proposals to Help the Long-Term Unemployed", hearing before the Subcommittee on Human Resources of the House Committee on Ways and Means (Serial No. 112-HR08), October 6, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/hearings/senate+hearing+112-410.pdf" target="_self">"Unemployment Insurance: The Path Back to Work", hearing before the Senate Committee on Finance (Senate Hearing 112-410), November 10, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/hearings/senate+hearing+112-376.pdf" target="_self">"Bolstering the Economy: Helping American Families by Reauthorizing the Payroll Tax Cut and UI Benefits", hearing before the Joint Economic Committee (Senate Hearing 112-376), February 7, 2012</a></li>
+	
+<h2 id="committee prints">Committee Prints</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/committee+prints/the-case-for-maintaining-ui---supporting-workers-and-strengthening-the-economy.pdf" target="_self">"The Case for Maintaining Unemployment Insurance: Supporting Workers and Strengthening the Economy", committee print issued by the U.S. Congress Joint Economic Committee, December 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/committee+prints/how-continuing-the-payroll-tax-cut-and-federal-ui-benefits-will-help-american-families-and-support-the-recovery.pdf" target="_self">"How Continuing the Payroll Tax Cut and Federal UI Benefits Will Help American Families and Support the Recovery", committee print. issued by the U.S. Congress Joint Economic Committee Chairmans' Staff, January 24, 2012</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/committee+prints/jcs-2-13.pdf" target="_self">"General Explanation of Tax Legislation Enacted in the 112th Congress", prepared by the Staff of the Joint Committee on Taxation (JCS-2-13), February 2013, pages 80-84</a></li>
+
+<h2 id="committee documents">Committee Documents</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/committee+documents/house+document+112-51.pdf" target="_self">"Presidential Address Before a Joint Session of Congress", Message From the President of the United States (House Document 112-51), September 9, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/committee+documents/house+document+112-53.pdf" target="_self">"The 'American Jobs Act of 2011' Legislative Proposal", Message from the President of the United States (House Document 112-53), September 13, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/committee+documents/house+document+112-55.pdf" target="_self">"President's Plan Entitled Living Within Our Means and Investing in the Future", Message From the President of the United States (House Document 11-55), September 19, 2011</a></li>
+
+<h2 id="hr 3630">H.R. 3630</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/hr+3630/hr+3630+as+introduced.pdf" target="_self">H.R. 3630, "Middle Class Tax Relief and Job Creation Act of 2011", as introduced, December 9, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/hr+3630/hr+3630+engrossed+in+the+house.pdf" target="_self">H.R. 3630, engrossed in the House (passed the House), December 13, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/hr+3630/hr+3630+received+and+placed+on+senate+calendar.pdf" target="_self">H.R. 3630, "Middle Class Tax Relief and Job Creation Act of 2001", as received and placed on the Senate calendar, December 14, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/hr+3630/hr+3630+engrossed+senate+amendment.pdf" target="_self">H.R. 3630, "Temporary Payroll Tax Cut Continuation Act of 2011", engrossed Senate amendment, December 17, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/hr+3630/hr+3630+enrolled+bill.pdf" target="_self">H.R. 3630, "Middle Class Tax Relief and Job Creation Act of 2001", enrolled bill (final as passed both the House and Senate), February 17, 2012</a></li>
+	
+<h2 id="related-bills">Related Bills</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--house/hr1745+as+introduced+may+5%2C+2011.pdf" target="_self">H.R. 1745, "Jobs, Opportunity, Benefits, and Services Act of 2001", as introduced, May 5, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--house/hr1745+as+reported+may+23%2C+2011.pdf" target="_self">H.R. 1745, as reported in the House, May 23, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--house/hr1773+as+introduced+may+5%2C+2011.pdf" target="_self">H.R. 1773, "Made in America Act of 2011", as introduced, May 5, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--house/hr2421+as+introduced+july+6%2C+2011.pdf" target="_self">H.R. 2421, "Layoff Prevention Act of 2011", as introduced, July 6, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--house/hr2629+as+introduced+july+22%2C+2011.pdf" target="_self">H.R. 2629, "Next Generation 9-1-1 Advancement Act of 2011", as introduced July 22, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--house/hr2731+as+introduced+august+1%2C+2011.pdf" target="_self">H.R. 2731, "Helping Innovation of Re-Employment Services in States Act" or "HIRES Act", as introduced, August 1, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--house/hr3427+as+introduced+november+15%2C+2011.pdf" target="_self">H.R. 3427, "Startup Technical Assistance for Reemployment Training and Unemployment Prevention Act" of "STARTUP Act", as introduced, November 15, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--house/hr3659+as+introduced+december+14%2C+2011.pdf" target="_self">H.R. 3659, "Welfare Integrity and Date Improvement Act", as introduced, December 14, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--house/hr3659+engrossed+in+the+house+december+15%2C+2011.pdf" target="_self">H.R. 3659, engrossed in the House (passed the House), December 15, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--house/hr3659+received+and+referred+in+the+senate+december+15%2C+2011.pdf" target="_self">H.R. 3659, received and referred to the Senate, December 15, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--house/hr3743+as+introduced+december+20%2C+2011.pdf" target="_self">H.R. 3743, "Temporary Payroll Tax Cut Continuation Act of 2011", as introduced December 20, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--house/hr3765+engrossed+in+the+house+december+23%2C+2011.pdf" target="_self">H.R. 3765, "Temporary Payroll Tax Cut Continuation Act of 2011", engrossed in the House (passed the House), December 23, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--house/hr3765+as+received+in+the+senate+december+23%2C+2011.pdf" target="_self">H.R. 3765, received in the Senate, December 23, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--house/hr3765+enrolled+december+23%2C+2011.pdf" target="_self">H.R. 3765, enrolled (final as passed both the House and Senate), December 23, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--house/hr4196+as+introduced+march+13%2C+2012.pdf" target="_self">H.R. 4196, "To amend the Internal Revenue Code of 1986 to extend the allowance for bonus depreciation for certain business assets", as introduced March 13, 2012</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--house/hr5974+as+introduced+june+20%2C+2012.pdf" target="_self">H.R. 5974, "Invest in America Now Act of 2012", as introduced, June 20, 2012</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--senate/s12+as+introduced+january+25%2C+2011.pdf" target="_self">S. 12, "Job Creation Act of 2011", as introduced, January 25, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--senate/s1333+as+introduced+july+6%2C+2011.pdf" target="_self">S. 1333, "Layoff Prevention Act of 2011", as introduced, July 6, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--senate/s1826+as+introduced+november+8%2C+2011.pdf" target="_self">S. 1826, "Startup Technical Assistance for Reemployment Training and Unemployment Prevention Act"or "STARTUP Act", as introduced, November 8, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--senate/s2237+placed+on+senate+calendar+march+27%2C+2012.pdf" target="_self">S. 2237, "Small Business Jobs and Tax Relief Act", as placed on the Senate calendar, March 27, 2012</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/related+bills--senate/s2240+as+introduced+march+27%2C+2012.pdf" target="_self">S. 2240, to amend the Internal Revenue Code of 1986 to extend the allowance for bonus depreciation for certain business assets", as introduced March 27, 2012</a></li>
+		
+<h2 id="resolutions">Resolutions</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/resolutions/h.+res.+491+reported+in+the+house.pdf" target="_self">H. Res. 491, "providing for consideration of the bill (H.R. 3630) to provide incentives for the creation of jobs, and for all other purposes", as reported in the House, December 12, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/resolutions/h.+res.+491+engrossed+in+the+house.pdf" target="_self">H. Res. 491, engrossed in the House (passed the House), December 13, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/resolutions/h.+res.+502+reported+in+the+house.pdf" target="_self">H. Res. 502, "providing for consideration of the Senate amendments to the bill (H.R. 3630) to provide incentives for the creation of jobs, and for other purposes; providing for consideration of the resolution (H. Res. 501) expressing the sense of the House of Representatives regarding any final measure to extend the payroll tax holiday, extend Federally funded unemployment insurance benefits, or prevent decreases in reimbursement for physicians who provide care to Medicare beneficiaries; and for other purposes", as reported in the House, December 19, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/resolutions/h.+res.+502+engrossed+in+the+house.pdf" target="_self">H. Res. 502, engrossed in the House (passed the House), December 20, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/resolutions/h.+res.+554+reported+in+the+house.pdf" target="_self">H. Res. 554, "providing for consideration of the conference report to accompany the bill (H.R. 3630) to provide incentives for the creation of jobs, and for other purposes", as reported in the House, February 16, 2012</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/resolutions/h.+res.+554+engrossed+in+the+house.pdf" target="_self">H. Res. 554, engrossed in the House (passed the House), February 17, 2012</a></li>
+
+<h2 id="congressional-record">Congressional Record</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/congressional+record/december+13%2C+2011+house+h+res+491.pdf" target="_self">House consideration and passage of H. Res. 491, December 13, 2011, pages H8745-8759 and H8762-8824</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/congressional+record/december+13%2C+2011+house+hr+3630+amended.pdf" target="_self">House amends HR 3630, December 13, 2011, pages H8762-8824</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/congressional+record/december+15%2C+2011+senate.pdf" target="_self">Cloture motion on the motion to proceed to the bill presented in the Senate, December 15, 2011, page S8673</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/congressional+record/december+15%2C+2011+house.pdf" target="_self">House consideration and passage of H.R. 3659 (related bill), December 15, 2011, pages H8984-8990</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/congressional+record/december+17%2C+2011.pdf" target="_self">Senate consideration and passage of H.R. 3630 with amendment proposed by Senator Reid, December 17, 2011, pages S8748-8753</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/congressional+record/december+20%2C+2011+house+disagrees+with+senate+amendments.pdf" target="_self">House, pursuant to H. Res. 502, disagrees with Senate amendments to H.R. 3630, requests a conference and appointment of conferees, December 20, 2011, pages H9949-9986 and H9996-9999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/congressional+record/december+23%2C+2011.pdf" target="_self">Senate insistence on its amendments to H.R. 3630 and agreement to a conference, December 23, 2011, page S8789</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/congressional+record/january+24%2C+2012+house+votes+to+instruct+conferees.pdf" target="_self">Mrs. Capps moved that the House instruct the conferees, January 24, 2012, pages H137-143 and H150-151</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/congressional+record/february+1%2C+2012.pdf" target="_self">Mr. Michaud moved the House instruct the conferees, February 1, 2012, pages H356-361</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/congressional+record/february+2%2C+2012.pdf" target="_self">Mr. Michaud's motion to instruct the conferees is voted upon and fails, February 2, 2012, pages H395-396</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/congressional+record/february+8%2C+2012.pdf" target="_self">Mr. Bishop moved that the House instruct the conferees, February 8, 2012, Pages H615-623</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/congressional+record/february+9%2C+2012.pdf" target="_self">Mr. Bishop's motion to instruct the conferees is voted upon and passes, February 9, 2012, pages H657-658</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/congressional+record/february+16%2C+2012.pdf" target="_self">Text of conference room, February 16, 2012, pages H834-880</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/congressional+record/february+17%2C+2012+house.pdf" target="_self">House agreement to H. Res. 554 and the conference report on H.R. 3630, February 17, 2012, pages H907-927</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-96+-+not+in+dr/documents/congressional+record/february+17%2C+2012+senate.pdf" target="_self">Senate agreement to the conference report on H.R. 3630, February 17, 2012, pages S888-892</a></li>
+	
+</ol>
+</div>
+
+<!--end of Content-->
+
+</body>
+</html>

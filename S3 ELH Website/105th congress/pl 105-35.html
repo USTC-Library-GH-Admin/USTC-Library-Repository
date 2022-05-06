@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there -->
+    <title>USTC Electronic Legislative History Collection - PL 105-35</title>
+<!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
+    <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+
+<!--Header - this lets the header link back to the ELH website homepage - keep intact-->
+	<div class="header">
+	   <h1><a class="homepage-link" href="https://ustc-elh-static-website.s3.s3.amazonaws.com/legislative-history-index.html">USTC Electronic Legislative History Collection</a></h1>
+	</div>
+<!--End of header-->
+
+<!--This section gives us the navigation bar to the left - keep intact; if you need to update the sidebar, go to the "nav.html" file and edit that-->
+	<div id="nav-placeholder">
+
+	</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("https://ustc-elh-static-website.s3.amazonaws.com/javascript+sidebar/nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+      
+<!--Content of webpage-->
+	<div class="content">
+
+<!--Breadcrumbs - this appears at the top of the page to help users navigate to pages furhter back in the hierarchy - keep intact-->
+	<div class="breadcrumbs">
+	   <script language="javascript" src="https://ustc-elh-static-website.s3.amazonaws.com/breadcrumbs+script/breadcrumb_script.js"></script> 
+	</div>
+<!--end of breadcrumbs-->
+
+
+<!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
+<h1>PL 105-35</h1>
+<h1>Taxpayer Browsing Protection Act</h1>
+
+<!--CHANGE: this can be tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy.-->
+<!--I recommend editing this section last, after you know what to expect in terms of contents.-->
+		
+<!--This section is the PL Table of Contents Javascript anchors - this takes a user directly to the part of the page that has an "anchor" on it.-->
+<!-- These anchors need to be modified on a case-by-case basis - the anchors are based on pub types present in the legislative history collection.-->
+<!-- Modify "value" to be your anchor. In the next section, you will run into "id"s, which will need to be filled in with the "value"s from this section.-->
+<!-- Once they match, you will be able to jump to different sections instantly by selecting them from the dropdown menu.-->
+	<br/>
+	<form action="#" onsubmit="return false;">
+	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
+	  <option value="index">Select Publication Type</option>
+      <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
+	  <option value="public-law">Public Law</option>
+	  <option value="signing-statement">Signing Statement</option>
+	  <option value="reports">Report</option>
+	  <option value="related-reports">Related Reports</option>
+	  <option value="hearings">Hearing</option>
+	  <option value="hr">H.R. 1226</option>
+	  <option value="companion-bills">Companion Bills</option>
+	  <option value="prints">JCT Prints</option>
+	  <option value="congressional-record">Congressional Record</option>
+	</select>
+	</form>
+	<br/>
+<!-- End of PL Table of Contents Javascript anchors -->
+
+<ol type="1">
+
+<!--CHANGE: the "Title of pub" for all items should be replaced with the title from Jen and Nancy's Table of Contents-->
+<!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
+<!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
+<!--The table of contents file can really come in handy from here on out!-->
+<h2 id="public-law">Public Law</h2>    
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-35+-+not+in+dr/documents/public+law/plaw-105publ35.pdf" target="_self">Public Law 105-35 (H.R. 1226) August 5, 1997</a></li>
+
+<!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
+<h2 id="signing-statement">Signing Statement</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-35+-+not+in+dr/documents/signing+statement/wcpd-1997-08-11-pg1195.pdf" target="_self">Statement on Signing the Taxpayer Browsing Protection Act, Weekly Compilation of Presidential Documents, Volume 33, pages 1195-1195, August 5, 1997</a></li>
+
+<h2 id="reports">Report</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-35+-+not+in+dr/documents/report/house+report+105-51.pdf" target="_self">House Report 105-51, Taxpayer Browsing Protection Act, to accompany H.R. 1226, House Committee on Ways and Means, April 14, 1997</a></li>
+
+<h2 id="hearings">Hearing</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-35+-+not+in+dr/documents/hearing/hearing+105-26+selected+pages.pdf" target="_self">Treasury and General Government Appropriations Fiscal Year 1998, Hearings before a Subcommittee of the Committee on Appropriations United States Senate on H.R. 2378/S. 1023 an act making appropriations for the Treasury Department of the United States Postal Service, the Executive Office of the President, and certain independent agencies for the fiscal year ending September 30, 1998 and for other purposes. (Senate Hearing 105-26), pages 1-79, April 15, 1997</a></li>
+	
+<!--CHANGE: here, make sure you also change the H.R #### to the proper H.R. number, if applicable.-->
+<h2 id="hr">H.R. 1226</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-35+-+not+in+dr/documents/hr+1226/hr+1226+as+introduced.pdf" target="_self">H.R. 1226, "Taxpayer Browsing Proctection Act", as introduced in the House, April 8, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-35+-+not+in+dr/documents/hr+1226/hr+1226+as+reported+in+the+house.pdf" target="_self">H.R. 1226 as reported by the House Committee on Ways and Means, April 14, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-35+-+not+in+dr/documents/hr+1226/hr+1226+engrossed+in+the+house.pdf" target="_self">H.R. 1226 engrossed in the House, April 15, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-35+-+not+in+dr/documents/hr+1226/hr+1226+as+received+in+the+senate.pdf" target="_self">H.R. 1226 as received in the Senate, April 16, 1997, and read twice and ordered placed on the calendar, April 17, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-35+-+not+in+dr/documents/hr+1226/hr+1226+as+enrolled.pdf" target="_self">H.R. 1226 as enrolled (final as passed both House and Senate), July 25, 1997</a></li>
+
+<h2 id="companion-bills">Companion Bill</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-35+-+not+in+dr/documents/companion+bill/s522+as+placed+on+senate+calendar.pdf" target="_self">S. 522, "Taxpayer Privacy Protection Act",  as introduced in the Senate, April 8, 1997 and read the second time and placed on the calendar, April 9, 1997	</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-35+-+not+in+dr/documents/companion+bill/s522+engrossed+in+the+senate.pdf" target="_self">S. 522 engrossed in the Senate, April 15, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-35+-+not+in+dr/documents/companion+bill/s522+referred+to+the+house.pdf" target="_self">S. 522 as received in the House, October 21, 1998</a></li>
+	
+<h2 id="prints">JCT Prints</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-35+-+not+in+dr/documents/jct+pubs/jcx-11-97.pdf" target="_self">Unauthorized Inspection of Tax Returns or Tax Return Information (JCX-11-97), April 7, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-35+-+not+in+dr/documents/jct+pubs/jcs-23-97.pdf" target="_self">General Explanation of Tax Legislation Enacted in 1997, (JCS-23-97), December 17, 1997, pages 506-507 </a></li>
+	
+<h2 id="congressional-record">Congressional Record</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-35+-+not+in+dr/documents/congressional+record/crec-1997-04-15-housepart1.pdf" target="_self">House consideration of H.R. 1226, pages H1461-H1467, April 15, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-35+-+not+in+dr/documents/congressional+record/crec-1997-04-15-housepart2.pdf" target="_self">House passage of H.R. 1226, page H1490, April 15, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-35+-+not+in+dr/documents/congressional+record/crec-1997-04-15-senate.pdf" target="_self">Senate consideration and passage of S. 522, pages S3180-S3190, April 15, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-35+-+not+in+dr/documents/congressional+record/crec-1997-07-23-senate.pdf" target="_self">Senate consideration and passage of H.R. 1226, page S7983, July 23, 1997</a></li>
+	
+</ol>
+</div>
+
+<!--end of Content-->
+
+</body>
+</html>

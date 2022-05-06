@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there -->
+    <title>USTC Electronic Legislative History Collection - PL 111-12</title>
+<!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
+    <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+
+<!--Header - this lets the header link back to the ELH website homepage - keep intact-->
+	<div class="header">
+	   <h1><a class="homepage-link" href="https://ustc-elh-static-website.s3.s3.amazonaws.com/legislative-history-index.html">USTC Electronic Legislative History Collection</a></h1>
+	</div>
+<!--End of header-->
+
+<!--This section gives us the navigation bar to the left - keep intact; if you need to update the sidebar, go to the "nav.html" file and edit that-->
+	<div id="nav-placeholder">
+
+	</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("https://ustc-elh-static-website.s3.amazonaws.com/javascript+sidebar/nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+      
+<!--Content of webpage-->
+	<div class="content">
+
+<!--Breadcrumbs - this appears at the top of the page to help users navigate to pages furhter back in the hierarchy - keep intact-->
+	<div class="breadcrumbs">
+	   <script language="javascript" src="https://ustc-elh-static-website.s3.amazonaws.com/breadcrumbs+script/breadcrumb_script.js"></script> 
+	</div>
+<!--end of breadcrumbs-->
+
+
+<!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
+<h1>PL 111-12</h1>
+<h1>Federal Aviation Administration Extension Act of 2009</h1>
+
+<!--CHANGE: tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy-->
+<!-- PL Table of Contents Javascript anchors - needs to be modified based on pub types -->
+<!-- Modify "value" to be your anchor -->
+<!-- Will need to add "value" to the "id" of matching pub type to be able to jump to it -->
+	<br/>
+	<form action="#" onsubmit="return false;">
+	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
+	  <option value="index">Select Publication Type</option>
+	  <option value="public-law">Public Law</option>
+	  <option value="jct-print">Joint Committee on Taxation Print</option>
+	  <option value="hr">H.R. 1512</option>
+	  <option value="congressional-record">Congressional Record</option>
+	</select>
+	</form>
+	<br/>
+<!-- End of PL Table of Contents Javascript anchors -->
+
+<h2 id="public-law">Public Law</h2>
+
+<ol type="1">
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-12+-+not+in+dr/documents/public+law/plaw-111publ12.pdf" target="_self">P.L. 111-12, (H.R. 1512), March 30, 2009</a></li>
+	
+<h2 id="jct-print">Joint Committee on Taxation Print</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-12+-+not+in+dr/documents/jct/jcs-2-11.pdf" target="_self">General Explanation of Tax Legislation Enacted in the 111th Congress, prepared by the Staff of the Joint Committee on Taxation (JCS-2-11), March 2011, pages 153-157</a></li>
+	
+<h2 id="hr">H.R. 1512</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-12+-+not+in+dr/documents/hr+1512/hr+1512+as+introduced.pdf" target="_self">H.R. 1512, "Federal Aviation Administration Extension Act of 2009", as introduced, March 16, 2009</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-12+-+not+in+dr/documents/hr+1512/hr+1512+as+engrossed+in+house.pdf" target="_self">H.R. 1512 as engrossed in the House (passed the House), March 18, 2009</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-12+-+not+in+dr/documents/hr+1512/hr+1512+as+received+in+senate.pdf" target="_self">H.R. 1512 as received in the Senate, March 18, 2009</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-12+-+not+in+dr/documents/hr+1512/hr+1512+as+enrolled.pdf" target="_self">H.R. 1512 enrolled bill (final as passed both the House and the Senate), March 18, 2009</a></li>
+	
+<h2 id="congressional-record">Congressional Record</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-12+-+not+in+dr/documents/congressional+record/crec-2009-03-18-house.pdf" target="_self">House consideration and passage of H.R. 1512, March 18, 2009, pages H3533-3534</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-12+-+not+in+dr/documents/congressional+record/crec-2009-03-18-senate.pdf" target="_self">Received in the Senate, read twice, considered, read the third time and passed without amendment by Unanimous Consent, March 18, 2009, page S3379</a></li>
+	
+</ol>
+</div>
+
+<!--end of Content-->
+
+</body>
+</html>

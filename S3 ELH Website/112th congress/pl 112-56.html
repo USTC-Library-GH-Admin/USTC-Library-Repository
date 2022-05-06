@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there -->
+    <title>USTC Electronic Legislative History Collection - PL 112-56</title>
+<!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
+    <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+
+<!--Header - this lets the header link back to the ELH website homepage - keep intact-->
+	<div class="header">
+	   <h1><a class="homepage-link" href="https://ustc-elh-static-website.s3.s3.amazonaws.com/legislative-history-index.html">USTC Electronic Legislative History Collection</a></h1>
+	</div>
+<!--End of header-->
+
+<!--This section gives us the navigation bar to the left - keep intact; if you need to update the sidebar, go to the "nav.html" file and edit that-->
+	<div id="nav-placeholder">
+
+	</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("https://ustc-elh-static-website.s3.amazonaws.com/javascript+sidebar/nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+      
+<!--Content of webpage-->
+	<div class="content">
+
+<!--Breadcrumbs - this appears at the top of the page to help users navigate to pages furhter back in the hierarchy - keep intact-->
+	<div class="breadcrumbs">
+	   <script language="javascript" src="https://ustc-elh-static-website.s3.amazonaws.com/breadcrumbs+script/breadcrumb_script.js"></script> 
+	</div>
+<!--end of breadcrumbs-->
+
+
+<!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
+<h1>PL 112-56</h1>
+<h1>Three Percent Withholding Repeal and Job Creation Act; VOW to Hire Heroes Act of 2011</h1>
+
+<!--CHANGE: this can be tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy.-->
+<!--I recommend editing this section last, after you know what to expect in terms of contents.-->
+		
+<!--This section is the PL Table of Contents Javascript anchors - this takes a user directly to the part of the page that has an "anchor" on it.-->
+<!-- These anchors need to be modified on a case-by-case basis - the anchors are based on pub types present in the legislative history collection.-->
+<!-- Modify "value" to be your anchor. In the next section, you will run into "id"s, which will need to be filled in with the "value"s from this section.-->
+<!-- Once they match, you will be able to jump to different sections instantly by selecting them from the dropdown menu.-->
+	<br/>
+	<form action="#" onsubmit="return false;">
+	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
+	  <option value="index">Select Publication Type</option>
+      <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
+	  <option value="public-law">Public Law</option>
+	  <option value="presidential-documents">Presidential Documents</option>
+	  <option value="reports">Reports</option>
+	  <option value="documents">House Documents</option>
+	  <option value="prints">Joint Committee on Taxation Print</option>
+	  <option value="hearings">Hearings</option>
+	  <option value="hr 2206">H.R. 674</option>
+	  <option value="resolutions">Resolutions</option>
+	  <option value="related-bills-112">Related Bills (112th Congress)</option>
+	  <option value="related-bills-111">Related Bills (111th Congress)</option>
+	  <option value="related-bills-110">Related Bills (110th Congress)</option>
+	  <option value="congressional-record">Congressional Record</option>
+	</select>
+	</form>
+	<br/>
+<!-- End of PL Table of Contents Javascript anchors -->
+
+<ol type="1">
+
+<!--CHANGE: the "Title of pub" for all items should be replaced with the title from Jen and Nancy's Table of Contents-->
+<!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
+<!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
+<!--The table of contents file can really come in handy from here on out!-->
+<h2 id="public-law">Public Law</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/public+law/pl112-56.pdf" target="_self">Public Law 112-56 (H.R. 674), November 21, 2011</a></li>
+	
+<h2 id="presidential-documents">Presidential Documents</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/signing+statement/presidential+signing+statement+pl+112-56.pdf" target="_self">Remarks on Signing Legislation to Provide Incentives for Business to Hire Unemployed Veterans, November 21, 2011</a></li>
+	
+<!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
+<h2 id="reports">Reports</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/reports/senate+report+112-36.pdf" target="_self">Senate Report 112-36, Hiring Heroes Act of 2011, Senate Committee on Veterans’ Affairs, July 18, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/reports/house+report+112-242+part+1.pdf" target="_self">House Report 112-242, Part 1, Veterans Opportunity to Work Act of 2011, House Committee on Veterans’ Affairs, October 11, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/reports/senate+report+112-88.pdf" target="_self">Senate Report 112-88, Veterans Programs Improvement Act of 2011, House Committee on Veterans’ Affairs, October 11, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/reports/house+report+112-253.pdf" target="_self">House Report 112-253, Repeal of Imposition of 3 Percent Withholding on Certain Payments Made to Vendors by Government Entities, House Committee on Ways and Means, October 18, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/reports/house+report+112-254.pdf" target="_self">House Report 112-254, Modification of Calculation of Modified Adjusted Gross Income for Determining Certain Healthcare Program Eligibility, House Committee on Ways and Means, October 18, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/reports/house+report+112-261.pdf" target="_self">House Report 112-261, Providing for Consideration of the Bill (H.R. 2576) to Amend the Internal Revenue Code of 1986 to Modify the Calculation of Modified Adjusted Gross Income for Purposes of Determining Eligibility for Certain Healthcare-Related Programs, and Providing for Consideration of the Bill (H.R. 674) to Amend the Internal Revenue Code of 1986 to Repeal the Imposition of 3 Percent Withholding on Certain Payments Made to Vendors by Government Entities, House Committee on Rules, October 25, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/reports/jcx-51-11.pdf" target="_self">Description of H.R. 674 to Amend the Internal Revenue Code of 1986 to Repeal the Imposition of Three-Percent Withholding on Certain Payments Made To Vendors by Government Entities, Scheduled for Markup by the House Committee on Ways and Mans on October 13, 2011, prepared by the Staff of the Joint Committee on Taxation, (JCX-51-11), October 11, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/reports/jcx-52-11.pdf" target="_self">Estimated Revenue Effects of H.R. 674, to Amend the Internal Revenue Code of 1986 to Repeal the Imposition of Three-Percent Withholding on Certain Payments Made to Vendor by Government Entities Scheduled for Markup by the Committee on Ways and Means on October 13, 2011, committee print issued by the Joint Committee on Taxation (JCX-52-11), October 11, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/reports/jcx-53-11.pdf" target="_self">Description of H.R. 2576 to Amend the Internal Revenue Code of 1986 to Modify the Calculation of Modified Adjusted Gross Income for Purposes of Determining Eligibility for Certain Healthcare-Related Programs, Scheduled for Markup by the House Committee on Ways and Means on October 13, 2011, prepared by the Staff of the Joint Committee on Taxation (JCX-53-11), October 11, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/reports/jcx-54-11.pdf" target="_self">Estimated Revenue Effects of H.R. 2576, to Amend the Internal Revenue Code of 1986 to Modify the Calculation of Modified Adjusted Gross Income for Purposes of Determining Eligibility for Certain Healthcare Related Programs, Scheduled for Markup by the Committee on Ways and Means on October 13, 2001, Fiscal Years 2012-2021, committee print issued by the Joint Committee on Taxation (JCX-54-11), October 11, 2011</a></li>
+	
+<h2 id="documents">House Documents</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/house+documents/house+document+112-51.pdf" target="_self">House Document 112-51, Presidential Address Before a Joint Session of Congress, Message from the President of the United States, September 9, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/house+documents/house+document+112-53.pdf" target="_self">House Document 112-53, The “American Jobs Act of 2011" Legislative Proposal, Message from the President of the United States, September 13, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/house+documents/house+document+112-55.pdf" target="_self">House Document 112-55, President’s Plan Entitled “Living Within Our Means and Investing in the Future”, Message from the President of the United States. September 19 2011</a></li>
+	
+<h2 id="prints">Joint Committee on Taxation Print</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/jct+print/jcs-2-13.pdf" target="_self">General Explanation of Tax Legislation Enacted in the 112th Congress, prepared by the Staff of the Joint Committee on Taxation (JCS-2-13), February 2013, pages 44-61</a></li>
+
+<h2 id="hearings">Hearings</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/hearings/serial+no.+112-08.pdf" target="_self">The President’s Fiscal Year 2011 Budget Proposal with Office of Management and Budget Director Lew, hearing before the House Committee on Ways and Means, February 16, 2011 (Serial No. 112-08)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/hearings/senate+hearing+112-19.pdf" target="_self">Veterans Employment: Improving the Transition from the Battlefield to the Workforce, hearing before the Senate Committee on Veterans’ Affairs, April 13, 2011 (Senate Hearing 112-19)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/hearings/house+small+business+hearing.pdf" target="_self">Defer No More: The Need to Repeal the 3% Withholding Provision, hearing before the House Committee on Small Business, Subcommittee on Contracting and Workforce, May 26, 2011 (Small Business Committee Document Number 112–017)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/hearings/serial+no.+112-14.pdf" target="_self">Putting America’s Veterans Back to Work, hearing before the House Committee on Veterans’ Affairs, June 1, 2011 (Serial No. 112-14)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/hearings/senate+hearing+112-116.pdf" target="_self">Pending Legislation, hearing before the Senate Committee on Veterans’ Affairs, hearing before the Senate Committee on Veterans’ Affairs, June 8, 2011 (Senate Hearing 112-116)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/hearings/serial+no.+112-17.pdf" target="_self">Preventing Sexual Assaults and Safety Incidents at U.S. Department of Veterans Affairs Facilities, hearing before the House Committee on Veterans’ Affairs, Subcommittee on Health, June 13, 2011 (Serial No. 112-17)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/hearings/serial+no.+112-24.pdf" target="_self">Legislative Hearing on H.R. 2433, H.R. 1941, and H.R. 169, hearing before the House Committee on Veterans’ Affairs, July 15, 2011 (Serial No. 112-24)</a></li>
+	
+<h2 id="hr 674">H.R. 674</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/hr+674/hr+674+as+introduced.pdf" target="_self">H.R. 674, to Amend the Internal Revenue Code of 1986 to repeal the imposition of 3 percent withholding on certain payments made to vendors by government entities, as introduced in the House, February 11, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/hr+674/hr+674+as+reported+in+the+house.pdf" target="_self">H.R. 674, as reported in the House, October 18, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/hr+674/hr+674+engrossed+in+the+house.pdf" target="_self">H.R. 674, engrossed in the House (passed the House), October 27, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/hr+674/hr+674+placed+on+the+senate+calendar.pdf" target="_self">H.R. 674, “3% Withholding Repeal and Job Creation Act”, placed on the Senate calendar, November 1, 2011	</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/hr+674/hr+674+engrossed+senate+amendment.pdf" target="_self">H.R. 674, engrossed Senate amendment, November 10, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/hr+674/hr+674+enrolled+bill.pdf" target="_self">H.R. 674, enrolled bill (final as passed both House and Senate), November 16, 2011</a></li>
+
+<h2 id="resolutions">House Resolution 448</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/house+resolution+448/house+resolution+448+as+reported+in+the+house.pdf" target="_self">House Resolution 448, providing for consideration of the bill (H.R. 2576) to amend the Internal Revenue Code of 1986 to modify the calculation of modified adjusted gross income for purposes of determining eligibility for certain healthcare-related programs and providing for consideration of the bill (H.R. 674) to amend the Internal Revenue Code of 1986 to repeal the imposition of 3 percent withholding on certain payments made to vendors by government entities, as reported in the House, October 25, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/house+resolution+448/house+resolution+448+engrossed+in+the+house.pdf" target="_self">House Resolution 448, engrossed in the House (passed the House), October 26, 2011</a></li>
+
+<h2 id="related-bills-112">Related Bills (112th Congress)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(112th+congress)/hr+1941+as+introduced.pdf" target="_self">H.R. 1941, “Hiring Heroes Act of 2011”, introduced in the House, May 23, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(112th+congress)/hr+2433+as+introduced.pdf" target="_self">H.R. 2433, “Veterans Opportunity to Work Act of 2011”, introduced in the House, July 7, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(112th+congress)/hr+2433+reported+in+the+house.pdf" target="_self">H.R. 2433, reported in the House, October 11, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(112th+congress)/hr+2433+engrossed+in+the+house.pdf" target="_self">H.R. 2433, engrossed in the House (passed the House), October 12, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(112th+congress)/hr+2433+referred+in+the+senate.pdf" target="_self">H.R. 2433, referred in the Senate, October 13, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(112th+congress)/hr+2576+as+introduced+in+the+house.pdf" target="_self">H.R. 2576, to amend the Internal Revenue Code of 1986 to modify the calculation of modified adjusted gross income for purposes of determining eligibility for certain healthcare-related programs, introduced in the House, July 18, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(112th+congress)/hr+2576+reported+in+the+house.pdf" target="_self">H.R. 2576, as reported in the House, October 18, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(112th+congress)/s+89+as+introduced.pdf" target="_self">S. 89, “Withholding Tax Relief Act of 2011”, introduced in the Senate, January 25, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(112th+congress)/s+164+as+introduced.pdf" target="_self">S. 164, “Withholding Tax Relief Act of 2011”, introduced in the Senate, January 25, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(112th+congress)/s+914+as+introduced.pdf" target="_self">S. 914, “to amend title 38, United States Code, to authorize the waiver of the collection of copayments for telehealth and telemedicine visits of veterans, and for other purposes, introduced in the Senate, May 9, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(112th+congress)/s+914+as+reported+in+the+senate.pdf" target="_self">S. 914, reported in the Senate, October 11, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(112th+congress)/s+951+as+introduced.pdf" target="_self">S. 951, “Hiring Heroes Act of 2011”, introduced in the Senate, May 11, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(112th+congress)/s+951+reported+in+the+senate.pdf" target="_self">S. 951, reported in the Senate, July 7, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(112th+congress)/s+1720+placed+on+senate+calendar.pdf" target="_self">S. 1720, “Jobs Through Growth Act”, placed on Senate calendar, October 18, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(112th+congress)/s+1726+as+placed+on+senate+calendar.pdf" target="_self">S. 1726, “Withholding Tax Relief Act of 2011’’, as placed on the Senate calendar, October 18, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(112th+congress)/s+1762+as+introduced.pdf" target="_self">S. 1762, “Withholding Tax Relief Act of 2011”, introduced in the Senate, October 31, 2011</a></li>
+	
+<h2 id="related-bills-111">Related Bills (111th Congress)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(111th+congress)/hr+275+as+introduced.pdf" target="_self">H.R. 275, to repeal the imposition of 3 percent withholding on certain payments made to vendors by government entities, introduced in the House, January 7, 2009</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(111th+congress)/s+292+as+introduced.pdf" target="_self">S. 292, “Withholding Tax Relief Act of 2009”, introduced in the Senate, January 21, 2009</a></li>
+	
+<h2 id="related-bills-110">Related Bills (110th Congress)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(110th+congress)/hr+1023+as+introduced.pdf" target="_self">H.R. 1023, to repeal the imposition of withholding on certain payments made to vendors by government entities, introduced in the House, February 13, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/related+bills+(110th+congress)/s+777+as+introduced.pdf" target="_self">S. 777, to repeal the imposition of withholding on certain payments made to vendors by government entities, introduced in the Senate, March 6, 2007</a></li>
+
+<h2 id="congressional-record">Congressional Record</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/congressional+record/2011-10-11+house+consideration+of+hr+2433.pdf" target="_self">House consideration of H.R. 2433 (related bill – text of bill included), October 11, 2011, pages H6680-6689</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/congressional+record/2011-10-12+house+passage+of+hr+2433.pdf" target="_self">House consideration and passage of H.R. 2433, October 12, 2011, page H6841</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/congressional+record/2011-10-26+house+consideration+of+hr+674+and+vote.pdf" target="_self">House consideration of H.R.674 under the provision of H. Res. 448, October 26, 2011, pages H7084-7090 and H7112 (vote)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/congressional+record/2011-10-26+house+vote+on+consideration+of+hr+674+under+the+provision+of+h.res.+448.pdf" target="_self">House vote on H.R. 674 under the provision of H. Res. 448, October 26, 2011, page H7112</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/congressional+record/2011-10-27+house+consideration+of+hr+674.pdf" target="_self">House consideration of H.R. 674 (text of bill included), October 27, 2011, pages H7139-7143</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/congressional+record/2011-10-27+house+consideration+and+passage+of+hr+2576.pdf" target="_self">House consideration and passage of H.R. 674, October 27, 2011, pages H7149-7151</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/congressional+record/2011-10-27+house+consideration+and+passage+of+hr+2576.pdf" target="_self">House consideration and passage of H.R. 2576 (related bill), October 27, 2011, pages H7143-7149</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/congressional+record/2011-11-08+senate+consideration+of+hr+674.pdf" target="_self">Senate consideration of H.R. 674, November 8, 2011, pages S7173-7183</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/congressional+record/2011-11-08+senate+consideration+of+hr+674%2C+mccain+amendment.pdf" target="_self">Text of Senate Amendment 925 by Senator McCain, page S7196; text of Senate Amendment 926 by Senator Thune, pages S7196-7225 </a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/congressional+record/2011-11-09+senate+consideration+of+hr+674.pdf" target="_self">Senate consideration of H.R. 674, November 9, 2011, pages S7263-7288</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/congressional+record/2011-11-10+senate+consideration+and+passage+of+hr+674+with+amendment.pdf" target="_self">Senate consideration and passage of H.R. 674 with an amendment (Title II, VOW to Hire Heroes), November 10, 2011, pages S7336-7346</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/congressional+record/2011-11-16+house+concurrence+in+amendment+and+vote.pdf" target="_self">House concurrence in the Senate amendment to H.R. 674, November 16, 2011, pages H7643-7661</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-56+-+not+in+dr/documents/congressional+record/2011-11-16+house+vote.pdf" target="_self">House vote November 16, 2011, pages H7690-7691</a></li>
+	
+</ol>
+</div>
+
+<!--end of Content-->
+
+</body>
+</html>

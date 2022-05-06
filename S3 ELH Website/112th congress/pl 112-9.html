@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there -->
+    <title>USTC Electronic Legislative History Collection - PL 112-9</title>
+<!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
+    <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+
+<!--Header - this lets the header link back to the ELH website homepage - keep intact-->
+	<div class="header">
+	   <h1><a class="homepage-link" href="https://ustc-elh-static-website.s3.s3.amazonaws.com/legislative-history-index.html">USTC Electronic Legislative History Collection</a></h1>
+	</div>
+<!--End of header-->
+
+<!--This section gives us the navigation bar to the left - keep intact; if you need to update the sidebar, go to the "nav.html" file and edit that-->
+	<div id="nav-placeholder">
+
+	</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("https://ustc-elh-static-website.s3.amazonaws.com/javascript+sidebar/nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+      
+<!--Content of webpage-->
+	<div class="content">
+
+<!--Breadcrumbs - this appears at the top of the page to help users navigate to pages furhter back in the hierarchy - keep intact-->
+	<div class="breadcrumbs">
+	   <script language="javascript" src="https://ustc-elh-static-website.s3.amazonaws.com/breadcrumbs+script/breadcrumb_script.js"></script> 
+	</div>
+<!--end of breadcrumbs-->
+
+
+<!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
+<h1>PL 112-9</h1>
+<h1>Comprehensive 1099 Taxpayer Protection and Repayment of Exchange Subsidy Overpayments Act of 2011</h1>
+
+<!--CHANGE: this can be tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy.-->
+<!--I recommend editing this section last, after you know what to expect in terms of contents.-->
+		
+<!--This section is the PL Table of Contents Javascript anchors - this takes a user directly to the part of the page that has an "anchor" on it.-->
+<!-- These anchors need to be modified on a case-by-case basis - the anchors are based on pub types present in the legislative history collection.-->
+<!-- Modify "value" to be your anchor. In the next section, you will run into "id"s, which will need to be filled in with the "value"s from this section.-->
+<!-- Once they match, you will be able to jump to different sections instantly by selecting them from the dropdown menu.-->
+	<br/>
+	<form action="#" onsubmit="return false;">
+	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
+	  <option value="index">Select Publication Type</option>
+      <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
+	  <option value="public-law">Public Law</option>
+	  <option value="presidential-documents">Presidential Documents</option>
+	  <option value="reports">Reports</option>
+	  <option value="related report">Related Report</option>
+	  <option value="hearings">Hearings</option>
+	  <option value="hr 4">H.R. 4</option>
+	  <option value="112 house bills">Related House Bills (112th Congress)</option>
+	  <option value="112 senate bills">Related Senate Bills (112th Congress)</option>
+	  <option value="resolutions">House Resolution</option>
+	  <option value="documents">Related House Bill (111th Congress)</option>
+	  <option value="111 prints">Joint Committee on Taxation Print (111th Congress)</option>
+	  <option value="112 prints">Joint Committee on Taxation Prints (112th Congress)</option>
+	  <option value="congressional-record">Congressional Record</option>
+	</select>
+	</form>
+	<br/>
+<!-- End of PL Table of Contents Javascript anchors -->
+
+<ol type="1">
+
+<!--CHANGE: the "Title of pub" for all items should be replaced with the title from Jen and Nancy's Table of Contents-->
+<!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
+<!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
+<!--The table of contents file can really come in handy from here on out!-->
+<h2 id="public-law">Public Law</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/pl112-9/public+law+112-9+(h.r.+4).pdf" target="_self">Public Law 112-9 (H.R. 4), April 14, 2011</a></li>
+	
+<h2 id="presidential-documents">Presidential Documents</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/pl112-9/public+law+112-9+(h.r.+4)+signing+statement.pdf" target="_self">Statement on Signing the Comprehensive 1099 Taxpayer Protection and Repayment of Exchange Subsidy Overpayments Act of 2011, April 14, 2011</a></li>
+	
+<!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
+<h2 id="reports">Reports</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/house+reports/house+report+no.+112-15+2011.pdf" target="_self">House Report 112-15, Small Business Paperwork Mandate Elimination Act of 2011, House Committee on Ways, and Means, February 22, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/house+reports/house+report+no.+112-16+2011.pdf" target="_self">House Report 112-16, Comprehensive 1099 Taxpayer Protection and Repayment of Exchange Subsidy Overpayments Act of 2011, House Committee on Ways and Means, February 22, 2011</a></li>
+
+<h2 id="related report">Related Report</h2
+
+ <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/house+reports/house+report+no.+112-21+2011.pdf" target="_self">House Report 112-21, Providing for Consideration of the Bill (H.R. 4) to Repeal the Expansion of Information Reporting Requirements for Payments of $600 or More to Corporations, and for Other Purposes, House Committee on Rules, March 1, 2011</a></li>
+
+<h2 id="hearings">Hearings</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/hearings/house+hearing+serial+no.+112-01.pdf" target="_self">"Fundamental Tax Reform", hearing before the House Committee on Ways and Means, January 20, 2011 (Serial No. 112-01)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/hearings/house+hearing+serial+no.+112-03.pdf" target="_self">"The Health Care Law's Impact on Jobs, Employers, and the Economy", hearing before the House Committee on Ways and Means, January 26, 2011 (Serial No. 112-03)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/hearings/house+hearing+buried+in+paperwork.pdf" target="_self">"Buried in Paperwork: A 1099 Update", hearing before the House Committee on Small Business, February 9, 2011 </a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/hearings/house+hearing+serial+no.+112-06.pdf" target="_self">"Hearing on the President's Fiscal Year 2012 Budget Proposal with U.S. Department of the Treasury Secretary Timothy F. Geithner", hearing before the House Committee on Ways and Means,  February 15, 2011 (Serial No. 112-6)</a></li>
+	
+<h2 id="hr 4">H.R. 4</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/hr+4/h.r.+4+2011-01-12+introduced+house.pdf" target="_self">H.R. 4, "Small Business Paperwork Mandate Elimination Act of 2011", as introduced in the House, January 12, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/hr+4/h.r.+4+2011-02-22+reported+house.pdf" target="_self">H.R. 4, as reported in the House, February 22, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/hr+4/hr+4+engrossed+in+the+house.pdf" target="_self">H.R. 4, "Comprehensive 1099 Taxpayer Protection and Repayment of Exchange Subsidy Overpayments Act of 2011", engrossed in the House (passed House), March 3, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/hr+4/h.r.+4+2011-03-04+calendar+senate.pdf" target="_self">H.R. 4, placed on the Senate calendar, March 4, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/hr+4/h.r.+4+2011-04-05+enrolled+bill.pdf" target="_self">H.R. 4, enrolled bill (final as passed by the House and Senate), April 5, 2011</a></li>
+	
+<!--CHANGE: here, make sure you also change the H.R #### to the proper H.R. number, if applicable.-->
+<h2 id="112 house bills">Related House Bills (112th Congress)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/related+house+bills--112th+congress/h.r.+60+2011-01-05.pdf" target="_self">H.R. 60, "To repeal the expansion of information reporting requirements for payments of $600 or more to corporations, and for other purposes", as introduced in the House, January 5, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/related+house+bills--112th+congress/h.r.+144+2011-01-05.pdf" target="_self">H.R. 144, "Small Business Paperwork Mandate Elimination Act of 2011", as introduced in the House, as introduced in the House, January 5, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/related+house+bills--112th+congress/h.r.+584+2011-02-09.pdf" target="_self">H.R. 584, "To repeal the information reporting requirements added by the Patient Protection and Affordable Care Act", as introduced in the House, February 9, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/related+house+bills--112th+congress/h.r.+705+introduced+house+2011-02-15.pdf" target="_self">H.R. 705, "Comprehensive 1099 Taxpayer Protection and Repayment of Exchange Subsidy Overpayments Act of 2011", as introduced in the House, February 15, 2011</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/related+house+bills--112th+congress/h.r.+705+reported+in+house+2011-02-22.pdf" target="_self">H R 705, "Comprehensive 1099 Taxpayer Protection and Repayment ofExchange 
+        Subsidy Overpayments Act of 2011", as reported in the House, February 22, 2011</a></li>
+	
+<h2 id="112 senate bills">Related Senate Bills (112th Congress)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/related+senate+bills+--112th+congress/s.+18+2011-01-25.pdf" target="_self">S. 18, "Small Business Paperwork Mandate Elimination Act", as introduced in the Senate, January 25, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/related+senate+bills+--112th+congress/s.+72+2011-01-25.pdf" target="_self">S. 72, "Small Business Paperwork Mandate Elimination Act of 2011", as introduced in the Senate, January 25, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/related+senate+bills+--112th+congress/s.+359+2011-02-16.pdf" target="_self">S.359, "Comprehensive 1099 Taxpayer Protection and Repayment of Exchange Subsidy Overpayments Act of 2011", as introduced in the Senate, February 16, 2011</a></li>
+		
+<h2 id="resolutions">House Resolution</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/house+resolution/h.res.+129+reported+in+house+2011-03-01.pdf" target="_self">H. Res. 129, "Providing for consideration of the bill (H.R. 4) to repeal the expansion of information reporting requirements for payments of $600 or more to corporations, and for other purposes", as reported in the House, March 1, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/house+resolution/h.res.+129+engrossed+in+house+2011-03-02.pdf" target="_self">H. Res. 129, engrossed in the House (passed the House), March 2, 2011</a></li>
+	
+<h2 id="documents">Related House Bill (111th Congress)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/related+house+bill--111th+congress/h.r.+5982+2010-07-30.pdf" target="_self">H.R. 5982, "Small Business Tax Relief Act of 2010", as introduced in the House, July 30, 2010</a></li>
+	
+<h2 id="111 prints">Joint Committee on Taxation Print (111th Congress)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/jct+prints--111th+congress/jcx-43-10+2010-07-30.pdf" target="_self">Technical Explanation of the Revenue Provisions of H.R. 5982, the 'Small Business Tax Relief Act of 2010", prepared by the staff of the Joint Committee on Taxation, (JCX-43-10), July 30, 2010.</a></li>
+	
+<h2 id="112 prints">Joint Committee on Taxation Prints (112th Congress)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/jct+prints--112th+congress/jcx-8-11+2011-02-14.pdf" target="_self">Estimated Revenue Effects of H.R. 4, "The Small Business Paperwork, Mandate Elimination Act of 2011", Scheduled for Markup by the Committee on Ways and Means on February 17, 2011Fiscal Years 2011-2021, Joint Committee on Taxation (JCX-8-11), February 14, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/jct+prints--112th+congress/jcx-7-11+2011-02-14.pdf" target="_self">Description of H.R. 4, the "Small Business Paperwork Mandate Elimination Act of 2011", Scheduled for Markup by the House Committee on Ways and Means on February 17, 2011, Prepared by the Staff of the Joint Committee on Taxation, (JCX-7-11), February 14, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/jct+prints--112th+congress/jcx-10-11+2011-02-14.pdf" target="_self">Estimated Revenue Effects of H.R. __, The "Comprehensive 1099 Taxpayer Protection and Repayment of Exchange Subsidy Overpayments Act of 2011," Scheduled for Markup by the Committee on Ways and Means on February 17, 2011 Fiscal Years 2011-2021, Joint Committee on Taxation (JCX-10-11), February 14, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/jct+prints--112th+congress/jcx-9-11+2011-02-17.pdf" target="_self">Description of H.R. __, The "Comprehensive 1099 Taxpayer Protection and Repayment of Exchange Subsidy Overpayments Act of 2011", Scheduled for Markup by the House Committee on Ways and Means on February 17, 2011, Prepared by the Staff of the Joint Committee on Taxation (JCX-9-11), February 14, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/jct+prints--112th+congress/jcx-14-11+2011-02-15.pdf" target="_self">Estimated Revenue Effects of the Chairman's Amendments in the Nature of a Substitute to H.R. 705, The "Comprehensive 1099 Taxpayer Protection and Repayment of Exchange Subsidy Overpayments Act of 2011," Scheduled for Markup by the Committee on Ways and Means on February 17, 2011 Fiscal Years 2011-2021, Joint Committee on Taxation (JCX-14-11), February 15, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/jct+prints--112th+congress/jcx-12-11+2011-02-15.pdf" target="_self">Estimated Revenue Effects of the Chairman's Amendment in the Nature of a Substitute to H.R. 4, the "Comprehensive 1099 Taxpayer Protection and Repayment of Exchange Subsidy Overpayments Act of 2011," Scheduled for Markup by the Committee on Ways and Means on February 17, 2011, Fiscal Years 2011-2021, Joint Committee on Taxation, (JCX-12-11), February 15, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/jct+prints--112th+congress/jcx-13-11+2011-02-15.pdf" target="_self">Description of an Amendment in the Nature of a Substitute to the Provisions of H.R. 705, the "Comprehensive 1099 Taxpayer Protection and Repayment of Exchange Subsidy Overpayments Act of 2011", Joint Committee on Taxation (JCX-13-11) February 15, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/jct+prints--112th+congress/jcx-11-11+2011-02-15.pdf" target="_self">Description of an Amendment in the Nature of a Substitute to the Provisions of H.R. 4, The "Small Business Paperwork Mandate Elimination Act of 2011", Joint Comittee on Taxation (JCX-11-11), February 15, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/jct+prints--112th+congress/jcs-2-13+2013-02.pdf" target="_self">General Explanation of Tax Legislation Enacted in the 112th Congress, prepared by the Staff of the Joint Committee on Taxation (JCS-2-13), February 2013, pages 27-34</a></li>
+
+<h2 id="congressional-record">Congressional Record</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/congressional+record/crec-2010-07-30-house.pdf" target="_self">House consideration of H.R. 5982, the "Small Business Tax Relief Act of 2010", page H.6470-6482; vote on pages H6561-6562, July 30, 2010 (111th Congress) </a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/congressional+record/crec-2011-03-02-house+consideration.pdf" target="_self">House consideration of H. Res. 129, pages H1465-1473; vote on pages H1480-1481, March 2, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/congressional+record/crec-2011-03-03-house.pdf" target="_self">House consideration and passage of H.R. 4, pages H1529-1553, March 3, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/112th+congress/pl+112-9+-+not+in+dr/documents/congressional+record/crec-2011-04-05-senate.pdf" target="_self">Senate consideration and passage of H.R. 4, pages S2099-2108, April 5, 2011</a></li>
+	
+</ol>
+</div>
+
+<!--end of Content-->
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there -->
+    <title>USTC Electronic Legislative History Collection - PL 110-166</title>
+<!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
+    <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+
+<!--Header - this lets the header link back to the ELH website homepage - keep intact-->
+	<div class="header">
+	   <h1><a class="homepage-link" href="https://ustc-elh-static-website.s3.s3.amazonaws.com/legislative-history-index.html">USTC Electronic Legislative History Collection</a></h1>
+	</div>
+<!--End of header-->
+
+<!--This section gives us the navigation bar to the left - keep intact; if you need to update the sidebar, go to the "nav.html" file and edit that-->
+	<div id="nav-placeholder">
+
+	</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("https://ustc-elh-static-website.s3.amazonaws.com/javascript+sidebar/nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+      
+<!--Content of webpage-->
+	<div class="content">
+
+<!--Breadcrumbs - this appears at the top of the page to help users navigate to pages furhter back in the hierarchy - keep intact-->
+	<div class="breadcrumbs">
+	   <script language="javascript" src="https://ustc-elh-static-website.s3.amazonaws.com/breadcrumbs+script/breadcrumb_script.js"></script> 
+	</div>
+<!--end of breadcrumbs-->
+
+
+<!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
+<h1>PL 110-166</h1>
+<h1>Tax Increase Prevention Act of 2007</h1>
+
+<!--CHANGE: this can be tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy.-->
+<!--I recommend editing this section last, after you know what to expect in terms of contents.-->
+		
+<!--This section is the PL Table of Contents Javascript anchors - this takes a user directly to the part of the page that has an "anchor" on it.-->
+<!-- These anchors need to be modified on a case-by-case basis - the anchors are based on pub types present in the legislative history collection.-->
+<!-- Modify "value" to be your anchor. In the next section, you will run into "id"s, which will need to be filled in with the "value"s from this section.-->
+<!-- Once they match, you will be able to jump to different sections instantly by selecting them from the dropdown menu.-->
+	<br/>
+	<form action="#" onsubmit="return false;">
+	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
+	  <option value="index">Select Publication Type</option>
+      <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
+	  <option value="public-law">Public Law</option>
+	  <option value="reports">Reports</option>
+	  <option value="related-reports">Related Report</option>
+	  <option value="prints">Prints</option>
+	  <option value="hr">H.R. 3996</option>
+	  <option value="resolutions">Resolutions</option>
+	  <option value="related-bills">Related Bills</option>
+	  <option value="congressional-record">Congressional Record</option>
+	</select>
+	</form>
+	<br/>
+<!-- End of PL Table of Contents Javascript anchors -->
+
+<ol type="1">
+
+<!--CHANGE: the "Title of pub" for all items should be replaced with the title from Jen and Nancy's Table of Contents-->
+<!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
+<!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
+<!--The table of contents file can really come in handy from here on out!-->
+
+<h2 id="public-law">Public Law</h2>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/public+law/pl+110-166.pdf" target="_self">Public Law 110-166 (H.R. 3996), December 26, 2007</a></li>
+
+<!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
+<h2 id="reports">Reports</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/reports/house+report+110-431.pdf" target="_self">House Report 110-431, Temporary Tax Relief Act of 2007, to accompany H.R. 3996, House Committee on Ways and Means, November 6, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/reports/house+report+110-438.pdf" target="_self">House Report 110-438, Providing for Consideration of the Bill (H.R. 3996) to Amend the Internal Revenue Code of 1986 to Extend Certain Expiring Provisions, and for Other Purposes to accompany H. Res. 809, House Committee on Rules, November 8, 2007</a></li>
+	
+<h2 id="related-reports">Related Report</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/reports/house+report+110-499.pdf" target="_self">House Report 110-499, Providing for Consideration of the Senate Amendment to the Bill (H.R. 3996) to Amend the Internal Revenue Code of 1986 to Extend Certain Expiring Provisions, and for other Purposes, to accompany H. Res. 894, House Committee on Rules, December 19, 2007</a></li>
+	
+<h2 id="prints">Prints</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/jct+prints/jcx-105-07.pdf" target="_self">Estimated Revenue Effects of the Chairman's Amendment in the Nature of a Substitute to H.R. 3996, the "Temporary Tax Relief Act of 2007,” Scheduled for Markup by the Committee on Ways and Means on November 1, 2007, Fiscal Years 2008-2017 (JCX-105-07), October 31, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/jct+prints/jcx-106-07.pdf" target="_self">Description of the Chairman's Amendment in the Nature of a Substitute of H.R. 3996, the "Temporary Tax Relief Act of 2007,” Scheduled for Markup by the House Committee on Ways and Means on November 1, 2007 (JCX-106-07), November 1, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/jct+prints/jcs-1-09.pdf" target="_self">General Explanation of Tax Legislation Enacted in the 110th Congress, Joint Committee on Taxation (JCS-1-09), March 2009, pages 60-61</a></li>
+    
+<!--CHANGE: here, make sure you also change the H.R #### to the proper H.R. number, if applicable.-->
+<h2 id="hr">H.R. 3996</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/hr+3996/hr+3996+as+introduced+in+the+house.pdf" target="_self">H.R. 3996, "Temporary Tax Relief Act of 2007", introduced in the House, October 30, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/hr+3996/hr+3996+as+reported+in+the+house.pdf" target="_self">H.R. 3996, reported with an amendment, committed to the Committee of the Whole House on the State of the Union, and ordered to be printed, November 6, 2007"</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/hr+3996/hr+3996+engrossed+in+the+house.pdf" target="_self">H.R. 3996, engrossed in the House (passed the House), November 9, 2007/a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/hr+3996/hr+3996+received+in+the+senate+and+placed+on+calendar.pdf" target="_self">H.R. 3996, received in the Senate and placed on the calendar, November 14, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/hr+3996/hr+3996+engrossed+senate+amendment.pdf" target="_self">Engrossed Amendment by the Senate to H.R. 3996, "Tax Increase Prevention Act of 2007", December 6, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/hr+3996/hr+3996+as+enrolled.pdf" target="_self">H.R. 3996, enrolled bill (final as passed by both the House and Senate), December 19, 2007</a></li>
+	
+<h2 id="resolutions">Resolutions</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/resolutions/h+res+809+as+reported.pdf" target="_self">House Resolution 809, reported in the House and referred to the House Calendar, November 8, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/resolutions/h+res+809+as+engrossed.pdf" target="_self">House Resolution 809, engrossed in the House (passed the House), November 9, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/resolutions/h+res+894+as+reported.pdf" target="_self">House Resolution 894, reported from the Committee on Rules and referred to the House Calendar, December 19, 2007</a></li>
+	
+<h2 id="related-bills">Related Bills</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/related+bills/hr+2782+as+introduced+in+the+house.pdf" target="_self">H.R. 2782, introduced in the House, June 19, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/related+bills/hr+3630+as+introduced.pdf" target="_self">H.R. 3630, "Enhancing Education through Tax Relief Act of 2007", introduced in the House, September 20, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/related+bills/hr+3879+as+introduced.pdf" target="_self">H.R. 3879, introduced in the House, October 17, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/related+bills/hr+3970+as+introduced.pdf" target="_self">H.R. 3970, "Tax Reduction and Reform Act of 2007", introduced in the House, October 25, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/related+bills/s+2234+as+introduced.pdf" target="_self">S. 2234, introduced in the Senate and placed on the calendar, October 26, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/related+bills/hr+4086+as+introduced.pdf" target="_self">H.R. 4086, "Healthy Families and Dedicated Teachers Tax Relief Act of 2007', introduced in the House, November 6, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/related+bills/s+2432+as+introduced.pdf" target="_self">S. 2432, "AMT Equity Act of 2007", introduced in the Senate and referred to the Committee on Finance, December 6, 2007</a></li>
+	
+<h2 id="congressional-record">Congressional Record</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/congressional+record/crec-2007-11-09-house+part+1.pdf" target="_self">Consideration of House Resolution 809, November 9, 2007, pages H13417-13425</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/congressional+record/crec-2007-11-09-house+part+2.pdf" target="_self">House consideration and passage of H.R. 3996, November 9, 2007 pages H13428-13462</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/congressional+record/crec-2007-12-04-senate.pdf" target="_self">Motion to proceed to consideration of measure made in Senate, December 4, 2007, pages S14731-14733</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/congressional+record/crec-2007-12-05-senate.pdf" target="_self">Motion to proceed to consider considered in Senate, December 5, 2007, pages S14772-14774</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/congressional+record/crec-2007-12-06-senate.pdf" target="_self">Motion to proceed in Senate, pages S14809-14815 and Baucus amendment No. 3804 proposed and agreed to by unanimous consent, pages S14835-14838, December 6, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-166+-+not+in+dr/documents/congressional+record/crec-2007-12-19-house.pdf" target="_self">House concurrence in the Senate amendment to H.R. 3996, December 19, 2007, pages H16889-16899</a></li>
+	
+</ol>
+</div>
+
+<!--end of Content-->
+
+</body>
+</html>

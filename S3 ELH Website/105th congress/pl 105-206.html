@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there -->
+    <title>USTC Electronic Legislative History Collection - PL 105-206</title>
+<!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
+    <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+
+<!--Header - this lets the header link back to the ELH website homepage - keep intact-->
+	<div class="header">
+	   <h1><a class="homepage-link" href="https://ustc-elh-static-website.s3.s3.amazonaws.com/legislative-history-index.html">USTC Electronic Legislative History Collection</a></h1>
+	</div>
+<!--End of header-->
+
+<!--This section gives us the navigation bar to the left - keep intact; if you need to update the sidebar, go to the "nav.html" file and edit that-->
+	<div id="nav-placeholder">
+
+	</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("https://ustc-elh-static-website.s3.amazonaws.com/javascript+sidebar/nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+      
+<!--Content of webpage-->
+	<div class="content">
+
+<!--Breadcrumbs - this appears at the top of the page to help users navigate to pages furhter back in the hierarchy - keep intact-->
+	<div class="breadcrumbs">
+	   <script language="javascript" src="https://ustc-elh-static-website.s3.amazonaws.com/breadcrumbs+script/breadcrumb_script.js"></script> 
+	</div>
+<!--end of breadcrumbs-->
+
+
+<!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
+<h1>PL 105-206</h1>
+<h1>Internal Revenue Service Restructuring and Reform Act of 1998 </h1>
+
+<!--CHANGE: this can be tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy.-->
+<!--I recommend editing this section last, after you know what to expect in terms of contents.-->
+		
+<!--This section is the PL Table of Contents Javascript anchors - this takes a user directly to the part of the page that has an "anchor" on it.-->
+<!-- These anchors need to be modified on a case-by-case basis - the anchors are based on pub types present in the legislative history collection.-->
+<!-- Modify "value" to be your anchor. In the next section, you will run into "id"s, which will need to be filled in with the "value"s from this section.-->
+<!-- Once they match, you will be able to jump to different sections instantly by selecting them from the dropdown menu.-->
+	<br/>
+	<form action="#" onsubmit="return false;">
+	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
+	  <option value="index">Select Publication Type</option>
+      <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
+	  <option value="public-law">Public Law</option>
+	  <option value="presidential-documents">Presidential Documents</option>
+	  <option value="reports">Reports</option>
+	  <option value="hearings">Hearings</option>
+	  <option value="related hearings">Related Hearings</option>
+	  <option value="prints">Joint Committee on Taxation Prints</option>
+	  <option value="misc pubs">Miscellaneous Publications</option>
+	  <option value="hr 2676">H.R. 2676</option>
+	  <option value="related-bills">Related Bills</option>
+	  <option value="resolutions">Resolutions</option>
+	  <option value="congressional-record-143">143 Congressional Record</option>
+	  <option value="congressional-record-144">144 Congressional Record</option>
+	</select>
+	</form>
+	<br/>
+<!-- End of PL Table of Contents Javascript anchors -->
+
+<ol type="1">
+
+<!--CHANGE: the "Title of pub" for all items should be replaced with the title from Jen and Nancy's Table of Contents-->
+<!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
+<!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
+<!--The table of contents file can really come in handy from here on out!-->
+<h2 id="public-law">Public Law</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/public+law/pl+105-206.pdf" target="_self">Public Law 106-206 (H.R. 2676), July 22, 1998</a></li>
+	
+<h2 id="presidential-documents">Presidential Documents</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/signing+statement/wcpd-1998-07-27-pg1453.pdf" target="_self">Remarks on Signing the Internal Revenue Service Restructuring and Reform Act of 1998, President William J. Clinton, July 22, 1998</a></li>
+	
+<!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
+<h2 id="reports">Reports</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/reports/house+report+105-356.pdf" target="_self">House Report 105-356 to accompany H.R. 2645, "Tax Technical Corrections Act of 1997",  House Committee on Ways and Means, October 29, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/reports/house+report+105-364+part+1.pdf" target="_self">House Report 105-364, Part 1, to accompany H.R. 2676, "Internal Revenue Service Restructuring and Reform Act of 1997", House Committee of the Whole, October 31, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/reports/senate+report+105-174.pdf" target="_self">Senate Report 105-174 to accompany H.R. 2676, "Internal Revenue Service Restructuring and Reform Act of 1998", Senate Committee on Finance, April 22, 1998</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/reports/house+report+105-599.pdf" target="_self">House Report 105-599 to accompany H.R. 2676, "Internal Revenue Service Restructuring and Reform Act of 1998", June 24, 1998</a></li>
+	
+<h2 id="hearings">Hearings</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hearings/serial+no.+105-28.pdf" target="_self">Annual Report of the Internal Revenue Service Taxpayer Advocate, hearing before the Subcommittee on Oversight of the House Ways and Means Committee, February 25, 1997 (Serial 105-28)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hearings/serial+no.+105-22.pdf" target="_self">"High-Risk" Programs Within the Jurisdiction of the Committee on Ways and Means, hearing before the Subcommittee on Oversight of the House Ways and Means Committee, March 4, 1997 (Serial 105-22)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hearings/serial+105-37.pdf" target="_self">Electronic Federal Tax Payment System, hearing before the Subcommittee on Oversight of the House Ways and Means Committee, April 16, 1997 (Serial 105-37)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hearings/serial+105-30.pdf" target="_self">Report of the National Commission on Restructuring the Internal Revenue Service, hearing before the Subcommittee on Oversight of the House Ways and Means Committee, July 24, 1997 (Serial 105-30)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hearings/serial+105-40.pdf" target="_self">Recommendations of the National Commission on Restructuring the IRS to Expand Electronic Filing of Tax Returns, hearing before the Subcommittee on Oversight of the House Ways and Means Committee, September 9, 1997 (Serial 105-40)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hearings/serial+105-81.pdf" target="_self">Recommendations of the National Commission on Restructuring the IRS on Executive Branch Governance and Congressional Oversight of the IRS, hearing before the House Ways and Means Committee, September 16 and 17, 1997 (Serial 105-81)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hearings/senate+hearing+105-190.pdf" target="_self">Practices and Procedures of the Internal Revenue Service, hearings before the Senate Finance Committee, September 23, 24, and 25, 1997 (Senate Hearing 105-190)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hearings/serial+105-62.pdf" target="_self">Taxpayer Rights: Written Comment and Hearing before the Subcommittee on Oversight of the House Ways and Means Committee, September 26, 1997 (Serial 105-62) </a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hearings/senate+hearing+105-317.pdf" target="_self">Management and Operations of the Oklahoma-Arkansas IRS District, hearing before the Subcommittee on Taxation and IRS Oversight of the Senate Finance Committee, December 3, 1997 (Senate Hearing 105-317) </a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hearings/senate+hearing+105-529.pdf" target="_self">IRS Restructuring, hearings before the Senate Finance Committee on H.R. 2676, January 28, 29; February 5, 11, and 25, 1998 (Senate Hearing 105-529)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hearings/serial+no.+105-92.pdf" target="_self">Treasury Department Report on Innocent Spouse Relief, hearing before the House Subcommittee on Oversight of the Committee on Ways and Means, February 24, 1998 (Serial No. 105-92)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hearings/senate+hearing+105-598.pdf" target="_self">IRS Oversight, hearings before the Senate Finance Committee on April 28, 29, 30, and May 1, 1998 (Senate Hearing 105-598)</a></li>
+	
+<h2 id="related hearings">Related Hearings</h2>	
+
+	<li>Taxing Times: The Case for IRS Reform, hearing before the Subcommittee on National Economic Growth, Natural Resources, and Regulatory Affairs of the House Committee on Government Reform and Oversight, April 3, 1996 - See Library for document</li>
+	<li>IRS Reform: What America's Taxpayers Need to Know, hearing before the Senate Committee on Small Business, February 12, 1998 (Senate Hearing 105-469) - See Library for document</li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hearings/senate+hearing+105-581.pdf">Internal Revenue Service's Methods, hearing before a Subcommittee of the Senate Committee on Appropriations, Special Hearing, April 14,1998 (Senate Hearing 105-581)</a></li>
+
+<h2 id="prints">Joint Committee on Taxation Prints</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-44-97.pdf" target="_self">Description and Analysis of Proposals Relating to the Recommendations of the National Commission on Restructuring the Internal Revenue Service on Executive Branch Governance and Congressional Oversight, September 16, 1997 (JCX-44-97)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-45-97.pdf" target="_self">Written Testimony of the Staff of the Joint Committee on Taxation with Respect to Certain Provisions of H.R. 2292 (the "Internal Revenue Service Restructuring and Reform Act of 1997") September 17, 1997 (JCX-45-97)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-49-97.pdf" target="_self">Background and Description of Proposals Relating to Taxpayer Protection and Rights (Title III of H.R. 2292) September 25, 1997 (JCX-49-97)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-56-97.pdf" target="_self">Description of Chairman's Mark of the "Tax Technical Corrections Act of 1997", October 8, 1997 (JCX-56-97)</a></li>
+	<li>Description of the "Internal Revenue Service Restructuring and Reform Act of 1997", October 21, 1997 (JCX-62-97)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-63-97.pdf" target="_self">Description of Changes to JCX-62-97 Made by the Amendment in the Nature of a Substitute to be Offered by Chairman Archer, October 22, 1997 (JCX-63-97)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-64-97.pdf" target="_self">Estimated Revenue Effects of an Amendment in the Nature of a Substitute to H.R. 2676, the "Internal Revenue Service Restructuring and Reform Act of 1997", October 22, 1997 (JCX-64-97)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcs-1-98.pdf" target="_self">Description and Analysis of Proposals Relating to the Recommendations of the National Commission on Restructuring the Internal Revenue Service, S. 1096, and H.R. 2676 as Passed by the House, January 23, 1998 (JCS-1-98)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcs-6-98.pdf" target="_self">Present Law and Background Relating to Tax Treatment of "Innocent Spouses", February 9, 1998 (JCX-6-98)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-17-98.pdf" target="_self">Description of Senate Finance Committee Chairman's Mark Relating to the Reform and Restructuring of the Internal Revenue Service, March 26, 1998 (JCX-17-98)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-18-98.pdf" target="_self">Description of Senate Finance Committee Chairman's Mark of Tax Technical Corrections Provisions, March 26, 1998 (JCX-18-98)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-19-98.pdf" target="_self">Estimated Revenue Effects of the Senate Finance Committee Chairman's Mark Relating to Reform and Restructuring of the Internal Revenue Service, March 27, 1998 (JCX-19-98</a>li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-20-98.pdf" target="_self">Estimated Revenue Effects of the Senate Finance Committee Chairman's Mark Relating to Reform and Restructuring of the Internal Revenue Service, March 30, 1998 (JCX-20-98)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-21-98.pdf" target="_self">Description of Modifications to Senate Finance Committee Chairman's Mark Relating to the Reform and Restructuring of the Internal Revenue Service and Tax Technical Corrections Provisions, March 31, 1998 (JCX-21-98)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-22-98.pdf" target="_self">Estimated Revenue Effects of the Senate Finance Committee Chairman's Mark, with Modifications Relating to Reform and Restructuring of the Internal Revenue Service, March 31, 1998 (JCX-22-98)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-23-98.pdf" target="_self">Description of Additional Modifications to Senate Finance Committee Chairman's Mark Relating to Reform and Restructuring of the Internal Revenue Service and Tax Technical Correction Provisions, March 31, 1998 (JCX-23-98)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-24-98.pdf" target="_self">Description of Accepted Amendments to Senate Finance Committee Chairman's Mark Relating to Reform and Restructuring of the Internal Revenue Service and Tax Technical Correction Provisions, as Modified, March 31, 1998 (JCX-24-98)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-25-98.pdf" target="_self">Estimated Revenue Effects of Reform and Restructuring of the Internal Revenue Service as Ordered to be Reported by the Senate Committee on Finance on March 31, 1998, April 1, 1998 (JCX-25-98)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-31-98.pdf" target="_self">Description of Roth Financing Amendment to the "Internal Revenue Service Restructuring and Reform Act of 1998" as Reported by the Senate Committee on Finance, May 5, 1998 (JCX-31-98)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-32-98.pdf" target="_self">Estimated Revenue Effects of H.R. 2676, the "Internal Revenue Service Restructuring and Reform Act of 1998," as Reported by the Senate Committee on Finance and Modified by the Roth Financing Amendment, May 5, 1998 (JCX-32-98)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-39-98.pdf" target="_self">Comparison of Tax Technical Corrections Contained in H.R. 2676 as Passed by the House and the Senate, May 18, 1998 (JCX-39-98)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcs-5-98.pdf" target="_self">Comparison of Provisions of H.R. 2676 relating to IRS Restructuring and Reform as passed by the House and the Senate, May 18, 1998 (JCS-5-98)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-42-98.pdf" target="_self">Estimated revenue effects of H.R. 2676, the "Internal Revenue Service Restructuring and Reform Act of 1998," as passed by the Senate on May 7, 1998, May 20, 1998 (JCX-42-98)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-44-98.pdf" target="_self">Comparison of the estimated budget effects of H.R. 2676, the "Internal Revenue Service Restructuring and Reform Act of 1998," as passed by the House and the Senate, May 28, 1998 (JCX-44-98)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-50-98R.pdf" target="_self">Summary of the Conference Agreement on H.R. 2676, the Internal Revenue Service Restructuring and Reform Act of 1998, June 24, 1998 (JCX-50-98R)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-51-98.pdf" target="_self">Estimated Budget Effects of Titles I-VIII of the Conference Agreement Relating to H.R. 2676, the "Internal Revenue Service Restructuring and Reform Act of 1998" June 24, 1998 (JCX-51-98)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcx-75-98.pdf" target="_self">Summary of Revenue Provisions Contained in Legislation Enacted During the 105th Congress, November 19, 1998 (JCX-75-98)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/jct+prints/jcs-6-98.pdf" target="_self">General Explanation of the Tax Legislation Enacted in 1998, Prepared by the Staff of the Joint Committee on Taxation, November 24, 1998 (JCS-6-98), pages 16-234</a></li>
+
+<h2 id="misc pubs">Miscellaneous Publications</h2>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/misc+pubs/a+vision+for+a+new+irs.pdf">A Vision for a New IRS, Report of the National Commission on Restructuring the Internal Revenue Service, June 25, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/misc+pubs/crs+report.pdf">Personnel Management Flexibility for the Internal Revenue Service: P.L. 105-206, CRS Report for Congress, July 24, 1998</a></li>
+	
+<h2 id="hr 2676">H.R. 2676</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hr+2676/hr+2676+as+introduced.pdf" target="_self">H.R. 2676, "Internal Revenue Service Restructuring and Reform Act of 1997", as introduced in the House, October 21, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hr+2676/hr+2676+as+reported+in+the+senate.pdf" target="_self">H.R. 2676, as reported in the House, October 31, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hr+2676/hr+2676+as+engrossed+in+the+house.pdf" target="_self">H.R. 2676, as engrossed in the House (passed the House), November 5, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hr+2676/hr+2676++as+referred+to+the+senate.pdf" target="_self">H.R. 2676, received, read twice and referred to the Senate Committee on Finance, November 5, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hr+2676/hr+2676+as+reported+in+the+senate.pdf" target="_self">H.R. 2676, reported in the Senate, "Internal Revenue Service Restructuring and Reform Act of 1998", April 22, 1998</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hr+2676/hr+2676+engrossed+senate+amendment.pdf" target="_self">H.R. 2676, "Internal Revenue Service Restructuring and Reform Act of 1998", engrossed Senate amendment, May 7, 1998</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/hr+2676/hr+2676+as+enrolled.pdf" target="_self">H.R. 2676, as enrolled (final as passed both the House and the Senate), July 9, 1998</a></li>
+	
+<h2 id="related-bills">Related Bills</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/related+bills/hr+2292+as+introduced.pdf" target="_self">H.R. 2292, "Internal Revenue Service Restructuring and Reform Act of 1997 ", as introduced in the House, July 20,1997</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/related+bills/hr+2428+as+introduced.pdf" target="_self">H.R. 2428, "Internal Revenue Service Improvement Act of 1997", as introduced in the House, September 8, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/related+bills/hr+2645+as+introduced.pdf" target="_self">H.R. 2645, "Tax Technical Corrections Act of 1997 ", as introduced in the House, October 9, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/related+bills/hr+2645+as+reported+in+the+house.pdf" target="_self">H.R. 2645, as reported in the House, October 29, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/related+bills/hr+3947+as+introduced.pdf" target="_self">H.R. 3947, to amend the Internal Revenue Code of 1986 to provide that certain liquidating distributions of a regulated investment company or a real estate investment trust which are allowable as a deduction shall be included in the gross income of the distributee, as introduced in the House, May 22, 1998</a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/related+bills/hr+4106+as+introduced.pdf" target="_self">H.R. 4106, "Fairness to Employees for Meals in the Workplace Act of 1998", as introduced in the House, June 22, 1998</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/related+bills/s+1096+as+introduced.pdf" target="_self">S. 1096, "Internal Revenue Service Restructuring and Reform Act of 1997", as introduced in the Senate, July 31, 1997</a></li>
+
+<h2 id="resolutions">Resolutions</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/resolutions/h+res+303+reported+in+the+house.pdf" target="_self">House Resolution 303, reported in the House, November 4, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/resolutions/h+res+303+engrossed+in+the+house.pdf" target="_self">House Resolution 303, engrossed in the House (passed the House), November 5, 1997</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/resolutions/h+res+490+as+reported+in+the+house.pdf" target="_self">House Resolution 490, reported in the House, June 24, 1988</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/resolutions/h+res+490+engrossed+in+the+house.pdf" target="_self">House Resolution 490, engrossed in the House (passed the House), June 25, 1998</a></li>
+
+<h2 id="congressional-record-143">143 Congressional Record</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1997-11-05-house.pdf" target="_self">House consideration and passage of H.R. 2676, November 5, 1997, pages H10001-H10046</a></li>
+
+<h2 id="congressional-record-144">144 Congressional Record</h2>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-05-04-senate+part+1.pdf" target="_self">Senate consideration of H.R. 2676, May 4, 1998, pages S4147-S4197</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-05-04-senate+part+2.pdf" target="_self">Senate consideration of H.R. 2676 continues, May 4, 1998, pages S4203-S4204 </a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-05-05-senate+part+1.pdf" target="_self">Senate consideration of H.R. 2676, May 5, 1998, pages S4223-S4225</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-05-05-senate+part+2.pdf" target="_self">Senate consideration of H.R. 2676, May 5, 1998, pages S4237-S4247</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-05-05-senate+part+3.pdf" target="_self">Senate consideration of H.R. 2676 continues, May 5, 1998, pages  S4251-S4252</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-05-05-senate+part+4.pdf" target="_self">Senate consideration of H.R. 2676 continues, May 5, 1998, pages S4351-	S4353</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-05-06-senate+part+1.pdf" target="_self">Senate consideration of H.R. 2676, May 6, 1998, pages S4379-S4409</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-05-06-senate+part+2.pdf" target="_self">Senate resumes consideration of amendments to H.R. 2676, May 6, 1998, pages S4413-4432</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-05-07-senate+part+1.pdf" target="_self">Senate consideration H.R. 2676 with amendments, May 7, 1998, pages S4452-S4460</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-05-07-senate+part+2.pdf" target="_self">Senate consideration of H.R. 2676 with amendments, May 7, 1998, pages  S4462-S4487</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-05-07-senate+part+3.pdf" target="_self">Senate consideration and passage of H.R. 2676, May 7, 1998, pages  S4489-S4521</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-05-07-senate+part+4.pdf" target="_self">Mr. Lautenberg's remarks regarding the Senate passage of H.R. 2676, May 7, 1998, page S4523</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-05-13-senate.pdf" target="_self">Senate appointment of Conferees, May 13, 1998, page S4841</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-05-22-house.pdf" target="_self">House disagreement with Senate amendment to H.R. 2676 and appointment of Conferees, May 22, 1998, pages H3936-H3938</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-06-24-house.pdf" target="_self">House submits Conference Report on H.R. 2676, June 24, 1998, pages H5100-H5195</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-06-25-house+part+1.pdf" target="_self">House consideration and agreement to H. Res. 490 as to the Conference Report on H.R. 2676, June 25, 1998, pages H5304-H5307</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-06-25-house+part+2.pdf" target="_self">House consideration and agreement to Conference Report on H.R. 2676, June 25, 1998, pages H5352-5368</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-07-07-senate.pdf" target="_self">Senate consideration of Conference Report, July 7, 1998, pages S7565-S7573</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-07-08-senate+part+1.pdf" target="_self">Senate consideration of Conference Report, July 8, 1998, pages S7621-S7668</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-07-08-senate+part+2.pdf" target="_self">Senate consideration of Conference Report, July 8, 1998, pages 7670-S7675</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/105th+congress/pl+105-206+-+not+in+dr/documents/congressional+record/crec-1998-07-09-senate.pdf" target="_self">Senate agreement to Conference Report, July 9, 1998, pages S7717</a></li>
+
+</ol>
+</div>
+
+<!--end of Content-->
+
+</body>
+</html>

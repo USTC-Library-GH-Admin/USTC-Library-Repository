@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there -->
+    <title>USTC Electronic Legislative History Collection - PL 111-344</title>
+<!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
+    <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+
+<!--Header - this lets the header link back to the ELH website homepage - keep intact-->
+	<div class="header">
+	   <h1><a class="homepage-link" href="https://ustc-elh-static-website.s3.s3.amazonaws.com/legislative-history-index.html">USTC Electronic Legislative History Collection</a></h1>
+	</div>
+<!--End of header-->
+
+<!--This section gives us the navigation bar to the left - keep intact; if you need to update the sidebar, go to the "nav.html" file and edit that-->
+	<div id="nav-placeholder">
+
+	</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("https://ustc-elh-static-website.s3.amazonaws.com/javascript+sidebar/nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+      
+<!--Content of webpage-->
+	<div class="content">
+
+<!--Breadcrumbs - this appears at the top of the page to help users navigate to pages furhter back in the hierarchy - keep intact-->
+	<div class="breadcrumbs">
+	   <script language="javascript" src="https://ustc-elh-static-website.s3.amazonaws.com/breadcrumbs+script/breadcrumb_script.js"></script> 
+	</div>
+<!--end of breadcrumbs-->
+
+
+<!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
+<h1>PL 111-344</h1>
+<h1>Omnibus Trade Act of 2010</h1>
+
+<!--CHANGE: this can be tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy.-->
+<!--I recommend editing this section last, after you know what to expect in terms of contents.-->
+		
+<!--This section is the PL Table of Contents Javascript anchors - this takes a user directly to the part of the page that has an "anchor" on it.-->
+<!-- These anchors need to be modified on a case-by-case basis - the anchors are based on pub types present in the legislative history collection.-->
+<!-- Modify "value" to be your anchor. In the next section, you will run into "id"s, which will need to be filled in with the "value"s from this section.-->
+<!-- Once they match, you will be able to jump to different sections instantly by selecting them from the dropdown menu.-->
+	<br/>
+	<form action="#" onsubmit="return false;">
+	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
+	  <option value="index">Select Publication Type</option>
+      <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
+	  <option value="public-law">Public Law</option>
+	  <option value="reports">H.R. 6517</option>
+	  <option value="related-reports">Related Bill</option>
+	  <option value="hearings">Joint Committee on Taxation Print</option>
+	  <option value="prints">Congressional Record</option>
+	</select>
+	</form>
+	<br/>
+<!-- End of PL Table of Contents Javascript anchors -->
+
+<ol type="1">
+
+<h2 id="public-law">Public Law</h2>
+
+<!--CHANGE: the "Title of pub" for all items should be replaced with the title from Jen and Nancy's Table of Contents-->
+<!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
+<!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
+<!--The table of contents file can really come in handy from here on out!-->
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-344+-+not+in+dr/documents/public+law/pl+111-344.pdf" target="_self">Public Law 111-344 (H.R. 6517), December 29, 2010</a></li>
+
+<!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
+<h2 id="reports">H.R. 6517</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-344+-+not+in+dr/documents/hr+6517/hr6517+as+introduced.pdf" target="_self">H.R. 6517, "Omnibus Trade Act of 2010", introduced in the House, December 13, 2010</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-344+-+not+in+dr/documents/hr+6517/hr6517+as+engrossed.pdf" target="_self">H.R. 6517, engrossed in the House (passed the House), December 15, 2010</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-344+-+not+in+dr/documents/hr+6517/hr6517+as+received+in+senate.pdf" target="_self">H.R. 6517, received in the Senate, December 16, 2010</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-344+-+not+in+dr/documents/hr+6517/hr6517+engrossed+senate+amendment.pdf" target="_self">H.R. 6517, engrossed Senate Amendment, December 22, 2010</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-344+-+not+in+dr/documents/hr+6517/hr6517+enrolled.pdf" target="_self">H.R. 6517, enrolled bill (final as passed both the House and Senate), December 22, 2010</a></li>
+
+
+<h2 id="related-reports">Related Bill</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-344+-+not+in+dr/documents/related+bill/s+4055.pdf" target="_self">S. 4055, "Trade Adjustment Assistance Extension Act of 2010", as introduced, December 22, 2010</a></li>
+	
+<h2 id="hearings">Joint Committee on Taxation Print</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-344+-+not+in+dr/documents/jct/jcs-2-11.pdf" target="_self">General Explanation of Tax Legislation Enacted in the 111th Congress, prepared by the Staff of the Joint Committee on Taxation, March 2011 (JCS-2-11), pages 689-692</a></li>
+	
+<h2 id="prints">Congressional Record</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-344+-+not+in+dr/documents/congressional+record/cr+december+15%2C+2010.pdf" target="_self">House consideration and passage of H.R. 6517, December 15, 2010, pages H8418-8452</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-344+-+not+in+dr/documents/congressional+record/cr+december+22%2C+2010+brown.pdf" target="_self">Measure laid before Senate by unanimous consent with an amendment by Senator Brown, December 22, 2010, page S11011</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-344+-+not+in+dr/documents/congressional+record/cr+december+22%2C+2010+senate+amendment.pdf" target="_self">Senate Amendment 4924, December 22, 2010, pages S11051-11053</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/111th+congress/pl+111-344+-+not+in+dr/documents/congressional+record/cr+december+22%2C+2010.pdf" target="_self">House concurrence in the Senate amendment, December 22, 2010, page H8982-8983</a></li>
+	
+</ol>
+</div>
+
+<!--end of Content-->
+
+</body>
+</html>

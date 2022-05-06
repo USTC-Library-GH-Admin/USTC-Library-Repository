@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there -->
+    <title>USTC Electronic Legislative History Collection - PL 110-28</title>
+<!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
+    <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+
+<!--Header - this lets the header link back to the ELH website homepage - keep intact-->
+	<div class="header">
+	   <h1><a class="homepage-link" href="https://ustc-elh-static-website.s3.s3.amazonaws.com/legislative-history-index.html">USTC Electronic Legislative History Collection</a></h1>
+	</div>
+<!--End of header-->
+
+<!--This section gives us the navigation bar to the left - keep intact; if you need to update the sidebar, go to the "nav.html" file and edit that-->
+	<div id="nav-placeholder">
+
+	</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("https://ustc-elh-static-website.s3.amazonaws.com/javascript+sidebar/nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+      
+<!--Content of webpage-->
+	<div class="content">
+
+<!--Breadcrumbs - this appears at the top of the page to help users navigate to pages furhter back in the hierarchy - keep intact-->
+	<div class="breadcrumbs">
+	   <script language="javascript" src="https://ustc-elh-static-website.s3.amazonaws.com/breadcrumbs+script/breadcrumb_script.js"></script> 
+	</div>
+<!--end of breadcrumbs-->
+
+
+<!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
+<h1>PL 110-28</h1>
+<h1>U.S. Troop Readiness, Veterans' Care, Katrina Recovery, and Iraq Accountability Appropriations Act, 2007</h1>
+
+<!--CHANGE: this can be tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy.-->
+<!--I recommend editing this section last, after you know what to expect in terms of contents.-->
+		
+<!--This section is the PL Table of Contents Javascript anchors - this takes a user directly to the part of the page that has an "anchor" on it.-->
+<!-- These anchors need to be modified on a case-by-case basis - the anchors are based on pub types present in the legislative history collection.-->
+<!-- Modify "value" to be your anchor. In the next section, you will run into "id"s, which will need to be filled in with the "value"s from this section.-->
+<!-- Once they match, you will be able to jump to different sections instantly by selecting them from the dropdown menu.-->
+	<br/>
+	<form action="#" onsubmit="return false;">
+	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
+	  <option value="index">Select Publication Type</option>
+      <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
+	  <option value="public-law">Public Law</option>
+	  <option value="presidential-documents">Presidential Documents</option>
+	  <option value="reports">Reports</option>
+	  <option value="hearings">Hearings</option>
+	  <option value="hr 2206">H.R. 2206</option>
+	  <option value="hr 1591">Related Bill - H.R. 1591</option>
+	  <option value="related-bills">Related Bills</option>
+	  <option value="resolutions">Resolutions</option>
+	  <option value="documents">House Document</option>
+	  <option value="prints">Joint Committee on Taxation Prints</option>
+	  <option value="congressional-record">Congressional Record</option>
+	</select>
+	</form>
+	<br/>
+<!-- End of PL Table of Contents Javascript anchors -->
+
+<ol type="1">
+
+<!--CHANGE: the "Title of pub" for all items should be replaced with the title from Jen and Nancy's Table of Contents-->
+<!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
+<!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
+<!--The table of contents file can really come in handy from here on out!-->
+<h2 id="public-law">Public Law</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/public+law/pl+110-28.pdf" target="_self">Public Law 110-28 (H.R. 2206), May 25, 2007</a></li>
+
+<h2 id="presidential-documents">Presidential Documents</h2>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/presidential+documents/wcpd-2007-05-07-pg558.pdf" target="_self">Remarks on Returning Without Approval to the House of Representatives the "U.S. Troop Readiness, Veterans’ Care, Katrina Recovery, and Iraq Accountability Approprations Act, 2007", Weekly Compilation of Presidential Documents, Volume 43, pages 558-560, May 1, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/presidential+documents/wcpd-2007-06-04-pg687.pdf" target="_self">Statement on Congressional Passage of Emergency Supplemental Appropriations, Weekly Compilation of Presidential Documents, Volume 43, page 687, May 25, 2007</a></li>
+	
+<!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
+<h2 id="reports">Reports</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/reports/house+report+110-60.pdf" target="_self">House Report 110-60, Making Emergency Supplemental Appropriations for the Fiscal Year Ending September 30, 2007, and for Other Purposes, to accompany H.R. 1591, together with Minority Views, House Committee on Appropriations, March 20, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/reports/senate+report+110-37.pdf" target="_self">Senate Report 110-37, Making Emergency Supplemental Appropriations for the Fiscal Year Ending September 30, 2007, and for Other Purposes, to accompany S. 965, Senate Committee on Appropriations, March 22, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/reports/house+report+110-64.pdf" target="_self">House Report 110-64, Providing for Consideration of the Bill (H.R. 1591) Making Emergency Supplemental Appropriations for the Fiscal Year Ending September 30, 2007, and for Other Purposes, to accompany H. Res. 261, March 22, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/reports/house+conference+report+110-107.pdf" target="_self">House Conference Report 110-107, Making Emergency Supplemental Appropriations for the Fiscal Year Ending September 30, 2007, and for Other Purposes, to accompany H.R. 1591, April 24, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/reports/house+report+110-110.pdf" target="_self">House Report 110-110, Providing for Consideration of the Conference Report to Accompany the Bill (H.R. 1591) Making Emergency Supplemental Appropriations for the Fiscal Year Ending September 30, 2007, and for Other Purposes, to accompany H. Res. 332, April 24, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/reports/house+report+110-143.pdf" target="_self">House Report 110-143, Providing for Consideration of the Bill (H.R. 2237) to Provide for the Redeployment of U.S. Armed Forces and Defense Contractors from Iraq, Providing for Consideration of the Bill (H.R. 2206) Making Emergency Supplemental Appropriations for the Fiscal Year Ending September 30, 2007, and for Other Purposes, and Providing for Consideration of the Bill (H.R. 2207) Making Supplemental Appropriations for Agricultural and Other Emergency Assistance for the Fiscal Year Ending September 30, 2007, to accompany H. Res. 387, May 9, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/reports/house+report+110-168.pdf" target="_self">House Report 110-168, Providing for Consideration of the Senate Amendment to the Bill (H.R. 2206) Making Emergency Supplemental Appropriations and Additional Supplemental Appropriations for Agricultural and Other Emergency Assistance for Fiscal Year Ending September 30, 2007, and for Other Purposes, to accompany H. Res. 438, May 24, 2007</a></li>
+	
+<h2 id="hearings">Hearings</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/hearings/senate+hearing+110-87.pdf" target="_self">Supplemental Appropriations for Fiscal Year 2007, Hearing before the Senate Committee on Appropriations, February 27, 2007 (Senate Hearing 110-87)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/hearings/serial+no.+110-10.pdf" target="_self">The Revenue-Increasing Measures in the "Small Business and Work Opportunity Act of 2007," Hearing before the House Committee on Ways and Means, March 14, 2007 (Serial No. 110-10)</a></li>
+	
+<h2 id="hr 2206">H.R. 2206</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/hr+2206/hr+2206+as+introduced+in+the+house.pdf" target="_self">H.R. 2206, "U.S. Troop Readiness, Veterans’ Care, Katrina Recovery, and Iraq Accountability Appropriations Act, 2007",  as introduced in the House, May 8, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/hr+2206/hr+2206+engrossed+in+the+house.pdf" target="_self">H.R. 2206 as engrossed in the House (passed House), May 10, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/hr+2206/hr+2206+received+in+senate+and+placed+on+calendar.pdf" target="_self">H.R. 2206 as received in the Senate, May 14, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/hr+2206/hr+2206+senate+amendment.pdf" target="_self">Engrossed Senate Amendment to H.R. 2206, May 17, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/hr+2206/hr+2206+with+senate+amendment.pdf" target="_self">H.R. 2206 as passed by the Senate with an amendment, May 17, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/hr+2206/hr+2206+engrossed+house+amendment.pdf" target="_self">H.R. 2206 as passed by the House with House amendment to Senate amendment, May 24, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/hr+2206/hr+2206+as+enrolled.pdf" target="_self">H.R. 2206, enrolled bill (final as passed both House and Senate), May 24, 2007</a></li>
+	
+<!--CHANGE: here, make sure you also change the H.R #### to the proper H.R. number, if applicable.-->
+<h2 id="hr 1591">Related Bill - H.R. 1591</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/related+bills/hr+1591+as+introduced+and+reported+in+house.pdf" target="_self">H.R. 1591, "Making emergency supplemental appropriations for the fiscal year ending September 30, 3007, and for other purposes",  as introduced and reported in the House (Report No. 110-60), March 20, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/related+bills/hr+1591+engrossed+in+the+house.pdf" target="_self">H.R. 1591, engrossed in the House (passed House), March 23, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/related+bills/hr+2+received+in+the+senate+and+placed+on+calendar.pdf" target="_self">H.R. 1591 as received in the Senate and place on the calendar, March 23, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/related+bills/hr+1591+engrossed+senate+amendment.pdf" target="_self">Engrossed Senate amendment to H.R. 1591, March 29, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/related+bills/hr+1591+passed+by+senate+with+amendment.pdf" target="_self">H.R. 1591 as passed by the Senate with an amendment, March 29, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/related+bills/hr+1591+as+enrolled.pdf" target="_self">H.R. 1591, enrolled bill (final as passed both House and Senate), April 26, 2007</a></li>
+
+<h2 id="related-bills">Related Bills</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/related+bills/hr+2+as+introduced+in+the+house.pdf" target="_self">H.R. 2, "Fair Minimum Wage Act of 2007", as introduced in the House, January 5, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/related+bills/hr+2+as+engrossed+in+the+house.pdf" target="_self">H.R. 2, engrossed in the House, January 10, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/related+bills/hr+1591+received+in+senate+and+placed+on+calendar.pdf" target="_self">H.R. 2, received in the Senate and placed on the calendar, January 11, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/related+bills/hr+1591+engrossed+senate+amendment.pdf" target="_self">Engrossed Senate amendment to H.R. 2, February 1, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/related+bills/s+2+introduced%2C+read+and+place+on+senate+calendar.pdf" target="_self">S.2, "Fair Minimum Wage Act of 2007", introduced, read and placed on the calendar, January 8, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/related+bills/s+347+introduced%2C+read+and+referred.pdf" target="_self">S. 347, "Minimum Wage Act of 2007", introduced, read and referred to the Committee on Finance, January 22, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/related+bills/s+965+reported+in+senate+and+placed+on+calendar.pdf" target="_self">S. 965, "Making emergency supplemental appropriations for the fiscal year ending September 30, 2007, and for other purposes",  as reported in the Senate and placed on the calendar, March 22, 2007</a></li>
+	
+<h2 id="resolutions">Resolutions</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/resolutions/h+res+261+as+reported+in+house.pdf" target="_self">House Resolution 261 as reported in the House, March 22, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/resolutions/h+res+261+engrossed+in+the+house.pdf" target="_self">House Resolution 261, engrossed in the House (passed the House), March 22, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/resolutions/h+res+332+as+reported+in+the+house+and+placed+on+calendar.pdf" target="_self">House Resolution 332 as reported in the House and placed on the calendar, April 24, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/resolutions/h+res+332+engrossed+in+the+house.pdf" target="_self">House Resolution 332, engrossed in the House (passed the House), April 25, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/resolutions/h+res+387+as+repoted+in+the+hosue+and+placed+on+calendar.pdf" target="_self">House Resolution 387 as reported in the House and placed on the calendar, May 9, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/resolutions/h+res+387+engrossed+in+the+house.pdf" target="_self">House Resolution 387, engrossed in the House (passed the House), May 10, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/resolutions/h+res+438+reported+in+the+house+and+placed+on+the+calendar.pdf" target="_self">House Resolution 438 as reported in the House and placed on the calendar, May 24, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/resolutions/h+res+438+engrossed+in+the+house.pdf" target="_self">House Resolution 438, engrossed in the House (passed the House), May 24, 2007	</a></li>
+	
+<h2 id="documents">House Document</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/house+document/house+document+110-31.pdf" target="_self">House Document 110-31, Veto Message on H.R. 1591, Message from the President of the United States, May 2, 2007</a></li>
+	
+<h2 id="prints">Joint Committee on Taxation Prints</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/jct+prints/jcx-22-07.pdf" target="_self">Estimated Revenue Effects of the Tax Provisions Contained in H.R. 1591, as Passed by the Senate on March 29, 2007, Fiscal Years 2007-2017, (JCX-22-07), April 4, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/jct+prints/jcx-24-07.pdf" target="_self">Technical Explanation of the "Small Business and Work Opportunity Tax Act of 2007" Contained in H.R. 1591 as Reported by the Conference Committee, (JCX-24-07), April 24, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/jct+prints/jcx-25-07.pdf" target="_self">Estimated Revenue Effects of Revenue Provisions Contained in the Conference Agreement for H.R. 1591, Fiscal Years 2007-2017, (JCX-25-07), April 24, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/jct+prints/jcx-29-07.pdf" target="_self">Technical Explanation of the "Small Business and Work Opportunity Tax Act of 2007" and Pension Related Provisions Contained in H.R. 2206 as Considered by the House of Representatives on May 24, 2007, (JCX-29-07), May 24, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/jct+prints/jcx-30-07.pdf" target="_self">Estimated Revenue Effects of the "Small Business and Work Opportunity Tax Act of 2007," and Pension-Related Provisions Contained in H.R. 2206, as Passed by the House of Representatives and the Senate on May 24, 2007, Fiscal Years 2007-2017,  (JCX-30-07), May 25, 2007</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/jct+prints/jcs-1-09.pdf" target="_self">General Explanation of Tax Legislation Enacted in the 110th Congress, (JCS-1-09), pages 4-43, March 2009</a></li>
+	
+<h2 id="congressional-record">Congressional Record</h2>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-03-22-house+part+1.pdf" target="_self">House consideration and passage of H. Res. 261, March 22, 2007, pages H2863-2874</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-03-22-house+part+2.pdf" target="_self">House consideration of H.R. 1591, March 22, 2007, pages H2875-2931</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-03-23-house.pdf" target="_self">House consideration and passage of H.R. 1591, March 23, 2007, pages H2961-2999 </a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-03-26-senate+part+1.pdf" target="_self">Senate consideration of H.R. 1591 with proposed amendments,  March 26, 2007,  pages S3735-3742; Senate amendment No. 641, pages S3747-3748; text of Senate amendment 641, pages S3760-3778</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-03-26-senate+part+2.pdf" target="_self">Senate amendment No. 641, March 26, 2007, pages S3747-3748</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-03-26-senate+part+3.pdf" target="_self">Text of Senate amendment 641, March 26, 2007, pages S3760-3778</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-03-27-senate+part+1.pdf" target="_self">Senate consideration of H.R. 1591, March 27, 2007 pages S3785-3789</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-03-27-senate+part+2.pdf" target="_self">Senate consideration of H.R. 1591, March 27, 2007 pages S3792-3822</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-03-28-senate.pdf" target="_self">Senate consideration of H.R. 1591, March 28, 2007, pages S3986-4039</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-03-29-senate+part+1.pdf" target="_self">Senate consideration and passage of H.R. 1591 with an amendment, Senate insistence on its amendment to H.R. 1591, March 29, 2007, pages S4082-4131</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-03-29-senate+part+2.pdf" target="_self">Senate request for a conference and appointment of conferees, March 29, 2007, page S4146</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-04-19-house.pdf" target="_self">House disagreement to the Senate amendment to H.R. 1591, agreement to a conference, and appointment of conferees, April 19, 2007, pages H3665-3672	</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-04-24-house.pdf" target="_self">Submission in the House of the conference report on H.R. 1591, April 24, 2007, pages H3823-3873</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-04-25-house.pdf" target="_self">House agreement to H. Res. 332 and the conference report on H.R. 1591, April 25, pages H4121-4158</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-04-26-senate.pdf" target="_self">Senate agreement to the conference report on H.R. 1591, April 26, 2007, pages S5128-5155</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-05-02-house.pdf" target="_self">House consideration of the Presidential veto message on H.R. 1591, May 2, 2007,  H4315-4326</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-05-10-house-bk2.pdf" target="_self">House consideration and passage of H. Res. 387, H.R. 2206, and H.R. 2207, and tabling of H.R. 2207, May 10, 2007, pages H4808-4867</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-05-15-senate.pdf" target="_self">Senate consideration of H.R. 2206, May 15, 2007, pages S6115-6118</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-05-17-senate+part+1.pdf" target="_self">Senate consideration and passage of H.R. 2206, with an amendment of H.R. 2206, Senate insistence on its amendment to H.R. 2206, and request for a conference, May 17, 2007, pages S6215-6219</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-05-17-senate+part+2.pdf" target="_self">Senate appointment of conferees, May 17, 2007, page S6254</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-05-24-house+part+1.pdf" target="_self">House concurrence in the Senate amendment to H.R. 2206 with an additional amendment, pursuant to H. Res. 438, May 24, 2007, pages H5730-5738</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-05-24-house+part+2.pdf" target="_self">House vote on H. Res. 438, May 24, 2007, pages H5747-5749</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-05-24-house+part+3.pdf" target="_self">House amendment to Senate amendment, May 24, 2007, pages H5776-5911</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/110th+congress/pl+110-28+-+not+in+dr/documents/congressional+record/crec-2007-05-24-senate.pdf" target="_self">Senate concurrence in the House amendment to H.R. 2206, May 24, 2007, pages S6795-6823</a></li>
+	
+</ol>
+</div>
+
+<!--end of Content-->
+
+</body>
+</html>
