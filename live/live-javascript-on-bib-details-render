@@ -22,4 +22,6 @@ field.html({filter: 'c'}) + '</div>');
  $('.bibdata.subjectdata').first().before(newelm);
 });
 
-if(bib.marc.has('050') ) { element.find('.lccallnumdata').hide(); }
+if(bib.marc.has('050') ) { element.find('.lccallnumdata').hide(); };
+
+button.xtoggleMFHDbtn { display: none; } ;
