@@ -5,10 +5,12 @@
 <a href="https://www.bloomberglaw.com/start" target="_blank">Bloomberg Law</a>
 <a href="https://www.bloomberglaw.com/product/tax/page/page_federal" target="_blank">Bloomberg Law: Tax</a>
 <a href="https://www.legalbluebook.com/" target="_blank">The Bluebook: A Uniform System of Citation</a>
+<a href="https://advance.lexis.com/courtlinkhome" target="_blank">CourtLink</a>
 <a href="https://heinonline.org/HOL/Welcome" target="_blank">HeinOnline</a>
 <a href="https://www.law360.com/" target="_blank">Law 360</a>
 <a href="https://signin.lexisnexis.com/lnaccess/app/signin?back=https%3A%2F%2Fplus.lexis.com%3A443%2F&amp;aci=lp" target="_blank">Lexis+</a><a href="https://www.oed.com/" target="_blank">Oxford English Dictionary</a>
-<a href="https://search.proquest.com/legislativeinsight" target="_blank">ProQuest Legislative Insight</a>
+<a href="https://li.proquest.com/legislativeinsight/" target="_blank">ProQuest Legislative Insight</a>
+<a href="https://www.taxnotes.com/" target="_blank">Tax Analysts</a>
 <a href="https://1.next.westlaw.com/" target="_blank">Westlaw</a>
 <br>
 </div>
@@ -20,19 +22,14 @@
 
 
 <button class="tablinks" onclick="openNews(event, 'Library Bulletin')" id="defaultOpen">Library Bulletin</button>
-<button class="tablinks" onclick="openNews(event, 'Upcoming Training')">Upcoming Training</button>
 </div>
 
 <div id="Welcome" class="tabcontent">
   <h1>Welcome to the US Tax Court Library Catalog</h1>
 <br>
-<p class="ex1">You do not need to log into the system to search the catalog.</p>
+<p class="ex1"><b>You do not need to log into the system to search the catalog.</b></p>
 
 <br>
-
-<p class="ex1"><b>To log in:</b> Click "Log in" at the upper-right hand corner of this screen.</p>
-
-<p class="ex1">Logging in also enables you to put holds on books and create your own lists.</p>
 
 <p class="ex1">For best results: take advantage of the pull-down menu to search by title, author, etc., or click on "Advanced Search" for more options.</p>
 
@@ -40,7 +37,9 @@
 
 <p class="ex1">One-on-one appointments with a librarian are always available.</p>
 
-<p class="ex1">If you need help, please contact the Library at ext. 4585 or <a href="mailto:Library@ustaxcourt.gov">Library@ustaxcourt.gov</a>.</p>
+<p class="ex1"><b>For more information, please see the <a href="https://ustaxcourt.sharepoint.com/sites/USTC-Library" target="_blank"><u>Library's SharePoint page.</u></a></b></p>
+
+<p class="ex1">If you need help, please contact the Library at <a href="mailto:Library@ustaxcourt.gov">Library@ustaxcourt.gov</a>.</p>
 
 <div id="HowToFind">
 <p></p><center><b id="HowToFindTitle">How do I find...</b></center><p></p>
@@ -100,6 +99,9 @@
 
 <h2>Model Rules</h2>
 <li><a href="http://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/model_rules_of_professional_conduct_table_of_contents.html" target="_blank">Model Rules of Professional Conduct</a></li> 
+
+<h2>Style Manuals</h2>
+<li><a href="https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2016/pdf/GPO-STYLEMANUAL-2016.pdf" target="_blank">GPO Style Manual</a></li>
 
 </div>
 
@@ -166,15 +168,15 @@ WHICH HAVE BEEN TAKEN TO THE SUPREME COURT</h2>
     <td> </td>
 <td> </td>
 
-  <tr>
-    <td>Harris, Joshua </td>
+  </tr><tr>
+    <td>Harris, Joshua&nbsp;</td>
     <td>Order
 <br>Docket No. 22369-16</td>
     <td>USCA 2nd Cir.
-<br>837 F. App’x. 839 
+<br>837 F. App’x. 839&nbsp;
 <br>Affirmed </td>
-<td>Cert Applied 
-<br>11/4/2021 </td>
+<td>Cert Applied&nbsp;
+<br>11/4/2021&nbsp;</td>
   </tr>
 
 
@@ -201,11 +203,11 @@ WHICH HAVE BEEN TAKEN TO THE SUPREME COURT</h2>
 </tr>
   <tr>
     <td>Coffey, Judith S.</td>
-    <td>150 T.C. 60 
+    <td>150 T.C. 60&nbsp;
 <br>Docket Nos. 4720-10,
 <br>4949-10</td>
-    <td>USCA 8th Cir. 
-<br>987 F.3d 808 
+    <td>USCA 8th Cir.&nbsp;
+<br>987 F.3d 808&nbsp;
 <br>Reversed and Remanded</td>
 <td>Cert Denied 
 <br>1/10/2022</td>
@@ -218,11 +220,11 @@ WHICH HAVE BEEN TAKEN TO THE SUPREME COURT</h2>
 <td> </td>
 </tr>
 <tr>
-    <td>Eldridge, Carrie Rae </td>
-    <td>Bench Opinion  
+    <td>Eldridge, Carrie Rae&nbsp;</td>
+    <td>Bench Opinion &nbsp;
 <br>Docket No. 14744-18</td>
-    <td>USCA 9th Cir. 
-<br>835 F. App’x. 271 
+    <td>USCA 9th Cir.&nbsp;
+<br>835 F. App’x. 271&nbsp;
 <br>Affirmed</td>
 <td>Rehearing Denied 
 <br>1/10/2022</td>
@@ -246,56 +248,56 @@ WHICH HAVE BEEN DECIDED ON APPEAL</h2>
   <tr>
     <td>Gillies, Toi</td>
     <td>Foley</td>
-    <td>Docket No. 12010-20 
+    <td>Docket No. 12010-20&nbsp;
 <br>Order</td>
-    <td>Affirmed 
-<br>128 AFTR 2d 2021-6935 
-<br>(10th Circuit, 2021) </td>
+    <td>Affirmed&nbsp;
+<br>128 AFTR 2d 2021-6935&nbsp;
+<br>(10th Circuit, 2021)&nbsp;</td>
  </tr>
 
  <tr>
-    <td>Goddard, William A. </td>
+    <td>Goddard, William A.&nbsp;</td>
     <td>Holmes</td>
-    <td>Docket Nos. 1145-05 
-<br>                     1504-06 
-<br>                     20673-09 
-<br>                     20674-09 
-<br>                     20675-09 
+    <td>Docket Nos. 1145-05&nbsp;
+<br>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1504-06&nbsp;
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;20673-09&nbsp;
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;20674-09&nbsp;
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;20675-09&nbsp;
 <br>TCM 2018-74</td>
-    <td>Affirmed 
-<br>128 AFTR 2d 2021-6964 
-<br>(9th Circuit, 2021) </td>
+    <td>Affirmed&nbsp;
+<br>128 AFTR 2d 2021-6964&nbsp;
+<br>(9th Circuit, 2021)&nbsp;</td>
 </tr>
 
 <tr>
     <td>Hewitt, David F. and Tammy K. Hewitt</td>
     <td>Goeke</td>
-    <td>Docket No. 23809-17, 
-<br>TCM 2020-89 </td>
-    <td>Reversed and Remanded 
-<br>21 F.4th 1336 
-<br>(11th Circuit, 2021) 
+    <td>Docket No. 23809-17,&nbsp;
+<br>TCM 2020-89&nbsp;</td>
+    <td>Reversed and Remanded&nbsp;
+<br>21 F.4th 1336&nbsp;
+<br>(11th Circuit, 2021)&nbsp;
 </td>
 </tr>
 
 <tr>
-    <td>Spagnoletti, Francis I. </td>
+    <td>Spagnoletti, Francis I.&nbsp;</td>
     <td>Lauber</td>
-    <td>Docket No. 10204-19L, 
+    <td>Docket No. 10204-19L,&nbsp;
 <br>TCM 2020-140</td>
-    <td>Affirmed 
-<br>128 AFTR 2d 2021-6835 
+    <td>Affirmed&nbsp;
+<br>128 AFTR 2d 2021-6835&nbsp;
 <br>(5th Circuit, 2021)</td>
 </tr>
 
 <tr>
-    <td>Wegbreit, Samuel and Elizabeth J. Wegbreit </td>
-    <td>Cohen </td>
-    <td>Docket No. 7109-13, 
+    <td>Wegbreit, Samuel and Elizabeth J. Wegbreit&nbsp;</td>
+    <td>Cohen&nbsp;</td>
+    <td>Docket No. 7109-13,&nbsp;
 <br>TCM 2019-82</td>
-    <td>Affirmed, order to show cause issued 
+    <td>Affirmed, order to show cause issued&nbsp;
 <br>21 F.4th 959
-<br>(7th Circuit, 2021) </td>
+<br>(7th Circuit, 2021)&nbsp;</td>
 </tr>
 
 </tbody></table>
@@ -307,55 +309,55 @@ WHICH HAVE BEEN DECIDED ON APPEAL</h2>
 
 <ul class="a">
 
-<li><a href="https://1.next.westlaw.com/Document/I8f02db006e5411ec9553e603bac229ea/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad0000017e82a7a9676800e043%3Fppcid%3D56aae70bcc774d7380a84aafb8693e17%26Nav%3DNEWS%26fragmentIdentifier%3DI8f02db006e5411ec9553e603bac229ea%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=5ff72fa227b8b83c2a85078fe3f967db&list=NEWS&rank=18&sessionScopeId=d5452c923db772b9e617d4badb5253166106b859339d0e3ec088ed450c4690df&ppcid=56aae70bcc774d7380a84aafb8693e17&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Alimony Deduction and Income Exclusion Allowed for Insurance Premiums, by James A. Beavers, 52 Tax Adviser 788 (December 1, 2021)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I8f02db006e5411ec9553e603bac229ea/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad0000017e82a7a9676800e043%3Fppcid%3D56aae70bcc774d7380a84aafb8693e17%26Nav%3DNEWS%26fragmentIdentifier%3DI8f02db006e5411ec9553e603bac229ea%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&amp;listSource=Search&amp;listPageSource=5ff72fa227b8b83c2a85078fe3f967db&amp;list=NEWS&amp;rank=18&amp;sessionScopeId=d5452c923db772b9e617d4badb5253166106b859339d0e3ec088ed450c4690df&amp;ppcid=56aae70bcc774d7380a84aafb8693e17&amp;originationContext=Search%20Result&amp;transitionType=SearchItem&amp;contextData=%28sc.Search%29">Alimony Deduction and Income Exclusion Allowed for Insurance Premiums, by James A. Beavers, 52 Tax Adviser 788 (December 1, 2021)</a></li><br>
 
-<li><a href="https://www.bloomberglaw.com/product/tax/document/XSE4RDC000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvOGIxNzE0NjEwMDFjYzRhMzc1ZGYxYmQ1OTNkNTE0ODEiXV0--aee3e7ef6a0c045230fe479e1bc0fa6b731bb9af&guid=e46d68bc-70a1-4113-9f94-ba42c510ed81&search32=sJFc9xsEB4Exw14UZycpKw%3D%3Da4S_eGt1xX5mxVarMS4cDOLVw7HAW6RhnHV61-CtyQR8FcstNFkSvU2B2l1BIz-b_-ROOk8fx5PRy5FiN6djb_UMl2RRzBKeJRU1NfAvx6Ws6411-OKeKK22w1CEo9bJ26tonPgAgBL-NJy8w6TvPjsI4AtBEKlggGCXmJztxcxC-DLLfUPjFJIWteVDLpZoLZO-OCyeW8c3KSpHBmi7gQD2duP2urpsz5KOTl9AnuXstHKx-WtRIdptcw_fnY5wVPKK_TQxB62xH08JVcZGPYOqdPvcjTCNNrvXYFjqGuBs3Yhd22KzFdTHcKp3z4mS0w93hnViKW85BITgG3OuoP303RIAuItrjPQVYDx2D3LomjNrbDInkrCVtBpHD8I3sWYUm4HqxR_76XC2QzP0mqQuSrYmKetNDmblw6e0mG7EDARwQpw3JX06yhAZ_FXymGTCNbkg5dx7TqFa9jUi0SAY9LN55IL-V4yzlLHs3heOLCAfqgjwiwSzQdB7wdHlhEfWLlir_Q7F6J4yaxYi8e2GKuTF28caiR3zNqh9HW9uvjE_Q_JQeFwSykRS9sKr">Application of Treasury’s New “Reasonably Similar” Source Rule Requirement to Claim Foreign Tax Credits for Royalty Withholding Taxes, by Gary Sprague, 51 International Journal (January 7, 2022)</a></li><br>
+<li><a href="https://www.bloomberglaw.com/product/tax/document/XSE4RDC000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvOGIxNzE0NjEwMDFjYzRhMzc1ZGYxYmQ1OTNkNTE0ODEiXV0--aee3e7ef6a0c045230fe479e1bc0fa6b731bb9af&amp;guid=e46d68bc-70a1-4113-9f94-ba42c510ed81&amp;search32=sJFc9xsEB4Exw14UZycpKw%3D%3Da4S_eGt1xX5mxVarMS4cDOLVw7HAW6RhnHV61-CtyQR8FcstNFkSvU2B2l1BIz-b_-ROOk8fx5PRy5FiN6djb_UMl2RRzBKeJRU1NfAvx6Ws6411-OKeKK22w1CEo9bJ26tonPgAgBL-NJy8w6TvPjsI4AtBEKlggGCXmJztxcxC-DLLfUPjFJIWteVDLpZoLZO-OCyeW8c3KSpHBmi7gQD2duP2urpsz5KOTl9AnuXstHKx-WtRIdptcw_fnY5wVPKK_TQxB62xH08JVcZGPYOqdPvcjTCNNrvXYFjqGuBs3Yhd22KzFdTHcKp3z4mS0w93hnViKW85BITgG3OuoP303RIAuItrjPQVYDx2D3LomjNrbDInkrCVtBpHD8I3sWYUm4HqxR_76XC2QzP0mqQuSrYmKetNDmblw6e0mG7EDARwQpw3JX06yhAZ_FXymGTCNbkg5dx7TqFa9jUi0SAY9LN55IL-V4yzlLHs3heOLCAfqgjwiwSzQdB7wdHlhEfWLlir_Q7F6J4yaxYi8e2GKuTF28caiR3zNqh9HW9uvjE_Q_JQeFwSykRS9sKr">Application of Treasury’s New “Reasonably Similar” Source Rule Requirement to Claim Foreign Tax Credits for Royalty Withholding Taxes, by Gary Sprague, 51 International Journal (January 7, 2022)</a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/I3d78f43d79ae11ec9f24ec7b211d8087/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad0000017e7fd684b967ffb8d0%3Fppcid%3Dcdf2460610de47d1856f62f2d8ea643e%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI3d78f43d79ae11ec9f24ec7b211d8087%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=37ac6e9b9bef293c16de0321014a2edc&list=ANALYTICAL&rank=1&sessionScopeId=d5452c923db772b9e617d4badb5253166106b859339d0e3ec088ed450c4690df&ppcid=cdf2460610de47d1856f62f2d8ea643e&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">The Code Section 264 Related Party Rules: When Do They Apply to Section 351 Transactions?, by Doron Narotzki and Melanie Mccoskey, 136 Journal of Taxation 3 (February 2022)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I3d78f43d79ae11ec9f24ec7b211d8087/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad0000017e7fd684b967ffb8d0%3Fppcid%3Dcdf2460610de47d1856f62f2d8ea643e%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI3d78f43d79ae11ec9f24ec7b211d8087%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&amp;listSource=Search&amp;listPageSource=37ac6e9b9bef293c16de0321014a2edc&amp;list=ANALYTICAL&amp;rank=1&amp;sessionScopeId=d5452c923db772b9e617d4badb5253166106b859339d0e3ec088ed450c4690df&amp;ppcid=cdf2460610de47d1856f62f2d8ea643e&amp;originationContext=Search%20Result&amp;transitionType=SearchItem&amp;contextData=%28sc.Search%29">The Code Section 264 Related Party Rules: When Do They Apply to Section 351 Transactions?, by Doron Narotzki and Melanie Mccoskey, 136 Journal of Taxation 3 (February 2022)</a></li><br>
 
-<li><a href="https://www.bloomberglaw.com/product/tax/document/XE1NNVIO000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvNWI4NDU2ZGExZDQ1OTBiNTM5MDVlMzI2YjhkZmEyOTciXV0--256877b9122e29202ca7636802fa0af22d7747e3&guid=3fd73d9f-a990-47ec-99db-4b7e4cbacfd4&search32=y2L1iieI-Pz1UExO8wEWrw%3D%3DcCNBt9W_KQVlyFcH2SoeMdEh0kWgcFg8wFXssuwRHEwIkMqYQeE-3aYoYgxnrjklUO3mtJwNts8kghxfdR5Puca_lv94A1V69UHiDGfDhxaehH_JcqOCJBy_ILklJnlwf-dXdrYBEyysJzFsdm3OU2KvDFUHMGlGEORj5ARoC_G4Hq0QLwLjpxG6Kh-6ppsWGefPzrfjijI5d6UgdE2wOaNJV_kWZSOViMj_SRUSCH3ESSrIY87UzCd6KJAPMyX107Xn3HkcpNACPyyq_7rgRKpjvhs65SdjiVlXlFuFSEpsbtcoj6dcSQhoRqI9d5L4iCjiYlYSlX4-tqMwFJ3lmuLz6AM4v27Ss0pwyA0gnqWhf6IPpnM-jYHKUERnCHscc8y3xkiM5x6mQdq6k8YFaGDPu6xsToT1e0XGzcUi_qKb1tC6cwz1r-Ur9doDxH_Q">Death and the Tax Collector: Examining How the IRS Collects a Decedent’s Liability, by Scott St. Armand, J.D., LLM, 47 Estates, Gifts & Trusts Journal (January 13, 2022)</a></li><br>
+<li><a href="https://www.bloomberglaw.com/product/tax/document/XE1NNVIO000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvNWI4NDU2ZGExZDQ1OTBiNTM5MDVlMzI2YjhkZmEyOTciXV0--256877b9122e29202ca7636802fa0af22d7747e3&amp;guid=3fd73d9f-a990-47ec-99db-4b7e4cbacfd4&amp;search32=y2L1iieI-Pz1UExO8wEWrw%3D%3DcCNBt9W_KQVlyFcH2SoeMdEh0kWgcFg8wFXssuwRHEwIkMqYQeE-3aYoYgxnrjklUO3mtJwNts8kghxfdR5Puca_lv94A1V69UHiDGfDhxaehH_JcqOCJBy_ILklJnlwf-dXdrYBEyysJzFsdm3OU2KvDFUHMGlGEORj5ARoC_G4Hq0QLwLjpxG6Kh-6ppsWGefPzrfjijI5d6UgdE2wOaNJV_kWZSOViMj_SRUSCH3ESSrIY87UzCd6KJAPMyX107Xn3HkcpNACPyyq_7rgRKpjvhs65SdjiVlXlFuFSEpsbtcoj6dcSQhoRqI9d5L4iCjiYlYSlX4-tqMwFJ3lmuLz6AM4v27Ss0pwyA0gnqWhf6IPpnM-jYHKUERnCHscc8y3xkiM5x6mQdq6k8YFaGDPu6xsToT1e0XGzcUi_qKb1tC6cwz1r-Ur9doDxH_Q">Death and the Tax Collector: Examining How the IRS Collects a Decedent’s Liability, by Scott St. Armand, J.D., LLM, 47 Estates, Gifts &amp; Trusts Journal (January 13, 2022)</a></li><br>
 
-<li><a href="https://plus.lexis.com/document/?pdmfid=1530671&crid=4a45b7aa-7290-48e9-977d-f73a1537fc97&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A64B1-SVR1-DY2V-D53H-00000-00&pdcontentcomponentid=433214&pdworkfolderlocatorid=NOT_SAVED_IN_WORKFOLDER&prid=c5943477-a17b-4aee-bb16-c419ed1f5193&ecomp=ff4k&earg=sr2">Estate and Gift Tax Valuation of Cannabis Business Interests, by Mitchell M. Gans, Wealth Management (December 17, 2021)</a></li><br>
+<li><a href="https://plus.lexis.com/document/?pdmfid=1530671&amp;crid=4a45b7aa-7290-48e9-977d-f73a1537fc97&amp;pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A64B1-SVR1-DY2V-D53H-00000-00&amp;pdcontentcomponentid=433214&amp;pdworkfolderlocatorid=NOT_SAVED_IN_WORKFOLDER&amp;prid=c5943477-a17b-4aee-bb16-c419ed1f5193&amp;ecomp=ff4k&amp;earg=sr2">Estate and Gift Tax Valuation of Cannabis Business Interests, by Mitchell M. Gans, Wealth Management (December 17, 2021)</a></li><br>
 
-<li><a href="https://plus.lexis.com/document/?pdmfid=1530671&crid=e8f2db21-3fb4-4cb3-9052-5ff29a07ef52&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A643V-MHN1-JBKS-P0HR-00000-00&pdcontentcomponentid=433214&pdworkfolderlocatorid=NOT_SAVED_IN_WORKFOLDER&prid=c5943477-a17b-4aee-bb16-c419ed1f5193&ecomp=ff4k&earg=sr7">The High Cost of Substantial Influence, by Christopher Woehrle, Wealth Management (November 18, 2021)</a></li><br>
+<li><a href="https://plus.lexis.com/document/?pdmfid=1530671&amp;crid=e8f2db21-3fb4-4cb3-9052-5ff29a07ef52&amp;pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A643V-MHN1-JBKS-P0HR-00000-00&amp;pdcontentcomponentid=433214&amp;pdworkfolderlocatorid=NOT_SAVED_IN_WORKFOLDER&amp;prid=c5943477-a17b-4aee-bb16-c419ed1f5193&amp;ecomp=ff4k&amp;earg=sr7">The High Cost of Substantial Influence, by Christopher Woehrle, Wealth Management (November 18, 2021)</a></li><br>
 
-<li><a href="https://plus.lexis.com/document/?pdmfid=1530671&crid=84058b0b-5992-427b-a4fd-d8e53fc9ad2f&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A647T-89V1-DY2V-D4VF-00000-00&pdcontentcomponentid=433214&pdworkfolderlocatorid=NOT_SAVED_IN_WORKFOLDER&prid=c5943477-a17b-4aee-bb16-c419ed1f5193&ecomp=ff4k&earg=sr6">IRS “Strikes Gold” by Targeting IRA Owners Investing in Coins, by Anna Rothfus Merin, Wealth Management (December 6, 2021)</a></li><br>
+<li><a href="https://plus.lexis.com/document/?pdmfid=1530671&amp;crid=84058b0b-5992-427b-a4fd-d8e53fc9ad2f&amp;pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A647T-89V1-DY2V-D4VF-00000-00&amp;pdcontentcomponentid=433214&amp;pdworkfolderlocatorid=NOT_SAVED_IN_WORKFOLDER&amp;prid=c5943477-a17b-4aee-bb16-c419ed1f5193&amp;ecomp=ff4k&amp;earg=sr6">IRS “Strikes Gold” by Targeting IRA Owners Investing in Coins, by Anna Rothfus Merin, Wealth Management (December 6, 2021)</a></li><br>
 
-<li><a href="https://plus.lexis.com/document/?pdmfid=1530671&crid=227b9c5d-4b65-4796-a58f-e307c8393e65&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A64C3-MSK1-JBKS-P4B6-00000-00&pdcontentcomponentid=433214&pdworkfolderlocatorid=NOT_SAVED_IN_WORKFOLDER&prid=c5943477-a17b-4aee-bb16-c419ed1f5193&ecomp=ff4k&earg=sr1">The Key Estate Planning Developments of 2021, by Samantha Q. Adams, Wealth Management (December 22, 2021)</a></li><br>
+<li><a href="https://plus.lexis.com/document/?pdmfid=1530671&amp;crid=227b9c5d-4b65-4796-a58f-e307c8393e65&amp;pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A64C3-MSK1-JBKS-P4B6-00000-00&amp;pdcontentcomponentid=433214&amp;pdworkfolderlocatorid=NOT_SAVED_IN_WORKFOLDER&amp;prid=c5943477-a17b-4aee-bb16-c419ed1f5193&amp;ecomp=ff4k&amp;earg=sr1">The Key Estate Planning Developments of 2021, by Samantha Q. Adams, Wealth Management (December 22, 2021)</a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/Iaaa030d0589c11ec9f24ec7b211d8087/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad0000017e82ba119c6800e792%3Fppcid%3Df966f328550345bb9b585c336517dbaa%26Nav%3DANALYTICAL%26fragmentIdentifier%3DIaaa030d0589c11ec9f24ec7b211d8087%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=e20f9bd0e3af4a196034af18dc29bf91&list=ANALYTICAL&rank=4&sessionScopeId=d5452c923db772b9e617d4badb5253166106b859339d0e3ec088ed450c4690df&ppcid=f966f328550345bb9b585c336517dbaa&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">The Limits of Executive Power in Crisis in the Early Republic: Martin v. Mott – An Old Gray Mare – Examined through Its Own History, by Joshua E. Kastenberg, 82 Louisiana Law Review 161 (Fall 2021)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/Iaaa030d0589c11ec9f24ec7b211d8087/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad0000017e82ba119c6800e792%3Fppcid%3Df966f328550345bb9b585c336517dbaa%26Nav%3DANALYTICAL%26fragmentIdentifier%3DIaaa030d0589c11ec9f24ec7b211d8087%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&amp;listSource=Search&amp;listPageSource=e20f9bd0e3af4a196034af18dc29bf91&amp;list=ANALYTICAL&amp;rank=4&amp;sessionScopeId=d5452c923db772b9e617d4badb5253166106b859339d0e3ec088ed450c4690df&amp;ppcid=f966f328550345bb9b585c336517dbaa&amp;originationContext=Search%20Result&amp;transitionType=SearchItem&amp;contextData=%28sc.Search%29">The Limits of Executive Power in Crisis in the Early Republic: Martin v. Mott – An Old Gray Mare – Examined through Its Own History, by Joshua E. Kastenberg, 82 Louisiana Law Review 161 (Fall 2021)</a></li><br>
 
-<li><a href="https://www.bloomberglaw.com/product/tax/document/XF6OAAF0000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvODc2OTExODJmNzhmOWEyNGFjMWY2YWE1MWJjNmIyZDYiXV0--0d178674b5428e0613ec644bb2fbed5abe348481&guid=2b4e234e-faff-4705-8208-2fc28c115d46&search32=HqHUb0Xoaqu2dhEmDxAHKw%3D%3DSF2CmJxt5_o5-1MSIw-ZsjX5WH6fQNNt0qFM5ji41ot8LhHt9deqhm2hJZG-vEaq7jBGeX7U1DzrTIRpuWFXOmD9Sn5ibrn0AcQiVuGT4GrFLwVD1DciV-XeHyOpVsDXCy8H_3F5twbWskNb_H-7Yius3p3suV5MW7XDeUaanUqke6ZRmgD-d7cnZ9R8eVMbcnwBCn1MgC5t_VXWNkxQ26LhATFBiZnWYZAxywYibxKyJU2z5or8xlCp74GYP2XTfKW4yrlVRyZtsymavRBQpXY1CH1VMnFxH3sP_YRYWiz8xzIHrtNiJ1nJ848GH_lXrCB4sXURp9igI8bS1bns-wKp1Mbjcr1OgHjXaosfVea9Hp1JeNKWBcmgwEbCk6rlI9ldyuLfTLtPV04piRv5eJROj5HiEw2rr1bCXSiyvbU%3D">Living with “Freeze Partnerships” in the Real World: Formation Considerations and Practical Applications, by Stephen M. Breitstone, N. Todd Angkatavanich, Joseph A. Medina, and Jerome M. Hesch, 47 Estates, Gifts & Trusts Journal (January 13, 2022)</a></li><br>
+<li><a href="https://www.bloomberglaw.com/product/tax/document/XF6OAAF0000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvODc2OTExODJmNzhmOWEyNGFjMWY2YWE1MWJjNmIyZDYiXV0--0d178674b5428e0613ec644bb2fbed5abe348481&amp;guid=2b4e234e-faff-4705-8208-2fc28c115d46&amp;search32=HqHUb0Xoaqu2dhEmDxAHKw%3D%3DSF2CmJxt5_o5-1MSIw-ZsjX5WH6fQNNt0qFM5ji41ot8LhHt9deqhm2hJZG-vEaq7jBGeX7U1DzrTIRpuWFXOmD9Sn5ibrn0AcQiVuGT4GrFLwVD1DciV-XeHyOpVsDXCy8H_3F5twbWskNb_H-7Yius3p3suV5MW7XDeUaanUqke6ZRmgD-d7cnZ9R8eVMbcnwBCn1MgC5t_VXWNkxQ26LhATFBiZnWYZAxywYibxKyJU2z5or8xlCp74GYP2XTfKW4yrlVRyZtsymavRBQpXY1CH1VMnFxH3sP_YRYWiz8xzIHrtNiJ1nJ848GH_lXrCB4sXURp9igI8bS1bns-wKp1Mbjcr1OgHjXaosfVea9Hp1JeNKWBcmgwEbCk6rlI9ldyuLfTLtPV04piRv5eJROj5HiEw2rr1bCXSiyvbU%3D">Living with “Freeze Partnerships” in the Real World: Formation Considerations and Practical Applications, by Stephen M. Breitstone, N. Todd Angkatavanich, Joseph A. Medina, and Jerome M. Hesch, 47 Estates, Gifts &amp; Trusts Journal (January 13, 2022)</a></li><br>
 
-<li><a href="https://www.bloomberglaw.com/product/tax/document/XF0PP57S000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvYTI4ODQ5YTk5ODI0OWNlZTdjY2QxNTAzMjJjM2RmMzkiXV0--955d35c6115d8ca37778453759aaf866b58da96b&guid=5fd5dd04-c245-4c4c-9247-faf23ee1370a&search32=Ml1-qlXpc3unz5L3XEJWXw%3D%3DIzxU-EDK-MAma00BWXRIA9gHJJ970SySfZQQd8guQ4WfA6ryKSyAm0ZCl-hahUKZmHcHO0OTAQP4JwM8Jc68zO5acBeq7umTpoCGbiU1wOJ_RnyVyy2ThxIwCouCUVOeaOYEOnEW_p-rSykvUaPC27zPeqwsjtcL2iLHpRVxR79Q2dibh_QYXFAt2kilASyet2mbQO0zBRFYb3DNraa-tyOB7vFVHsC8uiiNbzz6y4IpD7T2_NMT5GjaZFXxiUC9KuSmN96ZV3HoDJ1IYUAqrbK5_Sr3m09ItvqvI-vlrNDbVwRRBBwrYbcbKTtgdnkNOv7LsB7XGBH-KfXWi7v4WPlCVOpO-OcQfl-v3fFp7JlYaQB58SZY00Ds_mY8ipdSZ9_j_SZV7YklBYrlYPazFnLqr-6JkBh8zuRDh1Vq3L7QO58Ovx9egX1U6_N3QkDwmkn4D3A0pr31DckUUN2rSVPejgEj_7n54c4Jo77qCYFd4tMfE8ITOzrvmkBcqothnBL4vcD9TKrPsKAn_qSPel_yRSs3DRPYFC6yIuytDHrMaVBfQ_G6uCmjtprjIM36uv8mDW60lznH9IZE3roZw8bHg2k05Pj2zT8Dmlm4ZArGc1_d_8_1PqyoyG_dUOR4ntRdyjF-uSoF16h3s3bmL2lUomCPnzZwgNNFBYU8uDMOn468JAIwexk0ki4P-oJ5CwbujVr4fHIC_t5sHG3Qo1S0PpE3MOSBaRTbGw8L-vcxKOzJ4WFseSFOX0HhmvUEkZ6nCfulS59FN-RUMhMtny4GxT4aO0kiwAwWhWSHByM%3D">Moore v. Commissioner Highlights Risk of Denial of Estate Tax Charitable Deduction, by Richard L. Fox, 63 Tax Management Memorandum 27 (January 17, 2022)</a></li><br>
+<li><a href="https://www.bloomberglaw.com/product/tax/document/XF0PP57S000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvYTI4ODQ5YTk5ODI0OWNlZTdjY2QxNTAzMjJjM2RmMzkiXV0--955d35c6115d8ca37778453759aaf866b58da96b&amp;guid=5fd5dd04-c245-4c4c-9247-faf23ee1370a&amp;search32=Ml1-qlXpc3unz5L3XEJWXw%3D%3DIzxU-EDK-MAma00BWXRIA9gHJJ970SySfZQQd8guQ4WfA6ryKSyAm0ZCl-hahUKZmHcHO0OTAQP4JwM8Jc68zO5acBeq7umTpoCGbiU1wOJ_RnyVyy2ThxIwCouCUVOeaOYEOnEW_p-rSykvUaPC27zPeqwsjtcL2iLHpRVxR79Q2dibh_QYXFAt2kilASyet2mbQO0zBRFYb3DNraa-tyOB7vFVHsC8uiiNbzz6y4IpD7T2_NMT5GjaZFXxiUC9KuSmN96ZV3HoDJ1IYUAqrbK5_Sr3m09ItvqvI-vlrNDbVwRRBBwrYbcbKTtgdnkNOv7LsB7XGBH-KfXWi7v4WPlCVOpO-OcQfl-v3fFp7JlYaQB58SZY00Ds_mY8ipdSZ9_j_SZV7YklBYrlYPazFnLqr-6JkBh8zuRDh1Vq3L7QO58Ovx9egX1U6_N3QkDwmkn4D3A0pr31DckUUN2rSVPejgEj_7n54c4Jo77qCYFd4tMfE8ITOzrvmkBcqothnBL4vcD9TKrPsKAn_qSPel_yRSs3DRPYFC6yIuytDHrMaVBfQ_G6uCmjtprjIM36uv8mDW60lznH9IZE3roZw8bHg2k05Pj2zT8Dmlm4ZArGc1_d_8_1PqyoyG_dUOR4ntRdyjF-uSoF16h3s3bmL2lUomCPnzZwgNNFBYU8uDMOn468JAIwexk0ki4P-oJ5CwbujVr4fHIC_t5sHG3Qo1S0PpE3MOSBaRTbGw8L-vcxKOzJ4WFseSFOX0HhmvUEkZ6nCfulS59FN-RUMhMtny4GxT4aO0kiwAwWhWSHByM%3D">Moore v. Commissioner Highlights Risk of Denial of Estate Tax Charitable Deduction, by Richard L. Fox, 63 Tax Management Memorandum 27 (January 17, 2022)</a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/I1f77c8a578e511ec9f24ec7b211d8087/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad0000017e82a9fbc76800e114%3Fppcid%3D83e21be7be15419f97a18f1b2afa86fd%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI1f77c8a578e511ec9f24ec7b211d8087%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=fe9a26dfae6bc0f7ac63e173961f9be8&list=ANALYTICAL&rank=1&sessionScopeId=d5452c923db772b9e617d4badb5253166106b859339d0e3ec088ed450c4690df&ppcid=83e21be7be15419f97a18f1b2afa86fd&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">No Notice, No Examination, No Problem: IRS Further Deprives Appraisers of Procedural Protections, by Hale E. Sheppard, 33 Taxation of Exempts 4 (January/February 2022)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I1f77c8a578e511ec9f24ec7b211d8087/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad0000017e82a9fbc76800e114%3Fppcid%3D83e21be7be15419f97a18f1b2afa86fd%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI1f77c8a578e511ec9f24ec7b211d8087%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&amp;listSource=Search&amp;listPageSource=fe9a26dfae6bc0f7ac63e173961f9be8&amp;list=ANALYTICAL&amp;rank=1&amp;sessionScopeId=d5452c923db772b9e617d4badb5253166106b859339d0e3ec088ed450c4690df&amp;ppcid=83e21be7be15419f97a18f1b2afa86fd&amp;originationContext=Search%20Result&amp;transitionType=SearchItem&amp;contextData=%28sc.Search%29">No Notice, No Examination, No Problem: IRS Further Deprives Appraisers of Procedural Protections, by Hale E. Sheppard, 33 Taxation of Exempts 4 (January/February 2022)</a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/I91dcfd106e5411ecab6afba2b7888213/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad0000017e82a7a9676800e043%3Fppcid%3D56aae70bcc774d7380a84aafb8693e17%26Nav%3DNEWS%26fragmentIdentifier%3DI91dcfd106e5411ecab6afba2b7888213%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=5ff72fa227b8b83c2a85078fe3f967db&list=NEWS&rank=4&sessionScopeId=d5452c923db772b9e617d4badb5253166106b859339d0e3ec088ed450c4690df&ppcid=56aae70bcc774d7380a84aafb8693e17&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">No Whistleblower Award for Tip Not Leading Directly to Tax Collected, by James A. Beavers 52 Tax Adviser 790 (December 1, 2021)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I91dcfd106e5411ecab6afba2b7888213/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad0000017e82a7a9676800e043%3Fppcid%3D56aae70bcc774d7380a84aafb8693e17%26Nav%3DNEWS%26fragmentIdentifier%3DI91dcfd106e5411ecab6afba2b7888213%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&amp;listSource=Search&amp;listPageSource=5ff72fa227b8b83c2a85078fe3f967db&amp;list=NEWS&amp;rank=4&amp;sessionScopeId=d5452c923db772b9e617d4badb5253166106b859339d0e3ec088ed450c4690df&amp;ppcid=56aae70bcc774d7380a84aafb8693e17&amp;originationContext=Search%20Result&amp;transitionType=SearchItem&amp;contextData=%28sc.Search%29">No Whistleblower Award for Tip Not Leading Directly to Tax Collected, by James A. Beavers 52 Tax Adviser 790 (December 1, 2021)</a></li><br>
 
-<li><a href="https://plus.lexis.com/document/?pdmfid=1530671&crid=136263bb-178e-4951-8471-121a55fbfc27&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6481-7B81-DY2V-D0XH-00000-00&pdcontentcomponentid=433214&pdworkfolderlocatorid=NOT_SAVED_IN_WORKFOLDER&prid=c5943477-a17b-4aee-bb16-c419ed1f5193&ecomp=ff4k&earg=sr5">Prince’s Estate Reaches Settlement with IRS, by Anna Sulkin, Wealth Management (December 7, 2021)</a></li><br>
+<li><a href="https://plus.lexis.com/document/?pdmfid=1530671&amp;crid=136263bb-178e-4951-8471-121a55fbfc27&amp;pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6481-7B81-DY2V-D0XH-00000-00&amp;pdcontentcomponentid=433214&amp;pdworkfolderlocatorid=NOT_SAVED_IN_WORKFOLDER&amp;prid=c5943477-a17b-4aee-bb16-c419ed1f5193&amp;ecomp=ff4k&amp;earg=sr5">Prince’s Estate Reaches Settlement with IRS, by Anna Sulkin, Wealth Management (December 7, 2021)</a></li><br>
 
-<li><a href="https://plus.lexis.com/document/?pdmfid=1530671&crid=63ee7c27-2413-48ea-80e8-b7433689e9c7&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A64B4-Y741-DY2V-D0H7-00000-00&pdcontentcomponentid=433214&pdworkfolderlocatorid=NOT_SAVED_IN_WORKFOLDER&prid=c5943477-a17b-4aee-bb16-c419ed1f5193&ecomp=ff4k&earg=sr4">The State of the States: 2021, by Samantha Q. Adams, Wealth Management (December 17, 2021)</a></li><br>
+<li><a href="https://plus.lexis.com/document/?pdmfid=1530671&amp;crid=63ee7c27-2413-48ea-80e8-b7433689e9c7&amp;pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A64B4-Y741-DY2V-D0H7-00000-00&amp;pdcontentcomponentid=433214&amp;pdworkfolderlocatorid=NOT_SAVED_IN_WORKFOLDER&amp;prid=c5943477-a17b-4aee-bb16-c419ed1f5193&amp;ecomp=ff4k&amp;earg=sr4">The State of the States: 2021, by Samantha Q. Adams, Wealth Management (December 17, 2021)</a></li><br>
 
-<li><a href="https://www.bloomberglaw.com/product/tax/document/XFBCKFOS000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvZmNjMDY2ZTU0ODgzNDAzODJmZDc0MWVjNDRhYjI5MDUiXV0--1708703676b42a80ef011f3c44f21c48c2d5fdcd&guid=79568f2e-405d-4b00-b44b-bdaf277b5371&search32=HW4m6fSDnMw-TKKTFDATCw%3D%3Dpsf6oKDlgl38-3syKw6wVltNZKgiRmy96nyF2tAUNLb85MH_-F-qeyI56y1nBKNEVlDOK6IJOZsPVYyA0IRGQP27PuoO1apKB6tbDu4O6gz_8FybUZOB5MkSVmgt5ypWhklVBBiRvYgcLsygbiBaFmWReCRzauic6zdjWVxySWThtpUB2buRu0mUdGGjI3zTQRv7JL5Bo4LuMmmFpXiWARaift87tYkHCvEa5Lyu-fyw53pFCfA9mlLoaqjciC1Gu7UU2ITan9s2ogwUHuuRLjvEqrEcFr70xEFs6pZLKJcFynDJWFi4qdgticyK0xQj5zXmQ0EefIg6OqexL1on9yJ_xNB4rIkRvDo7MTAT246D4qnIzNDc0uee_VCvJK6K6c1ON0ZMLX-ZqZ105deLM8zfmyeIDoK5y5ytc0ez4m4%3D">Subpart F Branch Rule Considerations Post-Whirlpool, by David G. Noren, 51 International Journal (January 7, 2022)</a></li><br>
+<li><a href="https://www.bloomberglaw.com/product/tax/document/XFBCKFOS000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvZmNjMDY2ZTU0ODgzNDAzODJmZDc0MWVjNDRhYjI5MDUiXV0--1708703676b42a80ef011f3c44f21c48c2d5fdcd&amp;guid=79568f2e-405d-4b00-b44b-bdaf277b5371&amp;search32=HW4m6fSDnMw-TKKTFDATCw%3D%3Dpsf6oKDlgl38-3syKw6wVltNZKgiRmy96nyF2tAUNLb85MH_-F-qeyI56y1nBKNEVlDOK6IJOZsPVYyA0IRGQP27PuoO1apKB6tbDu4O6gz_8FybUZOB5MkSVmgt5ypWhklVBBiRvYgcLsygbiBaFmWReCRzauic6zdjWVxySWThtpUB2buRu0mUdGGjI3zTQRv7JL5Bo4LuMmmFpXiWARaift87tYkHCvEa5Lyu-fyw53pFCfA9mlLoaqjciC1Gu7UU2ITan9s2ogwUHuuRLjvEqrEcFr70xEFs6pZLKJcFynDJWFi4qdgticyK0xQj5zXmQ0EefIg6OqexL1on9yJ_xNB4rIkRvDo7MTAT246D4qnIzNDc0uee_VCvJK6K6c1ON0ZMLX-ZqZ105deLM8zfmyeIDoK5y5ytc0ez4m4%3D">Subpart F Branch Rule Considerations Post-Whirlpool, by David G. Noren, 51 International Journal (January 7, 2022)</a></li><br>
 
-<li><a href="https://www.bloomberglaw.com/product/tax/document/X51LNQI4000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvMDcwNjNkM2Y1NjU0MmVlMTMyMDNjNTRkODg1OGExMmYiXV0--098e9d4e3e09aa3f30446a233f3aa857bf79e1e2&guid=781095ee-4fc2-463d-a24b-4dcebde49388&search32=h07Axeiyr06-3L8m1Pdegg%3D%3DmT-_3D70EJx2LsrnUFc-_XmreidGkvUoLx44dTmI9rCQhgY7txz7lNfy4MILkZi5SvevtDiSGp6e35vS3zZH1wszMmSMUaQpU9gz02kFBaNu4jPKnjZiry9fwk3JqtBvjRx0QaezHajJbAPlFp-wNc229Nvv5i4KpwmzuvFPuq71UzSg9SKLgRP_YWMnipz-2ezOqJ6MSh2YLXvmYKxaq0JHwKhQV6-46w0PKpWnrQ72C1VfIyPYWJDKXwjWbTh0Mp-iIerFhmyOJFk5hmG6Qiz1SQILYZkCvJ4PonrJ8ObxC9vKvX6zwRNkNrt2ab7zTgt9FerRIiB_p0CVGQjbNtSH6ZpSARJ18fSDptm9ArfGkfphx5lxGAYkBR7RISHjnXU8tFB98pRU_T-GLG3Osrzxu2to0lgfokSOqb1UOL_I388_l3K-24tm6tlyGXlxJDOQpdiWKidUu4XoJB3s7cwRrfGjJv6Hu1W6yCXQtbEzUg-WYhQL15lCH_ok-FKl">Symbiotic Relationships Between Family Limited Partnerships and Family Offices – How Healthy Habits Can Enhance Structures for Estate and Income Tax Purposes, by N. Todd Angkatavanich and Nickolas K. Davidson, 47 Estates, Gifts & Trusts Journal (January 13, 2022)</a></li><br>
+<li><a href="https://www.bloomberglaw.com/product/tax/document/X51LNQI4000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvMDcwNjNkM2Y1NjU0MmVlMTMyMDNjNTRkODg1OGExMmYiXV0--098e9d4e3e09aa3f30446a233f3aa857bf79e1e2&amp;guid=781095ee-4fc2-463d-a24b-4dcebde49388&amp;search32=h07Axeiyr06-3L8m1Pdegg%3D%3DmT-_3D70EJx2LsrnUFc-_XmreidGkvUoLx44dTmI9rCQhgY7txz7lNfy4MILkZi5SvevtDiSGp6e35vS3zZH1wszMmSMUaQpU9gz02kFBaNu4jPKnjZiry9fwk3JqtBvjRx0QaezHajJbAPlFp-wNc229Nvv5i4KpwmzuvFPuq71UzSg9SKLgRP_YWMnipz-2ezOqJ6MSh2YLXvmYKxaq0JHwKhQV6-46w0PKpWnrQ72C1VfIyPYWJDKXwjWbTh0Mp-iIerFhmyOJFk5hmG6Qiz1SQILYZkCvJ4PonrJ8ObxC9vKvX6zwRNkNrt2ab7zTgt9FerRIiB_p0CVGQjbNtSH6ZpSARJ18fSDptm9ArfGkfphx5lxGAYkBR7RISHjnXU8tFB98pRU_T-GLG3Osrzxu2to0lgfokSOqb1UOL_I388_l3K-24tm6tlyGXlxJDOQpdiWKidUu4XoJB3s7cwRrfGjJv6Hu1W6yCXQtbEzUg-WYhQL15lCH_ok-FKl">Symbiotic Relationships Between Family Limited Partnerships and Family Offices – How Healthy Habits Can Enhance Structures for Estate and Income Tax Purposes, by N. Todd Angkatavanich and Nickolas K. Davidson, 47 Estates, Gifts &amp; Trusts Journal (January 13, 2022)</a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/I3d78f44979ae11ec9f24ec7b211d8087/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad0000017e7fd684b967ffb8d0%3Fppcid%3Dcdf2460610de47d1856f62f2d8ea643e%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI3d78f44979ae11ec9f24ec7b211d8087%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=37ac6e9b9bef293c16de0321014a2edc&list=ANALYTICAL&rank=7&sessionScopeId=d5452c923db772b9e617d4badb5253166106b859339d0e3ec088ed450c4690df&ppcid=cdf2460610de47d1856f62f2d8ea643e&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Tax Court Applies Origin of the Claim Doctrine to Evaluate Tax Consequences of Settlements, 136 Journal of Taxation 30 (February 2022)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I3d78f44979ae11ec9f24ec7b211d8087/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad0000017e7fd684b967ffb8d0%3Fppcid%3Dcdf2460610de47d1856f62f2d8ea643e%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI3d78f44979ae11ec9f24ec7b211d8087%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&amp;listSource=Search&amp;listPageSource=37ac6e9b9bef293c16de0321014a2edc&amp;list=ANALYTICAL&amp;rank=7&amp;sessionScopeId=d5452c923db772b9e617d4badb5253166106b859339d0e3ec088ed450c4690df&amp;ppcid=cdf2460610de47d1856f62f2d8ea643e&amp;originationContext=Search%20Result&amp;transitionType=SearchItem&amp;contextData=%28sc.Search%29">Tax Court Applies Origin of the Claim Doctrine to Evaluate Tax Consequences of Settlements, 136 Journal of Taxation 30 (February 2022)</a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/I3d78f44d79ae11ec9f24ec7b211d8087/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad0000017e7fd684b967ffb8d0%3Fppcid%3Dcdf2460610de47d1856f62f2d8ea643e%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI3d78f44d79ae11ec9f24ec7b211d8087%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=37ac6e9b9bef293c16de0321014a2edc&list=ANALYTICAL&rank=9&sessionScopeId=d5452c923db772b9e617d4badb5253166106b859339d0e3ec088ed450c4690df&ppcid=cdf2460610de47d1856f62f2d8ea643e&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Tax Court Disallows US Citizen’s Use of Foreign Tax Credit to Offset Net Investment Income Tax, 136 Journal of Taxation 32 (February 2022)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I3d78f44d79ae11ec9f24ec7b211d8087/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad0000017e7fd684b967ffb8d0%3Fppcid%3Dcdf2460610de47d1856f62f2d8ea643e%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI3d78f44d79ae11ec9f24ec7b211d8087%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&amp;listSource=Search&amp;listPageSource=37ac6e9b9bef293c16de0321014a2edc&amp;list=ANALYTICAL&amp;rank=9&amp;sessionScopeId=d5452c923db772b9e617d4badb5253166106b859339d0e3ec088ed450c4690df&amp;ppcid=cdf2460610de47d1856f62f2d8ea643e&amp;originationContext=Search%20Result&amp;transitionType=SearchItem&amp;contextData=%28sc.Search%29">Tax Court Disallows US Citizen’s Use of Foreign Tax Credit to Offset Net Investment Income Tax, 136 Journal of Taxation 32 (February 2022)</a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/I1f77c8b778e511ec9f24ec7b211d8087/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad0000017e82a9fbc76800e114%3Fppcid%3D83e21be7be15419f97a18f1b2afa86fd%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI1f77c8b778e511ec9f24ec7b211d8087%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=fe9a26dfae6bc0f7ac63e173961f9be8&list=ANALYTICAL&rank=10&sessionScopeId=d5452c923db772b9e617d4badb5253166106b859339d0e3ec088ed450c4690df&ppcid=83e21be7be15419f97a18f1b2afa86fd&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29">Tax Court Rejects Challenge to Valuation Overstatement Penalty for Conservation Easement, 33 Taxation of Exempts 46 (January/February 2022)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I1f77c8b778e511ec9f24ec7b211d8087/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad0000017e82a9fbc76800e114%3Fppcid%3D83e21be7be15419f97a18f1b2afa86fd%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI1f77c8b778e511ec9f24ec7b211d8087%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&amp;listSource=Search&amp;listPageSource=fe9a26dfae6bc0f7ac63e173961f9be8&amp;list=ANALYTICAL&amp;rank=10&amp;sessionScopeId=d5452c923db772b9e617d4badb5253166106b859339d0e3ec088ed450c4690df&amp;ppcid=83e21be7be15419f97a18f1b2afa86fd&amp;originationContext=Search%20Result&amp;transitionType=SearchItem&amp;contextData=%28sc.Search%29">Tax Court Rejects Challenge to Valuation Overstatement Penalty for Conservation Easement, 33 Taxation of Exempts 46 (January/February 2022)</a></li><br>
 
-<li><a href="https://plus.lexis.com/document/?pdmfid=1530671&crid=79b031ab-93c9-45c9-924b-9f022f27b75f&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A643V-MHN1-JBKS-P0HS-00000-00&pdcontentcomponentid=433214&pdworkfolderlocatorid=NOT_SAVED_IN_WORKFOLDER&prid=c5943477-a17b-4aee-bb16-c419ed1f5193&ecomp=ff4k&earg=sr8">Tax Law Update: December 2021, by Alison E. Lothes, Wealth Management (November 18, 2021)</a></li><br>
+<li><a href="https://plus.lexis.com/document/?pdmfid=1530671&amp;crid=79b031ab-93c9-45c9-924b-9f022f27b75f&amp;pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A643V-MHN1-JBKS-P0HS-00000-00&amp;pdcontentcomponentid=433214&amp;pdworkfolderlocatorid=NOT_SAVED_IN_WORKFOLDER&amp;prid=c5943477-a17b-4aee-bb16-c419ed1f5193&amp;ecomp=ff4k&amp;earg=sr8">Tax Law Update: December 2021, by Alison E. Lothes, Wealth Management (November 18, 2021)</a></li><br>
 
-<li><a href="https://plus.lexis.com/document/?pdmfid=1530671&crid=08b70572-32d8-4752-a059-3078b72b5e4c&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A64GD-C201-JBKS-P051-00000-00&pdcontentcomponentid=433214&pdworkfolderlocatorid=NOT_SAVED_IN_WORKFOLDER&prid=c5943477-a17b-4aee-bb16-c419ed1f5193&ecomp=ff4k&earg=sr0">Tax Year in Review 2021, by David A. Handler, Wealth Management (January 6, 2022)</a></li><br>
+<li><a href="https://plus.lexis.com/document/?pdmfid=1530671&amp;crid=08b70572-32d8-4752-a059-3078b72b5e4c&amp;pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A64GD-C201-JBKS-P051-00000-00&amp;pdcontentcomponentid=433214&amp;pdworkfolderlocatorid=NOT_SAVED_IN_WORKFOLDER&amp;prid=c5943477-a17b-4aee-bb16-c419ed1f5193&amp;ecomp=ff4k&amp;earg=sr0">Tax Year in Review 2021, by David A. Handler, Wealth Management (January 6, 2022)</a></li><br>
 
-<li><a href="https://1.next.westlaw.com/Document/I3d78f43f79ae11ec9f24ec7b211d8087/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad0000017e7fd684b967ffb8d0%3Fppcid%3Dcdf2460610de47d1856f62f2d8ea643e%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI3d78f43f79ae11ec9f24ec7b211d8087%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&listSource=Search&listPageSource=37ac6e9b9bef293c16de0321014a2edc&list=ANALYTICAL&rank=2&sessionScopeId=d5452c923db772b9e617d4badb5253166106b859339d0e3ec088ed450c4690df&ppcid=cdf2460610de47d1856f62f2d8ea643e&originationContext=Search%20Result&transitionType=SearchItem&contextData=%28sc.Search%29"><i>Tribune Media:</i> A Split Decision for the Chicago Cubs’ Leveraged Partnership Transaction, by Richard M. Lipton, 136 Journal of Taxation 6 (February 2022)</a></li><br>
+<li><a href="https://1.next.westlaw.com/Document/I3d78f43f79ae11ec9f24ec7b211d8087/View/FullText.html?navigationPath=Search%2Fv1%2Fresults%2Fnavigation%2Fi0ad604ad0000017e7fd684b967ffb8d0%3Fppcid%3Dcdf2460610de47d1856f62f2d8ea643e%26Nav%3DANALYTICAL%26fragmentIdentifier%3DI3d78f43f79ae11ec9f24ec7b211d8087%26parentRank%3D0%26startIndex%3D1%26contextData%3D%2528sc.Search%2529%26transitionType%3DSearchItem&amp;listSource=Search&amp;listPageSource=37ac6e9b9bef293c16de0321014a2edc&amp;list=ANALYTICAL&amp;rank=2&amp;sessionScopeId=d5452c923db772b9e617d4badb5253166106b859339d0e3ec088ed450c4690df&amp;ppcid=cdf2460610de47d1856f62f2d8ea643e&amp;originationContext=Search%20Result&amp;transitionType=SearchItem&amp;contextData=%28sc.Search%29"><i>Tribune Media:</i> A Split Decision for the Chicago Cubs’ Leveraged Partnership Transaction, by Richard M. Lipton, 136 Journal of Taxation 6 (February 2022)</a></li><br>
 
-<li><a href="https://www.bloomberglaw.com/product/tax/document/X7CSDKIK000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvMTQyYTFlNDM1MjA0NGU5YWQ2ZTVmZTIzZTczZGI5MWEiXV0--92b4733baed3199181c442663cc634199230269c&guid=ea9bedb2-f92c-4f1c-abe6-6bd001017877&search32=-RrRKK_Ei094SH9IorRKxg%3D%3Da2xX9dUOyienmkIl0Y9nIH5TzTajIFPFudool7RFN75x3JxxcrVUdhjBfULP8wrxKl6neiQmLa4bFY33-HFGyYAIzGnr8_R8kR1vAyLFcDoNiKUoSq5mvOmXdPLEaIlitDwPWO5-0fnx0V9VS40d4-F1Ra2ywz8FMZ9JSWlu8I99c0ZoOCQq2EB-I6dz0tUDvEa7l_d4X0ypGUFiUYyB4I-qbaVLKmDs4j5NhUyVU_LU3P4pD_kGITavXp0ZRma7_PhOnK03PfmVbIyY8OazAD7hsYg3WHAdA4o2AbjaLjcK8D26o6ijw0VmAodgm3iHChBTbwsFjcFK9B8iS66Xxg%3D%3D">Using Powers Over Income and Beneficiary Deemed Owner Trust (BDOT) Provisions to Reduce Trust Income Tax Burdens, by Edwin Morrow III, 47 Estates, Gifts & Trusts Journal (January 13, 2022)</a></li><br>
+<li><a href="https://www.bloomberglaw.com/product/tax/document/X7CSDKIK000000?bc=W1siU2VhcmNoIFJlc3VsdHMiLCIvcHJvZHVjdC90YXgvc2VhcmNoL3Jlc3VsdHMvMTQyYTFlNDM1MjA0NGU5YWQ2ZTVmZTIzZTczZGI5MWEiXV0--92b4733baed3199181c442663cc634199230269c&amp;guid=ea9bedb2-f92c-4f1c-abe6-6bd001017877&amp;search32=-RrRKK_Ei094SH9IorRKxg%3D%3Da2xX9dUOyienmkIl0Y9nIH5TzTajIFPFudool7RFN75x3JxxcrVUdhjBfULP8wrxKl6neiQmLa4bFY33-HFGyYAIzGnr8_R8kR1vAyLFcDoNiKUoSq5mvOmXdPLEaIlitDwPWO5-0fnx0V9VS40d4-F1Ra2ywz8FMZ9JSWlu8I99c0ZoOCQq2EB-I6dz0tUDvEa7l_d4X0ypGUFiUYyB4I-qbaVLKmDs4j5NhUyVU_LU3P4pD_kGITavXp0ZRma7_PhOnK03PfmVbIyY8OazAD7hsYg3WHAdA4o2AbjaLjcK8D26o6ijw0VmAodgm3iHChBTbwsFjcFK9B8iS66Xxg%3D%3D">Using Powers Over Income and Beneficiary Deemed Owner Trust (BDOT) Provisions to Reduce Trust Income Tax Burdens, by Edwin Morrow III, 47 Estates, Gifts &amp; Trusts Journal (January 13, 2022)</a></li><br>
 
-<li><a href="https://plus.lexis.com/document/?pdmfid=1530671&crid=bfd6d496-f463-401f-9df5-3e2e1b19f202&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A64B4-Y741-DY2V-D0H6-00000-00&pdcontentcomponentid=433214&pdworkfolderlocatorid=NOT_SAVED_IN_WORKFOLDER&prid=c5943477-a17b-4aee-bb16-c419ed1f5193&ecomp=ff4k&earg=sr3">Which Trust Situs Is Best in 2022?, by Mark Merric, Wealth Management (December 17, 2021)</a></li><br>
+<li><a href="https://plus.lexis.com/document/?pdmfid=1530671&amp;crid=bfd6d496-f463-401f-9df5-3e2e1b19f202&amp;pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A64B4-Y741-DY2V-D0H6-00000-00&amp;pdcontentcomponentid=433214&amp;pdworkfolderlocatorid=NOT_SAVED_IN_WORKFOLDER&amp;prid=c5943477-a17b-4aee-bb16-c419ed1f5193&amp;ecomp=ff4k&amp;earg=sr3">Which Trust Situs Is Best in 2022?, by Mark Merric, Wealth Management (December 17, 2021)</a></li><br>
 
 </ul>
 
@@ -465,8 +467,10 @@ WHICH HAVE BEEN DECIDED ON APPEAL</h2>
   
   <h1>Upcoming Training</h1>
  
-  <p>No upcoming trainings.</p>
-
+  <p></p><h2>Bloomberg Law: What's New in Tax</h2><p></p>
+  <p>Thursday, March 24, 2022
+  <br>2:30 PM – 3:30 PM
+<br><a href="https://teams.microsoft.com/registration/ffQzvB8vfUKKwjrrqKsOvQ,2NEyGdqXe0K30TUAlqvmqA,UcztvVwLIUSK_r4PATx_1Q,SnB_VFwRu0Oxm1ArPLxA3w,kU3BisSJ10iB43_gVZRCtg,2rsaJUnAf0iNlYb7IYyZAg?mode=read&amp;tenantId=bc33f47d-2f1f-427d-8ac2-3aeba8ab0ebd">Please click here to register for the training.</a></p>
 </div>
 
 <script>
