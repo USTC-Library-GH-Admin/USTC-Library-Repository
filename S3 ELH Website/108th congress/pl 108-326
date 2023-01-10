@@ -57,8 +57,8 @@ $(function(){
 	  <option value="index">Select Publication Type</option>
       <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
 	  <option value="public-law">Public Law</option>
-	  <option value="reports">H.R. 982</option>
-	  <option value="related-reports">Related Reports</option>
+	  <option value="hr">H.R. 982</option>
+	  <option value="related-bills">Related Bills</option>
 	  <option value="hearings">Hearing</option>
 	  <option value="prints">Prints</option>
 	  <option value="hr">H.R. ####</option>
@@ -81,7 +81,7 @@ $(function(){
     <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/public+law/pl+108-326.pdf" target="_self">P.L. 108-326 (H.R. 982), "American Samoa Bonds Tax Exempt Status", October 16, 2004</a></li>
 
 <!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
-<h2 id="reports">H.R. 982</h2>
+<h2 id="hr">H.R. 982</h2>
 
     <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+introduced+in+the+house.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", as introduced in the House, February 27, 2000</a></li>
 
@@ -90,10 +90,22 @@ $(function(){
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+as+engrossed+in+the+house.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", as engrossed in the House, November 4, 2003</a></li>
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+referred+to+the+senate.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", referred to the Senate, November 5, 2003</a></li>
-	
-<h2 id="related-reports">Related Reports</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+reported+in+the+senate.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", reported in the Senate, July 20, 2004</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+as+enrolled.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", as enrolled</a></li>
+	
+<h2 id="related-bills">Related Bills (107th Congress)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/related+bill/hr+1448+introduced+in+the+house.pdf" target="_self">H.R. 1448, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", as introduced in the House, April 4, 2001</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/related+bill/hr+1448+changed+in+the+house.pdf" target="_self">H.R. 1448, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", reference change in the House, September 6, 2001</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/related+bill/hr+1448+reported+in+the+house.pdf" target="_self">H.R. 1448, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", reported in the House (House Report 107-417, Parts 1 and 2), May 20, 2002</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/related+bill/hr+1448+engrossed+in+the+house.pdf" target="_self">H.R. 1448, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", engrossed in the House, September 24, 2002</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/related+bill/hr+1448+referred+to+the+senate.pdf" target="_self">H.R. 1448, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", referred to the Senate, September 25, 2002</a></li>
 	
 <h2 id="hearings">Hearing</h2>
 
