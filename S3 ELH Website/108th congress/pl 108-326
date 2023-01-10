@@ -2,7 +2,7 @@
 <html>
 <head>
 <!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there -->
-    <title>USTC Electronic Legislative History Collection - PL ###-###</title>
+    <title>USTC Electronic Legislative History Collection - PL 108-326</title>
 <!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
     <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
   	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -42,7 +42,7 @@ $(function(){
 
 <!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
 <h1>PL 108-326</h1>
-<h1>Insert Title</h1>
+<h1>American Samoa Bonds Tax Exempt Status</h1>
 
 <!--CHANGE: this can be tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy.-->
 <!--I recommend editing this section last, after you know what to expect in terms of contents.-->
@@ -57,7 +57,7 @@ $(function(){
 	  <option value="index">Select Publication Type</option>
       <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
 	  <option value="public-law">Public Law</option>
-	  <option value="reports">Reports</option>
+	  <option value="reports">H.R. 982</option>
 	  <option value="related-reports">Related Reports</option>
 	  <option value="hearings">Hearing</option>
 	  <option value="prints">Prints</option>
@@ -78,12 +78,18 @@ $(function(){
 <!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
 <!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
 <!--The table of contents file can really come in handy from here on out!-->
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/public+law/pl+108-326.pdf" target="_self">P.L. 108-326 (H.R. 982), "American Samoa Bonds Tax Exempt Status", October 16, 2004</a></li>
 
 <!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
-<h2 id="reports">Reports</h2>
+<h2 id="reports">H.R. 982</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+introduced+in+the+house.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", as introduced in the House, February 27, 2000</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+as+reported+in+the+house.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", as reported in the House (House Report 108-102, Parts I and II), October 7, 2003</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+as+engrossed+in+the+house.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", as engrossed in the House, November 4, 2003</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+referred+to+the+senate.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", referred to the Senate, November 5, 2003</a></li>
 	
 <h2 id="related-reports">Related Reports</h2>
 
