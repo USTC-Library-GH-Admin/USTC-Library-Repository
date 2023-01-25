@@ -58,7 +58,8 @@ $(function(){
       <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
 	  <option value="public-law">Public Law and Remarks</option>
 	  <option value="hr4297">HR 4297</option>
-	  <option value="related-bills">Related Bills</option>
+	  <option value="related-bills-109th">Related Bills (109th Congress)</option>
+      <option value="related-bills-108th">Related Bills (108th Congress)</option>
 	  <option value="hearings">Hearing</option>
 	  <option value="prints">Prints</option>
 	  <option value="hr">H.R. ####</option>
