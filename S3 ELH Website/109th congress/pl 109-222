@@ -58,7 +58,7 @@ $(function(){
       <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
 	  <option value="public-law">Public Law and Remarks</option>
 	  <option value="hr4297">HR 4297</option>
-	  <option value="related-reports">Related Reports</option>
+	  <option value="related-bills">Related Bills</option>
 	  <option value="hearings">Hearing</option>
 	  <option value="prints">Prints</option>
 	  <option value="hr">H.R. ####</option>
@@ -99,7 +99,7 @@ $(function(){
     <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/hr+4297/hr+4297+as+as+enrolled.pdf" target="_self">H.R. 4297, "Tax Increase Prevention and Reconciliation Act of 2005", as enrolled, May 11, 2006</a></li>
 	
 	
-<h2 id="related-reports">Related Reports</h2>
+<h2 id="related-bills">Related Bills</h2>
 
     <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
 	
