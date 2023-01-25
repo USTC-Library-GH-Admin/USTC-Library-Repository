@@ -56,8 +56,8 @@ $(function(){
 	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
 	  <option value="index">Select Publication Type</option>
       <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
-	  <option value="public-law">Public Law</option>
-	  <option value="reports">Reports</option>
+	  <option value="public-law">Public Law and Remarks</option>
+	  <option value="hr4297">HR 4297</option>
 	  <option value="related-reports">Related Reports</option>
 	  <option value="hearings">Hearing</option>
 	  <option value="prints">Prints</option>
@@ -72,18 +72,32 @@ $(function(){
 
 <ol type="1">
 
-<h2 id="public-law">Public Law</h2>
+<h2 id="public-law">Public Law and Remarks</h2>
 
 <!--CHANGE: the "Title of pub" for all items should be replaced with the title from Jen and Nancy's Table of Contents-->
 <!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
 <!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
 <!--The table of contents file can really come in handy from here on out!-->
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/public+law/pl+109-222.pdf" target="_self">P.L. 109-222 (H.R. 4297), "Tax Increase Prevention and Reconciliation Act of 2005", May 17, 2006</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/remarks+and+signing+statement/remarks.pdf" target="_self">Remarks on Signing the Tax Increase Prevention and Reconciliation Act of 2005, 42 Weekly Compilation of Presidential Documents 943, May 17, 2006</a></li>
 
 <!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
-<h2 id="reports">Reports</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+<h2 id="hr4297">HR 4297</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/hr+4297/hr+4297+as+introduced+in+the+house.pdf" target="_self">H.R. 4297, "To provide for reconciliation pursuant to section 201(b) of the concurrent resolution on the budget for fiscal year 2006", as introduced in the House, November 10, 2005</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/hr+4297/hr+4297+as+reported+in+the+house.pdf" target="_self">H.R. 4297, "Tax Relief Extension Reconciliation Act of 2005", as reported in the House (House Report 109-304), November 17, 2005</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/hr+4297/hr+4297+as+engrossed+in+the+house.pdf" target="_self">H.R. 4297, "Tax Relief Extension Reconciliation Act of 2005", engrossed in the House, December 8, 2005</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/hr+4297/hr+4297+as+placed+on+senate+calendar.pdf" target="_self">H.R. 4297, "Tax Relief Extension Reconciliation Act of 2005", as placed on Senate calendar, December 12, 2005</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/hr+4297/hr+4297+engrossed+senate+amendment.pdf" target="_self">H.R. 4297, "Tax  Relief Act of 2005", engrossed Senate amendment, February 2, 2006</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/hr+4297/hr+4297+as+as+enrolled.pdf" target="_self">H.R. 4297, "Tax Increase Prevention and Reconciliation Act of 2005", as enrolled, May 11, 2006</a></li>
+	
 	
 <h2 id="related-reports">Related Reports</h2>
 
