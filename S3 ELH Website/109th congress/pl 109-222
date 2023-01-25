@@ -101,7 +101,7 @@ $(function(){
 	
 <h2 id="related-bills">Related Bills</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/related+bills/109th+congress/hr+2661+introduced+in+the+house.pdf" target="_self">H.R. 2661, "To amend the Deficit Reduction Act of 1984 to clarify the Permanent University Fund arbitrage exception and to increase from 20 percent to 30 percent the amount of securities and obligations benefitting from the exception", introduced in the House, May 26, 2005</a></li>
 	
 <h2 id="hearings">Hearing</h2>
 
