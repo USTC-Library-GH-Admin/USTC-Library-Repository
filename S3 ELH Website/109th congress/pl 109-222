@@ -56,14 +56,13 @@ $(function(){
 	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
 	  <option value="index">Select Publication Type</option>
       <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
-	  <option value="public-law">Public Law</option>
-	  <option value="reports">Reports</option>
+	  <option value="public-law">Public Law and Remarks</option>
+	  <option value="hr4297">HR 4297</option>
 	  <option value="related-reports">Related Reports</option>
 	  <option value="hearings">Hearing</option>
 	  <option value="prints">Prints</option>
 	  <option value="hr">H.R. ####</option>
-	  <option value="related-bills">Related Bills</option>
-	  <option value="resolutions">Resolutions</option>
+	  <option value="related-bills">Committee Prints</option>
 	  <option value="congressional-record">Congressional Record</option>
 	</select>
 	</form>
@@ -72,18 +71,32 @@ $(function(){
 
 <ol type="1">
 
-<h2 id="public-law">Public Law</h2>
+<h2 id="public-law">Public Law and Remarks</h2>
 
 <!--CHANGE: the "Title of pub" for all items should be replaced with the title from Jen and Nancy's Table of Contents-->
 <!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
 <!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
 <!--The table of contents file can really come in handy from here on out!-->
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/public+law/pl+109-222.pdf" target="_self">P.L. 109-222 (H.R. 4297), "Tax Increase Prevention and Reconciliation Act of 2005", May 17, 2006</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/remarks+and+signing+statement/remarks.pdf" target="_self">Remarks on Signing the Tax Increase Prevention and Reconciliation Act of 2005, 42 Weekly Compilation of Presidential Documents 943, May 17, 2006</a></li>
 
 <!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
-<h2 id="reports">Reports</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+<h2 id="hr4297">HR 4297</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/hr+4297/hr+4297+as+introduced+in+the+house.pdf" target="_self">H.R. 4297, "To provide for reconciliation pursuant to section 201(b) of the concurrent resolution on the budget for fiscal year 2006", as introduced in the House, November 10, 2005</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/hr+4297/hr+4297+as+reported+in+the+house.pdf" target="_self">H.R. 4297, "Tax Relief Extension Reconciliation Act of 2005", as reported in the House (House Report 109-304), November 17, 2005</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/hr+4297/hr+4297+as+engrossed+in+the+house.pdf" target="_self">H.R. 4297, "Tax Relief Extension Reconciliation Act of 2005", engrossed in the House, December 8, 2005</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/hr+4297/hr+4297+as+placed+on+senate+calendar.pdf" target="_self">H.R. 4297, "Tax Relief Extension Reconciliation Act of 2005", as placed on Senate calendar, December 12, 2005</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/hr+4297/hr+4297+engrossed+senate+amendment.pdf" target="_self">H.R. 4297, "Tax  Relief Act of 2005", engrossed Senate amendment, February 2, 2006</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/hr+4297/hr+4297+as+as+enrolled.pdf" target="_self">H.R. 4297, "Tax Increase Prevention and Reconciliation Act of 2005", as enrolled, May 11, 2006</a></li>
+	
 	
 <h2 id="related-reports">Related Reports</h2>
 
@@ -106,13 +119,53 @@ $(function(){
 
     <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
 	
-<h2 id="resolutions">Resolutions</h2>
+<h2 id="committee-prints">Commitee Prints</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/committee+prints/jcx-71-05.pdf" target="_self">Description Of The Chairman's Mark Of The "Tax Relief Act Of 2005", Scheduled for Markup By the Senate Committee on Finance on November 10, 2005 (JCX-71-05), November 8, 2005 </a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/committee+prints/jcx-72-05.pdf" target="_self">Estimated Revenue Effects Of The Chairman's Mark Of The "Tax Relief Act Of 2005", Scheduled For Markup By The Committee On Finance on November 10, 2005, Fiscal Years 2006-2015 (JCX-72-05), November 8, 2005</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/committee+prints/jcx-75-05.pdf" target="_self">Description Of H.R. 4297, A Bill To Provide For Reconciliation Pursuant To Section 201(b) Of The Concurrent Resolution On The Budget For Fiscal Year 2006, Scheduled for Markup by the Committee on Ways and Means on November 15, 2005 (JCX-75-05), November 14, 2005</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/committee+prints/jcx-76-05.pdf" target="_self">Description Of The Chairman's Amendment In The Nature Of A Substitute To H.R. 4297, A Bill To Provide For Reconciliation Pursuant To Section 201(b) Of The Concurrent Resolution On The Budget For Fiscal Year 2006, Scheduled For Markup In The Committee On Ways And Means On November 15, 2005 (JCX-76-05), November 14, 2005</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/committee+prints/jcx-77-05.pdf" target="_self">Description Of The Chairman's Modification To The Provisions Of The "Tax Relief Act Of 2005", Scheduled for Markup by the Senate Committee on Finance on November 15, 2005 (JCX-77-05), November 14, 2005</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/committee+prints/jcx-78-05.pdf" target="_self">Estimated Revenue Effects Of The Chairman's Modification To The "Tax Relief Act Of 2005", Scheduled For Markup By The Committee On Finance On November 15, 2005, Fiscal Years 2006-2015 (JCX-78-05), November 14, 2005</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/committee+prints/jcx-79-05.pdf" target="_self">Estimated Revenue Effects Of The Chairman's Amendment In The Nature Of A Substitute To H.R. 4297, The "Tax Relief Extension Reconciliation Act Of 2005", Scheduled For Markup By The Committee On Ways And Means On November 15, 2005, Fiscal Years 2006-2015 (JCX-79-05), November 15, 2005</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/committee+prints/jcx-80-05.pdf" target="_self">Estimated Revenue Effects of S. 2020, the "Tax Relief Act of 2005," Scheduled for Consideration on the Senate, Floor Date: Nov. 16, 2005 (JCX-80-05)</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/committee+prints/jcx-81-05.pdf" target="_self">Estimated Revenue Effects Of H.R. 4297, The Tax Relief Extension Reconciliation Act Of 2005, As Reported By The Committee On Ways And Means, Fiscal Years 2006-2015 (JCX-81-05), November 18, 2005</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/committee+prints/jcx-82-05r.pdf" target="_self">Estimated Revenue Effects Of The Tax Provisions Contained In S. 2020, The "Tax Relief Act Of 2005", As Passed By The Senate On November 18, 2005, Fiscal Years 2006-2015 (JCX-82-05R), November 29, 2005 </a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/committee+prints/jcx-83-05.pdf" target="_self">Estimated Revenue Effects Of H.R. 4096, The "Stealth Tax Relief Act Of 2005", As Passed By The House Of Representatives On December 7, 2005, Fiscal Years 2006-2015 (JCX-83-05), December 9, 2005</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/committee+prints/jcx-9-06.pdf" target="_self">Estimated Revenue Effects Of H.R. 4297, The "Tax Relief Act Of 2005", As Amended By The Senate On February 2, 2006, Fiscal Years 2006-2015 (JCX-9-06), February 8, 2006</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/committee+prints/jcx-10-06.pdf" target="_self">Comparison Of The Estimated Revenue Effects Of The Tax Provisions Contained In H.R. 4297, The "Tax Relief Extension Reconciliation Act Of 2005", As Passed By The House, And H.R. 4297, The "Tax Relief Act of 2005", As Amended By The Senate, Fiscal Years 2006-2015 (JCX-10-06), February 9, 2006</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/committee+prints/jcx-18-06.pdf" target="_self">Estimated Revenue Effects Of The Conference Agreement For The "Tax Increase Prevention And Reconciliation Act Of 2005", Fiscal Years 2006-2015 (JCX-18-06), May 9, 2006</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/committee+prints/jcs-1-07.pdf" target="_self">General Explanation of Tax Legislation Enacted in the 109th Congress (JCS-1-07), January 17, 2007, pages 259-326</a></li>
+
 <h2 id="congressional-record">Congressional Record</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2005-11-16-pt1-pgs12923.pdf" target="_self">Senate consideration of S. 2020, November 16, 2005, pages S12923-S12940</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2005-11-17-pt1-pgs13072-2.pdf" target="_self">Senate consideration and passage of S. 2020, November 17, 2005, pages S13072-S13146 </a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2005-12-07-pt1-pgh11141.pdf" target="_self">House consideration and passage of H.R. 4096, December 7, 2005, pages H11141-H11148  </a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2005-12-07-pt1-pgh11150.pdf" target="_self">House consideration of H.R. 4388, December 7, 2005, pages H11150–52</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2005-12-07-pt1-pgh11181-2.pdf" target="_self">House passage of H.R. 4388, December 7, 2005, H11181–82  </a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2005-12-08-pt1-pgh11227.pdf" target="_self">House consideration and passage of H. Res. 588 and H.R. 4297, December 8, 2005, pages H11227-H11264 </a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-02-01-pt1-pgs387-5.pdf" target="_self">Senate consideration of H.R. 4297, February 1, 2006, pages S387-S436 </a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-02-02-pt1-pgs466-3.pdf" target="_self">Senate consideration and passage of H.R. 4297 with amendment,  February 2, 2006, pages S466-S502 </a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-02-08-pt1-pgh185-4.pdf" target="_self">House disagreement with Senate amendment to H.R. 4297 and request for conference, February 8, 2006, pages H185-H192 </a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-02-08-pt1-pgh195-3.pdf" target="_self">Appointment of conferees on H.R. 4297, February 8, 2006, pages H195-H196 </a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-02-13-pt1-pgs1079-2.pdf" target="_self">Senate insists on amendment and agrees to appointment of conferees, February 13, 2006, pages S1079-S1121  </a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-02-14-senate+s1135-1140.pdf" target="_self">Senate instructs conferees on H.R. 4297, February 14, 2006, S1135-1140</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-03-15-pt1-pgh1051.pdf" target="_self">House motion to instruct conferees on H.R.4297, March 15, 2006,  H1051-1055</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-03-16-pt1-pgh1119.pdf" target="_self">House votes to instruct conferees on H.R. 4297, March 16, 2006, H1119</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-03-29-pt1-pgh1283.pdf" target="_self">House motion to instruct conferees on H.R. 4297 with vote, March 29, 2006</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-04-06-pt1-pgh1609.pdf" target="_self">House motion to instructs conferees on H.R. 4297 with vote, April 6, 2006, pages H1609-H1615 </a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-04-06-pt1-pgh1621.pdf" target="_self">House motion to instructs conferees on H.R. 4297 with vote, April 6, 2006, pages H1621-H1622</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-04-26-pt1-pgh1813.pdf" target="_self">House motion to instruct conferees on HR 4297, April 26, 2006, H1813-H1819</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-04-27-pt1-pgh1886-3.pdf" target="_self">House motion to instruct conferees on H.R, 4297 with vote, April 27, 2006, H1886-1887</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-05-03-pt1-pgh2066-2.pdf" target="_self">House motion to instruct conferees on H.R, 4297 with vote, May 3, 2006, pages H2066-H2071 </a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-05-03-pt1-pgh2076-2.pdf" target="_self">House motion to instruct conferees on H.R, 4297 with vote, May 3, 2006, pages H2076-H2077 </a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-05-09-pt1-pgh2209-2.pdf" target="_self">House Conference Report 109-455 submitted, May 9, 2006, pages H2209-H2299</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-05-10-pt1-pgh2354.pdf" target="_self">House agreement to H. Res. 805 and conference report on H.R. 4297, May 10, 2006, pages H2354-H2360</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-05-10-pt1-pgh2367.pdf" target="_self">House agreement to H. Res. 805 and conference report on H.R. 4297, May 10, 2006, pages H2367-2368</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-05-10-pt1-pgh2453.pdf" target="_self">House agreement to H. Res. 805 and conference report on H.R. 4297, May 10, 2006, pages H2453-2466</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/congressional+record/crec-2006-05-11-pt1-pgs4385-5.pdf" target="_self">Senate agreement on conference report on H.R. 4297, May 11, 2006, pages S4385-S4447  </a></li>	
+	
 	
 </ol>
 </div>
