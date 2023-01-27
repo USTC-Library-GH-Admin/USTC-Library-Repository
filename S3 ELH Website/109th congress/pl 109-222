@@ -137,19 +137,6 @@ $(function(){
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/109th+congress/pl+109-222+-+not+in+dr/documents/related+bills/108th+congress/s+2106+introduced+in+the+senate.pdf" target="_self">S. 2106, "Songwriters Capital Gains Tax Equity Act". introduced in the Senate, February 24, 2004</a></li>
 	
-<h2 id="hearings">Hearing</h2>
-
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-	
-<h2 id="prints">Prints</h2>
-
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-    
-<!--CHANGE: here, make sure you also change the H.R #### to the proper H.R. number, if applicable.-->
-<h2 id="hr">H.R. ####</h2>
-
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-	
 <h2 id="related-bills">Related Bills</h2>
 
     <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
