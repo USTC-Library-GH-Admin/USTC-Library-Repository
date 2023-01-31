@@ -57,13 +57,12 @@ $(function(){
 	  <option value="index">Select Publication Type</option>
       <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
 	  <option value="public-law">Public Law</option>
-	  <option value="reports">Reports</option>
-	  <option value="related-reports">Related Reports</option>
-	  <option value="hearings">Hearing</option>
-	  <option value="prints">Prints</option>
-	  <option value="hr">H.R. ####</option>
+	  <option value="hr">H.R. 982</option>
 	  <option value="related-bills">Related Bills</option>
-	  <option value="resolutions">Resolutions</option>
+	  <option value="reports-108">Reports (108th Congress)</option>
+	  <option value="reports-107">Reports (107th Congress)</option>	  
+	  <option value="hearings">Hearings</option>
+	  <option value="prints"> Committee Prints</option>
 	  <option value="congressional-record">Congressional Record</option>
 	</select>
 	</form>
@@ -78,41 +77,61 @@ $(function(){
 <!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
 <!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
 <!--The table of contents file can really come in handy from here on out!-->
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/public+law/pl+108-326.pdf" target="_self">P.L. 108-326 (H.R. 982), "American Samoa Bonds Tax Exempt Status", October 16, 2004</a></li>
 
 <!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
-<h2 id="reports">Reports</h2>
+<h2 id="hr">H.R. 982</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+  <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+introduced+in+the+house.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", as introduced in the House, February 27, 2000</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+as+reported+in+the+house.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", as reported in the House (House Report 108-102, Parts I and II), October 7, 2003</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+as+engrossed+in+the+house.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", as engrossed in the House, November 4, 2003</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+referred+to+the+senate.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", referred to the Senate, November 5, 2003</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+reported+in+the+senate.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", reported in the Senate, July 20, 2004</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+as+enrolled.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", as enrolled</a></li>
 	
-<h2 id="related-reports">Related Reports</h2>
+<h2 id="related-bills">Related Bills (107th Congress)</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+  <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/related+bill/hr+1448+introduced+in+the+house.pdf" target="_self">H.R. 1448, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", as introduced in the House, April 4, 2001</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/related+bill/hr+1448+changed+in+the+house.pdf" target="_self">H.R. 1448, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", reference change in the House, September 6, 2001</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/related+bill/hr+1448+reported+in+the+house.pdf" target="_self">H.R. 1448, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", reported in the House (House Report 107-417, Parts 1 and 2), May 20, 2002</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/related+bill/hr+1448+engrossed+in+the+house.pdf" target="_self">H.R. 1448, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", engrossed in the House, September 24, 2002</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/related+bill/hr+1448+referred+to+the+senate.pdf" target="_self">H.R. 1448, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", referred to the Senate, September 25, 2002</a></li>
 	
-<h2 id="hearings">Hearing</h2>
+<h2 id="reports-108">Reports (108th Congress)</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-	
-<h2 id="prints">Prints</h2>
-
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+  <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/reports+108th/house+report+108-102+pt1.pdf" target="_self">House Report 108-102, Part 1, "To Clarify the Tax Treatment of Bonds and Other Obligations Issued by the Government of American Samoa", House Committee on the Judiciary, May 15, 2003  </a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/reports+108th/house+report+108-102+pt2.pdf" target="_self">House Report 108-102, Part 2, "Clarifying the Tax Treatment of Bonds and Other Obligations Issued by the Government of American Samoa", House Committee on Resources, October 7, 2003 </a></li>
     
-<!--CHANGE: here, make sure you also change the H.R #### to the proper H.R. number, if applicable.-->
-<h2 id="hr">H.R. ####</h2>
+<h2 id="reports-107">Reports (107th Congress)</h2>
+  
+  <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/reports+107th/house+report+107-417+pt1.pdf" target="_self">House Report 107-417, Part 1, "Clarification of Tax Treatment of Bonds and Other Obligations Issued by Government of American Samoa", House Committee on Resources, April 23, 2002  </a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/reports+107th/house+report+107-417+pt2.pdf" target="_self">House Report 107-417, Part 2, "Clarification of Tax Treatment of Bonds and Other Obligations Issued by Government of American Samoa", House Committee on the Judiciary, May 20, 2002 </a></li>
+    
+<h2 id="hearings">Hearings</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li>"Proposed Change of Utah-Nevada State Boundary; Amendments to the New Hampshire-Vermont Interstate School Compact; and Tax Treatment of Bonds Issued by the Government of American Samoa", hearing before the House Committee on the Judiciary, Subcommittee on Commercial and Administrative Law, Serial No, 65, March 6, 2002</li>
 	
-<h2 id="related-bills">Related Bills</h2>
+<h2 id="prints">Committee Prints</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-	
-<h2 id="resolutions">Resolutions</h2>
+  <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/committee+prints/jcx-49-04.pdf" target="_self">"Description Of H.R. 982, A Bill to Clarify the Tax Treatment Of Bonds and Other Obligations Issued By The Government Of American Samoa" (JCX-49-04), July 16, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/committee+prints/jcs-5-05.pdf" target="_self">"General Explanation of Tax Legislation Enacted In The 108th Congress" (JCS-5-05), May 31, 2005, pages 164-165 </a></li>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-	
 <h2 id="congressional-record">Congressional Record</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+  <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/congressional+record/crec-2001-04-05-pt1-pge541-2.pdf" target="_self"> House introduction of H.R. 1448, April 5, 2001, page E541</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/congressional+record/crec-2002-09-24-pt1-pgh6518.pdf" target="_self">House consideration and passage of H.R. 1448, September 24, 2002, pages H6518-6519</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/congressional+record/crec-2003-11-04-pt1-pgh10311.pdf" target="_self">House consideration and passage of H.R. 982, November 4, 2003, pages H10311-10312</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/congressional+record/crec-2004-09-29-pt1-pgs9986-3.pdf" target="_self">Senate consideration and passage of H.R. 982, September 29, 2004, page S9986 </a></li>
 	
 </ol>
 </div>
