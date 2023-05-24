@@ -2,7 +2,7 @@
 <html>
 <head>
 
-<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there and there too and this is just a test text -->
+<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there and there too -->
     <title>USTC Electronic Legislative History Collection - ###th Congress</title>
 <!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
     <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
