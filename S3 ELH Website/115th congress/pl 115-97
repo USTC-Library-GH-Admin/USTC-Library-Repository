@@ -57,7 +57,7 @@ $(function(){
 	  <option value="index">Select Publication Type</option>
       <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
 	  <option value="public-law">Public Law and Signing Statement</option>
-	  <option value="reports">Reports</option>
+	  <option value="enacted-bill">Enacted Bill</option>
 	  <option value="related-reports">Related Reports</option>
 	  <option value="hearings">Hearing</option>
 	  <option value="prints">Prints</option>
@@ -83,9 +83,11 @@ $(function(){
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/signing+statement/dcpd-201700925.pdf" target="_self">Remarks on Signing Legislation on Tax Reform and on Funding for the Departments of Homeland Security, Defense, and Health and Human Services and an Exchange With Reporters December 22, 2017</a></li>
 
 <!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
-<h2 id="reports">Reports</h2>
+<h2 id="enacted-bill">Enacted Bill</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hr+1/hr+1+as+introduced+in+the+house+.pdf" target="_self">H.R. 1 "Tax Cuts and Jobs Act" as introduced, introduced in the House, November 2, 2017</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hr+1/hr+1+as+reported+in+the+house.pdf" target="_self">H.R. 1, "Tax Cuts and Jobs Act", reported in the House (House Report 115-409), November 13, 2017</a></li>
 	
 <h2 id="related-reports">Related Reports</h2>
 
