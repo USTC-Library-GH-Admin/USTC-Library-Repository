@@ -58,7 +58,7 @@ $(function(){
       <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
 	  <option value="public-law">Public Law and Signing Statement</option>
 	  <option value="enacted-bill">Enacted Bill</option>
-	  <option value="related-reports">Related Reports</option>
+	  <option value="related-bills">Related Bills</option>
 	  <option value="hearings">Hearing</option>
 	  <option value="prints">Prints</option>
 	  <option value="hr">H.R. ####</option>
@@ -99,11 +99,19 @@ $(function(){
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hr+1/hr+1+engrossed+senate+amendment%2C+december+20%2C+2017.pdf" target="_self">H.R. 1, "An Act to provide for reconciliation pursuant to titles II and V of the concurrent resolution on the budget for fiscal year 2018", engrossed Senate amendment, December 20, 2017</a></li>
 
-	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hr+1/hr+1+enrolled+bill+passed+by+both+the+house+and+the+senate.pdf" target="_self">H.R. 1, “To provide for reconciliation pursuant to titles II and V of the concurrent resolution on the budget for fiscal year 2018”, enrolled bill (passed by both the House and the Senate), December 20, 2017</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hr+1/hr+1+enrolled+bill+passed+by+both+the+house+and+the+senate.pdf" target="_self">H.R. 1, "To provide for reconciliation pursuant to titles II and V of the concurrent resolution on the budget for fiscal year 2018", enrolled bill (passed by both the House and the Senate), December 20, 2017</a></li>
 	
-<h2 id="related-reports">Related Reports</h2>
+<h2 id="related-bills">Related Bills</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house/hr+25+as+introduced+in+the+house.pdf" target="_self">H.R. 25, "FairTax Act of 2017", as introduced in the House, January 3, 2017</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house/hr+29+as+introduced+in+the+house.pdf" target="_self">H.R. 29, "Tax Code Termination Act", as introduced in the House, January 3, 2017</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house/hr+828+as+introduced+in+the+house.pdf" target="_self">H.R. 828, "Investing in Opportunity Act", as introduced in the House, February 2, 2017</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house/hr+1012+introduced+in+the+house.pdf" target="_self">H.R. 1012, "Group Term Life Insurance Increase Act of 2017", introduced in the House, February 13, 2017</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house/hr+1040+introduced+in+the+house.pdf" target="_self">H.R. 1040, "Flat Tax Act", introduced in the House, February 14, 2017</a></li>
 	
 <h2 id="hearings">Hearing</h2>
 
