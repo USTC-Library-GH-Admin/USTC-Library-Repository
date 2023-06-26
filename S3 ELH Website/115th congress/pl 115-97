@@ -2,7 +2,7 @@
 <html>
 <head>
 <!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there -->
-    <title>USTC Electronic Legislative History Collection - PL ###-###</title>
+    <title>USTC Electronic Legislative History Collection - PL 115-97</title>
 <!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
     <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
   	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -41,8 +41,8 @@ $(function(){
 
 
 <!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
-<h1>PL ###-###</h1>
-<h1>Insert Title</h1>
+<h1>PL 115-97</h1>
+<h1>Tax Cuts and Jobs Act</h1>
 
 <!--CHANGE: this can be tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy.-->
 <!--I recommend editing this section last, after you know what to expect in terms of contents.-->
@@ -78,7 +78,7 @@ $(function(){
 <!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
 <!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
 <!--The table of contents file can really come in handy from here on out!-->
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/public+law/plaw-115publ97.pdf" target="_self">P.L. 115-97 (H.R. 1), “To provide for reconciliation pursuant to titles II and V of the concurrent resolution on the budget for fiscal year 2018”, December 22, 2017</a></li>
 
 <!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
 <h2 id="reports">Reports</h2>
