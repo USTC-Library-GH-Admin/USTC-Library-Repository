@@ -58,7 +58,7 @@ $(function(){
       <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
 	  <option value="public-law">Public Law and Signing Statement</option>
 	  <option value="enacted-bill">Enacted Bill</option>
-	  <option value="related-bills-115">Related Bills (115th Congress, House)</option>
+	  <option value="related-bills-115">Related Bills(115th Congress, House)</option>
 	  <option value="hearings">Hearing</option>
 	  <option value="prints">Prints</option>
 	  <option value="hr">H.R. ####</option>
