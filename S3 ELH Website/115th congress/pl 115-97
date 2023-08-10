@@ -141,28 +141,121 @@ $(function(){
 	
 <h2 id="hearings">Hearing</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT" target="_self">Title</a></li>
 	
 <h2 id="prints">Prints</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT" target="_self">Title</a></li>
     
 <!--CHANGE: here, make sure you also change the H.R #### to the proper H.R. number, if applicable.-->
 <h2 id="hr">H.R. ####</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-	
-<h2 id="related-bills">Related Bills</h2>
+    <li><a href="INSERT" target="_self">Title</a></li>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-	
-<h2 id="resolutions">Resolutions</h2>
+<h2 id="hearings-114">Hearings (114th Congress)</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-	
-<h2 id="congressional-record">Congressional Record</h2>
+    <li><a href="INSERT" target="_self">"Helping Americans Prepare for Retirement: Increasing Access, Participation, and Coverage in Retirement Savings Plans", Hearing Before the Senate Committee on Finance (Senate Hearing 114-410), January 28, 2016</a></li>
+	<li><a href="INSERT" target="_self">"Reaching America’s Potential: Delivering Growth and Opportunity for All Americans", Hearing Before the House Committee on Ways and Means (Serial No. 114-FC08), February 2, 2016</a></li>
+	<li><a href="INSERT" target="_self">"The Global Tax Environment in 2016 and Implications for International Tax Reform", Hearing Before the House Committee on Ways and Means (Serial No. 114-FC11), February 24, 2016</a></li>
+	<li><a href="INSERT" target="_self">"Protecting the Free Exchange of Ideas on College Campuses", Hearing Before the House Committee on Ways and Means, Subcommittee on Oversight (Serial No. 114-OS10), March 2, 2016</a></li>
+	<li><a href="INSERT" target="_self">"Fundamental Tax Reform Proposals", Hearing Before the House Committee on Ways and Means, Subcommittee on Tax Policy (Serial No. 114-TP05), March 22, 2016</a></li>
+    <li><a href="INSERT" target="_self">"Second Member Day Hearing on Fundamental Tax Reform Proposals", Hearing Before the House Committee on Ways and Means, Subcommittee on Tax Policy (Serial No. 114-TP06), April 13, 2016</a></li>
+	<li><a href="INSERT" target="_self">"Keep It Simple: Small Business Tax Simplification and Reform, Main Street Speaks", Hearing Before the House Committee on Small Business, Subcommittee on Economic Growth, Tax and Capital Access (Small Business Committee Document Number 114-054), April 13, 2016</a></li>
+	<li><a href="INSERT" target="_self">"Keep It Simple: Small Business Tax Simplification and Reform, the Committee Responds", Hearing Before the House Committee on Small Business, Subcommittee on Economic Growth, Tax and Capital Access (Small Business Committee Document Number 114-055), April 13, 2016</a></li>
+	<li><a href="INSERT" target="_self">"Is Our Complex Code Too Taxing on the Economy?", Hearing Before the Joint Economic Committee, April 20, 2016 (Senate Hearing 114-335)</a></li>
+	<li><a href="INSERT" target="_self">"Navigating Business Tax Reform", Hearing Before the Senate Committee on Finance, April 26, 2016 (Senate Hearing 114-577)</a></li>
+    <li><a href="INSERT" target="_self">"Integrating the Corporate and Individual Tax Systems: The Dividends Paid Deduction Considered", Hearing Before the Senate Committee on Finance, May 17, 2016 (Senate Hearing 114-654)</a></li>
+	<li><a href="INSERT" target="_self">"Debt Versus Equity: Corporate Integration Considerations", Hearing Before the Senate Committee on Finance, May 24, 2016 (Senate Hearing 114-656)</a></li>
+	<li><a href="INSERT" target="_self">"Perspectives on the Need for Tax Reform", Hearing Before the House Committee on Ways and Means, Subcommittee on Tax Policy, May 25, 2016 (Serial No. 114-TP08)</a></li>
+	<li><a href="INSERT" target="_self">"Hearing on Tax-Exempt College and University Endowments", Hearing Before the House Committee on Ways and Means, Subcommittee on Oversight, September 13, 2016 (Serial No. 114-OS14)</a></li>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+<h2 id="hearings-113">Hearings (113th Congress)</h2>
+
+	<li><a href="INSERT" target="_self">"Tax Reform and Charitable Contributions", Hearing Before the House Committee on Ways and Means, February 14, 2013, (Serial No. 113-FC02)</a></li>
+    <li><a href="INSERT" target="_self">"Tax Reform and Tax Provisions Affecting State and Local Governments" , Hearing Before the House Committee on Ways and Means, March 19, 2013, (Serial No. 113-FC03)</a></li>
+    <li><a href="INSERT" target="_self">"Financial Products Tax Reform Discussion Draft", Hearing Before the House Committee on Ways and Means, Subcommittee on Select Revenue Measures, March 20, 2013 (Serial No. 113-SRM01)</a></li>
+	<li><a href="INSERT" target="_self">"Small Business Tax Reform: Growth Through Simplicity", Hearing Before the House Committee on Small Business, April 10, 2013 (Serial No. 113-009)</a></li>
+	<li><a href="INSERT" target="_self">"Tax Reform and Residential Real Estate", Hearing Before the House Committee on Ways and Means, April 25, 2013 (Serial No. 113-FC06)</a></li>
+	<li><a href="INSERT" target="_self">"Internal Revenue Service’s Colleges and Universities Compliance Project", Hearing Before the House Ways and Means Committee, Subcommittee on Oversight, May 8, 2013 (Serial No. 113-OS4)</a></li>
+	<li><a href="INSERT" target="_self">"Small Business and Pass-Through Entity Tax Reform Discussion Draft", Hearing Before the House Ways and Means Committee, Subcommittee on Select Revenue Measures, May 15, 2013 (Serial No. 113-SRM02)</a></li>
+    <li><a href="INSERT" target="_self">"Offshore Profit Shifting and the U.S. Tax Code--Part 2 (Apple Inc.)", Hearing Before the Senate Committee on Homeland Security and Governmental Affairs, Subcommittee on Permanent Investigations, May 21, 2013 (Senate Hearing 113-90)</a></li>
+	<li><a href="INSERT" target="_self">"Tax Reform: Tax Havens, Base Erosion and Profit-Shifting", Hearing Before the House Committee on Ways and Means, June 13, 2013 (Serial No. 113-FC09)</a></li>
+	<li><a href="INSERT" target="_self">"Lessons From Reagan: How Tax Reform Can Boost Economic Growth", Hearing Before the Joint Economic Committee, July 31, 2013 (Senate Hearing 113-88)</a></li>
+	<li><a href="INSERT" target="_self">"Small Business Tax Reform: Making the Tax Code Work for Entrepreneurs and Startups", Hearing Before the Senate Committee on Small Business and Entrepreneurship, July 17, 2013 (Senate Hearing 113-283)</a></li>
+	<li><a href="INSERT" target="_self">"Powering Our Future: Principles for Energy Tax Reform", Hearing Before the Senate Committee on Finance, Subcommittee on Energy, Natural Resources, and Infrastructure, July 31, 2013 (Senate Hearing 113-289)</a></li>
+    <li><a href="INSERT" target="_self">"Tax Reform Hearing on the Benefits of Permanent Tax Policy for America’s Job Creators", Hearing Before the House Committee on Ways and Means, April 8, 2014 (Serial No. 113-FC18)</a></li>
+	<li><a href="INSERT" target="_self">"The Biggest Tax Problems for Small Businesses", Hearing Before the House Committee on Small Business, April 9, 2014 (Serial No. 113-065)</a></li>
+	<li><a href="INSERT" target="_self">"Less Student Debt From the Start: What Role Should the Tax System Play?", Hearing Before the Senate Committee on Finance, June 24, 2014 (Senate Hearing 113-545)</a></li>
+	<li><a href="INSERT" target="_self">"Cash Accounting: A Simpler Method for Small Firms?", Hearing Before the House Committee on Small Business, Subcommittee on Economic Growth, Tax and Capital Access, July 10, 2014 (Serial No. 113-074)</a></li>
+	<li><a href="INSERT" target="_self">"The U.S. Tax Code: Love It, Leave It, or Reform It", Hearing Before the Senate Committee on Finance, July 22, 2014 (Senate Hearing 113-584)</a></li>
+	<li><a href="INSERT" target="_self">"Dynamic Analysis of the Tax Reform Act of 2014", Hearing Before the House Committee on Ways and Means, Subcommittee on Select Revenue Measures, July 30, 2104 (Serial No, 113-SRM03)</a></li>
+	
+<h2 id="hearings-112">Hearings (112th Congress)</h2>
+
+	<li><a href="INSERT" target="_self">"Fundamental Tax Reform", Hearing Before the House Committee on Ways and Means, January 20, 2011 (Serial No. 112-01)</a></li>
+	<li><a href="INSERT" target="_self">"President’s Budget for Fiscal Year 2012", Hearing Before the Senate Committee on Finance, February 16, 2011 (Senate No. 112-425)</a></li>
+    <li><a href="INSERT" target="_self">"How Did We Get Here? Changes in the Law and Tax Environment Since the Tax Reform Act of 1986", Hearing Before the Senate Committee on Finance, March 1, 2011 (Senate Hearing 112-426)</a></li>
+    <li><a href="INSERT" target="_self">"Small Businesses and Tax Reform", Hearing Before the House Committee on Ways and Means, Subcommittee on Select Revenue Measures, March 3, 2011 (Serial No. 112-SRM1)</a></li>
+	<li><a href="INSERT" target="_self">"Does the Tax System Support Economic Efficiency, Job Creation, and Broad-Based Economic Growth?", Hearing Before the Senate Committee on Finance, March 8, 2011 (Senate Hearing 112-464)</a></li>
+	<li><a href="INSERT" target="_self">"How Do Complexity, Uncertainty, and Other Factors Impact Responses to Tax Incentives?", Hearing Before the Senate Committee on Finance, March 30, 2011 (Senate Hearing 112-437)</a></li>
+	<li><a href="INSERT" target="_self">"Best Practices in Tax Administration: A Look Across the Globe", Hearing Before the Senate Committee on Finance, April 12, 2011 (Senate Hearing 112-438)</a></li>
+	<li><a href="INSERT" target="_self">"How the Tax Code’s Burdens on Individuals and Families Demonstrate the Need for Comprehensive Tax Reform", Hearing Before the House Committee on Ways and Means, April 13, 2011 (Serial No. 112-09)</a></li>
+    <li><a href="INSERT" target="_self">"How Tax Complexity Hinders Small Business: The Impact on Job Creation and Economic Growth", Hearing Before the House Committee on Small Business, April 13, 2011 (Serial No. 112-010)</a></li>
+	<li><a href="INSERT" target="_self">"Is the Distribution of Tax Burdens and Tax Benefits Equitable?", Hearing Before the Senate Committee on Finance, May 3, 2011 (Senate Hearing 112-413)</a></li>
+	<li><a href="INSERT" target="_self">"The Need for Comprehensive Tax Reform to Help American Companies Compete in the Global Market and Create Jobs for American Workers", Hearing Before the House Committee on Ways and Means, May 12, 2011 (House Hearing 112-11)</a></li>
+	<li><a href="INSERT" target="_self">"Oil and Gas Tax Incentives and Rising Energy Prices", Hearing Before the Senate Committee on Finance, May 12, 2011 (Senate Hearing 112-521)</a></li>
+	<li><a href="INSERT" target="_self">"How Other Countries Have Used Tax Reform to Help Their Companies Compete in the Global Market and Create Jobs", Hearing Before the House Committee on Ways and Means, May 24, 2011 (House Hearing 112-12)</a></li>
+    <li><a href="INSERT" target="_self">"How Business Tax Reform Can Encourage Job Creation", Hearing Before the House Committee on Ways and Means, June 2, 2011 (House Hearing 112-13)</a></li>
+	<li><a href="INSERT" target="_self">"Tax Reform and Foreign Investment in the United States", Hearing Before the House Committee on Ways and Means, Subcommittee on Select Revenue Measures, June 23, 2011 (House Hearing 112-SRM3)</a></li>
+	<li><a href="INSERT" target="_self">"Complexity and the Tax Gap: Making Tax Compliance Easier and Collecting What is Due", Hearing Before the Senate Committee on Finance, June 28, 2011 (Senate Hearing 112-509)</a></li>
+	<li><a href="INSERT" target="_self">"Tax Reform and the Tax Treatment of Debt and Equity", Joint Hearing Before the House Committee on Ways and Means and the Senate Committee on Finance, July 13, 2011 (Serial No. 112-14)</a></li>
+    <li><a href="INSERT" target="_self">"Tax Reform and Consumption-Based Tax Systems", Hearing Before the House Committee on Ways and Means, July 26, 2011 (Serial No. 112-15)</a></li>
+    <li><a href="INSERT" target="_self">"Perspectives on Deficit Reduction: A Review of Key Issues", Hearing Before the Senate Committee on Finance, July 26, 2011 (Senate Hearing 112-544)</a></li>
+	<li><a href="INSERT" target="_self">"CEO Perspectives on How the Tax Code Affects Hiring, Businesses, and Economic Growth", Hearing Before the Senate Committee on Finance, July 27, 2011 (Senate Hearing 112-630)</a></li>
+	<li><a href="INSERT" target="_self">"Tax Reform Options: International Issues", Hearing Before the Senate Committee on Finance, September 8, 2011 (Senate Hearing 112-645)</a></li>
+	<li><a href="INSERT" target="_self">"Examining Whether There is a Role for Tax Reform in Comprehensive Deficit Reduction and U.S. Fiscal Policy", Hearing Before the Senate Committee on Finance, Subcommittee on Fiscal Responsibility and Economic Growth, September 13, 2011 (Senate Hearing 112-184)</a></li>
+	<li><a href="INSERT" target="_self">"The Need for Pro-Growth Tax Reform", Hearing Before the House Committee on the Budget, September 14, 2011 (Serial No. 112-14)</a></li>
+    <li><a href="INSERT" target="_self">"Tax Reform Options: Marginal Rates on High-Income Taxpayers, Capital Gains, and Dividends", Hearing Before the Senate Committee on Finance, September 14, 2011 (Senate Hearing 112-546)</a></li>
+	<li><a href="INSERT" target="_self">"Tax Reform Options:  Promoting Retirement Security", Hearing Before the Senate Committee on Finance, September 15, 2011 (Senate Hearing 112-555)</a></li>
+	<li><a href="INSERT" target="_self">"Tax Reform Options: Incentives for Innovation", Hearing Before the Senate Committee on Finance, September 20, 2011 (Senate Hearing 112-581)</a></li>
+	<li><a href="INSERT" target="_self">"Economic Models Available to the Joint Committee on Taxation for Analyzing Tax Reform Proposals", Hearing Before the House Committee on Ways and Means, September 21, 2011 (Serial No, 112-116)</a></li>
+	<li><a href="INSERT" target="_self">"Energy Tax Policy and Tax Reform", Hearing Before the House Committee on Ways and Means, Subcommittee on Select Revenue Measures, September 22, 2001 (Serial No. 112-SRM04)</a></li>
+    <li><a href="INSERT" target="_self">"Overview: Revenue Options and Reforming the Tax Code", Hearing Before the Joint Select Committee on Deficit Reduction, September 22, 2011</a></li>
+	<li><a href="INSERT" target="_self">"Tax Reform Options: Incentives for Homeownership", Hearing Before the Senate Committee on Finance, October 6, 2011 (Senate Hearing 112-641)</a></li>
+	<li><a href="INSERT" target="_self">"Tax Reform Options: Incentives for Charitable Giving", Hearing Before the Senate Committee on Finance, October 18, 2011 (Senate Hearing 112-646)</a></li>
+	<li><a href="INSERT" target="_self">"Pro-Growth Tax Policy: Why Small Businesses Need Individual Tax Reform", Hearing Before the House Committee on Small Business, Subcommittee on Economic Growth, Tax, and Capital Access, November 3, 2011 (House Hearing 112-043)</a></li>
+    <li><a href="INSERT" target="_self">"Ways and Means International Tax Reform Discussion Draft", Hearing Before the House Committee on Ways and Means, Subcommittee on Select Revenue Measures, November 17, 2011 (House Hearing 112-SRM5)</a></li>
+    <li><a href="INSERT" target="_self">"Could Tax Reform Boost Business Investment and Job Creation?", Hearing Before the Joint Economic Committee, November 17, 2011 (Senate Hearing 112-290)</a></li>
+	<li><a href="INSERT" target="_self">"Tax Reform and the Tax Treatment of Financial Products", Joint Hearing Before the Senate Committee on Finance and the House Committee on Ways and Means, December 6, 2011 (Senate Hearing 112-523 and Serial No. 112-14)</a></li>
+	<li><a href="INSERT" target="_self">"Extenders and Tax Reform: Seeking Long-Term Solutions", Hearing Before the Senate Committee on Finance, January 31, 2012 (Senate Hearing 112-687)</a></li>
+	<li><a href="INSERT" target="_self">"Interaction of Tax and Financial Accounting on Tax Reform", Hearing Before the House Committee on Ways and Means, February 8, 2012 (Serial No. 112-19)</a></li>
+	<li><a href="INSERT" target="_self">"Tax Reform Options: Incentives for Capital Investment and Manufacturing", Hearing Before the Senate Committee on Finance, March 6, 2012</a></li>
+    <li><a href="INSERT" target="_self">"Treatment of Closely-Held Businesses in Context of Tax Reform", Hearing Before the House Committee on Ways and Means, March 7, 2012 (Serial No. 112-23)</a></li>
+	<li><a href="INSERT" target="_self">"Renewable Energy Tax Incentives: How Have the Recent and Pending Expirations of Key Incentives Affected the Renewable Energy Industry in the United States?", Hearing Before the Senate Committee on Finance, Subcommittee on Energy, Natural Resources, and Infrastructure, March 27, 2012 (Senate Hearing 112-728)</a></li>
+	<li><a href="INSERT" target="_self">"Tax Reform and Tax-Favored Retirement Accounts", Hearing Before the House Committee on Ways and Means, April 17, 2012 (Serial No 112-24)</a></li>
+	<li><a href="INSERT" target="_self">"How the Taxation of Capital Affects Growth and Employment", Hearing Before the Senate Joint Economic Committee, April 17, 2012 (Senate Hearing 112-422)</a></li>
+	<li><a href="INSERT " target="_self">"Tax Reform: What It Means for State and Local Tax and Fiscal Policy", Hearing Before the Senate Committee on Finance, April 25, 2012 (Senate Hearing 112-758)</a></li>
+    <li><a href="INSERT " target="_self">"Certain Expiring Tax Provisions", Hearing Before the House Committee on Ways and Means, Subcommittee on Select Revenue Measures, April 26, 2011 (Serial No. 112-SRM06)</a></li>
+	<li><a href="INSERT" target="_self">Title</a></li>
+	<li><a href="INSERT" target="_self">"Tax Reform: What it Could Mean for Tribes and Territories", Hearing Before the Senate Committee on Finance, May 15, 2012 (Senate Hearing 112-772)</a></li>
+	<li><a href="INSERT" target="_self">"Tax Exempt Organizations", Hearing Before the House Committee on Ways and Means, Subcommittee on Oversight, May 16, 2012 (Serial No. 112-OS13)</a></li>
+    <li><a href="INSERT" target="_self">Title</a></li>
+    <li><a href="INSERT" target="_self">"Framework for Evaluating Certain Expiring Tax Provisions", Hearing Before the House Committee on Ways and Means, Subcommittee on Select Revenue Measures, June 8, 2012 (Serial No. 112-SRM07)</a></li>
+	<li><a href="INSERT" target="_self">"Tax Reform: Impact on U.S. Energy Policy", Hearing Before the Senate Committee on Finance, June 12, 2012 (Senate Hearing 112-776)</a></li>
+	<li><a href="INSERT" target="_self">"How Welfare and Tax Benefits Can Discourage Work", Joint Hearing Before the House Committee on Ways and Means, Subcommittee on Human Resources and Subcommittee on Select Revenue Measures (Serial No. 112-HR14/SRM08), June 27, 2012</a></li>
+	<li><a href="INSERT" target="_self">"Boosting Opportunities and Growth Through Tax Reform: Helping More Young People Achieve the American Dream", Hearing Before the Senate Committee on Finance, July 10, 2012 (Senate Hearing 112-784)</a></li>
+	<li><a href="INSERT" target="_self">"Tax Reform and the U.S. Manufacturing Sector", Hearing Before the House Committee on Ways and Means, July 19, 2012 (Serial No. 112-28)</a></li>
+    <li><a href="INSERT" target="_self">"Public Charity Organizational Issues, Unrelated Business Income Tax, and the Revised Form 990", Hearing Before the House Committee on Ways and Means, Subcommittee on Oversight, July 25, 2012 (Serial No. 112-OS14)</a></li>
+	<li><a href="INSERT" target="_self">"Education Tax Incentives and Tax Reform", Hearing Before the Senate Committee on Finance, July 25, 2012 (Senate Hearing 112-803)</a></li>
+	<li><a href="INSERT" target="_self">"Tax Reform and the Tax Treatment of Capital Gains" Joint Hearing Before the House Committee on Ways and Means and the Senate Committee on Finance, September 20, 2012 (Serial No. 112-29)</a></li>
+	<li><a href="INSERT" target="_self">"Offshore Profit Shifting and the U.S. Tax Code—Part 1 (Microsoft and Hewlett-Packard)" Hearing Before the Senate Committee on Homeland Security and Governmental Affairs, Permanent Subcommittee on Investigations, September 20, 2012 (Senate Hearing 112-781)</a></li>
+	<li><a href="INSERT" target="_self">"Tax Reform and Federal Energy Policy: Incentives to Promote Energy Efficiency", Hearing Before the Senate Committee on Finance, Subcommittee on Energy, Natural Resources, and Infrastructure, December 12, 2012 (Senate Hearing 112-814)</a></li>
+
+<h2 id="committee-prints">Committee Prints</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/committee+prints/cprt-115hprt27493.pdf" target="_self">House Rules Committee, H. Print 115-39, "Text of H.R. 1, Tax Cuts and Jobs Act" November 17, 2017</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/committee+prints/cprt-113wprt89455.pdf" target="_self">"Tax Reform Act of 2014 Discussion Draft," Statutory Text and Section-by-Section Summary Prepared by the Committee on Ways and Means Majority Tax Staff, (WMCP 113-6), February 26, 2014</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/committee+prints/cprt-113sprt91797.pdf" target="_self">"Staff Report on Comprehensive Tax Reform for 2015 and Beyond" S. Print 113-31, Prepared by the Republican Staff of the Committee on Finance, United States Senate, December 2014</a></li>
 	
 </ol>
 </div>
