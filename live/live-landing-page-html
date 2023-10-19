@@ -21,10 +21,6 @@
 	<button class="tablinks" onclick="openNews(event, 'Free Online Resources')"> Free Online Resources</button>
 <button class="tablinks" onclick="openNews(event, 'Selected Online Treatises')">Selected Online Treatises</button>
 
-
-<button class="tablinks" onclick="openNews(event, 'Library Bulletin')" id="defaultOpen">Library Bulletin</button>
-</div>
-
 <div id="Welcome" class="tabcontent">
   <h1>Welcome to the US Tax Court Library Catalog</h1>
 <br>
