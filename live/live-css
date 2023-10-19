@@ -199,6 +199,10 @@ font: "Helvetica Neue",Helvetica,Arial,sans-serif;
 text-align: left;
 }
 
+p.bigger {
+font-size: 130%
+}
+
 /* Body text */
 body    {color: #00004d;
 text-align: left;}
