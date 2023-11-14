@@ -59,6 +59,7 @@ $(function(){
 	  <option value="public-law">Public Law and Signing Statement</option>
 	  <option value="enacted-bill">Enacted Bill</option>
 	  <option value="related-bills-115-house">Related Bills(115th Congress, House)</option>
+	  <option value="related-bills-115-house">Related Bills (115th Congress, Senate)</option>
 	  <option value="conference-report">Conference Report</option>
 	  <option value="reports">Reports</option>
 	  <option value="hearings-115">Hearings (115th Congress)</option>
@@ -145,6 +146,7 @@ $(function(){
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house/hr+5422+introduced+in+the+house.pdf" target="_self">H.R. 5422, "Death Tax Repeal Act", introduced in the House, March 29, 2018</a></li>
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house/hr+5903+introduced+in+the+house.pdf" target="_self">H.R. 5903, "Permanent Tax Relief for Working Families Act", introduced in the House, May 22, 2018</a></li>
+	
 	<h2 id="related-bills-115">Related Bills (115th Congress, Senate)</h2>
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+1+placed+on+the+senate+calendar.pdf" target="_self">S. 1, "Tax Cuts and Jobs Act", placed on the Senate calendar, November 28, 2017</a></li>
