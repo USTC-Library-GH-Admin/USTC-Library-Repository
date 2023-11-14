@@ -58,14 +58,20 @@ $(function(){
       <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
 	  <option value="public-law">Public Law and Signing Statement</option>
 	  <option value="enacted-bill">Enacted Bill</option>
-	  <option value="related-bills-115">Related Bills(115th Congress, House)</option>
-	  <option value="related-bills-115">Related Bills(115th Congress, Senate)</option>
-	  <option value="hearings">Hearing</option>
-	  <option value="prints">Prints</option>
-	  <option value="hr">H.R. ####</option>
-	  <option value="related-bills">Related Bills</option>
-	  <option value="resolutions">Resolutions</option>
-	  <option value="congressional-record">Congressional Record</option>
+	  <option value="related-bills-115-house">Related Bills(115th Congress, House)</option>
+	  <option value="conference-report">Conference Report</option>
+	  <option value="reports">Reports</option>
+	  <option value="hearings-115">Hearings (115th Congress)</option>
+	  <option value="hearings-114">Hearings (114th Congress)</option>
+	  <option value="hearings-113">Hearings (113th Congress)</option>
+	  <option value="hearings-112">Hearings (112th Congress)</option>
+	  <option value="committee-prints">Committee Prints</option>
+	  <option value="jct-prints-115">Joint Committee on Taxation Prints (115th Congress)</option>
+	  <option value="jct-prints-114">Joint Committee on Taxation Prints (114th Congress)</option>
+	  <option value="jct-prints-113">Joint Committee on Taxation Prints (113th Congress)</option>
+	  <option value="jct-prints-112">Joint Committee on Taxation Prints (112th Congress)</option>
+	  <option value="congressional-record-115">Congressional Record (115th Congress)</option>
+	  <option value="congressional-record-112">Congressional Record (112th Congress)</option>
 	</select>
 	</form>
 	<br/>
@@ -102,7 +108,7 @@ $(function(){
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hr+1/hr+1+enrolled+bill+passed+by+both+the+house+and+the+senate.pdf" target="_self">H.R. 1, "To provide for reconciliation pursuant to titles II and V of the concurrent resolution on the budget for fiscal year 2018", enrolled bill (passed by both the House and the Senate), December 20, 2017</a></li>
 	
-<h2 id="related-bills-115">Related Bills (115th Congress, House)</h2>
+<h2 id="related-bills-115-house">Related Bills (115th Congress, House)</h2>
 
     <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house/hr+25+as+introduced+in+the+house.pdf" target="_self">H.R. 25, "FairTax Act of 2017", as introduced in the House, January 3, 2017</a></li>
 	
@@ -130,7 +136,7 @@ $(function(){
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house/hr+3084+introduced+in+the+house.pdf" target="_self">H.R. 3084, "Empowering Employees through Stock Ownership Act", introduced in the House, June 27, 2017</a></li>
 
-<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house/hr+4233+introduced+in+the+house.pdf" target="_self">H.R. 4233, "Improper Tax Payments Reduction Act of 2017", introduced in the House, November 2, 2017</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house/hr+4233+introduced+in+the+house.pdf" target="_self">H.R. 4233, "Improper Tax Payments Reduction Act of 2017", introduced in the House, November 2, 2017</a></li>
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house/hr+3483+introduced+in+the+house.pdf" target="_self">H.R. 3483, "EITC Eligibility Verification Act", introduced in the House, July 27, 2017</a></li>
 
@@ -139,26 +145,30 @@ $(function(){
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house/hr+5422+introduced+in+the+house.pdf" target="_self">H.R. 5422, "Death Tax Repeal Act", introduced in the House, March 29, 2018</a></li>
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house/hr+5903+introduced+in+the+house.pdf" target="_self">H.R. 5903, "Permanent Tax Relief for Working Families Act", introduced in the House, May 22, 2018</a></li>
-
-<h2 id="related-bills-115">Related Bills (115th Congress, Senate)</h2>
+	<h2 id="related-bills-115">Related Bills (115th Congress, Senate)</h2>
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+1+placed+on+the+senate+calendar.pdf" target="_self">S. 1, "Tax Cuts and Jobs Act", placed on the Senate calendar, November 28, 2017</a></li>
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+264+introduced+in+the+senate.pdf" target="_self">S. 264, "The Free Speech Fairness Act", introduced in the Senate, February 1, 2017</a></li>
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+293+introduced+in+the+senate.pdf" target="_self">S. 293, "Investing in Opportunity Act", introduced in the Senate, February 2, 2017</a></li>
+	<h2 id="related-bills-115">Related Bills (115th Congress, Senate)</h2>
 
-	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+1+placed+on+the+senate+calendar.pdf" target="_self">S. 1, "Tax Cuts and Jobs Act", placed on the Senate calendar, November 28, 2017</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+264+introduced+in+the+senate.pdf" target="_self">S. 264, "The Free Speech Fairness Act", introduced in the Senate, February 1, 2017</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+293+introduced+in+the+senate.pdf" target="_self">S. 293, "Investing in Opportunity Act", introduced in the Senate, February 2, 2017</a></li>		
+
 <h2 id="hearings">Hearing</h2>
 
     <li><a href="INSERT" target="_self">Title</a></li>
 	
-<h2 id="prints">Prints</h2>
+<h2 id="reports">Reports</h2>
 
-    <li><a href="INSERT" target="_self">Title</a></li>
-    
-<!--CHANGE: here, make sure you also change the H.R #### to the proper H.R. number, if applicable.-->
-<h2 id="hr">H.R. ####</h2>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+<h2 id="hearings-115">Hearings (115th Congress)</h2>
 
     <li><a href="INSERT" target="_self">Title</a></li>
 
