@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there -->
+    <title>USTC Electronic Legislative History Collection - PL 108-357</title>
+<!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
+    <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	  <meta charset="utf-8" />
+</head>
+
+<body>
+
+<!--Header - this lets the header link back to the ELH website homepage - keep intact-->
+	<div class="header">
+	   <h1><a class="homepage-link" href="https://ustc-elh-static-website.s3.s3.amazonaws.com/legislative-history-index.html">USTC Electronic Legislative History Collection</a></h1>
+	</div>
+<!--End of header-->
+
+<!--This section gives us the navigation bar to the left - keep intact; if you need to update the sidebar, go to the "nav.html" file and edit that-->
+	<div id="nav-placeholder">
+
+	</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("https://ustc-elh-static-website.s3.amazonaws.com/javascript+sidebar/nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+      
+<!--Content of webpage-->
+	<div class="content">
+
+<!--Breadcrumbs - this appears at the top of the page to help users navigate to pages furhter back in the hierarchy - keep intact-->
+	<div class="breadcrumbs">
+	   <script language="javascript" src="https://ustc-elh-static-website.s3.amazonaws.com/breadcrumbs+script/breadcrumb_script.js"></script> 
+	</div>
+<!--end of breadcrumbs-->
+
+
+<!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
+<h1>PL 108-357</h1>
+<h1>American Jobs Creation Act of 2004</h1>
+
+<!--CHANGE: tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy-->
+<!-- PL Table of Contents Javascript anchors - needs to be modified based on pub types -->
+<!-- Modify "value" to be your anchor -->
+<!-- Will need to add "value" to the "id" of matching pub type to be able to jump to it -->
+	<br/>
+	<form action="#" onsubmit="return false;">
+	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
+	  <option value="index">Select Publication Type</option>
+	  <option value="public-law">Public Law</option>
+	  <option value="reports">Reports</option>
+	  <option value="hr">H.R. 4250</option>
+	  <option value="resolutions">Resolutions</option>
+	  <option value="related-bill-s1637">S. 1637</option>
+	  <option value="related-bills">Related Bills</option>
+	  <option value="jct-prints-2003">Joint Committee on Taxation Prints (2003)</option>
+	  <option value="jct-prints-2004">Joint Committee on Taxation Prints (2004)</option>
+	  <option value="jct-prints-2005">Joint Committee on Taxation Prints (2005)</option>
+	  <option value="congressional-record">Congressional Record</option>
+	</select>
+	</form>
+	<br/>
+<!-- End of PL Table of Contents Javascript anchors -->
+
+<h2 id="public-law">Public Law</h2>
+
+<ol type="1">
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/public+law/pl+108-357.pdf" target="_self">Public Law 108-357 (H.R. 4520), October 22, 2004</a></li>
+	
+<h2 id="reports">Reports</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/reports/senate+report+108-192.pdf" target="_self">Senate Report 108-192, Jumpstart Our Business Strength (JOBS) Act, to accompany S. 1637, Senate Committee on Finance, November 7, 2003</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/reports/house+report+108-393.pdf" target="_self">House Report 108-393, American Jobs Creation Act of 2003, to accompany H.R. 2896, House Committee on Ways and Means, November 21, 2003</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/reports/house+report+108-548+part+1.pdf" target="_self">House Report 108-548, Part 1, American Jobs Creation Act of 2004, to accompany H.R. 4520, together with Dissenting and Additional Views, House Committee on Ways and Means, June 16, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/reports/house+report+108-755.pdf" target="_self">House Conference Report 108-755, American Jobs Creation Act of 2004, to accompany H.R. 4520, October 7, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/reports/house+report+108-549.pdf" target="_self">House Report 108-549, American Jobs Creation Act of 2004 to accompany House Resolution 681, Providing for Consideration of H.R. 4520, House Committee on Rules, June 17, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/reports/house+report+108-762.pdf" target="_self">House Report 108-762, Waiving Points of Order Against the Conference Report to Accompany H.R. 4520, American Jobs Creation Act of 2004, House Committee on Rules,	October 7, 2004</a></li>
+
+<h2 id="hr">H.R. 4250</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/hr+4520/hr+4520+as+introduced+in+the+house.pdf" target="_self">H.R. 4520, "American Jobs Creation Act of 2004", as introduced in the House, June 4, 2004</a></li>
+	<li>H.R. 4520 Chairman's Amendment in the Nature of a Substitute, June 10, 2004 - See Library for document</li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/hr+4520/hr+4520+as+reported+in+the+house.pdf" target="_self">H.R. 4520, "American Jobs Creation Act of 2004", as reported by the House Committee on Ways and Means, with an amendment, June 16, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/hr+4520/hr+4520+as+placed+on+the+senate+calendar.pdf" target="_self">H.R. 4520 as received in the Senate, June 18, 2004, and read twice and placed on the calendar, June 21, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/hr+4520/hr+4520+as+placed+on+the+senate+calendar+july+15.pdf" target="_self">H.R. 4520, "Jumpstart Our Business Strength (JOBS) Act", as passed by the Senate, with an amendment, July 15, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/hr+4520/hr+4520+as+engrossed+in+the+house.pdf" target="_self">H.R. 4520, "American Jobs Creation Act of 2004", as engrossed in the House (passed House), June 17, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/hr+4520/hr+4520+as+enrolled.pdf" target="_self">H.R. 4520 as enrolled (final as passed both House and Senate)</a></li>
+	
+<h2 id="resolutions">Resolutions</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/resolutions/h+res+681+reported+in+house.pdf" target="_self">House Resolution 681 as reported in the House, June 17, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/resolutions/h+res+681+engrossed+in+the+house.pdf" target="_self">House Resolution 681 as engrossed in the House (passed House), June 17, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/resolutions/h+res+830+reported+in+house.pdf" target="_self">House Resolution 830 as reported in the House, October 7, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/resolutions/h+res+830+engrossed+in+the+house.pdf" target="_self">House Resolution 830 as engrossed in the House (passed House), October 7, 2004</a></li>
+
+<h2 id="related-bill-s1637">S. 1637</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/related+bills/s+1637+as+introduced+in+the+senate.pdf" target="_self">S. 1637, "Jumpstart Our Business Strength (JOBS) Act",  as introduced, September 18, 2003</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/related+bills/s+1637+reported+in+the+senate.pdf" target="_self">S. 1637 as reported in the Senate with an amendment, November 7, 2003</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/related+bills/s+1637+engrossed+in+the+senate.pdf" target="_self">S. 1637, "Jumpstart Our Business Strength (JOBS) Act",  as engrossed in the Senate (passed Senate), May 11, 2004</a></li>
+
+<h2 id="related-bills">Related Bills</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/related+bills/hr+2896+introduced+in+the+house.pdf" target="_self">H.R. 2896, "American Jobs Creation Act of 2003", introduced in the House, July 25, 2003</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/related+bills/hr+2896+reported+in+the+house.pdf" target="_self">H.R. 2896, as reported by the House Committee on Ways and Means with an amendment, November 21, 2003</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/related+bills/hr+5395+as+introduced+in+the+house.pdf" target="_self">H.R. 5395, "Tax Technical Corrections Act of 2004",  introduced in the House, November 19, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/related+bills/s+3019+as+introduced+in+the+senate.pdf" target="_self">S. 3019, "Tax Technical Corrections Act of 2004", as introduced in the Senate, November 19, 2004</a></li>
+
+<h2 id="jct-prints-2003">Joint Committee on Taxation Prints (2003)</h2>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-67-03.pdf" target="_self">The U.S. International Tax Rules: Background, Data, and Selected Issues Relating to the Competitiveness of U.S.-Based Business Operations (JCX-67-03), July 3, 2003</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-68-03.pdf" target="_self">The U.S. International Tax Rules: Background and Selected Issues Relating to the Competitiveness of U.S. Businesses Abroad (JCX-68-03), July 14, 2003</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-72-03.pdf" target="_self">Technical Explanation of H.R. 2896, The "American Jobs Creation Act of 2003" (JCX-72-03), August 13, 2003</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-83-03.pdf" target="_self">Description of the Chairman's Mark of the "Jumpstart Our Business Strength (JOBS) Act" (JCX-83-03), September 26, 2003</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-85-03.pdf" target="_self">Modification of the Chairman's Mark on the "Jumpstart Our Business Strength (JOBS) Act" (JCX-85-03), October 1, 2003</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-87-03.pdf" target="_self">Additional Modifications to the Chairman's Mark of S. 1637, the "Jumpstart Our Business Strength (JOBS) Act," Scheduled for Markup by the Senate Committee on Finance on October 1, 2003 (JCX-87-03), October 1, 2003</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-94-03.pdf" target="_self">Description of the Chairman's Amendment in the Nature of a Substitute to H.R. 2896, the "American Jobs Creation Act of 2003" (JCX-94-03) October 24, 2003</a></li>
+
+<h2 id="jct-prints-2004">Joint Committee on Taxation Prints (2004)</h2>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-38-04.pdf" target="_self">Estimated Revenue Effects of H.R. 4520, the "American Jobs Creation Act of 2004," Scheduled for Markup by the Committee on Ways and Means on June 10, 2004, Fiscal Years 2004-2014 (JCX-38-04), June 8, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-41-04.pdf" target="_self">Description of H.R. 4520, the "American Jobs Creation Act of 2004" (JCX-41-04), June 10, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-42-04.pdf" target="_self">Description of the Chairman's Amendment in the Nature of a Substitute to The Provisions of H.R. 4520, the "American Jobs Creation Act of 2004" (JCX-42-04), June 10, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-43-04.pdf" target="_self">Estimated Revenue Effects of the Chairman's Amendment in the Nature of a Substitute to H.R. 4520, The "American Jobs Creation Act of 2004," Scheduled for Markup by the Committee on Ways and Means on June 14, 2004 Fiscal Years 2004-2014 (JCX-43-04), June 10, 2004.</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-45-04.pdf" target="_self">Estimated Revenue Effects of H.R. 4520 the "American Jobs Creation Act of 2004," as passed by the House of Representatives, Fiscal Years 2004-2014 (JCX-45-04), June 22, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-53-04.pdf" target="_self">Comparison of the Estimated Budget Effects of H.R. 4520, the "American Jobs Creation Act of 2004:, as passed by the House of Representatives, and H.R. 4520, the "Jumpstart Our Busienss Strength (JOBS) Act," as Amended by the Senate, Fiscal Years 2005-2014, (JCX-53-04), July 23, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-61-04.pdf" target="_self">Comparison of Certain Provisions of H.R. 4520, as Passed by the House of Representatives and as Amended by the Senate:  Provisions Relating to the Repeal of the Exclusion for Extraterritorial Income, Domestic Production, and the Corporate Income Tax Rates Applicable to Small Corporations (JCX-61-04), September 29, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-62-04.pdf" target="_self">Comparison of Certain Provisions of H.R. 4520 as Passed by the House of Representatives and as Amended by the Senate:  Job Creation Tax Incentives for Manufacturing, Small Business, and Farming (JCX-62-04), September 29, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-63-04.pdf" target="_self">Comparison of Certain Provisions of H.R. 4520 as Passed by the House of Representatives and as Amended by the Senate:  Provisions Relating to International Tax Reform and Simplification for United States Businesses (JCX-63-04), September 29, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-64-04.pdf" target="_self">Comparison of Certain Provisions of H.R. 4520 as Passed by the House of Representatives and as Amended by the Senate:  Revenue Provisions (JCX-64-04), September 29, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-65-04.pdf" target="_self">Comparison of Certain Provisions of H.R. 4520 as Passed by the House of Representatives and as Amended by the Senate:  Alcohol Fuels and Fuel Fraud Provisions (JCX-65-04), September 29, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-66-04.pdf" target="_self">Comparison of Certain Provisions of H.R. 4520 as Passed by the House of Representatives and as Amended by the Senate:  Expiring Provisions (JCX-66-04), September 29, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-68-04r.pdf" target="_self">Estimated Budget Effects of the Chairman's Mark Relating to H.R. 4520, the "American Jobs Creation Act of 2004," Scheduled for Consideration by the House and Senate Conferees Continuing on October 5, 2000, Fiscal Years 2005-2014 (JCX-68-04 R), October 5, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcx-69-04.pdf" target="_self">Estimated Budget Effects of the Conference Agreement for H.R. 4520, the "American Jobs Creation Act of 2004," Fiscal Years 2005-2014 (JCX-69-04), October 7, 2004</a></li>
+	
+<h2 id="jct-prints-2005">Joint Committee on Taxation Prints (2005)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/jct+prints/jcs-5-05.pdf" target="_self">General Explanation of Tax Legislation Enacted in the 108th Congress prepared by the Staff of the Joint Committee on Taxation (JCS-5-05), May 2005, pages 166-521</a></li>
+
+<h2 id="congressional-record">Congressional Record</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-03-03-senate.pdf" target="_self">Senate began consideration of S. 1637, March 3, 2004, pages S2025-2102</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-03-04-senate+part+1.pdf" target="_self">Senate continued consideration of S. 1637, March 4, 2004, pages S2188-S2217</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-03-04-senate+part+2.pdf" target="_self">Senate continued consideration of S. 1637 with text of amendments, March 4, 2004, pages S2236-2252</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-03-22-senate.pdf" target="_self">Senate continued consideration of S. 1637, March 22, 2004, pages S2842-2853</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-03-23-senate.pdf" target="_self">Senate continued consideration of S. 1637, March 23, 2004, pages S2958-2986</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-03-24-senate.pdf" target="_self">Senate continued consideration of S. 1637, March 24, 2004, pages S3060-3092</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-04-05-senate.pdf" target="_self">Senate continued consideration of S. 1637, April 5, 2004, page S3628</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-04-07-senate.pdf" target="_self">Senate continued consideration of S. 1637, April 7, 2004, pages S3894-3895</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-04-08-senate+part+1.pdf" target="_self">Senate continued consideration of S. 1637 April 8, 2004, page S3964 (Mr. Reid)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-04-08-senate+part+2.pdf" target="_self">Senate continued consideration of S. 1637 April 8, 2004, S4006-4009 (Mr. Frist and Mr. Alexander)</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-05-03-senate.pdf" target="_self">Senate continued consideration of S. 1637, May 3, 2004, pages S4737-4761</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-05-04-senate.pdf" target="_self">Senate continued consideration of S. 1637, May 4, 2004, pages S4787-4822</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-05-05-senate.pdf" target="_self">Senate continued consideration of S. 1637, May 5, 2004, pages S4861-4897</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-05-07-senate.pdf" target="_self">Senate continued consideration of S. 1637, May 7, 2004, pages S5044-5047</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-05-11-senate.pdf" target="_self">Senate passes S. 1637, May 11, 2004, pages S5179-5220</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-06-17-house+part+1.pdf" target="_self">House consideration and passage of H. Res. 681, June 17, 2004, pages H4295-4306</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-06-17-house+part+2.pdf" target="_self">House amendment in the nature of a substitute to H.R. 4520, June 17, 2004, pages H4347-4388</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-06-17-house+part+3.pdf" target="_self">House consideration of H.R. 4520, June 17, 2004, pages H4393-4433</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-07-15-senate+part+1.pdf" target="_self">Senate consideration and passage of H.R. 4520, with an amendment, Senate insistence on its amendment, request for conference and appointment of conferees, July 15, 2004, pages S8150-8178</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-07-15-senate+part+2.pdf" target="_self">Continuation of Senate consideration and passage of H.R. 4520, with an amendment, Senate insistence on its amendment, request for conference and appointment of conferees, July 15, 2004, pages S8217-8221</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-09-29-house+part+1.pdf" target="_self">House disagreement to Senate amendment to H.R. 4520, agreement to conference and appointment of conferees, September 29, 2004, pages H7749-7757</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-09-29-house+part+2.pdf" target="_self">House vote on motion on appointment of conferees, September 29, 2004, pages H7776-7777</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-10-07-house-bk2.pdf" target="_self">House agreement to report on H.R. 4520, October 7, 2004, pages H8704-8726</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-10-08-senate.pdf" target="_self">Senate consideration of conference report on H.R. 4520, October 8, 2004, page S10764</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-10-09-senate.pdf" target="_self">Senate continued consideration of conference report on H.R. 4520, October 9, 2004, page S10928-10945</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-10-10-senate.pdf" target="_self">Senate continued consideration of conference report on H.R. 4520, October 10, 2004, S.11019-11068</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-357+-+not+in+dr/documents/congressional+record/crec-2004-10-11-senate.pdf" target="_self">Senate agreement to conference report on H.R. 4520, October 11, 2004, pages S11191-11192</a></li>
+	
+</ol>
+</div>
+
+<!--end of Content-->
+
+</body>
+</html>
