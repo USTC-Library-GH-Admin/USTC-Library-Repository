@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there -->
+    <title>USTC Electronic Legislative History Collection - PL 108-326</title>
+<!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
+    <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<!-- New encoding tag - necessary to make curly quotes, etc appear correctly -->
+	<meta charset="utf-8" />
+</head>
+
+<body>
+
+<!--Header - this lets the header link back to the ELH website homepage - keep intact-->
+	<div class="header">
+	   <h1><a class="homepage-link" href="https://ustc-elh-static-website.s3.s3.amazonaws.com/legislative-history-index.html">USTC Electronic Legislative History Collection</a></h1>
+	</div>
+<!--End of header-->
+
+<!--This section gives us the navigation bar to the left - keep intact; if you need to update the sidebar, go to the "nav.html" file and edit that-->
+	<div id="nav-placeholder">
+
+	</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("https://ustc-elh-static-website.s3.amazonaws.com/javascript+sidebar/nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+      
+<!--Content of webpage-->
+	<div class="content">
+
+<!--Breadcrumbs - this appears at the top of the page to help users navigate to pages furhter back in the hierarchy - keep intact-->
+	<div class="breadcrumbs">
+	   <script language="javascript" src="https://ustc-elh-static-website.s3.amazonaws.com/breadcrumbs+script/breadcrumb_script.js"></script> 
+	</div>
+<!--end of breadcrumbs-->
+
+
+<!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
+<h1>PL 108-326</h1>
+<h1>American Samoa Bonds Tax Exempt Status</h1>
+
+<!--CHANGE: this can be tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy.-->
+<!--I recommend editing this section last, after you know what to expect in terms of contents.-->
+		
+<!--This section is the PL Table of Contents Javascript anchors - this takes a user directly to the part of the page that has an "anchor" on it.-->
+<!-- These anchors need to be modified on a case-by-case basis - the anchors are based on pub types present in the legislative history collection.-->
+<!-- Modify "value" to be your anchor. In the next section, you will run into "id"s, which will need to be filled in with the "value"s from this section.-->
+<!-- Once they match, you will be able to jump to different sections instantly by selecting them from the dropdown menu.-->
+	<br/>
+	<form action="#" onsubmit="return false;">
+	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
+	  <option value="index">Select Publication Type</option>
+      <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
+	  <option value="public-law">Public Law</option>
+	  <option value="hr">H.R. 982</option>
+	  <option value="related-bills">Related Bills</option>
+	  <option value="reports-108">Reports (108th Congress)</option>
+	  <option value="reports-107">Reports (107th Congress)</option>	  
+	  <option value="hearings">Hearings</option>
+	  <option value="prints"> Committee Prints</option>
+	  <option value="congressional-record">Congressional Record</option>
+	</select>
+	</form>
+	<br/>
+<!-- End of PL Table of Contents Javascript anchors -->
+
+<ol type="1">
+
+<h2 id="public-law">Public Law</h2>
+
+<!--CHANGE: the "Title of pub" for all items should be replaced with the title from Jen and Nancy's Table of Contents-->
+<!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
+<!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
+<!--The table of contents file can really come in handy from here on out!-->
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/public+law/pl+108-326.pdf" target="_self">P.L. 108-326 (H.R. 982), "American Samoa Bonds Tax Exempt Status", October 16, 2004</a></li>
+
+<!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
+<h2 id="hr">H.R. 982</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+introduced+in+the+house.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", as introduced in the House, February 27, 2000</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+as+reported+in+the+house.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", as reported in the House (House Report 108-102, Parts I and II), October 7, 2003</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+as+engrossed+in+the+house.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", as engrossed in the House, November 4, 2003</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+referred+to+the+senate.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", referred to the Senate, November 5, 2003</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+reported+in+the+senate.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", reported in the Senate, July 20, 2004</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hr+982/hr+982+as+enrolled.pdf" target="_self">H.R. 982, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", as enrolled</a></li>
+	
+<h2 id="related-bills">Related Bills (107th Congress)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/related+bill/hr+1448+introduced+in+the+house.pdf" target="_self">H.R. 1448, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", as introduced in the House, April 4, 2001</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/related+bill/hr+1448+changed+in+the+house.pdf" target="_self">H.R. 1448, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", reference change in the House, September 6, 2001</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/related+bill/hr+1448+reported+in+the+house.pdf" target="_self">H.R. 1448, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", reported in the House (House Report 107-417, Parts 1 and 2), May 20, 2002</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/related+bill/hr+1448+engrossed+in+the+house.pdf" target="_self">H.R. 1448, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", engrossed in the House, September 24, 2002</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/related+bill/hr+1448+referred+to+the+senate.pdf" target="_self">H.R. 1448, "To clarify the tax treatment of bonds and other obligations issued by the Government of American Samoa", referred to the Senate, September 25, 2002</a></li>
+	
+<h2 id="reports-108">Reports (108th Congress)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/reports+108th/house+report+108-102+pt1.pdf" target="_self">House Report 108-102, Part 1, "To Clarify the Tax Treatment of Bonds and Other Obligations Issued by the Government of American Samoa", House Committee on the Judiciary, May 15, 2003  </a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/reports+108th/house+report+108-102+pt2.pdf" target="_self">House Report 108-102, Part 2, "Clarifying the Tax Treatment of Bonds and Other Obligations Issued by the Government of American Samoa", House Committee on Resources, October 7, 2003 </a></li>
+    
+<h2 id="reports-107">Reports (107th Congress)</h2>
+  
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/reports+107th/house+report+107-417+pt1.pdf" target="_self">House Report 107-417, Part 1, "Clarification of Tax Treatment of Bonds and Other Obligations Issued by Government of American Samoa", House Committee on Resources, April 23, 2002  </a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/reports+107th/house+report+107-417+pt2.pdf" target="_self">House Report 107-417, Part 2, "Clarification of Tax Treatment of Bonds and Other Obligations Issued by Government of American Samoa", House Committee on the Judiciary, May 20, 2002 </a></li>
+    
+<h2 id="hearings">Hearings</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/hearings/serial+no.+65.pdf" target="_self">"Proposed Change of Utah-Nevada State Boundary; Amendments to the New Hampshire-Vermont Interstate School Compact; and Tax Treatment of Bonds Issued by the Government of American Samoa", hearing before the House Committee on the Judiciary, Subcommittee on Commercial and Administrative Law, Serial No, 65, March 6, 2002</a></li>
+	
+<h2 id="prints">Committee Prints</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/committee+prints/jcx-49-04.pdf" target="_self">"Description Of H.R. 982, A Bill to Clarify the Tax Treatment Of Bonds and Other Obligations Issued By The Government Of American Samoa" (JCX-49-04), July 16, 2004</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/committee+prints/jcs-5-05.pdf" target="_self">"General Explanation of Tax Legislation Enacted In The 108th Congress" (JCS-5-05), May 31, 2005, pages 164-165 </a></li>
+
+<h2 id="congressional-record">Congressional Record</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/congressional+record/crec-2001-04-05-pt1-pge541-2.pdf" target="_self"> House introduction of H.R. 1448, April 5, 2001, page E541</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/congressional+record/crec-2002-09-24-pt1-pgh6518.pdf" target="_self">House consideration and passage of H.R. 1448, September 24, 2002, pages H6518-6519</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/congressional+record/crec-2003-11-04-pt1-pgh10311.pdf" target="_self">House consideration and passage of H.R. 982, November 4, 2003, pages H10311-10312</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/108th+congress/pl+108-326+-+not+in+dr/documents/congressional+record/crec-2004-09-29-pt1-pgs9986-3.pdf" target="_self">Senate consideration and passage of H.R. 982, September 29, 2004, page S9986 </a></li>
+	
+</ol>
+</div>
+
+<!--end of Content-->
+
+</body>
+</html>
