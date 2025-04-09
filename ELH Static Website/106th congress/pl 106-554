@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there -->
+    <title>USTC Electronic Legislative History Collection - PL 106-554</title>
+<!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
+    <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	  <meta charset="utf-8" />
+</head>
+
+<body>
+
+<!--Header - this lets the header link back to the ELH website homepage - keep intact-->
+	<div class="header">
+	   <h1><a class="homepage-link" href="https://ustc-elh-static-website.s3.s3.amazonaws.com/legislative-history-index.html">USTC Electronic Legislative History Collection</a></h1>
+	</div>
+<!--End of header-->
+
+<!--This section gives us the navigation bar to the left - keep intact; if you need to update the sidebar, go to the "nav.html" file and edit that-->
+	<div id="nav-placeholder">
+
+	</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("https://ustc-elh-static-website.s3.amazonaws.com/javascript+sidebar/nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+      
+<!--Content of webpage-->
+	<div class="content">
+
+<!--Breadcrumbs - this appears at the top of the page to help users navigate to pages furhter back in the hierarchy - keep intact-->
+	<div class="breadcrumbs">
+	   <script language="javascript" src="https://ustc-elh-static-website.s3.amazonaws.com/breadcrumbs+script/breadcrumb_script.js"></script> 
+	</div>
+<!--end of breadcrumbs-->
+
+
+<!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
+<h1>PL 106-554</h1>
+<h1>Consolidated Appropriations Act, 2001</h1>
+
+<!--CHANGE: this can be tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy.-->
+<!--I recommend editing this section last, after you know what to expect in terms of contents.-->
+		
+<!--This section is the PL Table of Contents Javascript anchors - this takes a user directly to the part of the page that has an "anchor" on it.-->
+<!-- These anchors need to be modified on a case-by-case basis - the anchors are based on pub types present in the legislative history collection.-->
+<!-- Modify "value" to be your anchor. In the next section, you will run into "id"s, which will need to be filled in with the "value"s from this section.-->
+<!-- Once they match, you will be able to jump to different sections instantly by selecting them from the dropdown menu.-->
+	<br/>
+	<form action="#" onsubmit="return false;">
+	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
+	  <option value="index">Select Publication Type</option>
+      <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
+	  <option value="public-law">Public Law</option>
+	  <option value="presidential-documents">Presidential Documents</option>
+	  <option value="conference report">Conference Report</option>
+	  <option value="hr 4577">H.R. 4577</option>
+	  <option value="congressional-record">Congressional Record on H.R. 4577</option>
+	  <option value="placeholder bills">Placeholder Bills</option>
+	  <option value="original bills">Original Bills</option>
+	  <option value="hr 4923">H.R. 4923 (Original bill on community renewal)</option>
+	  <option value="hr 5044">H.R. 5044 (Original bill on confidentiality)</option>
+	  <option value="hr 5117">H.R. 5117 (Original bill on missing children)</option>
+	  <option value="hr 2488">H.R. 2488 (Original bill on technical corrections)</option>
+	  <option value="hr 2848">H.R. 2848 (Original bill for New Market Venture Capital Program)</option>
+	  <option value="hr 2392">H.R. 2392 (Original bill for the Small Business Innovation Research Program and Business Loan Programs)</option>
+	  <option value="hr 2614">H.R. 2614 (Original bill for the Certified Development Company Program)</option>
+	  <option value="hr 3845">H.R. 3845 (Original bill for reauthorization of small business programs and the HUBZone program)</option>
+	  <option value="hr 3843">H.R. 3843 (Original bill for corrections to the Small Business Investment Act of 1958)</option>
+	  <option value="related-bills">Related Bills</option>
+	  <option value="resolutions">Resolutions</option>
+	  <option value="reports">Reports</option>
+	  <option value="related reports">Related Reports</option>
+	  <option value="documents">House Document</option>
+	  <option value="other reports">Other Reports#</option>
+	  <option value="congressional-record-2">Other Congressional Records</option>
+	  <option value="prints">Joint Committee on Taxation Prints</option>
+	  <option value="hearings">Hearings</option>
+	</select>
+	</form>
+	<br/>
+<!-- End of PL Table of Contents Javascript anchors -->
+
+<ol type="1">
+
+<!--CHANGE: the "Title of pub" for all items should be replaced with the title from Jen and Nancy's Table of Contents-->
+<!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
+<!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
+<!--The table of contents file can really come in handy from here on out!-->
+<h2 id="public-law">Public Law</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/public+law/pl+106-554.pdf" target="_self">P.L. 106-554 (H.R. 4577), "Consolidated Appropriations Act of 2001", December 21, 2000</a></li>
+	
+<h2 id="presidential-documents">Presidential Documents</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/signing+statement/wcpd-2001-01-01-pg3167.pdf" target="_self">Statement on Signing the Consolidated Appropriations Act, Fiscal Year 2001, Weekly Compilation of Presidential Documents, Volume 36, Page 3167 (December 21, 2000)</a></li>
+	
+<!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
+<h2 id="conference report">Conference Report</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/report/house+report+106-1033.pdf" target="_self">House Conference Report 106-1033, "Making Omnibus Consolidated and Emergency Supplemental Appropriations for Fiscal Year 2001", to accompany H.R. 4577, December 15, 2000</a></li>
+
+<h2 id="hr 4577">H.R. 4577</h2>
+
+<p>H.R. 4577 is a consolidated appropriations bill for FY 2001. On December 15, 2000, the
+	conference committee incorporated by reference "placeholder bills", which added
+	provisions from previous tax related bills. All previous versions of H.R. 4577 are strictly
+	appropriations related. This legislative history includes the original bills, placeholder
+	bills and related bills to Appendix E, the "Commodity Futures Modernization Act of
+	2000", Appendix G, the "Community Renewal Tax Relief Act of 2000", Appendix H, the
+	"New Markets Venture Capital Program Act of 2000,"" and Appendix I, the "Small
+	Business Reauthorization Act of 2000.""
+		<br>
+		<br>
+	Appendix E: Title I covers commodity futures modernization and Title II covers the
+	coordinated regulations of security futures. Title III and IV cover swap agreements and
+	regulatory responsibility for bank products and were added directly to the placeholder
+	bill.
+		<br>
+		<br>
+	Appendix G: Title I substantially covers the subject of community renewal and Title III
+	covers confidentiality, missing children and technical corrections.
+		<br>
+		<br>
+	Appendix H substantially covers the New Market Venture Capital Program
+		<br>
+		<br>
+	Appendix I: Title I covers the Small Business Innovation Research program, Title II
+	covers the business loan programs, Title III covers the certified development company
+	program, Title IV provides corrections to the Small Business Investment Act of 1958,
+	Title V reauthorizes small business programs, and Title VI covers the HUBZone program.</p>
+		<br>
+		<br>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+4577/hr+4577+as+reported+in+the+house.pdf" target="_self">H.R. 4577, Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2001, reported in House, June 1, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+4577/hr+4577+engrossed+in+the+house.pdf" target="_self">H.R. 4577, Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2001, engrossed in House [passed House], June 14, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+4577/hr+4577+placed+on+senate+calendar.pdf" target="_self">H.R. 4577, Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2001, placed on Senate calendar, June 15, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+4577/hr+4577+public+print.pdf" target="_self">H.R. 4577, Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2001, public print, June 30, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+4577/hr+4577+engrossed+senate+amendment.pdf" target="_self">H.R. 4577, Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2001, engrossed Senate amendment, June 30, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+4577/hr+4577+as+enrolled.pdf" target="_self">H.R. 4577, Consolidated Appropriations Act, 2001, enrolled bill, December 15, 2000</a></li>
+
+<h2 id="congressional-record">Congressional Record on H.R. 4577</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/congressional+record/crec-2000-12-15-house+part+1.pdf" target="_self">House agreement to Conference Report for H.R. 4577, December 15, 2000, pages H12100-12349</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/congressional+record/crec-2000-12-15-house-part+2.pdf" target="_self">House agreement to Conference Report for H.R. 4577 continued, December 15, 2000, pages H12441-H12502</a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/congressional+record/crec-2000-12-15-senate-bk2.pdf" target="_self">Senate agreement to Conference Report for H.R. 4577, December 15, 2000, pages S11855-S11886</a></li>
+
+<h2 id="placeholder bills">Placeholder Bills</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/placeholder+bills/hr+5660+as+introduced+in+the+house.pdf" target="_self">H.R. 5660, "Commodity Futures Modernization Act of 2000", introduced in the House, December 14, 2000 [Appendix F of PL 106-554]</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/placeholder+bills/hr+5662+as+introduced+in+the+house.pdf" target="_self">H.R. 5662, "Community Renewal Tax Relief Act of 2000", introduced in the House, December 14, 2000 [Appendix G of PL 106-554]</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/placeholder+bills/hr+5663+as+introduced+in+the+house.pdf" target="_self">H.R. 5663, "New Markets Venture Capital Program", introduced in the House, December 14, 2000 [Appendix H of PL 106-554]</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/placeholder+bills/hr+5667+as+introduced+in+the+house.pdf" target="_self">H.R. 5667, "Small Business Reauthorization Act of 2000", introduced in the  House, December 15, 2000 [Appendix I of PL 106-554]</a></li>
+	
+<h2 id="original bills">Original Bills</h2>
+
+<h2 id="hr 4541">H.R. 4541 (Original bill on commodity exchange modernization)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+4541/hr+4541+as+introduced+in+the+house.pdf" target="_self">H.R. 4541, "Commodity Futures Modernization Act of 2000", introduced in the  House, May 25, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+4541/hr+4541+as+reported+in+the+house.pdf" target="_self">H.R. 4541, "Commodity Futures Modernization Act of 2000", reported in the House, September 6, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+4541/hr+4541+engrossed+in+the+house.pdf" target="_self">H.R. 4541, "Commodity Futures Modernization Act of 2000", engrossed in the House (passed the House), October 19, 2000</a></li>
+	
+<h2 id="hr 4923">H.R. 4923 (Original bill on community renewal)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+4923/hr+4923+as+introduced+in+the+house.pdf" target="_self">H.R. 4923, "Community Renewal and New Markets Act of 2000", as introduced, July 24, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+4923/hr+4923+as+engrossed+in+the+house.pdf" target="_self">H.R. 4923, "Community Renewal and New Markets Act of 2000", engrossed in the House (passed the House), July 25, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+4923/hr+4923+as+placed+on+the+senate+calendar.pdf" target="_self">H.R. 4923, "Community Renewal and New Markets Act of 2000", as placed on the Senate calendar, September 5, 2000</a></li>
+
+<h2 id="hr 5044">H.R. 5044 (Original bill on confidentiality)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+5044/hr+5044+as+introduced.pdf" target="_self">H.R. 5044, "To amend the Internal Revenue Code of 1986 to clarify the confidentiality of certain documents relating to closing agreements and agreements with foreign governments", as introduced, July 27, 2000</a></li>
+
+<h2 id="hr 5117">H.R. 5117 (Original bill on missing children)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+5117/hr+5117+as+introduced.pdf" target="_self">H.R. 5117, "Missing Children Tax Fairness Act of 2000", as introduced, September 6, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+5117/hr+5117+as+engrossed+in+the+house.pdf" target="_self">H.R. 5117, "Missing Children Tax Fairness Act of 2000", engrossed in the House (passed the House), September 26, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+5117/hr+5117++as+referred+in+the+senate.pdf" target="_self">H.R. 5117, "Missing Children Tax Fairness Act of 2000", received, read and referred to the Senate, September 27, 2000</a></li>
+	
+<h2 id="hr 2488">H.R. 2488 (Original bill on technical corrections)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+2488/hr+2488+as+introduced+in+the+house.pdf" target="_self">H.R. 2488, "Financial Freedom Act of 1999", as introduced, July 13, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+2488/hr+2488+as+reported+in+the+house.pdf" target="_self">H.R. 2488, "Financial Freedom Act of 1999", reported in the House, July 16, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+2488/hr+2488+engrossed+in+the+house.pdf" target="_self">H.R. 2488, "Financial Freedom Act of 1999", engrossed in the House (passed the House), July 22, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+2488/hr+2488+received%2C+read+and+placed+on+senate+calendar.pdf" target="_self">H.R. 2488, "Financial Freedom Act of 1999", received, read and placed on Senate calendar, July 28, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+2488/hr+2488+engrossed+senate+amendment.pdf" target="_self">H.R. 2488, "Taxpayer Refund Act of 1999", engrossed Senate amendment, July 30, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hr+2488/hr+2488+enrolled+bill.pdf" target="_self">H.R. 2488, "Taxpayer Refund and Relief Act of 1999", enrolled bill (final as passed both the House and Senate), August 5, 1999</a></li>
+	
+<h2 id="hr 2848">H.R. 2848 (Original bill for New Market Venture Capital Program)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr2848ih.pdf" target="_self">H.R. 2848, "New Markets Initiative Act of 1999", introduced in the House, September 13, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr2848rh.pdf" target="_self">H.R. 2848, "New Markets Initiative Act of 1999", reported in the House, July 28, 2000</a></li>
+	
+<h2 id="hr 2392">H.R. 2392 (Original bill for the Small Business Innovation Research Program and Business Loan Programs)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr2392ih.pdf" target="_self">H.R. 2392, "Small Business Innovation Research Program Reauthorization Act of 1999", introduced in the House, June 30, 1999</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr2392rh.pdf" target="_self">H.R. 2392, "Small Business Innovation Research Program Reauthorization Act of 1999", reported in the House, September 23, 1999</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr2392eh.pdf" target="_self">H.R. 2392, "Small Business Innovation Research Program Reauthorization Act of 1999", engrossed in the House (passed the House), September 27, 1999</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr2392rfs.pdf" target="_self">H.R. 2392, "Small Business Innovation Research Program Reauthorization Act of 1999", referred in the Senate, September 28, 1999</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr2392rs.pdf" target="_self">H.R. 2392, "Small Business Innovation Research Program Reauthorization Act of 1999", reported in the Senate, May 10, 2000</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr2392eas.pdf" target="_self">H.R. 2392, "Small Business Innovation Research Program Reauthorization Act of 2000", engrossed Senate Amendment to the House bill, July 19, 2000</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr2392eah.pdf" target="_self">H.R. 2392, "Resolved, that the House agree to the amendment of the Senate to the bill (H.R. 2392) entitled `An Act to amend the Small Business Act to extend the authorization for the Small Business Innovation Research Program, and for other purposes", engrossed House Amendment to the Senate Amendment, September 25, 2000</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr2392eas2.pdf" target="_self">H.R. 2392, "Small Business Reauthorization Act of 2000", engrossed Senate Amendment to the House Amendment to the Senate Amendment (passed the Senate), October 2, 2000</a></li>
+	
+<h2 id="hr 2614">H.R. 2614 (Original bill for the Certified Development Company Program)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr2614ih.pdf" target="_self">H.R. 2614, "Certified Development Company Program Improvements Act of 1999", introduced in the House, July 27, 1999</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr2614rh.pdf" target="_self">H.R. 2614, "Certified Development Company Program Improvements Act of 1999", reported in the House, August 2, 1999</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr2614eh.pdf" target="_self">H.R. 2614, "Certified Development Company Program Improvements Act of 1999", engrossed in the House (passed the House), August 2, 1999</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr2614rfs.pdf" target="_self">H.R. 2614, "Certified Development Company Program Improvements Act of 1999", referred in the Senate, August 3, 1999</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr2614rs.pdf" target="_self">H.R. 2614, "Certified Development Company Program Improvements Act of 1999", reported in the Senate, May 9, 2000</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr2614eas.pdf" target="_self">H.R. 2614, "Certified Development Company Program Improvements Act of 2000", engrossed Senate Amendment, June 14, 2000</a></li>
+	
+<h2 id="hr 3845">H.R. 3845 (Original bill for reauthorization of small business programs and the HUBZone program)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr3845ih.pdf" target="_self">H.R. 3845, "Small Business Investment Corrections Act of 2000", introduced in the House, March 8, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr3845rh.pdf" target="_self">H.R. 3845, "Small Business Investment Corrections Act of 2000", reported in the House, March 14, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr3845eh.pdf" target="_self">H.R. 3845, "Small Business Investment Corrections Act of 2000", engrossed in the House (passed the House), March 14, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr3845rfs.pdf" target="_self">H.R. 3845, "Small Business Investment Corrections Act of 2000", referred in the Senate), March 20, 2000</a></li>
+	
+<h2 id="hr 3843">H.R. 3843 (Original bill for corrections to the Small Business Investment Act of 1958)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr3843ih.pdf" target="_self">H.R. 3843, "Small Business Investment Corrections Act of 2000", introduced in the House, March 8, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr3843rh.pdf" target="_self">H.R. 3843, "Small Business Investment Corrections Act of 2000", reported in the House, March 14, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr3843eh.pdf" target="_self">H.R. 3843, "Small Business Investment Corrections Act of 2000", engrossed in the House (passed the House), March 15, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr3843rfs.pdf" target="_self">H.R. 3843, "Small Business Investment Corrections Act of 2000", referred in the Senate, March 20, 2000</a></li>
+
+<h2 id="related-bills">Related Bills</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106s619is.pdf" target="_self">S. 619, "Community Development Venture Capital Assistance Act of 1999", introduced in the Senate, March 15, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106s1111is.pdf" target="_self">S. 1111, "National Conference on Small Business Act", introduced in the Senate, May 24, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106s1429pcs.pdf" target="_self">S. 1429, "Taxpayer Refund Act of 1999", placed on Senate Calendar, July 26, 1999</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr2713ih.pdf" target="_self">H.R. 2713, "New Markets Tax Credit Act of 1999", introduced in the House, August 5, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr2764ih.pdf" target="_self">H.R. 2764, "America's Private Investment Companies Act", introduced in the House, August 5, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr2764rh.pdf" target="_self">H.R. 2764, "America's Private Investment Companies Act", reported in the House , May 23, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106s1594is.pdf" target="_self">S. 1594, "Community Development and Venture Capital Act of 1999", introduced in the Senate, September 16, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106s1594rs.pdf" target="_self">S. 1594, "Community Development and Venture Capital Act of 1999", reported in the Senate, August 25, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr3081ih.pdf" target="_self">H.R. 3081, "Wage and Employment Growth Act of 1999", introduced in the House, October 14, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr3081rh.pdf" target="_self">H.R. 3081, "Wage and Employment Growth Act of 1999", reported in the House, January 28, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr3081eh.pdf" target="_self">H.R. 3081, "Small Business Tax Fairness Act of 2000", engrossed in the House (passed the House), March 9, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr3081pcs.pdf" target="_self">H.R. 3081, "Small Business Tax Fairness Act of 2000", placed on Senate Calendar, March 23, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106s1792pcs.pdf" target="_self">S. 1792, "Tax Relief Extension Act of 1999", placed on Senate Calendar, October 26, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106s1792es.pdf" target="_self">S. 1792, "Tax Relief Extension Act of 1999", engrossed in the Senate (passed the Senate), October 29, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr4163ih.pdf" target="_self">H.R. 4163, "Taxpayer Bill of Rights 2000", introduced in the House, April 4, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr4163rh.pdf" target="_self">H.R. 4163, "Taxpayer Bill of Rights 2000", reported in the House, April 10, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr4163eh.pdf" target="_self">H.R. 4163, "Taxpayer Bill of Rights 2000", engrossed in the House (passed the  House), April 11, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr4163rfs.pdf" target="_self">H.R. 4163, "Taxpayer Bill of Rights 2000", referred in the Senate, April 12, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr4464ih.pdf" target="_self">H.R. 4464, "To amend the Small Business Act to authorize the Administrator of the Small Business Administration to make grants and to enter into cooperative agreements to encourage the expansion of business-to-business relationships and the provision of certain information", introduced in the House, May 16, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr4464rh.pdf" target="_self">H.R. 4464, "BusinessLINC Act of 2000", reported in the House, July 25, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr4530ih.pdf" target="_self">>H.R. 4530, "New Markets Venture Capital Program Act of 2000", introduced in the House, May 24, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr4530ih.pdf" target="_self">>H.R. 4530, "New Markets Venture Capital Program Act of 2000", reported in the House, July 25, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106s2697is.pdf" target="_self">S. 2697, "Commodity Futures Modernization Act of 2000", introduced in the Senate, June 8, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106s2697rs.pdf" target="_self">S. 2697, "Commodity Futures Modernization Act of 2000", reported in the  Senate, August 25, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106s3121rs.pdf" target="_self">S. 3121, "Small Business Reauthorization Act of 2000", reported in the Senate, September 27, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106s3152is.pdf" target="_self">S. 3152, "Community Renewal and New Markets Act of 2000", introduced in the Senate, October 3, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr5463ih.pdf" target="_self">H.R. 5463, "To amend the Internal Revenue Code of 1986 to affirm the confidentiality of closing and similar agreements and agreements with foreign governments", introduced in the House, October 12, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr5542ih.pdf" target="_self">H.R. 5542, "Taxpayer Relief Act of 2000", introduced in the House, October 25, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr5545ih.pdf" target="_self">H.R. 5545, "Small Business Reauthorization Act of 2000", introduced in the  House, October 25, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106hr5654ih.pdf" target="_self">H.R. 5654, "Small Business Reauthorization Act of 2000", introduced in the House, December 13, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+bills/bills-106s3283is.pdf" target="_self">S.3283, "Commodity Futures Modernization Act of 2000", introduced in the Senate, December 15, 2000</a></li>
+
+<h2 id="resolutions">Resolutions</h2>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/resolutions/bills-106hres256rh.pdf" target="_self">H. Res. 256, "Providing for consideration of the bill (H.R. 2488) to amend the Internal Revenue Code of 1986 to reduce individual income tax rates, to provide marriage penalty relief, to reduce taxes on savings and investments, to provide estate and gift tax relief, to provide incentives for education savings and health care, and for other purposes", reported in the House, July 21, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/resolutions/bills-106hres256eh.pdf" target="_self">H. Res. 256, Resolved, That upon adoption of this resolution it shall be in order without intervention of any point of order to consider in the House the bill (H.R. 2488) to amend the Internal Revenue Code of 1986 to reduce individual income tax rates, to provide marriage penalty relief, to reduce taxes on savings and investments, to provide estate and gift tax relief, to provide incentives for education savings and health care, and for other purposes." engrossed in the House (passed the House), July 22, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/resolutions/bills-106hres274rh.pdf" target="_self">H. Res. 274, Waiving points of order against the conference report to accompany the bill (H.R. 2488) to amend the Internal Revenue Code of 1986 to reduce individual income tax rates, to provide marriage penalty relief, to reduce taxes on savings and investments, to provide estate and gift tax relief, to provide incentives for education savings and health care, and for other purposes." reported in the House, August 5, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/resolutions/bills-106hres274eh.pdf" target="_self">H. Res. 274, Resolved, That upon adoption of this resolution it shall be in order to consider the conference report to accompany the bill (H.R. 2488) to amend the Internal Revenue Code of 1986 to reduce individual income tax rates, to provide marriage penalty relief, to reduce taxes on savings and investments, to provide estate and gift tax relief, to provide incentives for education savings and health care, and for other purposes. All points of order against the conference report and against its consideration are waived." engrossed in the House (passed the House), August 5, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/resolutions/bills-106hres434rh.pdf" target="_self">H. Res. 434, "Providing for consideration of the bill (H.R. 3081) to increase the Federal minimum wage and to amend the Internal Revenue Code of 1986 to provide tax benefits for small businesses, and for other purposes, and for consideration of the bill (H.R. 3846) to amend the Fair Labor Standards Act of 1938 to increase the minimum wage, and for other purposes." reported in the House, March 8, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/resolutions/bills-106hres434eh.pdf" target="_self">H. Res. 434, "Resolved, That upon the adoption of this resolution it shall be in order without intervention of any point of order to consider in the House the bill (H.R. 3081) to increase the Federal minimum wage and to amend the Internal Revenue Code of 1986 to provide tax benefits for small businesses, and for other purposes. The bill shall be considered as read for amendment. In lieu of the amendment recommended by the Committee on Ways and Means now printed in the bill, an amendment in the nature of a substitute consisting of the text of H.R. 3832 shall be considered as adopted." engrossed in the House (passed the House), March 9, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/resolutions/bills-106hres439rh.pdf" target="_self">H. Res. 439, "Providing for consideration of the bill (H.R. 3843) to reauthorize programs to assist small business concerns, and for other purposes." reported in the House, March 14, 2000</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/resolutions/bills-106hres439eh.pdf" target="_self">H. Res. 439, "Resolved, That at any time after the adoption of this resolution the Speaker may, pursuant to clause 2(b) of rule XVIII, declare the House resolved into the Committee of the Whole House on the state of the Union for consideration of the bill (H.R. 3843) to reauthorize programs to assist small business concerns, and for other purposes. The first reading of the bill shall be dispensed with." engrossed in the House (passed the House), March 15, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/resolutions/bills-106hres533eh.pdf" target="_self">H. Res. 533, "Resolved, That upon the adoption of this resolution the House shall be considered to have taken from the Speaker's table the bill H.R. 2614, with the amendment of the Senate thereto, and to have concurred in the amendment of the Senate with an amendment as follows:" engrossed in the House (passed the House), June 27, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/resolutions/bills-106hres533ath.pdf" target="_self"> H. Res. 533, "Providing for the concurrence by the House with an amendment in the amendment of the Senate to H.R. 2614." agreed to the House, June 27, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/resolutions/bills-106hres590eh.pdf" target="_self">H. Res 590, "Resolved, That upon the adoption of this resolution the House shall be considered to have taken from the Speaker's table the bill H.R. 2392, with the amendment of the Senate thereto, and to have concurred in the amendment of the Senate with an amendment as follows:"  engrossed in the House (passed the House), September 25, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/resolutions/bills-106hres590ath.pdf" target="_self">H. Res. 590, "Providing for the concurrence by the House with an amendment in the amendment of the Senate to H.R. 2392." agreed to the House, September 25, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/resolutions/bills-106hres652rh.pdf" target="_self">H. Res. 652, "Waiving points of order against the conference report to accompany the bill (H.R. 2614) to amend the Small Business Investment Act to make improvements to the certified development company program, and for other purposes." reported in the House, October 26, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/resolutions/bills-106hres652eh.pdf" target="_self">H. Res. 652, "Resolved, That upon adoption of this resolution it shall be in order to consider the conference report to accompany the bill (H.R. 2614) to amend the Small Business Investment Act to make improvements to the certified development company program, and for other purposes."   engrossed in the House (passed the House), October 26, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/resolutions/bills-106hres663rh.pdf" target="_self">H. Res. 663, "Providing for consideration of the bill (S. 2485) to direct the Secretary of the Interior to provide assistance in planning and constructing a regional heritage center in Calais, Maine, and providing for the adoption of a concurrent resolution directing the Clerk of the House of Representatives to make certain corrections in the enrollment of the bill (H.R. 2614) to amend the Small Business Investment Act to make improvements to the certified development company program, and for other purposes." reported in the House, October 29, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/resolutions/bills-106hres663eh.pdf" target="_self">H. Res. 663, "Resolved, That upon the adoption of this resolution it shall be in order to consider in the House the bill (S. 2485) to direct the Secretary of the Interior to provide assistance in planning and constructing a regional heritage center in Calais, Maine." engrossed in the House (passed the House) October 30, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/resolutions/bills-106hconres439eh.pdf" target="_self">H. Con. Res. 439, "Resolved by the House of Representatives (the Senate concurring), That in the enrollment of the bill (H.R. 2614) to amend the Small Business Investment Act to make improvements to the certified development company program, and for other purposes, the Clerk of the House of Representatives shall make the following corrections:", engrossed in the House (passed the House), October 30, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/resolutions/bills-106hconres439ath.pdf" target="_self">H. Con. Res. 439, "Resolved by the House of Representatives (the Senate concurring), That in the enrollment of the bill (H.R. 2614) to amend the Small Business Investment Act to make improvements to the certified development company program, and for other purposes, the Clerk of the House of Representatives shall make the following corrections:", Agreed to the House, October 30, 2000</a></li>
+
+<h2 id="reports">Reports</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/report/crpt-106hrpt238.pdf" target="_self">House Report 106-238, "Financial Freedom Act of 1999", to accompany H.R. 2488, July 16, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/report/crpt-106hrpt246.pdf" target="_self">House Report 106-246, "Providing for the Consideration of H.R. 2488, The Financial Freedom Act of 1999", to accompany H. Res. 256, July 21, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/report/crpt-106hrpt278.pdf" target="_self">House Report 106-278, "Certified Development Company Program Improvements Act of 1999", to accompany H.R. 2614, August 2, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/report/crpt-106hrpt289.pdf" target="_self">House (Conference) Report 106-289, "Taxpayer Refund and Relief Act of 1999", to accompany H.R. 2488, August 4, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/report/crpt-106hrpt291.pdf" target="_self">House Report 106-291, "Waiving Points of Order Against the Conference Report to Accompany H.R. 2488, the Taxpayer Refund and Relief Act of 1999", to accompany H. Res. 274, August 5, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/report/crpt-106hrpt329-pt1.pdf" target="_self">House Report 106-329, Part 1, "Small Business Innovation Research Program Reauthorization Act of 1999", to accompany H.R. 2392, September 23, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/report/crpt-106hrpt520.pdf" target="_self">House Report 106-520, "Small Business Investment Corrections Act of 2000", to accompany H.R. 3845, March 14, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/report/crpt-106hrpt522.pdf" target="_self">House Report 106-522, "Small Business Reauthorization Act of 2000", to accompany H.R. 3843, March 14, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/report/crpt-106srpt280.pdf" target="_self">Senate Report 106-280, "Certified Development Company Program Improvement Act of 2000", to accompany H.R. 2614, May 9, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/report/crpt-106srpt289.pdf" target="_self">Senate Report 106-289, "Small Business Innovation Research Program Reauthorization Act of 2000", to accompany H.R. 2392, May 10, 2000E</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/report/crpt-106hrpt706-pt1.pdf" >House Report 106-706, Part 1, "New Market Initiative Act of 1999", to accompany H.R. 2848, June 28, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/report/crpt-106hrpt711-pt1.pdf" target="_self">House Report 106-711, Part 1, "Commodity Futures Modernization Act of 2000", to accompany H.R. 4541, June 29, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/report/crpt-106hrpt711-pt2.pdf" target="_self">House Report 106-711, Part 2, "Commodity Futures Modernization and Financial Contract Netting Improvement Act of 2000", to accompany H.R. 4541, September 6, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/report/crpt-106hrpt711-pt3.pdf" target="_self">House Report 106-711, Part 3, "Commodity Futures Modernization Act of 2000", to accompany H.R. 4541, September 6, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/report/crpt-106hrpt711-pt4.pdf" target="_self">House Report 106-711, Part 4, "Commodity Futures Modernization and Financial Contract Netting Improvement Act of 2000", to accompany H.R. 4541, October 19, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/report/crpt-106hrpt1004.pdf" target="_self">House (Conference) Report 106-1004, "Enactment of Certain Small Business, Health, Tax, and Minimum Wage Provisions", to accompany H.R. 2614, October 26, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/report/crpt-106hrpt1007.pdf" target="_self">House Report 106-1007, "Waiving Points of Order Against the Conference Report to Accompany H.R. 2614, The Certified Development Company Program Improvement Act of 2000", to accompany H. Res. 652, October 26, 2000</a></li>
+	
+<h2 id="related reports">Related Reports</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+reports/crpt-106srpt120.pdf" target="_self">Senate Report 106-120, "Taxpayer Refund Act of 1999", to accompany S. 1429, July 23, 1999</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+reports/crpt-106srpt201.pdf" target="_self">Senate Report 106-201, "Tax Relief Extension Act of 1999", to accompany S. 1792, October 26, 1999</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+reports/crpt-106hrpt467-pt1.pdf" target="_self">House Report 106-467, Part 1, "Wage and Employment Growth Act of 1999", to accompany H.R. 3081, November 11, 1999</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+reports/crpt-106hrpt516.pdf" target="_self">House Report 106-516, "Providing for the Consideration of H.R. 3081, the Wage and Economic Growth Act of 1999, and H.R. 3846, a Bill to Increase the Minimum Wage", to accompany H. Res. 434, March 8, 2000</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+reports/crpt-106hrpt524.pdf" target="_self">House Report 106-524, "Providing for the Consideration of H.R. 3843, the Small Business Reauthorization Act of 2000", to accompany H. Res 439, March 14, 2000</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+reports/crpt-106hrpt566.pdf" target="_self">House Report 106-566, "Taxpayer Bill of Rights 2000", to accompany H.R. 4163, April 10, 2000</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+reports/crpt-106hrpt638.pdf" target="_self">House Report 106-638, "America's Private Investment Companies Act", to accompany H.R. 2764, May 23, 2000</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+reports/crpt-106hrpt784.pdf" target="_self">House Report 106-784, "BusinessLINC Act of 2000", to accompany H.R. 4464, July 25, 2000</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+reports/crpt-106hrpt785.pdf" target="_self">House Report 106-785, "New Markets Venture Capital Program Act of 2000", to accompany H.R. 4530, July 25, 2000</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+reports/crpt-106srpt383.pdf" target="_self">Senate Report 106-383, "Community Development and Venture Capital Act of 1999", to accompany S. 1594, August 25, 2000</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+reports/crpt-106srpt390.pdf" target="_self">Senate Report 106-390, "Commodity Futures Modernization Act of 2000", August 25, 2000</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/related+reports/crpt-106srpt422.pdf" target="_self">Senate Report 106-422, "Small Business Reauthorization Act of 2000", to accompany S. 3121, September 27, 2000</a></li>
+
+<h2 id="house document">House Document</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/house+document/cdoc-106hdoc130.pdf" target="_self">House Document 106-130, "The President's Veto Message on H.R. 2488", to accompany H.R. 2488 [the "Taxpayer Refund and Relief Act of 1999"], September 23, 1999</a></li>
+
+<h2 id="other reports">Other Reports</h2>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+reports/hedgfund.pdf" target="_self">The President's Working Group on Financial Markets, "Hedge Funds, Leverage, and the Lessons of Long-Term Capital Management", April 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+reports/otcact.pdf" target="_self">The President's Working Group on Financial Markets, "Over-the-Counter Derivatives Markets and the Commodity Exchange Act", November 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+reports/report-taxpayer-confidentiality-2010.pdf" target="_self">Office of Tax Policy, Department of Treasury, "Report to The Congress on Scope and Use of Taxpayer Confidentiality and Disclosure Provisions, Volume I: Study of General Provisions," October 2000</a></li>
+	
+<h2 id="congressional-record-2">Other Congressional Records</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-03-15-senate.pdf" target="_self">Senate introductory remarks on S. 619, S2672-2673, March 15, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-05-24-senate.pdf" target="_self">Senate introductory remarks on S. 1111, S5863-5866, May 24, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-07-21-house.pdf" target="_self">House consideration and passage of H. Res 256 to provide for consideration of H.R. 2488, H6089-H6197, July 21, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-07-22-house.pdf" target="_self">House consideration and passage of H.R. 2488 as amended, H6203-H6249, July 22, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-07-28-senate.pdf" target="_self">Senate consideration of S. 1429, S9460-S9523, July 28, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-07-29.pdf" target="_self">Senate consideration of S. 1429, S9651-S9737, July 29, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-07-30-senate.pdf" target="_self">Senate consideration and passage of S. 1429 as amended in lieu of H.R. 2488, S9885-9937, July 30, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-08-02-senate.pdf" target="_self">Text of H.R. 2488 as amended (substituted language from S. 1429) on July 30, 1999, S10007-10059, August 2, 1999</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-08-02-house.pdf" target="_self">House consideration and passage of H.R. 2614, H6789-6792, August 2, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-08-02-house.pdf" target="_self">House appointment of conferees and consideration and vote for instructions for conferees (motion to instruct failed) for H.R. 2488, H6800-6811, August 2, 1999</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-08-02-senate.pdf" target="_self">Senate appointment of conferees for H.R. 2488, S9995, August 2, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-08-04-house.pdf" target="_self">Conference report for H.R. 2488 filed, H7027-7192, August 4, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-08-05-house.pdf" target="_self">House consideration and agreement to H.R. 2488 conference report pursuant to provisions of H. Res. 274, H7252-7276, August 5, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-08-02-senate.pdf" target="_self">Senate consideration and agreement to conference report, S10290-10303, S10305-10340, August 5, 1999</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-08-05-senate2.pdf" target="_self">Senate consideration and agreement to conference report, S10305-10340, August 5, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-08-05-extensions-bk2.pdf" target="_self">House introductory remarks on H.R. 2713, E1761, August 5, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-08-05-extensions-bk2.pdf" target="_self">House introductory remarks on H.R. 2764, E1769-1770, August 5, 1999</a></li>
+   
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-09-16-senate.pdf" target="_self">Senate introductory remarks on S 1594, S11054-11059, September 16, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-09-23-house.pdf" target="_self">House received and consideration of Veto message from the President, H8613-8621, September 23, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-09-27-house.pdf" target="_self">House consideration and passage of H.R. 2392 as amended by voice vote, H8762-8767, September 27, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-10-19-house.pdf" target="_self">House consideration of H.R. 2488, H10231-10232, October 19, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-1999-10-29-senate.pdf" target="_self">Senate consideration and passage of S. 1792, S13507-13520, October 29, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-03-09-house.pdf" target="_self">House consideration and passage of H.R. 3081, H773-902, March 9, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-03-14-house.pdf" target="_self">House consideration and passage of H.R. 3845, H940-942, March 14, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-03-15-house.pdf" target="_self">House consideration and passage of H.R. 3843 as amended pursuant to H. Res. 439, H1030-1039, March 15, 2000</a></li>
+   
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-04-11-house.pdf" target="_self">House consideration and passage of H.R. 4163, H2057-2069, H2079 (vote), April 11, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-06-08-senate.pdf" target="_self">Senate introductory remarks on S. 2697, S4823-4827, June 8, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-06-14-senate.pdf" target="_self">Senate consideration and passage of H.R.2614 as amended, S5154-5159, June 14, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-06-27-house.pdf" target="_self">House agreed to Senate amendment for H.R. 2614 with an amendment pursuant to H. Res. 533, H5190-5194, June 27, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-07-19-senate.pdf" target="_self">Senate consideration and passage of H.R. 2392 as amended, S7285-7293, July 19, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-07-24-extensions.pdf" target="_self">House introductory remarks for H.R. 4923, E1311, July 24, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-07-25-house.pdf" target="_self">House consideration and passage of H.R. 4923, H6797-6841, July 25, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-07-25-senate.pdf" target="_self">Senate disagreed to House amendment for H.R. 2614, requested conference and appointed conferees, S7574-7575, July 25, 2000</a></li>
+    
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-09-25-house.pdf" target="_self">House agreed to Senate amendment for H.R. 2392, with an amendment pursuant to H. Res. 590, H8008-8018, September 25, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-09-26-house.pdf" target="_self">House consideration and passage of H.R. 5117, H8068-8072, H8105-8106, September 26, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-10-02-senate.pdf" target="_self">Senate agreed to the House amendment to the Senate amendment with an amendment for H.R. 2392, S9631-S9642, October 2, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-10-03-senate.pdf" target="_self">Senate introductory remarks for S. 3152, S9703-9746, October 3, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-10-19-pt1.pdf" target="_self">House consideration and passage of H.R. 4541, H10416-10449, October 19, 2000 - Part 1</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-10-19-pt1.pdf" target="_self">House consideration and passage of H.R. 4541, H10416-10449, October 19, 2000 - Part 2</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-10-23-extensions.pdf" target="_self">House additional statements on H.R. 4541, E1877-1880, October 23, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-10-25-house-bk2.pdf" target="_self">Conference report of H.R. 2614 filed with the House, H10909-11087 (text of report), October 25, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-10-26-house-bk2.pdf" target="_self">House consideration and passage of H. Res. 652, H11209-11230, October 26, 2000</a></li>
+   
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-10-26-house-bk2.pdf" target="_self">House consideration and passage of H.R. 2614, pursuant to provisions under H. Res. 652, H11243-11264, October 26, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-10-26-senate-bk2.pdf" target="_self">Senate consideration of conference report for H.R. 2614, S11097-11100, 11104-11111, October 26, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-10-30-house.pdf" target="_self">House consideration and passage of H. Res. 663, H11546-11555, October 30, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-10-31-senate.pdf" target="_self">Senate considered conference report for H.R. 2614, S11416-11417, October 31, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-12-14-extensions.pdf" target="_self">House introductory remarks for H.R. 5660 (placeholder bill for Appendix F), E2181-2182, December 14, 2000</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/other+congressional+record/crec-2000-12-15-senate-bk2.pdf" target="_self">Senate introductory remarks for S. 3283, S11924-11927, December 15, 2000</a></li>
+
+<h2 id="prints">Joint Committee on Taxation Prints</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcs-1-99.pdf" target="_self">Description of Revenue Provisions Contained in the President's Fiscal Year 2000 Budget Proposal (JCS-1-99), February 22, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-9-99.pdf" target="_self">Estimated Budget Effects of the Revenue Provisions Contained in the President's Fiscal Year 2000 Budget Proposal (JCX-9-99), February 25, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-42-99.pdf" target="_self">Description of the Financial Freedom Act of 1999 Scheduled for Markup by the House Committee on Ways and Means on July 13, 1999 (JCX-42-99), July 12, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-43-99.pdf" target="_self">Estimated Revenue Effects Of The "Financial Freedom Act Of 1999" (JCX-43-99), July 12, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-44-99.pdf" target="_self">Distributional Effects Of The Financial Freedom Act Of 1999 (JCX-44-99), July 13, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-45-99.pdf" target="_self"> Of Modifications To The "Financial Freedom Act Of 1999" (H.R. 2488) Contained In The Chairman's Amendment In The Nature Of A Substitute (JCX-45-99), July 14, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-46-99.pdf" target="_self"> Description Of The Taxpayer Refund Act Of 1999 (JCX-46-99), July 16, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-47-99.pdf" target="_self">Estimated Revenue Effects Of The "Taxpayer Refund Act Of 1999" (JCX-47-99), July 16, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-49-99.pdf" target="_self"> Description of Proposed Modifications to H.R. 2488, as reported by the House Committee on Ways and Means on July 16, 1999, including statutory language (JCX-49-99), July 21, 1999</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-50-99.pdf" target="_self"> Distributional Effects Of The Taxpayer Refund Act Of 1999 (JCX-50-99), July 20, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-51-99.pdf" target="_self">Description Of Proposed Modifications To The Provisions Of The Taxpayer Refund Act Of 1999 (JCX-51-99), July 21, 1999</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-52-99.pdf" target="_self">Estimated Revenue Effects Of The Chairman's Modifications To The "Taxpayer Refund Act Of 1999" (JCX-52-99), July 21, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-53-99.pdf" target="_self">Estimated Budget Effects Of H.R. 2488, The "Financial Freedom Act Of 1999," As Passed By The House Of Representatives (JCX-53-99), July 22, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-54-99.pdf" target="_self"> Distributional Effects Of H.R. 2488, The "Financial Freedom Act Of 1999," As Passed By The House Of Representatives (JCX-54-99), July 22, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-55-99.pdf" target="_self">Estimated Budget Effects Of The "Taxpayer Refund Act Of 1999," As Approved By The Committee on Finance on July 21, 1999 (JCX-55-99), July 23, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-56-99.pdf" target="_self">Summary Of The Revenue Provisions Contained In S. 1429, The Taxpayer Refund Act Of 1999, As Reported By The Senate Committee On Finance On July 23, 1999 (JCX-56-99), July 27, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-57-99.pdf" target="_self">Comparison Of Provisions In H.R. 2488, As Passed By The House And The Senate (JCX-57-99), August 2, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-58-99.pdf" target="_self">Comparison Of The Estimated Revenue Effects Of H.R. 2488, As Passed By The House And The Senate (JCX-58-99), August 2, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-59-99.pdf" target="_self">Estimated Budget Effects Of H.R. 2488, As Passed By The Senate On July 30, 1999 (JCX-59-99), August 2, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-60-99.pdf" target="_self">Overview Of Conference Agreement For H.R. 2488, The "Taxpayer Refund And Relief Act Of 1999" (JCX-60-99), August 4, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-61-99r.pdf" target="_self">Estimated Budget Effects Of The Conference Agreement For H.R. 2488 (JCX-61-99R), August 5, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-62-99.pdf" target="_self">Distributional Effects Of The Conference Agreement For H.R. 2488 (JCX-62-99), August 5, 1999</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-63-99.pdf" target="_self">Summary Of The Revenue Provisions Of The Conference Agreement On H.R. 2488, The "Taxpayer Refund And Relief Act Of 1999" (JCX-63-99), August 6, 1999</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-68-99.pdf" target="_self">Description Of Selected Federal Tax Provisions That Impact Land Use, Conservation, And Preservation (JCX-68-99), September 28, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-75-99.pdf" target="_self">Summary Of Tax Provisions Contained In The Wage And Employment Growth Act Of 1999 (H.R. 3081) (JCX-75-99), October 19, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-80-99.pdf" target="_self">Description Of Chairman Archer's Amendment To The Revenue Provisions Of The Wage And Employment Growth Act Of 1999 (H.R. 3081) (JCX-80-99), November 09, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-81-99.pdf" target="_self">Estimated Revenue Effects Of Chairman Archer's Amendment To H.R. 3081, The "Wage And Employment Growth Act Of 1999," Scheduled For Markup By The Committee on Ways and Means on November 9, 1999 (JCX-81-99), November 09, 1999</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcs-1-00vol1.pdf" target="_self">Study Of Present-Law Taxpayer Confidentiality And Disclosure Provisions As Required By Section 3802 Of The Internal Revenue Service Restructuring And Reform Act Of 1998,  Volume I: Study Of General Disclosure Provisions (JCS-1-00), January 28, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcs-1-00vol2.pdf" target="_self">Study Of Present-Law Taxpayer Confidentiality And Disclosure Provisions As Required By Section 3802 Of The Internal Revenue Service Restructuring And Reform Act Of 1998,Volume II: Study Of Disclosure Provisions Relating To Tax-Exempt Organizations (JCS-1-00), January 28, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcs-1-00-vol3.pdf" target="_self">Study of Present-Law Taxpayer Confidentiality And Disclosure Provisions As Required By Section 3802 Of The Internal Revenue Service Restructuring And Reform Act Of 1998, Volume III: Public Comments And General Accounting Office Reports (JCS-1-00), January 28, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-13-00.pdf" target="_self">Study of Tax Provisions Contained In The President's Fiscal Year 2001 Budget Proposal (JCX-13-00), February 07, 2000</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcs-2-00.pdf" target="_self">Summary of Revenue Provisions Contained In The President's Fiscal Year 2001 Budget Proposal  (JCS-2-00), March 06, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-20-00.pdf" target="_self">Budget Effects Of The Revenue Provisions Contained In The President's Fiscal Year 2001 Budget Proposal (JCX-20-00), March 06, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-21-00.pdf" target="_self">Summary Of Provisions Contained In The Small Business Tax Fairness Act Of 2000 (JCX-21-00), March 06, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-26-00.pdf" target="_self">Estimated Budget Effects Of H.R. 3832, The "Small Business Tax Fairness Act Of 2000" (5-year numbers) (JCX-26-00), March 08, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-27-00.pdf" target="_self">Estimated Budget Effects Of H.R. 3832, The "Small Business Tax Fairness Act Of 2000" (10-year numbers) (JCX-27-00), March 10, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-29-00.pdf" target="_self">Present Law And Proposals Relating To Tax Incentives For Economically Distressed Areas (JCX-29-00), March 20, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-85-00.pdf" target="_self">Technical Explanation Of The Tax Provisions In H.R. 4923 The "Community Renewal And New Markets Act Of 2000" (JCX-85-00), July 25, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-86-00.pdf" target="_self">Estimated Revenue Effects Of H.R. 4923, The "Community Renewal And New Markets Act Of 2000" (JCX-86-00), July 25, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-99-00.pdf" target="_self">Description Of Community Renewal And New Markets Act Of 2000 (JCX-99-00), September 18, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-100-00.pdf" target="_self"> Estimated Revenue Effects Of A Chairman's Mark Of The "Community Renewal And New Markets Act Of 2000," Scheduled For Markup By The Committee On Finance on September 20, 2000 (JCX-100-00), September 19, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-103-00.pdf" target="_self"> Description Of Proposed Modifications To The Chairman's Mark Of  "The Community Renewal And New Markets Act Of 2000" (JCX-103-00), September 27, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-104-00.pdf" target="_self">Estimated Revenue Effects Of A Modification To The Chairman's Mark Of The "Community Renewal And New Markets Act Of 2000" Scheduled For Markup By The Committee on Finance on September 27, 2000 (JCX-104-00), September 27, 2000</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-105-00.pdf" target="_self">Technical Explanation Of S. 3152, The "Community Renewal And New Markets Act Of 2000" (JCX-105-00), October 03, 2000</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-106-00.pdf" target="_self">Estimated Revenue Effects Of S. 3152, The "Community Renewal And New Markets Act Of 2000" (JCX-106-00), October 05, 2000</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-108-00.pdf" target="_self">Technical Explanation Of The Tax Provisions Of H.R. 4541, The "Commodity Futures Modernization Act Of 2000" (JCX-108-00), October 19, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-109-00.pdf" target="_self">Estimated Revenue Effects of the "Taxpayer Relief Act of 2000" (JCX-109-00), October 26, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-110-00.pdf" target="_self">Summary Of Provisions Contained In H.R. 5542, The "Taxpayer Relief Act Of 2000," As Incorporated By Reference In The Conference Agreement For H.R. 2614 (JCX-110-00), October 31, 2000</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-112-00.pdf" target="_self">Summary Of Provisions Contained In H.R. 5662, The "Community Renewal Tax Relief Act Of 2000" (JCX-112-00), December 15, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcx-113-00.pdf" target="_self">Estimated Revenue Effects Of H.R. 5662, The "Community Renewal Tax Relief Act Of 2000" (JCX-113-00), December 15, 2000</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/jct+prints/jcs-2-01.pdf" target="_self">General Explanation Of Tax Legislation Enacted In The 106th Congress, (Part Eight, pages 114-175) (JCS-2-01), April 19, 2001</a></li>
+
+
+<h2 id="hearings">Hearings</h2>
+
+<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hearings/serial+no.+105-47.pdf" target="_self"> Business Innovation Research Program (SBIR), Hearing before the Subcommittee on Government Programs and Oversight of the House Committee on Small Business, (Serial No. 105-47), April 22, 1998 - See Library for document</a></li>
+	
+<li>Oversight of the Small Business Innovative Research (SBIR) Program, Hearing before the Senate Committee on Small Business, (S. Hrg 105-718), June 4, 1998 - See Library for document</li>
+
+<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hearings/senate+hearing+106-114.pdf" target="_self">President's Fiscal Year 2000 Budget and Tax Proposals, Hearing before the Senate Committee on Finance, (S. Hrg. 106-114), February 2, 1999 - See Library for document</a></li>
+
+<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hearings/serial+106-18.pdf" target="_self">President's Fiscal Year 2000 Budget, Hearing before the House Committee on Ways and Means, (Serial no. 106-18), February 4, 1999</a></li>
+
+<li>Office of Advocacy and SBIR/STTR Programs, Roundtable before the Senate Committee on Small Business, (S. Hrg. 106-274), April 21, 1999 - See Library for document</li>
+
+<li>SBA's SBIC and Microloan Programs, Roundtable before the Senate Committee on Small Business, (S. Hrg. 106-275), May 12, 1999 - See Library for document</li>
+
+<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hearings/serial+no.+106-18.pdf" target="_self"Reauthorization of the Commodity Futures Trading Commission, Hearing before the Subcommittee on Risk Management, Research, and Speciality Crops of the House Committee on Agriculture, (Serial 106-18) May 18, 19, 20, June 8, 1999 - See Library for document</a></li>
+
+<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hearings/serial+106-16.pdf" target="_self">Small Business Innovation Research (SBIR) Program Oversight and Reauthorization, Hearing before the Subcommittee on Government Programs and Oversight of the House Committee on Small Business, (Serial No. 106-16), May 27, 1999</a></li>
+
+<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hearings/serial+no.+106-32.pdf" target="_self"> Review the Commodity Futures Trading Commisions' Authority to Provide U.S. Futures Exchanges with Regulatory Relief, Hearing before the Subcommittee on Risk Management, Research, and Specialty Crops of the House Committee on Agriculture, (Serial No. 106-32), August 5, 1999 - See Library for document</a></li>
+
+<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hearings/serial+106-76.pdf" target="_self">Impact of Tax Law on Land Use, Conservation, and Preservation, Hearing before the Subcommittee on Oversight of the House Committee on Ways and Means, (Serial No. 106-76), September 30, 1999</a></li>
+
+<li>S. 1111, National Conference on Small Business Act, Roundtable before the Committee on Small Business, (S. Hrg. 106-380), October 19, 1999 - See Library for document</li>
+
+<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hearings/serial+no.+106-41.pdf" target="_self">Capital Formation in Underserved Areas, Hearing before the Subcommittee on Capital Markets, Securities and Government Sponsored Enterprises of the House Committee on Banking and Financial Services, (Serial No. 106-41) November 10, 1999 - See Library for document</a></li>
+
+<li>President's Fiscal Year 2001 Budget and Tax Proposals, Hearing before the Senate Committee on Finance, (S. Hrg. 106-778) February 8, 2000 - See Library for document</li>
+
+<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hearings/senate+hearing+106-826.pdf" target="_self">President's Working Group Report of OTC Derivatives-CEA Re-Authorization, Hearing before the Senate Committee on Agriculture, Nutrition, and Forestry, (S. Hrg. 106-826), February 10, 2000</a></li>
+
+<li>The President's Working Group on Financial Markets Report on Over-the-Counter Derivatives Markets and the Commodity Exchange Act, Hearing before the Subcommittee on Risk Management, Research, and Speciality Crops of the House Committee on Agriculture, (Serial No. 106-43) February 15, 2000 - See Library for document</li>
+
+<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hearings/serial+106-80.pdf">Tax Incentives to Assist Distressed Communities, Hearing before the Subcommittee on Oversight of the House Committee on Ways and Means, (Serial No. 106-80), March 21, 2000</a></li>
+
+<li>Recommendations by the President's Working Group on Financial Markets, Hearing before the House Committee on Banking and Financial Services, (Serial No. 106-55), April 11, 2000 - See Library for document</li>
+
+<li>The Commodity Futures Modernization Act of 2000, Hearing before the Subcommittee on Risk Management, Research, and Specialty Crops of the House Committee on Agriculture on H.R. 4541, (Serial No. 106-54), June 14, 2000 - See Library for document</li>
+
+<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hearings/senate+hearing+106-922.pdf" target="_self">S. 2697 - The Commodity Futures Modernization Act of 2000, Join Hearing before the Senate Committee on Agriculture, Nutrition, and Forestry and the Senate Committee on Banking, Housing, and Urban Affairs on S. 2697 - The Commodity Futures Modernization Act of 2000, (S. Hrg. 106-922), June 21, 2000</a></li>
+
+<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hearings/serial+106-123.pdf" target="_self">The Commodity Futures Modernization Act of 2000, Hearing before the Subcommittee on Finance and Hazardous Materials of the House Committee on Commerce on H.R. 454 [sic], (Serial No. 106-123), July 12, 2000</a></li>
+
+<li>H.R. 4541 -  The Commodity Futures Modernization Act, Hearing before the House Committee on Banking and Financial Services, (Serial No. 106-67), July 19, 2000 - See Library for document</li>
+
+<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/106th+congress/pl+106-554+-+not+in+dr/documents/hearings/senate+hearing+106-924.pdf" target="_self">Land Tax Issues, Hearing before the Subcommittee on Taxation and IRS Oversight of the Senate Committee on Finance, (S. Hrg. 106-924), July 25, 2000</a></li>
+
+
+</ol>
+</div>
+
+<!--end of Content-->
+
+</body>
+</html>
