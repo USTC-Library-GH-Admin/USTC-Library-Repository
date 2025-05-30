@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there -->
+    <title>USTC Electronic Legislative History Collection - PL 106-518</title>
+<!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
+    <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<!-- New encoding tag - necessary to make curly quotes, etc appear correctly -->
+	<meta charset="utf-8" />
+</head>
+
+<body>
+
+<!--Header - this lets the header link back to the ELH website homepage - keep intact-->
+	<div class="header">
+	   <h1><a class="homepage-link" href="https://ustc-elh-static-website.s3.s3.amazonaws.com/legislative-history-index.html">USTC Electronic Legislative History Collection</a></h1>
+	</div>
+<!--End of header-->
+
+<!--This section gives us the navigation bar to the left - keep intact; if you need to update the sidebar, go to the "nav.html" file and edit that-->
+	<div id="nav-placeholder">
+
+	</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("https://ustc-elh-static-website.s3.amazonaws.com/javascript+sidebar/nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+      
+<!--Content of webpage-->
+	<div class="content">
+
+<!--Breadcrumbs - this appears at the top of the page to help users navigate to pages furhter back in the hierarchy - keep intact-->
+	<div class="breadcrumbs">
+	   <script language="javascript" src="https://ustc-elh-static-website.s3.amazonaws.com/breadcrumbs+script/breadcrumb_script.js"></script> 
+	</div>
+<!--end of breadcrumbs-->
+
+
+<!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
+<h1>PL 106-518</h1>
+<h1>Federal Courts Improvement Act of 2000</h1>
+
+<!--CHANGE: this can be tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy.-->
+<!--I recommend editing this section last, after you know what to expect in terms of contents.-->
+		
+<!--This section is the PL Table of Contents Javascript anchors - this takes a user directly to the part of the page that has an "anchor" on it.-->
+<!-- These anchors need to be modified on a case-by-case basis - the anchors are based on pub types present in the legislative history collection.-->
+<!-- Modify "value" to be your anchor. In the next section, you will run into "id"s, which will need to be filled in with the "value"s from this section.-->
+<!-- Once they match, you will be able to jump to different sections instantly by selecting them from the dropdown menu.-->
+	<br/>
+	<form action="#" onsubmit="return false;">
+	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
+	  <option value="index">Select Publication Type</option>
+      <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
+	  <option value="public-law">Public Law</option>
+	  <option value="enacted-bill">Enacted Bill</option>
+	  <option value="related-bill">Related Bill</option>
+	  <option value="related-house-report">Related House Report</option>
+	  <option value="hearing">Hearing</option>
+	  <option value="congressional-record">Congressional Record</option>
+	</select>
+	</form>
+	<br/>
+<!-- End of PL Table of Contents Javascript anchors -->
+
+<ol type="1">
+
+<h2 id="public-law">Public Law</h2>
+
+<!--CHANGE: the "Title of pub" for all items should be replaced with the title from Jen and Nancy's Table of Contents-->
+<!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
+<!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
+<!--The table of contents file can really come in handy from here on out!-->
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-518+-+not+in+dr/documents/public+law/plaw-106publ518.pdf" target="_self">P.L. 106-518, "Federal Courts Improvement Act of 2000", November 13, 2000</a></li>
+
+<!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
+<h2 id="enacted-bill">Enacted Bill</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-518+-+not+in+dr/documents/enacted+bill/bills-106s2915is.pdf" target="_self">S. 2915, "Federal Courts Improvement Act of 2000", introduced in the Senate, July 25, 2000</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-518+-+not+in+dr/documents/enacted+bill/bills-106s2915rs.pdf" target="_self">S. 2915, "Federal Courts Improvement Act of 2000", reported in the Senate, September 28, 2000</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-518+-+not+in+dr/documents/enacted+bill/bills-106s2915es.pdf" target="_self">S. 2915, "Federal Courts Improvement Act of 2000", engrossed in the Senate, October 19, 2000</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-518+-+not+in+dr/documents/enacted+bill/bills-106s2915eah.pdf" target="_self">S. 2915, "An Act to make improvements in the operation and administration of the Federal courts, and for other purpose", Engrossed House amendments, October 25, 2000</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-518+-+not+in+dr/documents/enacted+bill/bills-106s2915enr.pdf" target="_self">S. 2915, "Federal Courts Improvement Act of 2000", as enrolled</a></li>
+	
+<h2 id="related-bill">Related Bill</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-518+-+not+in+dr/documents/related+bill/bills-106hr1752ih.pdf" target="_self">H.R. 1752, "Federal Courts Improvement Act of 1999", introduced in the House, May 11, 1999</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-518+-+not+in+dr/documents/related+bill/bills-106hr1752rh.pdf" target="_self">H.R. 1752, "Federal Courts Improvement Act of 1999", reported in the House (Report N. 106-312), September 9, 1999 </a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-518+-+not+in+dr/documents/related+bill/bills-106hr1752eh.pdf" target="_self">H.R. 1752, "Federal Courts Improvement Act of 1999", engrossed in the House, May 22, 2000</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-518+-+not+in+dr/documents/related+bill/bills-106hr1752rfs.pdf" target="_self">H.R. 1752, "Federal Courts Improvement Act of 1999", referred in the Senate, May 23, 2000</a></li>
+	
+<h2 id="related-house-report">Related House Report</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-518+-+not+in+dr/documents/related+house+report/crpt-106hrpt312.pdf" target="_self">House Report 106-312, "Federal Courts Improvement Act of 1999", to accompany H.R. 1752,  House Committee on the Judiciary, September 9, 1999</a></li>
+	
+<h2 id="hearing">Hearing</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-518+-+not+in+dr/documents/hearing/multidistrict%2C+multiparty%2C+multiforum+house+judiciary+hearing+06161999.pdf" target="_self">Multidistrict, Multiparty, Multiforum Trial Jurisdiction Act of 1999 and Federal Courts Improvement Act of 1999, Hearing Before the Subcommittee on Courts and Intellectual Property of the House Committee on the Judiciary, Serial No. 24, June 16, 1999 </a></li>
+
+<h2 id="congressional-record">Congressional Record</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-518+-+not+in+dr/documents/congressional+record/crec-2000-05-22-pt1-pgh3482.pdf" target="_self">House consideration and passage of H.R. 1752, May 22, 2000, pages H3482-H3487</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-518+-+not+in+dr/documents/congressional+record/crec-2000-07-25-pt1-pgs7544.pdf" target="_self">Senator Grassley introductory remarks on S. 2915, July 25, 2000, pages S7544-S7545 </a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-518+-+not+in+dr/documents/congressional+record/crec-2000-10-19-pt1-pgs10844-3.pdf" target="_self">Senate consideration and passage of S. 2915, October 19, 2000, pages S10844-S10848</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-518+-+not+in+dr/documents/congressional+record/crec-2000-10-25-pt1-pgh10867-2.pdf" target="_self">House consideration and passage of S. 2915 with amendments, October 25, 2000, pages H10867-H10871 </a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-518+-+not+in+dr/documents/congressional+record/crec-2000-10-27-pt1-pgs11278-2.pdf" target="_self">Senate concurrence to House amendments to S. 2915, October 27, 2000, page S11278</a></li>
+	
+</ol>
+</div>
+
+<!--end of Content-->
+
+</body>
+</html>
