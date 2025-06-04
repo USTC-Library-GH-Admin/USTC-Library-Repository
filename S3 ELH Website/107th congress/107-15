@@ -58,12 +58,9 @@ $(function(){
       <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
 	  <option value="public-law">Public Law</option>
 	  <option value="hr">H.R. 1727</option>
-	  <option value="reports">Reports</option>
-	  <option value="related-reports">Related Reports</option>
-	  <option value="hearings">Hearing</option>
-	  <option value="prints">Prints</option>
 	  <option value="related-bills">Related Bills</option>
-	  <option value="resolutions">Resolutions</option>
+	  <option value="reports">Reports</option>
+	  <option value="prints">Prints</option>
 	  <option value="congressional-record">Congressional Record</option>
 	</select>
 	</form>
@@ -93,35 +90,34 @@ $(function(){
 
 	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-15+-+not+in+dr/documents/enacted+bill/hr+1727%2C+as+enrolled.pdf" target="_self">H.R. 1727, "Fallen Hero Survivor Benefit Fairness Act of 2001", enrolled</a></li>
 
-<h2 id="related-reports">Related Reports</h2>
-
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-	
-<h2 id="hearings">Hearing</h2>
-
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-	
-<h2 id="prints">Prints</h2>
-
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-    
-<!--CHANGE: here, make sure you also change the H.R #### to the proper H.R. number, if applicable.-->
-<h2 id="hr">H.R. ####</h2>
-
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-	
 <h2 id="related-bills">Related Bills</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-	
-<h2 id="resolutions">Resolutions</h2>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-15+-+not+in+dr/documents/related+bills/hr+710%2C+as+introduced+in+house.pdf" target="_self">H.R. 710, "Survivor Benefits Tax Fairness Act", as introduced in the House, February 14, 2001</a></li>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-15+-+not+in+dr/documents/related+bills/s+881%2C+as+introduced+in+senate.pdf" target="_self">S. 881, "Fallen Hero Survivor Benefit Fairness Act of 2001", introduced in the Senate, May 15, 2001</a></li>
+
+<h2 id="reports">Reports</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-15+-+not+in+dr/documents/reports/house+report+107-65.pdf" target="_self">House Report 107-65, "Fallen Hero Survivor Benefit Fairness Act of 2001", to accompany H.R. 1727, House Committee on Ways and Means, May 15, 2001</a></li>
+
+<h2 id="prints">Prints</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-15+-+not+in+dr/documents/prints/jcx-36-01.pdf" target="_self">Description Of Chairman's Amendment In The Nature Of A Substitute To H.R. 1727, The Fallen Hero Survivor Benefit Fairness Act Of 2001, Scheduled for a Markup by the House Committee on Ways and Means on May 9, 2001 (JCS-36-01), May 8, 2001</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-15+-+not+in+dr/documents/prints/jcx-38-01.pdf" target="_self">Estimated Revenue Effects Of A Chairman's Amendment In The Nature Of A Substitute To H.R. 1727, "The Fallen Hero Survivor Benefit Fairness Act Of 2001", Scheduled for Markup by the Committee on Ways and Means on May 9, 2001 (JCX-38-01), May 9, 2001</a></li>
+	
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-15+-+not+in+dr/documents/prints/jcs-1-03.pdf" target="_self">General Explanation of Tax Legislation Enacted in the 107th Congress, (JCS-1-03), January 24, 2003, pages 3-4</a></li>
 	
 <h2 id="congressional-record">Congressional Record</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-	
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-15+-+not+in+dr/documents/congressional+record/crec-2001-05-15-pt1-pgh2164.pdf" target="_self">House consideration of H.R. 1727, May15, 2001, pages H2164-H2166</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-15+-+not+in+dr/documents/congressional+record/crec-2001-05-15-pt1-pgh2171-3.pdf" target="_self">House passage of H.R. 1727, May 15, 2001, pages H2171-H2172</a></li>
+    
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-15+-+not+in+dr/documents/congressional+record/crec-2001-05-15-pt1-pgs4943.pdf" target="_self">Introductory remarks on S. 881, May 15, 2001, pages S4943-S4944</a></li>
+
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-15+-+not+in+dr/documents/congressional+record/crec-2001-05-22-pt1-pgs5484.pdf" target="_self">Senate passage of H.R. 1727, May 22, 2001, pages S5484-5485</a></li>
+
 </ol>
 </div>
 
