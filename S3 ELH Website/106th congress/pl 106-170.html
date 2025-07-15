@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there -->
+    <title>USTC Electronic Legislative History Collection - PL ###-###</title>
+<!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
+    <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<!-- New encoding tag - necessary to make curly quotes, etc appear correctly -->
+	<meta charset="utf-8" />
+</head>
+
+<body>
+
+<!--Header - this lets the header link back to the ELH website homepage - keep intact-->
+	<div class="header">
+	   <h1><a class="homepage-link" href="https://ustc-elh-static-website.s3.s3.amazonaws.com/legislative-history-index.html">USTC Electronic Legislative History Collection</a></h1>
+	</div>
+<!--End of header-->
+
+<!--This section gives us the navigation bar to the left - keep intact; if you need to update the sidebar, go to the "nav.html" file and edit that-->
+	<div id="nav-placeholder">
+
+	</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("https://ustc-elh-static-website.s3.us-east-1.amazonaws.com/javascript+sidebar/nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+      
+<!--Content of webpage-->
+	<div class="content">
+
+<!--Breadcrumbs - this appears at the top of the page to help users navigate to pages furhter back in the hierarchy - keep intact-->
+	<div class="breadcrumbs">
+	   <script language="javascript" src="https://ustc-elh-static-website.s3.amazonaws.com/breadcrumbs+script/breadcrumb_script.js"></script> 
+	</div>
+<!--end of breadcrumbs-->
+
+
+<!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
+<h1>PL 106-170</h1>
+<h1>Ticket to Work and Work Incentives Improvement Act of 1999</h1>
+
+<!--CHANGE: this can be tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy.-->
+<!--I recommend editing this section last, after you know what to expect in terms of contents.-->
+		
+<!--This section is the PL Table of Contents Javascript anchors - this takes a user directly to the part of the page that has an "anchor" on it.-->
+<!-- These anchors need to be modified on a case-by-case basis - the anchors are based on pub types present in the legislative history collection.-->
+<!-- Modify "value" to be your anchor. In the next section, you will run into "id"s, which will need to be filled in with the "value"s from this section.-->
+<!-- Once they match, you will be able to jump to different sections instantly by selecting them from the dropdown menu.-->
+	<br/>
+	<form action="#" onsubmit="return false;">
+	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
+	  <option value="index">Select Publication Type</option>
+      <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
+	  <option value="public-law">Public Law</option>
+	  <option value="enacted-bill">Enacted Bill</option>
+	  <option value="related-bills-106">Related Bills (106th Congress)</option>
+	  <option value="related-bills-105">Related Bills (105th Congress)</option>
+	  <option value="related-bills-104">Related Bills (104th Congress)</option>
+	  <option value="reports-106">Reports (106th Congress)</option>
+	  <option value="reports-105">Reports (105th Congress)</option>
+	  <option value="reports-104">Reports (104th Congress)</option>
+	  <option value="hearings-106">Hearings (106th Congress)</option>
+	  <option value="hearings-105">Hearings (105th Congress)</option>
+	  <option value="hearings-104">Hearings (104th Congress)</option>
+	  <option value="house-document">House Document</option>
+	  <option value="committee-prints">Committee Prints</option>
+	  <option value="congressional-record-106">Congressional Record (106th Congress)</option>
+	  <option value="congressional-record-105">Congressional Record (105th Congress)</option>
+	  <option value="congressional-record-104">Congressional Record (104th Congress)</option>
+	</select>
+	</form>
+	<br/>
+<!-- End of PL Table of Contents Javascript anchors -->
+
+<ol type="1">
+
+<h2 id="public-law">Public Law</h2>
+
+<!--CHANGE: the "Title of pub" for all items should be replaced with the title from Jen and Nancy's Table of Contents-->
+<!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
+<!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
+<!--The table of contents file can really come in handy from here on out!-->
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+<!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
+<h2 id="enacted-bill">Enacted Bill</h2>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+	
+<h2 id="related-bills-106">Related Bills (106th Congress)</h2>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+<h2 id="related-bills-105">Related Bills (105th Congress)</h2>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+<h2 id="related-bills-104">Related Bills (104th Congress)</h2>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+	
+<h2 id="reports-106">Reports (106th Congress)</h2>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+<h2 id="reports-105">Reports (105th Congress)</h2>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+<h2 id="reports-104">Reports (104th Congress)</h2>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+	
+<h2 id="hearings-106">Hearings (106th Congress)</h2>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+<h2 id="hearings-105">Hearings (105th Congress)</h2>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+<h2 id="hearings-104">Hearings (104th Congress)</h2>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    
+<h2 id="house-document">House Document</h2>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+	
+<h2 id="committee-prints">Committee Prints</h2>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+	
+<h2 id="resolutions">Resolutions</h2>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+	
+<h2 id="congressional-record-106">Congressional Record (106th Congress)</h2>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-170+-+not+in+dr/documents/congressional+record/106th+congress/crec-1999-11-19-pt2-pgs14960.pdf" target="_self">Senate recommends conference report on H.R. 1180, November 19, 1999, page S14960</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-170+-+not+in+dr/documents/congressional+record/106th+congress/crec-1999-11-19-pt2-pgs14971.pdf" target="_self">Senate consideration of conference report on H.R. 1180, November 19 1999, pages S14971-S14975</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-170+-+not+in+dr/documents/congressional+record/106th+congress/crec-1999-11-19-pt2-pgs14977.pdf" target="_self">Senate consideration and agreement to conference report on H.R. 1180, November 19, 1999, pages S14977-S14986</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-170+-+not+in+dr/documents/congressional+record/106th+congress/crec-1999-11-19-pt2-pgs15059.pdf" target="_self">Senate unanimous consent agreement to S. Con. Res. 236, November 19, 1999, page S15059</a></li>
+	
+<h2 id="congressional-record-105">Congressional Record (105th Congress)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-170+-+not+in+dr/documents/congressional+record/105th+congress/crec-1997-04-29-pt1-pgh1917-4.pdf" target="_self">House consideration and passage of H.R. 1048, April 29, 1997, pages H1917-H1935</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-170+-+not+in+dr/documents/congressional+record/105th+congress/crec-1998-03-11-pt1-pge347-3.pdf" target="_self">Sponsor introductory remarks on measure of H.R. 3433, March 11, 1998, page E347</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-170+-+not+in+dr/documents/congressional+record/105th+congress/crec-1998-03-25-pt1-pgs2571.pdf" target="_self">Sponsor introductory remarks on measure of S. 1858, March 25, 1998, pages S2571-S2573</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-170+-+not+in+dr/documents/congressional+record/105th+congress/144congrech4005.pdf" target="_self">House consideration of H. Res. 450 and H.R. 3433, June 3, 1998, pages H4005-H4024</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-170+-+not+in+dr/documents/congressional+record/105th+congress/crec-1998-06-04-pt1-pgh4078.pdf" target="_self">House consideration and passage of H.R. 3433, June 4, 1998, page H4078</a></li>
+	
+<h2 id="congressional-record-104">Congressional Record (104th Congress)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/106th+congress/pl+106-170+-+not+in+dr/documents/congressional+record/104th+congress/crec-1996-09-17-house+h10478-h10481.pdf" target="_self">House consideration and passage of H.R. 4039, September 17, 1996, pages H10478-H10481</a></li>
+	
+</ol>
+</div>
+
+<!--end of Content-->
+
+</body>
+</html>
