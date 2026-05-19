@@ -1,26 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there -->
-    <title>USTC Electronic Legislative History Collection - PL 103-394</title>
-<!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
+    <title>USTC Electronic Legislative History Collection - 105th Congress</title>
     <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
-  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-	  <meta charset="utf-8" />
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<meta charset="utf-8" />
 </head>
-
 <body>
 
-<!--Header - this lets the header link back to the ELH website homepage - keep intact-->
 	<div class="header">
-	   <h1><a class="homepage-link" href="https://ustc-elh-static-website.s3.us-east-1.amazonaws.com/legislative-history-index.html">USTC Electronic Legislative History Collection</a></h1>
+	   <h1><a class="homepage-link" href="https://ustc-elh-static-website.s3.amazonaws.com/legislative-history-index.html">USTC Electronic Legislative History Collection</a></h1>
 	</div>
-<!--End of header-->
 
-<!--This section gives us the navigation bar to the left - keep intact; if you need to update the sidebar, go to the "nav.html" file and edit that-->
-	<div id="nav-placeholder">
+<!--Navigation bar-->
+<div id="nav-placeholder">
 
-	</div>
+</div>
 
 <script>
 $(function(){
@@ -29,129 +24,24 @@ $(function(){
 </script>
 <!--end of Navigation bar-->
       
-<!--Content of webpage-->
-	<div class="content">
-
-<!--Breadcrumbs - this appears at the top of the page to help users navigate to pages furhter back in the hierarchy - keep intact-->
+      <div class="content">
+	  
 	<div class="breadcrumbs">
 	   <script language="javascript" src="https://ustc-elh-static-website.s3.amazonaws.com/breadcrumbs+script/breadcrumb_script.js"></script> 
 	</div>
-<!--end of breadcrumbs-->
 
+<h1>105th Congress</h1>
 
-<!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
-<h1>PL 103-394</h1>
-<h1>Bankruptcy Reform Act of 1994</h1>
+<ul>
 
-<!--CHANGE: this can be tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy.-->
-<!--I recommend editing this section last, after you know what to expect in terms of contents.-->
-		
-<!--This section is the PL Table of Contents Javascript anchors - this takes a user directly to the part of the page that has an "anchor" on it.-->
-<!-- These anchors need to be modified on a case-by-case basis - the anchors are based on pub types present in the legislative history collection.-->
-<!-- Modify "value" to be your anchor. In the next section, you will run into "id"s, which will need to be filled in with the "value"s from this section.-->
-<!-- Once they match, you will be able to jump to different sections instantly by selecting them from the dropdown menu.-->
-	<br/>
-	<form action="#" onsubmit="return false;">
-	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
-	  <option value="index">Select Publication Type</option>
-      <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
-	  <option value="public-law">Public Law</option>
-	  <option value="presidential-documents">Presidential Documents</option>
-	  <option value="reports 103">Reports (103rd Congress)</option>
-	  <option value="hearings 103">Hearings (103rd Congress)</option>
-	  <option value="hearings 102">Hearings (102nd Congress)</option>
-	  <option value="hr 5166">H.R. 5166</option>
-	  <option value="related bills 103">Related Bills (103rd Congress)</option>
-	  <option value="related bills 102">Related Bills (102nd Congress)</option>
-	  <option value="congressional record 103">Congressional Record (103rd Congress)</option>
-	  <option value="congressional record 102">Congressional Record (102nd Congress)</option>
-	</select>
-	</form>
-	<br/>
-<!-- End of PL Table of Contents Javascript anchors -->
+    <li><a href="https://ustc-elh-static-website.s3.amazonaws.com/105th+congress/pl+105-2.html" target="_self">PL 105-2</a></li>
+	<li><a href="https://ustc-elh-static-website.s3.amazonaws.com/105th+congress/pl+105-34.html" target="_self">PL 105-34</a></li>
+	<li><a href="https://ustc-elh-static-website.s3.amazonaws.com/105th+congress/pl+105-35.html" target="_self">PL 105-35</a></li>
+	<li><a href="https://ustc-elh-static-website.s3.amazonaws.com/105th+congress/pl+105-206.html" target="_self">PL 105-206</a></li>
 
-<ol type="1">
+</ul>
 
-<!--CHANGE: the "Title of pub" for all items should be replaced with the title from Jen and Nancy's Table of Contents-->
-<!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
-<!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
-<!--The table of contents file can really come in handy from here on out!-->
-<h2 id="public-law">Public Law</h2>
-
-    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/103rd+congress/pl+103-394+-+not+in+dr/documents/public+law/statute-108-pg4106.pdf" target="_self">Public Law 103-394 (H.R. 5116), October 22, 1994</a></li>
-	
-<h2 id="presidential-documents">Presidential Documents</h2>
-
-    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/103rd+congress/pl+103-394+-+not+in+dr/documents/signing+statement/wcpd-1994-10-31-pg2129.pdf" target="_self">Statement on Signing of the Bankruptcy Reform Act of 1994,  Weekly Compilation of Presidential Documents, Volume 30, page 2129, October 22, 1994</a></li>
-	
-<h2 id="reports 103">Reports (103rd Congress)</h2>
-
-    <li>House Report 103-835, Bankruptcy Amendments of 1994, to accompany H.R. 5116, House Committee on the Judiciary, October 4, 1994 - See Library for document</li>
-	<li>Senate Report 103-168, Omnibus Bankruptcy Reform Legislation, to accompany S.540, Senate Committee on the Judiciary, October 28, 1993 - See Library for document</li>
-	
-<h2 id="hearings 103">Hearings (103rd Congress)</h2>
-
-    <li>The Bankruptcy Amendments Act of 1993, Hearing before the Subcommittee on Courts and Administrative Practice of the Senate Committee on the Judiciary on S.540, a bill to improve the administration of the Bankruptcy System, address certain commercial issues and consumer issues in Bankruptcy, and establish a commission to study and make recommendations on problems with the Bankruptcy System, and for other purposes (Senate Hearing 103-321, Serial No. J-103-7), March 31, 1993 - See Library for document</li>
-	<li>The Need for Supplemental Permanent Injunctions in Bankruptcy, Hearing before the Subcommittee on Courts and Administrative Practice of the Senate Committee on the Judiciary on examining the need for supplemental permanent injunctions in bankruptcy, focusing on bankruptcy cases involving asbestos liability (Senate Hearing 103-481, Serial No. J-103-26), August 2, 1993 - See Library for document</li>
-	<li>Bankruptcy Reform, Hearing before the Subcommittee on Economic and Commercial Law of the House Committee on the Judiciary (Serial No. 62), August 17, 1994 - See Library for document</li>
-	
-<h2 id="hearings 102">Hearings (102nd Congress)</h2>	
-
-	<li>The Bankruptcy Code and Individual Debtors, Hearing before the Subcommittee on Courts and Administrative Practice of the Committee on the Judiciary, United States Senate on proposed consumer bankruptcy reform amendments to the bankruptcy code, focusing on the effects of bankruptcy on individual debtors (Senate Hearing 102-527, Serial No. J-102-30), June 27, 1991 - See Library for document</li>
-	<li>Special Problems in Bankruptcy, Hearing before the Subcommittee on Courts and Administrative Practice of the Committee on the Judiciary, United States Senate on certain  provisions of the bankruptcy code, focusing on the financing of aircraft and railroad equipment, certain trust funds, the interaction of ERISA law in bankruptcy proceedings, and the exclusion of retirement plan assets from the estate of bankrupt individuals (Senate Hearing 102-565, Serial No. J-102-34), July 24, 1991 - See Library for document</li>
-	<li>Commercial and Credit Issues in Bankruptcy, Hearing before the Subcommittee on Courts and Administrative Practice of the Committee on the Judiciary, United States Senate on certain provisions of the bankruptcy code, focusing on commercial and credit issues (Senate Hearing 102-620, Serial No. J-102-36), July 30, 1991 - See Library for document</li>
-	<li>United States Trustee Program in Bankruptcy, Hearing before the Subcommittee on Economic and Commercial Law of the Committee on the Judiciary, House of Representatives (Serial No. 61), November 6, 1991 - See Library for document</li>
-	<li>Professional Fees in Bankruptcy, Hearing before the Subcommittee on Courts and Administrative Practice of the Committee on the Judiciary, United States Senate on certain  problems associated with evaluating and monitoring the fees charged by professionals against estates in bankruptcy (Senate Hearing 102-1099, Serial No. J-102-54), March 24, 1992 - See Library for document</li>
-	<li>Injunctions in Mass Tort Cases in Bankruptcy, Hearing before the Subcommittee on Economic and Commercial Law of the Committee on the Judiciary, House of Representatives (Serial No. 63), April 1, 1992 - See Library for document</li>
-	<li>Consumer Issues in Bankruptcy, Hearing before the Subcommittee on Economic and Commercial Law of the Committee on the Judiciary, House of Representatives (Serial No. 69), July 8, 1992 - See Library for document</li>
-	<li>Commercial and Public Sector Issues in Bankruptcy, Hearing before the Subcommittee on Economic and Commercial Law of the Committee on the Judiciary, House of Representatives (Serial No. 70), August 5, 1992 - See Library for document</li>
-	
-<h2 id="hr 5166">H.R. 5166</h2>
-
-	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/103rd+congress/pl+103-394+-+not+in+dr/documents/hr+5166/hr+5116+house+introduced.pdf" target="_self">H.R. 5116, "Bankruptcy Reform Act of 1994", as introduced in the House, September 28, 1994</a></li>
-	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/103rd+congress/pl+103-394+-+not+in+dr/documents/hr+5166/hr+5116+house+reported.pdf" target="_self">H.R. 5116, "Bankruptcy Amendments of 1994", as reported by the House Committee on the Judiciary, October 4, 1994</a></li>
-	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/103rd+congress/pl+103-394+-+not+in+dr/documents/hr+5166/hr+5116+house+passed.pdf" target="_self">H.R. 5116, "Bankruptcy Reform Act of 1994", engrossed in the House (passed House), Suspend the rules and pass the bill H.R. 5116 with an amendment [The amendment inserts an entirely new text], October 5, 1994</a></li>
-	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/103rd+congress/pl+103-394+-+not+in+dr/documents/hr+5166/hr+5116+senate+received.pdf" target="_self">H.R. 5166, "Bankruptcy Reform Act of 1994", as received in the Senate, October 6, 1994</a></li>
-	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/103rd+congress/pl+103-394+-+not+in+dr/documents/hr+5166/hr+5116+enrolled.pdf" target="_self">H.R. 5166, "Bankruptcy Reform Act of 1994", as enrolled (final as passed by both House and Senate), October  6, 1994</a></li>
-	
-<h2 id="related bills 103">Related Bills (103rd Congress)</h2>
-
-    <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/103rd+congress/pl+103-394+-+not+in+dr/documents/related+bills/s+540+introduced.pdf" target="_self">S. 540, "Bankruptcy Amendments Act of 1993",  as introduced in the Senate, March 10, 1993</a></li>
-	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/103rd+congress/pl+103-394+-+not+in+dr/documents/related+bills/s+540+reported.pdf" target="_self">S. 540, "Bankruptcy Amendments Act of 1993", as reported by the Senate Committee on the Judiciary (Report No. 103-168), October 28, 1993</a></li>
-	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/103rd+congress/pl+103-394+-+not+in+dr/documents/related+bills/s+540+engrossed.pdf" target="_self">S. 540, "Bankruptcy Amendments Act of 1994",  as engrossed in the Senate, April 21, 1994</a></li>
-	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/103rd+congress/pl+103-394+-+not+in+dr/documents/related+bills/s+540+referred+to+house.pdf" target="_self">S. 540, "Bankruptcy Amendments Act of 1994", as referred in House, April 26, 1994</a></li>
-	
-<h2 id="related bills 102">Related Bills (102nd Congress)</h2>
-
-    <li>S. 1985,  “National Bankruptcy Review Commission Act”, as introduced in the Senate, November 19, 1991 - See Library for document</li>
-	<li>S. 1985 as reported in the Senate with an amendment, May 7, 1992 - See Library for document</li>
-	<li>S. 1985,engrossed in the Senate (passed the Senate), June 17, 1992 - See Library for document</li>
-	<li>S. 1985, referred to the House Committee on the Judiciary, June 18, 1992 - See Library for document</li>
-	<li>S. 1985, engrossed House amendment, October 3, 1992 - See Library for document</li>
-	<li>S. 1985, engrossed Senate amendment, October 5, 1992 - See Library for document</li>
-	<li>H.R. 6020, "Bankruptcy Amendments of 1992",  as introduced in the House, September 24, 1992 - See Library for document</li>
-	<li>H.R. 6020 as reported in the House, October 3, 1992 - See Library for document</li>
-
-<h2 id="congressional record 103">Congressional Record (103rd Congress)</h2>
-
-    <li>S. 540 considered in Senate, April 19, 1994, pages S4405-4420 - See Library for document</li>
-	<li>S. 540 considered in Senate, April 20, 1994, pages S4504-4511 - See Library for document</li>
-	<li>S. 540 considered and passed in Senate, April 21, 1994, page S4606 - See Library for document</li>
-	<li>H.R. 5116 considered in House, October 4, 1994, pages H10752-10773 - See Library for document</li>
-	<li>H.R. 5116 considered and passed in the House, October 5, 1994, page H10917 - See Library for document</li>
-	<li>H.R. 5116 considered in Senate, October 6, 1994, pages S4461-14465 - See Library for document</li>
-	
-<h2 id="congressional record 102">Congressional Record (102nd Congress)</h2>
-
-    <li>S. 1985 considered in the Senate, June 16, 1992, pages S8239-8240 - See Library for document</li>	
-	<li>S. 1985 considered and passed in the Senate, June 17, 1992, pages S8331-8336 - See Library for document</li>
-	<li>H.R. 6020 considered in the House, S.1985 considered and passed with amendments and H.R. 6020 tabled, October 3, 1992, pages H11052-11071 - See Library for document</li>
-	<li>Senate concurrence in the House amendments to S. 1985 with an additional amendment, October 7, 1992, pages S17358-17364 - See Library for document</li>
-	
-</ol>
 </div>
-
-<!--end of Content-->
 
 </body>
 </html>
