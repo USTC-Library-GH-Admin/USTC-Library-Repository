@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there and there too -->
+    <title>USTC Electronic Legislative History Collection - PL 108-121</title>
+<!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
+    <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<!-- New encoding tag - necessary to make curly quotes, etc appear correctly -->
+	<meta charset="utf-8" />	
+master
+</head>
+
+<body>
+
+<!--Header - this lets the header link back to the ELH website homepage - keep intact-->
+	<div class="header">
+	   <h1><a class="homepage-link" href="https://ustc-elh-static-website.s3.s3.amazonaws.com/legislative-history-index.html">USTC Electronic Legislative History Collection</a></h1>
+	</div>
+<!--End of header-->
+
+<!--This section gives us the navigation bar to the left - keep intact; if you need to update the sidebar, go to the "nav.html" file and edit that-->
+	<div id="nav-placeholder">
+
+	</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("https://ustc-elh-static-website.s3.amazonaws.com/javascript+sidebar/nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+      
+<!--Content of webpage-->
+	<div class="content">
+
+<!--Breadcrumbs - this appears at the top of the page to help users navigate to pages furhter back in the hierarchy - keep intact-->
+	<div class="breadcrumbs">
+	   <script language="javascript" src="https://ustc-elh-static-website.s3.amazonaws.com/breadcrumbs+script/breadcrumb_script.js"></script> 
+	</div>
+<!--end of breadcrumbs-->
+
+
+<!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
+<h1>PL 108-121</h1>
+<h1>Military Family Tax Relief Act of 2003</h1>
+
+<!--CHANGE: this can be tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy.-->
+<!--I recommend editing this section last, after you know what to expect in terms of contents.-->
+		
+<!--This section is the PL Table of Contents Javascript anchors - this takes a user directly to the part of the page that has an "anchor" on it.-->
+<!-- These anchors need to be modified on a case-by-case basis - the anchors are based on pub types present in the legislative history collection.-->
+<!-- Modify "value" to be your anchor. In the next section, you will run into "id"s, which will need to be filled in with the "value"s from this section.-->
+<!-- Once they match, you will be able to jump to different sections instantly by selecting them from the dropdown menu.-->
+	<br/>
+	<form action="#" onsubmit="return false;">
+	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
+	  <option value="index">Select Publication Type</option>
+      <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
+	  <option value="public-law">Public Law</option>
+      <option value="enacted-bill">Enacted Bill</option>
+	  <option value="related-bills-108h">Related Bills (108th Congress, House)</option>
+	  <option value="related-bills-108s">Related Bills (108th Congress, Senate)</option>
+	  <option value="related-bills-108hr">Related Bills (108th Congress, House Resolutions)</option>
+	  <option value="related-bills-108sr">Related Bills (108th Congress, Senate Resolutions)</option>
+	  <option value="related-bills-107h">Related Bills (107th Congress, House)</option>
+	  <option value="related-bills-107s">Related Bills (107th Congress, Senate)</option>
+	  <option value="related-bills-107hr">Related Bills (107th Congress, House Resolution)</option>
+      <option value="reports-108">Reports (108th Congress)</option>
+      <option value="reports-107">Reports (107th Congress)</option>
+      <option value="committee-prints-109">Committee Prints (109th Congress)</option>
+      <option value="committee-prints-108">Committee Prints (108th Congress)</option>
+      <option value="congressional-record-108">Congressional Record (108th Congress)</option>
+      <option value="congressional-record-107">Congressional Record (107th Congress)</option>
+	</select>
+	</form>
+	<br/>
+<!-- End of PL Table of Contents Javascript anchors -->
+
+<ol type="1">
+
+<h2 id="public-law">Public Law</h2>
+
+<!--CHANGE: the "Title of pub" for all items should be replaced with the title from Jen and Nancy's Table of Contents-->
+<!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
+<!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
+<!--The table of contents file can really come in handy from here on out!-->
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">P.L. 108-121 (H.R. 3365) "Military Family Tax Relief Act of 2003", November 11, 2003</a></li>
+
+<!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
+<h2 id="enacted-bill">Enacted Bill</h2>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 3365, "Fallen Patriots Tax Relief Act", as introduced in the House, October 21, 2003</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 3365, "Fallen Patriots Tax Relief Act", engrossed in the House, October 29, 2003</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 3365, "Fallen Patriots Tax Relief Act", received in the Senate, October 30, 2003</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 3365, "Military Family Tax Relief Act of 2003", engrossed Senate amendment, November 3, 2003</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 3365, "Military Family Tax Relief Act of 2003", as enrolled</a></li>
+
+<h2 id="related-bills-108h">Related Bills (108th Congress, House)</h2>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 662, "Armed and Foreign Services Tax Fairness Act of 2003", as introduced in the House, February 11, 2003</a></li>  
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 693, "Military Death Gratuity Improvement Act of 2003", as introduced in the House, February 11, 2003</a></li>   
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 878, "Armed Forces Tax Fairness Act of 2003", as introduced in the House, February 25, 2003</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 878, "Armed Forces Tax Fairness Act of 2003", as reported in the House (House Report 108-23), March 5, 2003</a></li>  
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 1307, "Armed Forces Tax Fairness Act of 2003", as introduced in the House, March 18, 2003</a></li>   
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 1307, "Armed Forces Tax Fairness Act of 2003", engrossed in the House, March 20, 2003</a></li>   
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 1307, "Armed Forces Tax Fairness Act of 2003", received in the Senate, March 20, 2003</a></li>  
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 1664, "Armed Forces Tax Fairness Act of 2003", as introduced in the House, April 8, 2003</a></li>   
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 1664, "Armed Forces Tax Fairness Act of 2003", engrossed in the House, April 9, 2003</a></li>   
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 1664, "Armed Forces Tax Fairness Act of 2003", referred to the Senate,  April 10, 2003</a></li>  
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 3019, "To amend title 10, United States Code, to increase the military death gratuity from $6,000 to $12,000 and to provide that such death gratuity shall be excluded from gross income under the Internal Revenue Code of 1986", as introduced in the House, September 5, 2003</a></li>      
+
+<h2 id="related-bills-108s">Related Bills (108th Congress, Senate)</h2>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">S. 19, "Veterans and Military Personnel Fairness Act of 2003", as introduced in the Senate, January 7, 2003</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">S. 284, "To amend the Internal Revenue Code of 1986 to provide a special rule for members of the uniformed services and the Foreign Service in determining the exclusion of gain from the sale of a principal residence", as introduced in the Senate, February 4, 2003</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">S. 289, "Armed Forces Tax Fairness Act of 2003", introduced in the Senate, February 4, 2003</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">S. 351, "Armed Forces Tax Fairness Act of 2003", reported in the Senate (Senate Report 108-3), February 11, 2003</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">S. 704, "To amend title 10, United States Code, to increase the amount of the death gratuity payable with respect to deceased members of the Armed Forces", introduced in the Senate, March 25, 2003</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">S. 704, "To amend title 10, United States Code, to increase the amount of the death gratuity payable with respect to deceased members of the Armed Forces", engrossed in the Senate, April 1, 2003</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">S. 704, "To amend title 10, United States Code, to increase the amount of the death gratuity payable with respect to deceased members of the Armed Forces", referred to the House, April 2, 2003</a></li>
+
+<h2 id="related-bills-108hr">Related Bills (108th Congress, House Resolutions)</option></h2>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H. Res. 126, "Providing for consideration of the bill (H.R. 878) to amend the Internal Revenue Code of 1986 to provide a special rule for members of the uniformed services and Foreign Service in determining the exclusion of gain from the sale of a principal residence and to restore the tax exempt status of death gratuity payments to members of the uniformed services, and for other purposes", as reported in the House (House Report 108-25), March 5, 2003</a></li>
+
+<h2 id="related-bills-108sr">Related Bills (108th Congress, Senate Resolutions)</option></h2>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">S. Res 257, "A resolution expressing the sense of the Senate that Congress should give priority to passing legislation to provide tax relief for United States military personnel and should offset the cost of such tax relief with legislation preventing individuals from avoiding taxes by renouncing United States citizenship." As considered and passed in the Senate, November 3, 2003</a></li>
+
+<h2 id="related-bills-107h">Related Bills (107th Congress, House)</option></h2>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 356, "Uniformed Services Tax Equity Act"", introduced in the House, January 31, 2001</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 1596, "To amend the Internal Revenue Code of 1986 to provide a special rule for members of the uniformed services and the Foreign Service, and other employees, in determining the exclusion of gain from the sale of a principal residence", as introduced in the House, April 26, 2001</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 3973, "To amend the Internal Revenue Code of 1986 to restore the tax exempt status of death gratuity payments to members of the uniformed services," as introduced March 14, 2002</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 5063, "Armed Forces Tax Fairness Act of 2002", as introduced in the House, July 8, 2002</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 5063, "Armed Forces Tax Fairness Act of 2002", as engrossed in the House, July 9, 2002</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 5063, "Armed Forces Tax Fairness Act of 2002", referred to the Senate, July 11, 2002</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 5063, "Armed Forces Tax Fairness Act of 2002", reported in the Senate (Senate Report 107-283), September 17, 2002</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 5063, "Armed Forces Tax Fairness Act of 2002", engrossed Senate amendment, October 3, 2002</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 5063, House amendments to the Senate amendments, November 14, 2002</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 5557, "Armed Forces Tax Fairness Act of 2002", as introduced in the House, October 7, 2002</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 5557, "Armed Forces Tax Fairness Act of 2002", engrossed in the House, October 7, 2002</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H.R. 5557, "Armed Forces Tax Fairness Act of 2002", engrossed Senate amendment, November 14, 2002</a></li>
+
+<h2 id="related-bills-107s">Related Bills (107th Congress, Senate)</option></h2>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">S. 1678, "Military Homeowners Equity Act", as introduced in the Senate, November 13, 2001</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">S. 1755, "To amend the Internal Revenue Code of 1986 to provide a special rule for members of the uniformed services and Foreign Service, and other employees, in determining the exclusion of gain from the sale of a principal residence", as introduced in the Senate, December 3, 2001</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">S. 2802, "Military Families Tax Fairness Act", as introduced in the Senate, July 26, 2002</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">S. 2816, "Foreign and Armed Services Tax Fairness Act of 2002", as introduced in the Senate, July 29, 2002</a></li>
+
+<h2 id="related-bills-107hr">Related Bills (107th Congress, House Resolution)</option></h2>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H. Res. 609, "Providing for consideration of the Senate amendments to the bill (H.R. 5063) to amend the Internal Revenue Code of 1986 to provide a special rule for members of the uniformed services in determining the exclusion of gain from the sale of a principal residence and to restore the tax exempt status of death gratuity payments to members of the uniformed services", as reported in the House (House Report 107-784), November 13, 2002</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">H. Res. 609, engrossed in the House, November 14, 2002</a></li>
+
+<h2 id="reports-108">Reports (108th Congress)</option></h2>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Senate Report 108-3, "Armed Forces Tax Fairness Act of 2003", to accompany S.351, Senate Committee on Finance, February 11, 2003</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">House Report 108-23, "Armed Forces Tax Fairness Act of 2003", to accompany H.R. 878, House Committee on Ways and Means, March 5, 2003 </a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">House Report 108-25, "Providing for Consideration of H.R. 878, "Armed Forces Tax Fairness Act of 2003", House Committee on Rules, March 5, 2003</a></li>
+
+<h2 id="reports-107">Reports (107th Congress)</option></h2>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Senate Report 107-283, "Armed Forces Tax Fairness Act of 2002", to accompany H.R. 5063, Senate Committee on Finance, September 17, 2002</a></li>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">House Report 107-784, "Providing for the Consideration of the Senate Amendments to the Bill H.R. 5063, Armed Forces Tax Fairness Act of 2002", to accompany H. Res. 609, House Committee on Rules, November 13, 2002</a></li>
+
+<h2 id="committee-prints-109">Committee Prints (109th Congress)</option></h2>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+<h2 id="committee-prints-108">Committee Prints (108th Congress)</option></h2>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+<h2 id="congressional-record-108">Congressional Record (108th Congress)</option></h2>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+<h2 id="congressional-record-107">Congressional Record (107th Congress)</option></h2>
+    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+
+</ol>
+</div>
+
+<!--end of Content-->
+
+</body>
+</html>
