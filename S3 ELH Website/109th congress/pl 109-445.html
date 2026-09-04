@@ -57,13 +57,8 @@ $(function(){
 	  <option value="index">Select Publication Type</option>
       <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
 	  <option value="public-law">Public Law</option>
-	  <option value="reports">Reports</option>
-	  <option value="related-reports">Related Reports</option>
-	  <option value="hearings">Hearing</option>
-	  <option value="prints">Prints</option>
-	  <option value="hr">H.R. ####</option>
-	  <option value="related-bills">Related Bills</option>
-	  <option value="resolutions">Resolutions</option>
+	  <option value="enacted-bill">Enacted Bill</option>
+	  <option value="committee-prints">Committee Prints</option>
 	  <option value="congressional-record">Congressional Record</option>
 	</select>
 	</form>
@@ -78,41 +73,27 @@ $(function(){
 <!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
 <!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
 <!--The table of contents file can really come in handy from here on out!-->
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/109th+congress/pl+109-445/documents/public+law/pl+109-445.pdf" target="_self">P.L. 109-455, "Fallen Firefighters Assistance Tax Clarification Act of 2006", December 21, 2006</a></li>
 
 <!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
-<h2 id="reports">Reports</h2>
+<h2 id="enacted-bill">Enacted Bill</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/109th+congress/pl+109-445/documents/enacted+bill/hr+6429+house+considered+passed.pdf" target="_self">H.R. 6429, "Fallen Firefighters Assistance Tax Clarification Act of 2006", considered and passed in the House, December 8, 2006</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/109th+congress/pl+109-445/documents/enacted+bill/hr+6429+house+engrossed.pdf" target="_self">H.R. 6429, "Fallen Firefighters Assistance Tax Clarification Act of 2006", engrossed in the House, December 9, 2006</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/109th+congress/pl+109-445/documents/enacted+bill/hr+6429+enrolled.pdf" target="_self">H.R. 6429, "Fallen Firefighters Assistance Tax Clarification Act of 2006", enrolled, December 19, 2006</a></li>
+
+<h2 id="related-bill">Related Bill</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/109th+congress/pl+109-445/documents/related+bill/s+4112+senate+introduced.pdf" target="_self">S. 4112, "Fallen Firefighters Assistance Tax Clarification Act of 2006", as introduced in the Senate, December 8, 2006</a></li>
 	
-<h2 id="related-reports">Related Reports</h2>
+<h2 id="committee-prints">Committee Prints</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-	
-<h2 id="hearings">Hearing</h2>
-
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-	
-<h2 id="prints">Prints</h2>
-
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-    
-<!--CHANGE: here, make sure you also change the H.R #### to the proper H.R. number, if applicable.-->
-<h2 id="hr">H.R. ####</h2>
-
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-	
-<h2 id="related-bills">Related Bills</h2>
-
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
-	
-<h2 id="resolutions">Resolutions</h2>
-
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/109th+congress/pl+109-445/documents/committee+print/jcs-1-07+p+784.pdf" target="_self">General Explanation of Tax Legislation Enacted in the 109th Congress (JCS-1-07), January 17, 2007, page 784  </a></li>
 	
 <h2 id="congressional-record">Congressional Record</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/109th+congress/pl+109-445/documents/congressional+record/crec-2006-12-08-pt2-pgh9299-2.pdf" target="_self">House consideration and passage of H.R. 6429, December 8, 2006, pages H9299-H9300</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/109th+congress/pl+109-445/documents/congressional+record/crec-2006-12-08-pt2-pgs11841-3.pdf" target="_self">Senate consideration and passage of H.R. 6429, December 8, 2006, page S11841</a></li>
 	
 </ol>
 </div>
