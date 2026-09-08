@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there -->
+    <title>USTC Electronic Legislative History Collection - PL 107-75</title>
+<!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
+    <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<!-- New encoding tag - necessary to make curly quotes, etc appear correctly -->
+	<meta charset="utf-8" />
+</head>
+
+<body>
+
+<!--Header - this lets the header link back to the ELH website homepage - keep intact-->
+	<div class="header">
+	   <h1><a class="homepage-link" href="https://ustc-elh-static-website.s3.s3.amazonaws.com/legislative-history-index.html">USTC Electronic Legislative History Collection</a></h1>
+	</div>
+<!--End of header-->
+
+<!--This section gives us the navigation bar to the left - keep intact; if you need to update the sidebar, go to the "nav.html" file and edit that-->
+	<div id="nav-placeholder">
+
+	</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("https://ustc-elh-static-website.s3.us-east-1.amazonaws.com/javascript+sidebar/nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+      
+<!--Content of webpage-->
+	<div class="content">
+
+<!--Breadcrumbs - this appears at the top of the page to help users navigate to pages furhter back in the hierarchy - keep intact-->
+	<div class="breadcrumbs">
+	   <script language="javascript" src="https://ustc-elh-static-website.s3.amazonaws.com/breadcrumbs+script/breadcrumb_script.js"></script> 
+	</div>
+<!--end of breadcrumbs-->
+
+
+<!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
+<h1>PL 107-75</h1>
+<h1>Internet Tax Nondiscrimination Act</h1>
+
+<!--CHANGE: this can be tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy.-->
+<!--I recommend editing this section last, after you know what to expect in terms of contents.-->
+		
+<!--This section is the PL Table of Contents Javascript anchors - this takes a user directly to the part of the page that has an "anchor" on it.-->
+<!-- These anchors need to be modified on a case-by-case basis - the anchors are based on pub types present in the legislative history collection.-->
+<!-- Modify "value" to be your anchor. In the next section, you will run into "id"s, which will need to be filled in with the "value"s from this section.-->
+<!-- Once they match, you will be able to jump to different sections instantly by selecting them from the dropdown menu.-->
+	<br/>
+	<form action="#" onsubmit="return false;">
+	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
+	  <option value="index">Select Publication Type</option>
+      <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
+	  <option value="public-law">Public Law</option>
+	  <option value="enacted-bill">Enacted Bill</option>
+	  <option value="related-bills-107">Related Bills (107th Congress)</option>
+	  <option value="related-bills-106">Related Bills (106th Congress)</option>
+	  <option value="reports">Reports</option>
+	  <option value="hearings-107">Hearings (107th Congress)</option>
+	  <option value="hearings-106">Hearings (106th Congress)</option>
+	  <option value="committee-print">Committee Print</option>
+	  <option value="congressional-record">Congressional Record</option>
+	</select>
+	</form>
+	<br/>
+<!-- End of PL Table of Contents Javascript anchors -->
+
+<ol type="1">
+
+<h2 id="public-law">Public Law</h2>
+
+<!--CHANGE: the "Title of pub" for all items should be replaced with the title from Jen and Nancy's Table of Contents-->
+<!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
+<!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
+<!--The table of contents file can really come in handy from here on out!-->
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">P.L. 107-75, "Internet Tax Nondiscrimination Act", November 28, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Statement on Signing the Internet Tax Nondiscrimination Act, November 28, 2001</a></li>
+
+<!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
+<h2 id="enacted-bill">Enacted Bill</h2>
+
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">H.R. 1552, "Internet Tax Nondiscrimination Act", as introduced in the House, April 24, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">H.R. 1552, "Internet Tax Nondiscrimination Act", as engrossed in the House, October 16, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">H.R. 1552, "Internet Tax Nondiscrimination Act", as reported in the House with amendments, (Report No. 107-240), October 16, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">H.R. 1552, "Internet Tax Nondiscrimination Act", as placed on the Senate calendar, October 30, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">H.R. 1552, "Internet Tax Nondiscrimination Act", as enrolled, November 16, 2001</a></li>
+	
+<h2 id="related-bills-107">Related Bills (107th Congress)</h2>
+
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">S. 245. "To make permanent the moratorium on the Federal imposition of taxes on the Internet", as introduced in the Senate, February 6, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">S. 246. "To extend the moratorium on the imposition of taxes on the Internet for an additional 5 years", as introduced in the Senate, February 6, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">S. 288, "Internet Tax Nondiscrimination Act", as introduced in the Senate, February 8, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">S. 512, "Internet Tax Moratorium and Equity Act", as introduced in the Senate, March 9, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">S. 589, "To make permanent the moratorium on the imposition of taxes on the Internet", as introduced in the Senate, March 21, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">S. 664, "New Economy Tax Fairness Act or NET FAIR Act", as introduced in the Senate, March 29, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">S. 777, "Internet Tax Nondiscrimination Act", as introduced in the Senate, April 25, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">S. 1481. "Internet Tax Moratorium Extension Act", as introduced in the Senate, October 2, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">S. 1504. "Internet Tax Moratorium Extension Act", as introduced in the Senate, October 4, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">S. 1525, "Defense of Internet Tax Freedom Act", as introduced in the Senate, October 10, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">H.R. 1410, "Internet Tax Moratorium and Equity Act", as introduced in the House, April 4, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">H.R. 1675, "Internet Tax Nondiscrimination Act", as introduced in the House, May 2, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">H.R. 2526, "Internet Tax Fairness Act of 2001", as introduced in the House, July 17, 2001</a></li>
+	
+<h2 id="related-bills-106">Related Bills (106th Congress)</h2>
+
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">S. 2036, "To make permanent the moratorium on the imposition of taxes on the Internet", placed on the Senate calendar, February 8, 2000</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">S. 2255, "To amend the Internet Tax Freedom Act to extend the moratorium through calendar year 2006", as introduced in the Senate, March 21, 2000</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">H.R. 3709, "Internet Nondiscrimination Act", as introduced in the House, February 29, 2000</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">H.R. 3709, "Internet Nondiscrimination Act", as reported in the House, (Report No. 106-609), May 8, 2000</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">H.R. 3709, "Internet Nondiscrimination Act", as engrossed in the House, May 10, 2000</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">H.R. 3709, "Internet Nondiscrimination Act", as placed on the Senate calendar, May 18, 2000</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">H.R. 4202, "Internet Services Promotion Act of 2000", as introduced in the House, April 6, 2000</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">H.R. 4267, "Internet Tax Reform and Reduction Act of 2000", as introduced in the House, April 13, 2000</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">H.R. 4460, "Internet Tax Simplification Act of 2000", as introduced in the House, May 16, 2000</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">H.R. 4462, "Fair and Equitable Interstate Tax Compact Simplification Act of 2000", as introduced in the House, May 16, 2000</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">H. Res. 496, May 10, 2000</a></li>
+	
+<h2 id="reports">Reports</h2>
+
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">House Report 107-240, "Internet Tax Nondiscrimination Act" to accompany H.R. 1552, House Committee on the Judiciary, October 16, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">House Report 106-609, "Internet Tax Nondiscrimination Act of 2000", to accompany H.R. 3709, House Committee on the Judiciary, May 8, 2000</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">House Report 106-611, "Providing for the Consideration of H.R. 3709, the Internet Tax Nondiscrimination Act", to accompany H. Res. 496, May 9, 2000</a></li>
+
+<h2 id="hearings-107">Hearings (107th Congress)</h2>
+
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Extension of the Internet Tax Moratorium, Hearing before the Senate Committee on Commerce, Science and Transportation, Senate Hearing 107-1134, March 14, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Internet Tax Nondiscrimination Act, Hearing before the House Committee on Judiciary, Subcommittee on Commercial and Administrative Law, Serial No. 26, June 26, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Internet Tax Moratorium and Equity Act, Hearing before the Senate Committee on the Judiciary, Subcommittee on Commercial and Administrative Law, Serial No. 31, July 18, 2001</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Cybershopping and Sales Tax:  Finding the Right Mix, Hearing before the Senate Committee on Finance, Seante Hearing 107-180, August 1, 2001</a></li>
+	
+<h2 id="hearings-106">Hearings (106th Congress)</h2>
+ 
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Concurrent Resolution on the Budget for FY2001, Hearing before the Senate Committee on the Budget, Senate Hearing 106-494, January 26, 2000, February 1-3, 2000, February 8-11, 2000, March 1, 2000</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Report of the Advisory Committee on Electronic Commerce, Hearing before the House Committee on Commerce, Subcommittee on Telecommunications, Trade and Consumer Protection, Serial No. 106-98, April 6, 2000</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">S. 2255, a Bill to Amend the Internet Tax Freedom Act to Extend the Moratorium Through Calendar Year 2006, Hearing before the Senate, Committee on Commerce, Science and Transportation, Senate Hearing 106-1107, April 12, 2000</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Internet Services Promotion Act of 2000, and the Internet Access Charge Prohibition Act of 1999, Hearing before the House Committee on Commerce, Subcommittee on Telecommunications, Trade and Consumer Protection, Serial No. 106-114, May 3, 2000</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Internet Tax Issues, Hearing before the House Committee on Ways and Means, Serial 106-81, May 16, 2000</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Internet Tax Reform and Reduction Act of 2000, Internet Tax Simplification Act of 200 and Fair and Equitable Tax Compact Simplification Act of 2000, Hearing before the House Committee on the Judiciary Subcommittee on Commercial and Administrative Law, Serial 146, May 17, 2000, and June 29, 2000</a></li>
+	
+<h2 id="committee-print">Committee Print</h2>
+
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Overview of Issues Related to the Internet Tax Freedom Act of Proposals to Extend or Modify the Act, Scheduled for a Hearing Before the Senate Committee on Finance on August 1, 2001, (JCX-64-01), July 30, 2001</a></li>
+	
+<h2 id="congressional-record">Congressional Record</h2>
+
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">House consideration and passage of H. Res. 496 and H.R. 3709, May 10, 2000, pages H2783-H2785</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">House consideration of H.R.1552, October 16, 2001, pages H6803-H6808</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Unanimous consent request for H.R. 1552, October 23, 2001, page S10874</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Unanimous consent agreement to H.R. 1522, November 15, 2001, page S11902</a></li>
+    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Statement of Senator Reid on Internet Tax Nondiscrimination Act, November 16, 2001, pages S11995-S11996</a></li>
+	
+</ol>
+</div>
+
+<!--end of Content-->
+
+</body>
+</html>
