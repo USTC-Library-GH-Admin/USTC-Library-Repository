@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- CHANGE: Title = when you look at webpage tab, "Title" determines what text appears there -->
+    <title>USTC Electronic Legislative History Collection - PL 107-134</title>
+<!-- Keep the below two codes intact - necessary for webpage to look and work properly -->
+    <link rel="stylesheet" href="https://ustc-elh-static-website.s3.amazonaws.com/styles3.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<!-- New encoding tag - necessary to make curly quotes, etc appear correctly -->
+	<meta charset="utf-8" />
+</head>
+
+<body>
+
+<!--Header - this lets the header link back to the ELH website homepage - keep intact-->
+	<div class="header">
+	   <h1><a class="homepage-link" href="https://ustc-elh-static-website.s3.s3.amazonaws.com/legislative-history-index.html">USTC Electronic Legislative History Collection</a></h1>
+	</div>
+<!--End of header-->
+
+<!--This section gives us the navigation bar to the left - keep intact; if you need to update the sidebar, go to the "nav.html" file and edit that-->
+	<div id="nav-placeholder">
+
+	</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("https://ustc-elh-static-website.s3.us-east-1.amazonaws.com/javascript+sidebar/nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+      
+<!--Content of webpage-->
+	<div class="content">
+
+<!--Breadcrumbs - this appears at the top of the page to help users navigate to pages furhter back in the hierarchy - keep intact-->
+	<div class="breadcrumbs">
+	   <script language="javascript" src="https://ustc-elh-static-website.s3.amazonaws.com/breadcrumbs+script/breadcrumb_script.js"></script> 
+	</div>
+<!--end of breadcrumbs-->
+
+
+<!--CHANGE: change PL # in the first <h1> and insert the Act's title in the second <h1>-->
+<h1>PL 107-134</h1>
+<h1>Victims of Terrorism Tax Relief Act</h1>
+
+<!--CHANGE: this can be tricky - follow instructions closely! I recommend having Jen and Nancy's Table of Contents file for the public law handy.-->
+<!--I recommend editing this section last, after you know what to expect in terms of contents.-->
+		
+<!--This section is the PL Table of Contents Javascript anchors - this takes a user directly to the part of the page that has an "anchor" on it.-->
+<!-- These anchors need to be modified on a case-by-case basis - the anchors are based on pub types present in the legislative history collection.-->
+<!-- Modify "value" to be your anchor. In the next section, you will run into "id"s, which will need to be filled in with the "value"s from this section.-->
+<!-- Once they match, you will be able to jump to different sections instantly by selecting them from the dropdown menu.-->
+	<br/>
+	<form action="#" onsubmit="return false;">
+	<select style="font-size:110%;" onchange="self.location.href = '#' + options[selectedIndex].value;">
+	  <option value="index">Select Publication Type</option>
+      <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
+	  <option value="public-law">Public Law</option>
+	  <option value="enacted-bill">Enacted Bill</option>
+	  <option value="related-bills">Related Bills</option>
+	  <option value="jct-prints">Joint Committee on Taxation Prints</option>
+	  <option value="related-print">Related Senate Committee Print</option>
+	  <option value="congressional-record">Congressional Record</option>
+	</select>
+	</form>
+	<br/>
+<!-- End of PL Table of Contents Javascript anchors -->
+
+<ol type="1">
+
+<h2 id="public-law">Public Law</h2>
+
+<!--CHANGE: the "Title of pub" for all items should be replaced with the title from Jen and Nancy's Table of Contents-->
+<!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
+<!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
+<!--the table of contents file can really come in handy from here on out!-->
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/public+law/pl+107-134.pdf" target="_self">P.L. 107-134, "Victims of Terrorism Tax Relief Act", January 23, 2002</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/public+law/signing+remarks+107-134.pdf" target="_self">"Remarks on Signing the Victims of Terrorism Tax Relief Act of 2001" Public Papers of the President January 23, 2002, pages 107-108</a></li>
+
+<!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
+<h2 id="enacted-bill">Enacted Bill</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/enacted+bill/hr+2884+house+introduced.pdf" target="_self">H.R. 2884, "Victims of Terrorism Relief Act of 2001", as introduced in the House, September 13, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/enacted+bill/hr+2884+house+engrossed.pdf" target="_self">H.R. 2884, "Victims of Terrorism Relief Act of 2001", engrossed in the House, September 13, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/enacted+bill/hr+2884+senate+referred.pdf" target="_self">H.R. 2884, "Victims of Terrorism Relief Act of 2001", referred to the Senate Committee on Finance, September 13, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/enacted+bill/hr+2884+senate+engrossed+nov+2001.pdf" target="_self">H.R. 2884, "Victims of Terrorism Relief Act of 2001", engrossed Senate amendments, November 16, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/enacted+bill/hr+2884+house+amendment.pdf" target="_self">H.R. 2884, "Victims of Terrorism Relief Act of 2001", engrossed House amendment to Senate amendments, December 13, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/enacted+bill/hr+2884+senate+engrossed+dec+2001.pdf" target="_self">H.R. 2884, "Victims of Terrorism Relief Act of 2001", engrossed Senate amendment to House amendment to Senate amendments, December 20, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/enacted+bill/hr+2884+enrolled.pdf" target="_self">H.R. 2884, "Victims of Terrorism Relief Act of 2001", as enrolled, January 11, 2002</a></li>
+	
+<h2 id="related-bills">Related Bills</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/related+bills/s+1440+senate+introduced.pdf" target="_self">S. 1440, "Victims of Terrorism Relief Act of 2001", as introduced in the Senate, September 19, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/related+bills/hr+3090+house+introduced.pdf" target="_self">H.R. 3090, "Economic Security and Recovery Act of 2001", as introduced in the House, October 11, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/related+bills/hr+3090+house+reported.pdf" target="_self">H.R. 3090, "Economic Security and Recovery Act of 2001", as reported in the House (Report No. 107-251), October 17, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/related+bills/hr+3090+house+engrossed.pdf" target="_self">H.R. 3090, "Economic Security and Recovery Act of 2001", engrossed in the House, October 24, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/related+bills/hr+3090+senate+referred.pdf" target="_self">H.R. 3090, "Economic Security and Recovery Act of 2001", referred to the Senate Committee on Finance, October 24, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/related+bills/hr+3090+senate+reported.pdf" target="_self">H.R. 3090, "Economic Recovery and Assistance for American Workers Act of 2001", reported in the Senate with an amendment and an amendment to the title, November 9, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/related+bills/hr+3090+senate+engrossed+amendment.pdf" target="_self">H.R. 3090, "Temporary Extended Unemployment Compensation Act of 2002", engrossed Senate amendment, February 14, 2002</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/related+bills/hr+3090+house+engrossed+amendment+to+senate.pdf" target="_self">H.R. 3090, "Job Creation and Worker Assistance Act of 2002", engrossed House Amendment to Senate Amendment, March 7, 2002</a></li>
+	
+<h2 id="jct-prints">Joint Committee on Taxation Prints</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/jct+prints/jcx-68-01-1949.pdf" target="_self">"Technical Explanation of the Victims of Terrorism Relief Act of 2001" (JCX-68-01), September 13, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/jct+prints/jcx-83-01-1918.pdf" target="_self">"Technical Explanation of the Victims of Terrorism Tax Relief Act of 2001, as Passed by the Senate" (JCX-83-01), November 20, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/jct+prints/jcx-86-01-1915.pdf" target="_self">"Technical Explanation of H.R. 2884, the Victims of Terrorism Tax Relief Act of 2001, as Considered by the House on December 13, 2001" (JCX-86-01), December 13, 200</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/jct+prints/jcx-87-01-1914.pdf" target="_self">"Comparison of H.R. 2884, the Victims of Terrorism Tax Relief Act of 2001, as Passed by the House of Representatives on December 13, 2001, and as Passed by the Senate" (JCX-87-01), December 14, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/jct+prints/jcx-88-01-1913.pdf" target="_self">"Comparison of Estimated Budget Effects of H.R. 2884, the Victims of Terrorism Tax Relief Act of 2001 as Passed by the House of Representatives on December 13, 2001, and as Passed by the Senate" (JCX-88-01), December 14, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/jct+prints/jcx-91-01-1910.pdf" target="_self">"Technical Explanation of the Economic Security and Worker Assistance Act of 2001" (JCX-91-01), December 19, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/jct+prints/jcx-92-01-1909.pdf" target="_self">"Estimated Budget Effects of the Revenue Provisions of the Economic Security and Worker Assistance Act of 2001" (JCX-92-01), December 19, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/jct+prints/jcx-93-01-1908.pdf" target="_self">"Technical Explanation of the Victims of Terrorism Tax Relief Act of 2001, as Passed by the House and the Senate on December 20, 2001" (JCX-93-01), December 21, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/jct+prints/jcx-94-01-1907.pdf" target="_self">"Estimated Budget Effects of the Victims of Terrorism Tax Relief Act of 2001, as Passed by the House of Representatives and the Senate on December 20, 2001" (JCX-94-01), December 21, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/jct+prints/jcs-1-03+pp+183-216.pdf" target="_self">"General Explanation of Tax Legislation Enacted in the 107th Congress" (JCS-1-03), January 24, 2003, pages 183-216 </a></li>
+	
+<h2 id="related-print">Related Senate Committee Print</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/related+commitee+print/senate+print+107-49.pdf" target="_self">Description of the Economic Recovery and Assistance for American Workers Act of 2001:  Technical Explanation of Provisions Approved by the Committee on November 8,2001", Senate Committee on Finance to Accompany H.R. 3090 (Senate Print 107-49), November 2001</a></li>
+	
+<h2 id="congressional-record">Congressional Record</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/congressional+record/crec-2001-09-13-pt1-pgh5605-4.pdf" target="_self">House consideration and passage of H.R. 2884, September 13, 2001, pages H5605-H5612</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/congressional+record/crec-2001-11-13-pt1-pgs11678-2.pdf" target="_self">Senate consideration of H.R. 3090, November 13, 2001, pages S11678-S11708</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/congressional+record/crec-2001-11-14-pt1-pgs11744-2.pdf" target="_self">Senate continued consideration of H.R. 3080, November 14, 2001, pages S11744-S11783</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/congressional+record/crec-2001-11-16-pt1-pgs11991.pdf" target="_self">Senate consideration and passage of H.R. 2884 with an amendment, November 16, 2001, pages S11991-S11993</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/congressional+record/crec-2001-12-13-pt2-pgh10115-2.pdf" target="_self">House concurrence in Senate amendment to H.R. 2884 with an additional amendment, December 13, 2001, page H1015-H10141</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/congressional+record/crec-2001-12-20-pt1-pgh10954.pdf" target="_self">Senate concurrence in House amendment to H.R. 2884 with a further amendment, December 20, 2001, pages S13856-S13864</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-134/docs/congressional+record/crec-2001-12-20-pt1-pgs13856.pdf" target="_self">House concurrence in Senate amendment to H.R. 2884, December 20, 2001, pages H10954-H10959</a></li>
+	
+</ol>
+</div>
+
+<!--end of Content-->
+
+</body>
+</html>
