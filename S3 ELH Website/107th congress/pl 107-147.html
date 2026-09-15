@@ -57,13 +57,11 @@ $(function(){
 	  <option value="index">Select Publication Type</option>
       <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
 	  <option value="public-law">Public Law</option>
-	  <option value="reports">Reports</option>
-	  <option value="related-reports">Related Reports</option>
-	  <option value="hearings">Hearing</option>
-	  <option value="prints">Prints</option>
-	  <option value="hr">H.R. ####</option>
+	  <option value="enacted-bill">Enacted Bill</option>
 	  <option value="related-bills">Related Bills</option>
-	  <option value="resolutions">Resolutions</option>
+	  <option value="reports">Reports</option>
+	  <option value="hearing">Hearing</option>
+	  <option value="committee-prints">Committee Prints</option>
 	  <option value="congressional-record">Congressional Record</option>
 	</select>
 	</form>
@@ -78,41 +76,81 @@ $(function(){
 <!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
 <!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
 <!--The table of contents file can really come in handy from here on out!-->
-    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Title of pub</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/public+law/public+law+107-147.pdf" target="_self">P.L. 107-147, (H.R. 3090) "Job Creation and Worker Assistance Act of 2002", March 9, 2002</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/public+law/signing+statement+pl+107-147.pdf" target="_self">Remarks on Signing the Job Creation and Worker Assistance Act of 2002, 38 Weekly Compilation of Presidential Documents 389, March 9, 2002</a></li>
 
 <!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
-<h2 id="reports">Reports</h2>
+<h2 id="enacted-bill">Enacted Bill</h2>
 
-    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Title of pub</a></li>
-	
-<h2 id="related-reports">Related Reports</h2>
-
-    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Title of pub</a></li>
-	
-<h2 id="hearings">Hearing</h2>
-
-    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Title of pub</a></li>
-	
-<h2 id="prints">Prints</h2>
-
-    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Title of pub</a></li>
-    
-<!--CHANGE: here, make sure you also change the H.R #### to the proper H.R. number, if applicable.-->
-<h2 id="hr">H.R. ####</h2>
-
-    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Title of pub</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/enacted+bill/hr+3090+house+introduced.pdf" target="_self">H.R. 3090, "Economic Security and Recovery Act of 2001", as introduced in the House, October 11, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/enacted+bill/hr+3090+house+reported.pdf" target="_self">H.R. 3090, "Economic Security and Recovery Act of 2001", as reported in the House (House Report 107-251), October 17, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/enacted+bill/hr+3090+house+engrossed.pdf" target="_self">H.R. 3090, "Economic Security and Recovery Act of 2001", engrossed in the House, October 24, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/enacted+bill/hr+3090+senate+referred.pdf" target="_self">H.R. 3090, "Economic Security and Recovery Act of 2001", referred in the Senate, October 24, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/enacted+bill/hr+3090+senate+reported.pdf" target="_self">H.R. 3090, "Economic Recovery and Assistance for American Workers Act of 2001", as reported in the Senate, November 9, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/enacted+bill/hr+3090+senate+engrossed+amendment.pdf" target="_self">H.R. 3090, "Temporary Extended Unemployment Compensation Act of 2002", engrossed Senate amendment, February 14, 2002</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/enacted+bill/hr+3090+house+engrossed+amendment+to+senate.pdf" target="_self">H.R. 3090, "Job Creation and Worker Assistance Act of 2002", House amendment, amendment to Senate amendment, March 7, 2002</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/enacted+bill/hr+3090+enrolled.pdf" target="_self">H.R. 3090, "Job Creation and Worker Assistance Act of 2002", as enrolled, March 9, 2002</a></li>
 	
 <h2 id="related-bills">Related Bills</h2>
 
-    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Title of pub</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/related+bills/hr+3529+house+considered+passed.pdf" target="_self">H.R. 3529, "Economic Security and Worker Assistance Act of 2001", as considered and passed in the House, December 19, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/related+bills/hr+3529+house+engrossed.pdf" target="_self">H.R. 3529, "Economic Security and Worker Assistance Act of 2001", engrossed in the House, December 20, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/related+bills/hr+3529+senate+calendar.pdf" target="_self">H.R. 3529, "Economic Security and Worker Assistance Act of 2001", placed on the Senate calendar, January 23, 2002</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/related+bills/hr+3529+senate+engrossed+amendment.pdf" target="_self">H.R. 3529, "An Act to provide tax incentives for economic recovery and assistance to displaced workers", engrossed Senate amendment, November 14, 2002</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/related+bills/hr+270+house+reported.pdf" target="_self">H. Res. 270, "Providing for consideration of the bill (H.R. 3090) to provide tax incentives for economic recovery", as reported in the House (Report 107-252), October 23, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/related+bills/hr+270+house+engrossed.pdf" target="_self">H. Res. 270, engrossed in the House, October 24, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/related+bills/hr+320+house+reported.pdf" target="_self">H. Res. 320, "Providing for consideration of the bill (H.R. 3529) to provide tax incentives for economic recovery and assistance to displaced workers", as reported in the House (Report 107-348), December 18, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/related+bills/hr+320+house+engrossed.pdf" target="_self">H. Res. 320, engrossed in the House, December 20, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/related+bills/hr+360+house+reported.pdf" target="_self">H. Res. 360, "Providing for consideration of the Senate amendment to the bill (H.R. 3090) to provide tax incentives for economic recovery", as reported in the House (House Report 107-367), March 6, 2002</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/related+bills/hr+360+house+engrossed.pdf" target="_self">H. Res. 360, as engrossed in the House, March 7, 2002</a></li>
 	
-<h2 id="resolutions">Resolutions</h2>
+<h2 id="reports">Reports</h2>
 
-    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Title of pub</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/reports/house+report+107-251.pdf" target="_self">House Report 107-251, "Economic Security and Recovery Act of 2001", House Committee on Ways and Means, October 17, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/reports/house+report+107-252.pdf" target="_self">House Report 107-252, "Providing for Consideration of H.R. 3090, Economic Security and Recovery Act of 2001", House Committee on Rules, October 23, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/reports/house+report+107-348.pdf" target="_self">House Report 107-348, "Providing for Consideration of H.R. 3529, Economic Security and Worker Assistance Act of 2001", House Committee on Rules, December 19, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/reports/house+report+107-367.pdf" target="_self">House Report 107-367, "Providing for Consideration of the Senate Amendment to the Bill H.R. 3090, Economic Security and Recovery Act of 2001", House Committee on Rules, March 6, 2002</a></li>
+	
+<h2 id="hearing">Hearing</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/hearing/senate+hearing+107-369.pdf" target="_self">Addressing the Need for an Economic Stimulus Package, Hearing Before the Senate Committee on Finance, October 3, 2001 (Senate Hearing 107-369)</a></li>
+
+<h2 id="committee-prints">Committee Prints</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcx-69-01-1947.pdf" target="_self">Description Of The "Economic Security And Recovery Act Of 2001", Scheduled for Markup by the House Committee on Ways and Means on October 12, 2001 (JCX-69-01), October 11, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcx-70-01-1945.pdf" target="_self">Estimated Budget Effects of A Modified Chairman's Amendment In The Nature Of A Substitute To The Revenue Provisions Contained In H.R. 3090, The Economic Security And Recovery Act Of 2001, Scheduled For Markup By The Committee On Ways And Means On October 12, 2001, Fiscal Years 2002-2011 (JCX-70-01), October 12, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcx-71-01-1943.pdf" target="_self">Description Of An Amendment In The Nature Of A Substitute To The Provisions Of The Economic Security And Recovery Act Of 2001 (JCX-71-01), October 12, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/senate+print+107-49.pdf" target="_self">Description of the Economic Recovery and Assistance for American Workers Act of 2001, Senate Committee on Finance (Senate Print 107-49), November 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcx-75-01-1930.pdf" target="_self">Description Of The "Economic Recovery And Assistance For American Workers Act Of 2001", Scheduled for Markup by the Senate Committee on Finance on November 8, 2001 (JCX 75-01), November 6, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcx-76-01-1929.pdf" target="_self">Estimated Revenue Effects Of The "Economic Recovery And Assistance For American Workers Act Of 2001", Scheduled for Markup by the Committee on Finance on November 8, 2001 Fiscal Years 2002-2011 (JCX-76-01R) November 6, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcx-78-01-1925.pdf" target="_self">Description Of Chairman's Modification To The "Economic Recovery And Assistance For American Workers Act Of 2001" for Markup by the Senate Committee on Finance on November 8, 2001 (JCX-78-01), November 8, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcx-79-01-1924.pdf" target="_self">Estimated Revenue Effects Of A Modified Chairman's Mark Of The "Economic Recovery And Assistance For American Workers Act Of 2001", Scheduled For Markup By The Committee On Finance On November 8, 2001, Fiscal Years 2002-2011, (JCX-79-01), November 8, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcx-81-01-1920.pdf" target="_self">Estimated Revenue Effects of H.R. 3090, The "Economic Recovery And Assistance For American Workers Act Of 2001", As Ordered Reported By The Committee On Finance On November 8,2001, Fiscal Years 2002-2011 (JCX-81-01), November 9, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcx-84-01-1917.pdf" target="_self">Comparison Of H.R. 3090, The Economic Security And Recovery Act Of 2001 (As Passed By The House Of Representatives) And The Economic Recovery And Homeland Defense Act Of 2001 (Amendment No. 2125 By Senator Baucus To H.R. 3090) (JCX-84-01), December 5, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcx-85-01-1916.pdf" target="_self">Comparison Of Estimated Budget Effects Of H.R. 3090, As Passed By The House Of Representatives And Scheduled For Consideration On The Senate Floor, Fiscal Years 2002-2011 (JCX-85-01), December 5, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcx-89-01-1912.pdf" target="_self">Comparison Of The Tax Incentives For New York City Under Considered By The House And Senate (JCX-89-01), December 14, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcx-90-01-1911.pdf" target="_self">Comparison Of Estimated Budget Effects Of New York Liberty Zone Provisions (NYLZ) Contained In Title III. Of H.R. 2884, As Passed By The House Of Representatives On December 13, 2001, And New York Recovery Zone Provisions (NYRZ ) Contained In H.R. 3090 Scheduled For Consideration On The Senate Floor, Fiscal Years 2002-2011 (JCX-90-01), December 14, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcx-91-01-1910.pdf" target="_self">Technical Explanation Of The "Economic Security And Worker Assistance Act Of 2001" (JCX-91-01), December 19, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcx-92-01-1909.pdf" target="_self">Estimated Budget Effects Of The Revenue Provisions Of The "Economic Security And Worker Assistance Act Of 2001", Fiscal Years 2002-2011 (JCX-92-01), December 19, 2001</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcx-6-02-1898.pdf" target="_self">Technical Explanation Of The "Economic Security And Worker Assistance Act Of 2002" (JCX-6-02), February 13, 2002</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcx-7-02-1897.pdf" target="_self">Estimated Budget Effects Of The Revenue Provisions Of The "Economic Security And Worker Assistance Act Of 2002" Fiscal Years 2002-2012, (JCX-7-02), February 14, 2002</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcx-12-02-1892.pdf" target="_self">Technical Explanation Of The "Job Creation And Worker Assistance Act Of 2002" (JCX-12-02), March 6, 2002</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcx-13-02-1891.pdf" target="_self">Estimated Revenue Effects Of The "Job Creation And Worker Assistance Act Of 2002", Fiscal Years 2002-2012 (JCX-13-02), March 6, 2002</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcx-22-02-1882.pdf" target="_self">Summary Of P.L. 107-147, The "Job Creation And Worker Assistance Act Of 2002" (JCX-22-02), March 22, 2002</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/committee+prints/jcs-1-03+pp+217-284.pdf" target="_self">General Explanation of Tax Legislation Enacted in the 107th Congress (JCS-1-03), January 24, 2003, pages 217-284  </a></li>
 	
 <h2 id="congressional-record">Congressional Record</h2>
 
-    <li><a href="INSERTFULLS3OBJECTURL" target="_self">Title of pub</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/congressional+record/crec-2001-10-24-pt1-pgh7225-2.pdf" target="_self">House consideration and passage of H. Res. 270 and H.R. 3090, October 24, 2001, pages H7225-H7282</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/congressional+record/crec-2001-11-13-pt1-pgs11678-2.pdf" target="_self">Senate consideration of H.R. 3090 (reprinted on pages S11678-11696), November 13, 2001, pages S11678-S11708</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/congressional+record/crec-2001-11-13-pt1-pgs11728-2.pdf" target="_self">Senate amendments to H.R. 3090, November 13, 2001, pages S11728-S11731</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/congressional+record/crec-2001-11-14-pt1-pgs11744-2.pdf" target="_self">Senate consideration of H.R. 3090, November 14, 2001, pages S11744-S11783</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/congressional+record/crec-2001-12-19-pt2-pgh10827-2.pdf" target="_self">House consideration and passage of H. Res. 320 and H.R. 3529, December 19, 2001, pages H10827-H10887</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/congressional+record/crec-2002-02-14-pt1-pgs841-4.pdf" target="_self">Senate consideration and passage of H.R. 3090 with an amendment, February 14, 2002, pages S841-S842</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/congressional+record/crec-2002-02-14-pt2-pgs-870-2.pdf" target="_self">Senator Daschle's amendment to H.R. 3090, February 14, 2002, pages S870-S871</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/congressional+record/crec-2002-03-07-pt1-pgh742-4.pdf" target="_self">House agreement to H. Res. 360 and concurrence int the Senate amendment to H.R. 3090 with an additional amendment, March 7, 2002, pages H742-H767</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/congressional+record/crec-2002-03-07-pt1-pgs1659.pdf" target="_self">Senate consideration of the House amendment to H.R. 3090, March 7, 2002, pages S1659-S1671</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/107th+congress/pl+107-147/docs/congressional+record/crec-2002-03-08-pt1-pgs1689-7.pdf" target="_self">Senate concurrence in the House amendment to H.R, 3090, March 8, 2002, pages S1689-S1692</a></li>
 	
 </ol>
 </div>
