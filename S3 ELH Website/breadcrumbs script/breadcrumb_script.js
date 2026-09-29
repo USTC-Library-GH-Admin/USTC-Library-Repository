@@ -60,6 +60,10 @@ for (i=0; i < page_ar.length-1; i++)
 		  displayname = "103rd Congress";
 		  currenturl = "<a href=\"https://ustc-elh-static-website.s3.amazonaws.com/103rd+congress/103rd+congress.html" + "\">" + displayname + "</a>"; 
 		  break;
+	  case "104th+congress":
+		  displayname = "104th Congress";
+		  currenturl = "<a href=\"https://ustc-elh-static-website.s3.amazonaws.com/104thcongress/104th+congress.html" + "\">" + displayname + "</a>"; 
+		  break;
 	  case "105th+congress":
 		  displayname = "105th Congress";
 		  currenturl = "<a href=\"https://ustc-elh-static-website.s3.amazonaws.com/105th+congress/105th+congress.html" + "\">" + displayname + "</a>"; 
