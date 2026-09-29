@@ -62,7 +62,7 @@ for (i=0; i < page_ar.length-1; i++)
 		  break;
 	  case "104th+congress":
 		  displayname = "104th Congress";
-		  currenturl = "<a href=\"https://ustc-elh-static-website.s3.us-east-1.amazonaws.com/104th+congress/104th+congress.html" + "\">" + displayname + "</a>"; 
+		  currenturl = `<a href=\"https://ustc-elh-static-website.s3.us-east-1.amazonaws.com/104th+congress/104th+congress.html\">${displayname}</a>`; 
 		  break;
 	  case "105th+congress":
 		  displayname = "105th Congress";
