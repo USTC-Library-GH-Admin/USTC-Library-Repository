@@ -50,7 +50,9 @@ for (i=0; i < page_ar.length-1; i++)
   }
   //This will switch the displayname and associated URL based on the folder/bucket name
   //Edit the below as we add new buckets and folders to the LegH website.
-  //To do so:
+  //To do so: Copy one of the below Congresses and paste, being sure to properly copy the new URL.
+  //Often, when I first upload a new Congress, it will not initially work properly on the live site.
+  //Wait about a few hours to a day and it somehow fixes itself!
   switch (displayname){
 	  case "https://ustc-elh-static-website.s3.us-east-1.amazonaws.com":
 		  displayname = "Home";
