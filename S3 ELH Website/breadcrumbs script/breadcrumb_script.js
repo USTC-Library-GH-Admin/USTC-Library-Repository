@@ -56,13 +56,17 @@ for (i=0; i < page_ar.length-1; i++)
 		  displayname = "Home";
 		  currenturl = "<a href=\"https://ustc-elh-static-website.s3.us-east-1.amazonaws.com/legislative-history-index.html" + "\">" + displayname + "</a>"; 
 		  break;
+	  case "102nd+congress":
+		  displayname = "102nd Congress";
+		  currenturl = "<a href=\"https://ustc-elh-static-website.s3.us-east-1.amazonaws.com/102nd+congress/102nd+congress.html" + "\">" + displayname + "</a>"; 
+		  break;
 	  case "103rd+congress":
 		  displayname = "103rd Congress";
 		  currenturl = "<a href=\"https://ustc-elh-static-website.s3.us-east-1.amazonaws.com/103rd+congress/103rd+congress.html" + "\">" + displayname + "</a>"; 
 		  break;
 	  case "104th+congress":
 		  displayname = "104th Congress";
-		  currenturl = `<a href=\"https://ustc-elh-static-website.s3.us-east-1.amazonaws.com/104th+congress/104th+congress.html\">${displayname}</a>`; 
+		  currenturl = "<a href=\"https://ustc-elh-static-website.s3.us-east-1.amazonaws.com/104th+congress/104th+congress.html" + "\">" + displayname + "</a>";
 		  break;
 	  case "105th+congress":
 		  displayname = "105th Congress";
@@ -72,7 +76,7 @@ for (i=0; i < page_ar.length-1; i++)
 		  displayname = "106th Congress";
 		  currenturl = "<a href=\"https://ustc-elh-static-website.s3.us-east-1.amazonaws.com/106th+congress/106th+congress.html" + "\">" + displayname + "</a>"; 
 		  break;
-	case "107th+congress":
+	  case "107th+congress":
 		  displayname = "107th Congress";
 		  currenturl = "<a href=\"https://ustc-elh-static-website.s3.us-east-1.amazonaws.com/107th+congress/107th+congress.html" + "\">" + displayname + "</a>"; 
 		  break;
@@ -103,18 +107,6 @@ for (i=0; i < page_ar.length-1; i++)
 	  case "116th+congress":
 	      displayname = "116th Congress";
 		  currenturl = "<a href=\"https://ustc-elh-static-website.s3.us-east-1.amazonaws.com/116th+congress/116th+congress.html" + "\">" + displayname + "</a>"; 
-		  break;
-	  case "pl+110-245":
-		  displayname = "PL 110-245";
-		  currenturl = "<a href=\"https://ustc-elh-static-website.s3.us-east-1.amazonaws.com/110th+congress/pl+110-245/pl+110-245.html" + "\">" + displayname + "</a>"; 
-		  break;
-	  case "pl+111-366":
-	      displayname = "PL 111-366";
-		  currenturl = "<a href=\"https://ustc-elh-static-website.s3.us-east-1.amazonaws.com/111th+congress/pl+111-366/pl+111-366.html" + "\">" + displayname + "</a>"; 
-		  break;
-	  case "pl+112-56":
-	      displayname = "PL 112-56";
-		  currenturl = "<a href=\"https://ustc-elh-static-website.s3.us-east-1.amazonaws.com/112th+congress/pl+112-56/pl+112-56+index.html" + "\">" + displayname + "</a>"; 
 		  break;
       default: 
 		  displayname = "Placeholder";
