@@ -58,8 +58,12 @@ $(function(){
       <!--CHANGE: keep the above intact; for below, change the value, and the text describing the publication type; add or delete pub types based on the table of contents-->
 	  <option value="public-law">Public Law and Signing Statement</option>
 	  <option value="enacted-bill">Enacted Bill</option>
-	  <option value="related-bills-115-house">Related Bills(115th Congress, House)</option>
-	  <option value="related-bills-115-house">Related Bills (115th Congress, Senate)</option>
+	  <option value="related-bills-115-house">Related Bills (115th Congress, House)</option>
+	  <option value="related-bills-115-senate">Related Bills (115th Congress, Senate)</option>
+	  <option value="related-bills-115-house-resolutions">Related Bills (115th Congress, House Resolutions)</option>
+	  <option value="related-bills-114">Related Bills (114th Congress)</option>
+	  <option value="related-bills-113">Related Bills (113th Congress)</option>
+	  <option value="related-bills-112">Related Bills (112th Congress)</option>
 	  <option value="conference-report">Conference Report</option>
 	  <option value="reports">Reports</option>
 	  <option value="hearings-115">Hearings (115th Congress)</option>
@@ -82,15 +86,10 @@ $(function(){
 
 <h2 id="public-law">Public Law</h2>
 
-<!--CHANGE: the "Title of pub" for all items should be replaced with the title from Jen and Nancy's Table of Contents-->
-<!--Meanwhile, the href section can be replaced with the objects S3 URL from the ustc-electronic-legh bucket-->
-<!--CHANGE: copy, paste, and modify the <li> line for each item that falls under the specific publication type-->
-<!--The table of contents file can really come in handy from here on out!-->
     <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/public+law/plaw-115publ97.pdf" target="_self">P.L. 115-97 (H.R. 1), "To provide for reconciliation pursuant to titles II and V of the concurrent resolution on the budget for fiscal year 2018", December 22, 2017</a></li>
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/signing+statement/dcpd-201700925.pdf" target="_self">Remarks on Signing Legislation on Tax Reform and on Funding for the Departments of Homeland Security, Defense, and Health and Human Services and an Exchange With Reporters December 22, 2017</a></li>
 
-<!--CHANGE: the "id"s below need to match the "value"s in the above list in order for the anchor to jump to them-->
 <h2 id="enacted-bill">Enacted Bill</h2>
 
     <li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hr+1/hr+1+as+introduced+in+the+house+.pdf" target="_self">H.R. 1 "Tax Cuts and Jobs Act" as introduced, introduced in the House, November 2, 2017</a></li>
@@ -102,8 +101,6 @@ $(function(){
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hr+1/hr+1+placed+on+the+senate+calendar.pdf" target="_self">H.R. 1, "Tax Cuts and Jobs Act", placed on the Senate calendar, November 28, 2017</a></li>
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hr+1/hr+1+as+engrossed+senate+amendment.pdf" target="_self">H.R. 1, "Tax Cuts and Jobs Act", engrossed Senate amendment, December 2, 2017</a></li>
-
-	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hr+1/hr+1+engrossed+senate+amendment%2C+december+20%2C+2017.pdf" target="_self">H.R. 1, "An Act to provide for reconciliation pursuant to titles II and V of the concurrent resolution on the budget for fiscal year 2018", engrossed Senate amendment, December 20, 2017</a></li>
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hr+1/hr+1+engrossed+senate+amendment%2C+december+20%2C+2017.pdf" target="_self">H.R. 1, "An Act to provide for reconciliation pursuant to titles II and V of the concurrent resolution on the budget for fiscal year 2018", engrossed Senate amendment, December 20, 2017</a></li>
 
@@ -121,7 +118,7 @@ $(function(){
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house/hr+1040+introduced+in+the+house.pdf" target="_self">H.R. 1040, "Flat Tax Act", introduced in the House, February 14, 2017</a></li>
 
-	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house/hr+1090+introduced+in+the+house.pdf" target="_self">H.R, 1090, "Technologies for Energy Security Act of 2017", introduced in the House, February 15, 2017</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house/hr+1090+introduced+in+the+house.pdf" target="_self">H.R. 1090, "Technologies for Energy Security Act of 2017", introduced in the House, February 15, 2017</a></li>
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house/hr+1659+introduced+in+the+house.pdf" target="_self">H.R. 1659, "Stop Taxing Death and Disability Act", introduced in the House, March 21, 2017</a></li>
 
@@ -147,32 +144,92 @@ $(function(){
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house/hr+5903+introduced+in+the+house.pdf" target="_self">H.R. 5903, "Permanent Tax Relief for Working Families Act", introduced in the House, May 22, 2018</a></li>
 	
-	<h2 id="related-bills-115">Related Bills (115th Congress, Senate)</h2>
+<h2 id="related-bills-115-senate">Related Bills (115th Congress, Senate)</h2>
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+1+placed+on+the+senate+calendar.pdf" target="_self">S. 1, "Tax Cuts and Jobs Act", placed on the Senate calendar, November 28, 2017</a></li>
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+264+introduced+in+the+senate.pdf" target="_self">S. 264, "The Free Speech Fairness Act", introduced in the Senate, February 1, 2017</a></li>
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+293+introduced+in+the+senate.pdf" target="_self">S. 293, "Investing in Opportunity Act", introduced in the Senate, February 2, 2017</a></li>
-	<h2 id="related-bills-115">Related Bills (115th Congress, Senate)</h2>
 
-	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+1+placed+on+the+senate+calendar.pdf" target="_self">S. 1, "Tax Cuts and Jobs Act", placed on the Senate calendar, November 28, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+405+introduced+in+the+senate.pdf" target="_self">S. 405, "Stop Taxing Death and Disability Act", introduced in the Senate, February 16, 2017</a></li>
 
-	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+264+introduced+in+the+senate.pdf" target="_self">S. 264, "The Free Speech Fairness Act", introduced in the Senate, February 1, 2017</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+666+introduced+in+the+senate.pdf" target="_self">S. 666, "To amend the Internal Revenue Code of 1986 to modify the credit for production from advanced nuclear power facilities", introduced in the Senate, March 15, 2017</a></li>
 
-	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+293+introduced+in+the+senate.pdf" target="_self">S. 293, "Investing in Opportunity Act", introduced in the Senate, February 2, 2017</a></li>		
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+852+introduced+in+the+senate.pdf" target="_self">S. 852, "Retirement Security Preservation Act of 2017", introduced in the Senate, April 5, 2017</a></li>
+  
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+1444+introduced+in+the+senate.pdf" target="_self">S. 1444, "Empowering Employees through Stock Ownership Act", introduced in the Senate, June 27, 2017</a></li>
+  
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+2170+introduced+in+the+senate%2C.pdf" target="_self">S. 2170, "To amend the Internal Revenue Code of 1986 to repeal the deduction for local lobbying expenses", introduced in the Senate, November 29, 2017</a></li>
+ 
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+2222+introduced+in+the+senate.pdf" target="_self">S. 2222, "To amend the Internal Revenue Code of 1986 to allow for distributions from 529 accounts for expenses associated with registered apprenticeship programs", introduced in the Senate, December 12, 2017</a></li>
+ 
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+2281+introduced+in+the+senate.pdf" target="_self">S. 2281, "To amend the Internal Revenue Code of 1986 to make permanent the individual tax rates in effect for taxable years 2018 through 2025", introduced in the Senate, January 4, 201</a></li>
 
-<h2 id="hearings">Hearing</h2>
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/senate/s+2291+introduced+in+the+senate.pdf" target="_self">S. 2291, "To amend the Internal Revenue Code of 1986 to make permanent the individual tax rates in effect for taxable years 2018 through 2025", introduced in the Senate, January 10, 2018 </a></li>
 
-    <li><a href="INSERT" target="_self">Title</a></li>
-	
+<h2 id="related-bills-115-house-resolutions">Related Bills (115th Congress, House Resolutions)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house+resolutions/hres+619+as+reported+in+the+house.pdf" target="_self">H. Res. 619, "Providing for consideration of the bill (H.R. 1) to provide for reconciliation pursuant to title II of the concurrent resolution on the budget for fiscal year 2018, and providing for proceedings during the period from November 17, 2017, through November 27, 2017", as reported in the House (House Report 115-410), November 15, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house+resolutions/hres+619+engrossed+in+the+house.pdf" target="_self">H. Res. 619, "Providing for consideration of the bill (H.R. 1) to provide for reconciliation pursuant to title II of the concurrent resolution on the budget for fiscal year 2018, and providing for proceedings during the period from November 17, 2017, through November 27, 2017", engrossed in the House, November 15, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house+resolutions/hres+667+reported+in+the+house.pdf" target="_self">H. Res. 667, "Providing for consideration of the conference report to accompany the bill (H.R. 1) to provide for reconciliation pursuant to titles II and V of the concurrent resolution on the budget for fiscal year 2018; providing for consideration of the bill (H.R. 3312) to amend the Dodd-Frank Wall Street Reform and Consumer Protection Act to specify when bank holding companies may be subject to certain enhanced supervision, and for other purposes; and for other purposes", reported in the House (House Report 115-474), December 18, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house+resolutions/hres+667+engrossed+in+the+house.pdf" target="_self">H. Res. 667, "Providing for consideration of the conference report to accompany the bill (H.R. 1) to provide for reconciliation pursuant to titles II and V of the concurrent resolution on the budget for fiscal year 2018; providing for consideration of the bill (H.R. 3312) to amend the Dodd-Frank Wall Street Reform and Consumer Protection Act to specify when bank holding companies may be subject to certain enhanced supervision, and for other purposes; and for other purposes", engrossed in the House, December 19, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house+resolutions/hres+668+as+reported+in+the+house.pdf" target="_self">H. Res. 668, "Providing for consideration of the Senate amendment to the bill (H.R. 1) to provide for reconciliation pursuant to titles II and V of the concurrent resolution on the budget for fiscal year 2018", as reported in the House (House Report 115-476), December 20, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/house+resolutions/hres+668+engrossed+in+the+house.pdf" target="_self">H. Res. 668, "Providing for consideration of the Senate amendment to the bill (H.R. 1) to provide for reconciliation pursuant to titles II and V of the concurrent resolution on the budget for fiscal year 2018", engrossed in the House, December 20, 2017</a></li>
+
+<h2 id="related-bills-114">Related Bills (114th Congress)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/114th+congress/hr+1040+as+introduced+in+the+house.pdf" target="_self">H.R. 1040, "Flat Tax Act", as introduced in the House, February 24, 2015</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/114th+congress/hr+1824+introduced+in+the+house.pdf" target="_self">H.R. 1824, "Simplified, Manageable, And Responsible Tax Act" or the "SMART Act", introduced in the House, April 15, 2015</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/114th+congress/hr+4377+introduced+in+the+house.pdf" target="_self">H.R. 4377, "American Business Competitiveness Act of 2015," introduced in the House, January 13, 2016 </a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/114th+congress/s+929+introduced+in+the+senate.pdf" target="_self">S. 929, "Simplified, Manageable, And Responsible Tax Act" or the "SMART Act", introduced in the Senate, April 14, 2015</a></li>
+
+<h2 id="related-bills-113">Related Bills (113th Congress)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/113th+congress/hr+1+introduced+in+the+house.pdf" target="_self">H.R. 1, "Tax Reform Act of 2014", introduced in the House, December 10, 2014</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/113th+congress/s+8+introduced+in+the+senate.pdf" target="_self">S. 8, "End Wasteful Tax Loopholes Act", introduced in the Senate, January 22, 2013</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/113th+congress/s+122+introduced+in+the+senate%2C.pdf" target="_self">S. 122, "Fair Tax Act of 2013", introduced in the Senate, January 23, 2013</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/113th+congress/s+173+introduced+in+the+senate.pdf" target="_self">S. 173, "Simplified, Manageable, And Responsible Tax Act" or the "SMART Act", introduced in the Senate, January 29, 2013</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/113th+congress/s+321+introduced+in+the+senate.pdf" target="_self">S. 321, "Paying a Fair Share Act of 2013", introduced in the Senate, February 13, 2013</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/113th+congress/s+1616+introduced+in+the+senate%2C.pdf" target="_self">S. 1616, "Family Fairness and Opportunity Tax Reform Act" introduced in the Senate, October 30, 2013 </a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/113th+congress/s+3005+introduced+in+the+senate.pdf" target="_self">S. 3005, "Progressive Consumption Tax Act of 2014", introduced in the Senate, December 11, 2014</a></li>
+
+<h2 id="related-bills-112">Related Bills (112th Congress)</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/112th+congress/hr+99+introduced+in+the+house.pdf" target="_self">H.R. 99, "Fair and Simple Tax Act of 2011", introduced in the House, January 5, 2011</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/112th+congress/hr+6169+introduced+in+the+house.pdf" target="_self">H.R. 6169, "Pathway to Job Creation through a Simpler, Fairer Tax Code Act of 2012", introduced in the House, July 24, 2012</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/112th+congress/hr+6169+reported+in+the+house.pdf" target="_self">H.R. 6169, "Pathway to Job Creation through a Simpler, Fairer Tax Code Act of 2012", reported in the House (House Report 112-629), July 30, 2012</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/112th+congress/s+727+introduced+in+the+senate.pdf" target="_self">S. 727, "Bipartisan Tax Fairness and Simplification Act of 2011", introduced in the Senate, April 5, 2011</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/related+bills/112th+congress/s+820+introduced+in+the+senate.pdf" target="_self">S. 820, "Simplified, Manageable, And Responsible Tax Act" or the "SMART Act", introduced in the Senate, April 14, 2011</a></li>
+
+<h2 id="conference-report">Conference Report</h2>
+
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/conference+report/crpt-115hrpt466.pdf" target="_self">House Conference Report 115-466, "Tax Cuts and Jobs Act" to accompany H.R. 1, December 15, 2017</a></li>
+
 <h2 id="reports">Reports</h2>
 
-    <li><a href="INSERT FULL S3 OBJECT URL" target="_self">Title of pub</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/reports/crpt-115hrpt409.pdf" target="_self">House Report 115-409, "Tax Cuts and Jobs Act", House Committee on Ways and Means, November 13, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/reports/crpt-115hrpt410.pdf" target="_self">House Report 115-410, "Providing for the Consideration of the Bill (H.R. 1) to Provide for Reconciliation Pursuant to Title II of the Concurrent Resolution on the Budget for Fiscal Year 2018, and Providing for Proceedings During the Period From November 17, 2017, Through November 27, 2017", House Committee on Rules, November 15, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/reports/crpt-115hrpt474.pdf" target="_self">House Report 115-474, "Providing for Consideration of the Conference Report to Accompany the Bill (H.R. 1) to Provide for Reconciliation Pursuant to Titles II and V of the Concurrent Resolution on the Budget for Fiscal Year 2018; Providing for Consideration of the Bill (H.R.3312) to Amend the Dodd-Frank Wall Street Reform  and Consumer Protection Act to Specify When Bank Holding Companies May Be Subject to Certain Enhanced Supervision, and For Other Purposes; and For Other Purposes", House Committee on Rules, December 18, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/reports/crpt-115hrpt476.pdf" target="_self">House Report 115-476, "Providing for Consideration of the Senate Amendment to (H.R. 1) to Provide for Reconciliation Pursuant to Titles II and V of the Concurrent Resolution on the Budget for Fiscal Year 2018", House Committee on Rules, December 20, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/reports/crpt-112hrpt629.pdf" target="_self">House Report 112-629, "Pathway to Job Creation Through a Simpler, Fairer Tax Code Act of 2012", House Committee on Rules, July 30, 2012</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/reports/crpt-112hrpt641.pdf" target="_self">House Report 112-641, "Providing for Consideration of the Bill (H.R. 6169) To Provide for Expedited Consideration of a Bill Providing for Comprehensive Tax Reform; Providing for Consideration of the Bill (H.R. 8) To Extend Certain Tax Relief Provisions Enacted in 2001 and 2003, and for Other Purposes; Providing for Proceedings During the Period from August 3, 2012, Through September 7, 2012; Providing for Consideration of Motions To Suspend the Rules; and Waiving a Requirement of Clause 6(a) of Rule XIII with Respect to Consideration of Certain Resolutions Reported from the Committee on Rules", House Committee on Rules, July 31, 2012</a></li>
 
 <h2 id="hearings-115">Hearings (115th Congress)</h2>
 
-    <li><a href="INSERT" target="_self">Title</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hearings+(115th+congress)/chrg-115hhrg24070.pdf" target="_self">"Start-Ups Stalling? The Tax Code as a Barrier to Entrepreneurship", Hearing Before the House Committee on Small Business (Serial No. 115-003), February 15, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hearings+(115th+congress)/chrg-115hhrg33393.pdf" target="_self">"How Tax Reform Will Grow Our Economy and Create Jobs", Hearing Before the House Committee on Ways and Means, (Serial No. 115-FC01), May 18, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hearings+(115th+congress)/chrg-115hhrg33426.pdf" target="_self">"Increasing U.S. Competitiveness and Preventing American Jobs From Moving Overseas", Hearing Before the House Committee on Ways and Means (Serial No. 115-FC02), May 23, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hearings+(115th+congress)/chrg-115hhrg33428.pdf" target="_self">"The President's Fiscal Year 2018 Budget Proposals with U.S. Secretary of the Treasury Steven Mnuchin", Hearing Before the House Committee on Ways and Means (Serial No. 115-FC03), May 24, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hearings+(115th+congress)/chrg-115shrg30208.pdf" target="_self">"Fiscal Year 2018 Budget Proposals for the Department of the Treasury and Tax Reform", Hearing Before the Senate Committee on Finance (Senate Hearing 115-244), May 25, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hearings+(115th+congress)/chrg-115shrg26348.pdf" target="_self">"Tax Reform: Removing Barriers to Small Business Growth", Hearing Before the Senate Committee on Small Business Entrepreneurship (Senate Hearing 115-101), June 14, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hearings+(115th+congress)/chrg-115shrg30827.pdf" target="_self">"Comprehensive Tax Reform: Prospects and Challenges", Hearing Before the Senate Committee on Finance (Senate Hearing 115-386), July 18, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hearings+(115th+congress)/chrg-115hhrg33482.pdf" target="_self">"How Tax Reform Will Simplify Our Broken Tax Code and Help Individuals and Families", Hearing Before the House Committee on Ways and Means (House Hearing 115-TP02), July 19, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hearings+(115th+congress)/chrg-115shrg31548.pdf" target="_self">"Individual Tax Reform", Hearing Before the Senate Committee on Finance (Senate Hearing 115-331), September 14, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hearings+(115th+congress)/chrg-115shrg31595.pdf" target="_self">"Business Tax Reform", Hearing Before the Senate Committee on Finance (Senate Hearing 115-342), September 19, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hearings+(115th+congress)/chrg-115shrg27365.pdf" target="_self">"The Startup Slump: Can Tax Reform Help Revive Entrepreneurship?", Hearing Before the Joint Economic Committee (Senate Hearing 115-124), October 3, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hearings+(115th+congress)/chrg-115shrg32785.pdf" target="_self">"International Tax Reform", Hearing Before the Senate Committee on Finance (Senate Hearing 115-384), October 3, 2017</a></li>
+    <li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hearings+(115th+congress)/chrg-115hhrg27040.pdf" target="_self">"Small Business Tax Reform: Modernizing the Code for the Nation's Job Creators", House Committee on Small Business (Serial No. 115-037), October 4, 2017</a></li>
 
 <h2 id="hearings-114">Hearings (114th Congress)</h2>
 
@@ -195,7 +252,7 @@ $(function(){
 
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hearings+(113th+congress)/chrg-113hhrg21128.pdf" target="_self">"Tax Reform and Charitable Contributions", Hearing Before the House Committee on Ways and Means, February 14, 2013, (Serial No. 113-FC02)</a></li>
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hearings+(113th+congress)/chrg-113hhrg21127.pdf" target="_self">"Tax Reform and Tax Provisions Affecting State and Local Governments", Hearing Before the House Committee on Ways and Means, March 19, 2013, (Serial No. 113-FC03)</a></li>
-	<li>"Financial Products Tax Reform Discussion Draft", Hearing Before the House Committee on Ways and Means, Subcommittee on Select Revenue Measures, March 20, 2013 (Serial No. 113-SRM01). See library for document.</li>
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hearings+(113th+congress)/serial+no.+113-srm01.pdf" target="_self">"Financial Products Tax Reform Discussion Draft", Hearing Before the House Committee on Ways and Means, Subcommittee on Select Revenue Measures, March 20, 2013 (Serial No. 113-SRM01)</a></li>
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hearings+(113th+congress)/chrg-113hhrg80818.pdf" target="_self">"Small Business Tax Reform: Growth Through Simplicity", Hearing Before the House Committee on Small Business, April 10, 2013 (Serial No. 113-009)</a></li>
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hearings+(113th+congress)/chrg-113hhrg21124.pdf" target="_self">"Tax Reform and Residential Real Estate", Hearing Before the House Committee on Ways and Means, April 25, 2013 (Serial No. 113-FC06)</a></li>
 	<li><a href="https://ustc-electronic-legh.s3.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/hearings+(113th+congress)/chrg-113hhrg89557.pdf" target="_self">"Internal Revenue Service's Colleges and Universities Compliance Project", Hearing Before the House Ways and Means Committee, Subcommittee on Oversight, May 8, 2013 (Serial No. 113-OS4)</a></li>
@@ -299,83 +356,162 @@ $(function(){
 
 	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcx-53-17.pdf" target="_self">Distribution Effects of The Chairman's Mark of the "Tax Cuts and Jobs Act", Scheduled for Markup By The Committee On Finance On November 13, 2017, (JCX-53-17), November 11, 2017</a></li>
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcx-54-17.pdf" target="_self">Estimated Revenue Effects of H.R. 1, the "Tax Cuts and Jobs Act", As Ordered Reported By The Committee On Ways And Means On November 9, 2017, (JCX-54-17), November 11, 2017 </a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcx-54-17.pdf" target="_self">Estimated Revenue Effects of H.R. 1, the "Tax Cuts and Jobs Act", As Ordered Reported By The Committee On Ways And Means On November 9, 2017, (JCX-54-17), November 11, 2017 </a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcx-55-17.pdf" target="_self">Distributional Effects Of H.R.1, the "Tax Cuts And Jobs Act", As Ordered Reported By The Committee on Ways And Means on November 9, 2017, (JCX-55-17) November 13, 2017 </a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcx-55-17.pdf" target="_self">Distributional Effects Of H.R.1, the "Tax Cuts And Jobs Act", As Ordered Reported By The Committee on Ways And Means on November 9, 2017, (JCX-55-17) November 13, 2017 </a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcx-57-17.pdf" target="_self">Estimated Revenue Effects of the Chairman's Modification to the Chairman's Mark of the "Tax Cuts and Jobs Act", Scheduled for Markup by the Committee on Finance on November 15, 2017, (JCX-57-17), November 14, 2017 </a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcx-57-17.pdf" target="_self">Estimated Revenue Effects of the Chairman's Modification to the Chairman's Mark of the "Tax Cuts and Jobs Act", Scheduled for Markup by the Committee on Finance on November 15, 2017, (JCX-57-17), November 14, 2017 </a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcx-56-17.pdf" target="_self">Description of the Chairman's Modification to the Chairman's Mark of the "Tax Cuts and Jobs Act" Scheduled for Markup by the Senate Committee on Finance on November 15, 2017 (JCX-56-17) November 14, 2017 </a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcx-56-17.pdf" target="_self">Description of the Chairman's Modification to the Chairman's Mark of the "Tax Cuts and Jobs Act" Scheduled for Markup by the Senate Committee on Finance on November 15, 2017 (JCX-56-17) November 14, 2017 </a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcx-56r-17.pdf" target="_self">Correction to the Description of the Chairman's Modification to the Chairman's Mark of the "Tax Cuts and Jobs Act" (JCX-56R-17), November 15, 2017</a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcx-56r-17.pdf" target="_self">Correction to the Description of the Chairman's Modification to the Chairman's Mark of the "Tax Cuts and Jobs Act" (JCX-56R-17), November 15, 2017</a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcx-58r-17.pdf" target="_self">Distribution Effects of the Chairman's Modification to the Chairman's Mark of the "Tax Cuts and Jobs Act", Scheduled for Markup by the Committee on Finance on November 15, 2017, (JCX-58R-17) November 17, 2017 </a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcx-58r-17.pdf" target="_self">Distribution Effects of the Chairman's Modification to the Chairman's Mark of the "Tax Cuts and Jobs Act", Scheduled for Markup by the Committee on Finance on November 15, 2017, (JCX-58R-17) November 17, 2017 </a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcx-59-17.pdf" target="_self">Estimated Revenue Effects of the "Tax Cuts and Jobs Act," as Ordered Reported by the Committee on Finance on November 16, 2017, (JCX-59-17), November 17, 2017 </a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcx-59-17.pdf" target="_self">Estimated Revenue Effects of the "Tax Cuts and Jobs Act," as Ordered Reported by the Committee on Finance on November 16, 2017, (JCX-59-17), November 17, 2017 </a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcx-60-17.pdf" target="_self"> Distributional effects of the "Tax Cuts and Jobs Act," as ordered reported by the Senate Committee on Finance on November 16, 2017, (JCX-60-17), November 24, 2017</a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcx-60-17.pdf" target="_self"> Distributional effects of the "Tax Cuts and Jobs Act," as ordered reported by the Senate Committee on Finance on November 16, 2017, (JCX-60-17), November 24, 2017</a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcx-61-17.pdf" target="_self">Macroeconomic Analysis Of The Tax Cut And Jobs Act As Ordered Reported By The Senate Committee On Finance On November 16, 2017 (JCX-61-17) November 30, 2017 </a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcx-61-17.pdf" target="_self">Macroeconomic Analysis Of The Tax Cut And Jobs Act As Ordered Reported By The Senate Committee On Finance On November 16, 2017 (JCX-61-17) November 30, 2017 </a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcs-1-18.pdf" target="_self">"General Explanation of Public Law 115-97" (JCS-1-18) December 20, 2018</a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/115th+congress/jcs-1-18.pdf" target="_self">"General Explanation of Public Law 115-97" (JCS-1-18) December 20, 2018</a></li>	
 
 <h2 id="committee-prints">Joint Committee on Taxation Prints (114th Congress)</h2>
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/114th+congress/jcx-4-16.pdf" target="_self">Testimony of the Staff of The Joint Committee On Taxation Before The Senate Committee On Finance Hearing On Helping Americans Prepare For Retirement: Increasing Access, Participation And Coverage In Retirement Savings Plans (JCX-4-16), January 28, 2016 </a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/114th+congress/jcx-4-16.pdf" target="_self">Testimony of the Staff of The Joint Committee On Taxation Before The Senate Committee On Finance Hearing On Helping Americans Prepare For Retirement: Increasing Access, Participation And Coverage In Retirement Savings Plans (JCX-4-16), January 28, 2016 </a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/114th+congress/jcx-26-16.pdf" target="_self">"Testimony of the Staff of The Joint Committee on Taxation Before The House Ways And Means Tax Policy Subcommittee Hearing On Fundamental Tax Reform Proposals" (JCX-26-16), April 13, 2016 </a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/114th+congress/jcx-26-16.pdf" target="_self">"Testimony of the Staff of The Joint Committee on Taxation Before The House Ways And Means Tax Policy Subcommittee Hearing On Fundamental Tax Reform Proposals" (JCX-26-16), April 13, 2016 </a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/114th+congress/jcx-35-16.pdf" target="_self">"Background On Business Tax Reform, Scheduled for a Public Hearing Before the Senate Committee on Finance on April 26, 2016" (JCX-35-16), April 22, 2016</a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/114th+congress/jcx-35-16.pdf" target="_self">"Background On Business Tax Reform, Scheduled for a Public Hearing Before the Senate Committee on Finance on April 26, 2016" (JCX-35-16), April 22, 2016</a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/114th+congress/jcx-36-16.pdf" target="_self">"Testimony of the Joint Committee on Taxation Before the Senate Committee on Finance Hearing on Navigating Business Tax Reform" (JCX-36-16), April 26, 2016 </a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/114th+congress/jcx-36-16.pdf" target="_self">"Testimony of the Joint Committee on Taxation Before the Senate Committee on Finance Hearing on Navigating Business Tax Reform" (JCX-36-16), April 26, 2016 </a></li>	
 
 <h2 id="committee-prints">Joint Committee on Taxation Prints (113th Congress)</h2>
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-4-13.pdf" target="_self">"Present Law and Background Relating to the Federal Tax Treatment of Charitable Contributions, Scheduled for a Public Hearing Before the House Committee on Ways and Means on February 14, 2013" (JCX-4-13), February 11, 2013</a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-4-13.pdf" target="_self">"Present Law and Background Relating to the Federal Tax Treatment of Charitable Contributions, Scheduled for a Public Hearing Before the House Committee on Ways and Means on February 14, 2013" (JCX-4-13), February 11, 2013</a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-9-13.pdf" target="_self">Present Law and Background Information Related to Selected Tax Procedure and Administration Issues, Scheduled for a Public Hearing Before the Senate Committee on Finance on April 16, 2013 (JCX-9-13), April 15, 2013</a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-9-13.pdf" target="_self">Present Law and Background Information Related to Selected Tax Procedure and Administration Issues, Scheduled for a Public Hearing Before the Senate Committee on Finance on April 16, 2013 (JCX-9-13), April 15, 2013</a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcs-3-13.pdf" target="_self">"Report to the House Committee on Ways and Means on Present Law and Suggestions for Reform Submitted to the Tax Reform Working Groups" (JCS-3-13), May 6, 2013</a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcs-3-13.pdf" target="_self">"Report to the House Committee on Ways and Means on Present Law and Suggestions for Reform Submitted to the Tax Reform Working Groups" (JCS-3-13), May 6, 2013</a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-1-14.pdf" target="_self">"List Of Expiring Federal Tax Provisions 2013-2024", (JCX-1-14), January 10, 2014</a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-1-14.pdf" target="_self">"List Of Expiring Federal Tax Provisions 2013-2024", (JCX-1-14), January 10, 2014</a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-19-14.pdf" target="_self">"Technical Explanation of the Tax Reform Act of 2014, A Discussion Draft of the Chairman of the House Committee on Ways and Means to Reform the Internal Revenue Code: Title VIII - Deadwood and Technical Provisions" (JCX-19-14), February 26, 2014</a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-19-14.pdf" target="_self">"Technical Explanation of the Tax Reform Act of 2014, A Discussion Draft of the Chairman of the House Committee on Ways and Means to Reform the Internal Revenue Code: Title VIII - Deadwood and Technical Provisions" (JCX-19-14), February 26, 2014</a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-14-14.pdf" target="_self">"Technical Explanation of the Tax Reform Act of 2014, A Discussion Draft of the Chairman of the House Committee on Ways and Means to Reform the Internal Revenue Code: Title III - Business Tax Reform" (JCX-14-14) February 26, 2014</a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-14-14.pdf" target="_self">"Technical Explanation of the Tax Reform Act of 2014, A Discussion Draft of the Chairman of the House Committee on Ways and Means to Reform the Internal Revenue Code: Title III - Business Tax Reform" (JCX-14-14) February 26, 2014</a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-12-14.pdf" target="_self">"Technical Explanation of the Tax Reform Act of 2014, A Discussion Draft of the Chairman of the House Committee on Ways and Means to Reform the Internal Revenue Code: Title I - Tax Reform for Individuals" (JCX-12-14), February 26, 2014 </a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-12-14.pdf" target="_self">"Technical Explanation of the Tax Reform Act of 2014, A Discussion Draft of the Chairman of the House Committee on Ways and Means to Reform the Internal Revenue Code: Title I - Tax Reform for Individuals" (JCX-12-14), February 26, 2014 </a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-21-14.pdf" target="_self">"Distributional Effects of the Tax Reform Act of 2014, Calendar Year 2015" (JCX-21-14), February 26, 2014</a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-21-14.pdf" target="_self">"Distributional Effects of the Tax Reform Act of 2014, Calendar Year 2015" (JCX-21-14), February 26, 2014</a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-22-14.pdf" target="_self">Macroeconomic Analysis of the "Tax Reform Act of 2014" (JCX- 22-14), February 26, 2014</a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-22-14.pdf" target="_self">Macroeconomic Analysis of the "Tax Reform Act of 2014" (JCX- 22-14), February 26, 2014</a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-22-14.pdf" target="_self">Technical Explanation of the Tax Reform Act of 2014, A Discussion Draft of the Chairman of the House Committee on Ways and Means to Reform the Internal Revenue Code: Title VII - Excise Taxes" (JCX-18-14), February 26, 2014</a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-22-14.pdf" target="_self">Technical Explanation of the Tax Reform Act of 2014, A Discussion Draft of the Chairman of the House Committee on Ways and Means to Reform the Internal Revenue Code: Title VII - Excise Taxes" (JCX-18-14), February 26, 2014</a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-20-14.pdf" target="_self">"Estimated Revenue Effects of the "Tax Reform Act of 2014", Fiscal Years 2014-2023" (JCX-20-14), February 26, 2014</a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-20-14.pdf" target="_self">"Estimated Revenue Effects of the "Tax Reform Act of 2014", Fiscal Years 2014-2023" (JCX-20-14), February 26, 2014</a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-15-14.pdf" target="_self">"Technical Explanation of the Tax Reform Act of 2014, A Discussion Draft of the Chairman of the House Committee on Ways and Means to Reform the Internal Revenue Code: Title IV - Participation Exemption System for the Taxation of Foreign Income" (JCX-15-14), February 26, 2014</a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-15-14.pdf" target="_self">"Technical Explanation of the Tax Reform Act of 2014, A Discussion Draft of the Chairman of the House Committee on Ways and Means to Reform the Internal Revenue Code: Title IV - Participation Exemption System for the Taxation of Foreign Income" (JCX-15-14), February 26, 2014</a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-16-14.pdf" target="_self">"Technical Explanation of the Tax Reform Act of 2014, A Discussion Draft of the Chairman of the House Committee on Ways and Means to Reform the Internal Revenue Code: Title V - Tax Exempt Entities" (JCX-16-14) February 26, 2014 </a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-16-14.pdf" target="_self">"Technical Explanation of the Tax Reform Act of 2014, A Discussion Draft of the Chairman of the House Committee on Ways and Means to Reform the Internal Revenue Code: Title V - Tax Exempt Entities" (JCX-16-14) February 26, 2014 </a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-17-14.pdf" target="_self">"Technical Explanation of the Tax Reform Act of 2014, A Discussion Draft of the Chairman of the House Committee on Ways and Means to Reform the Internal Revenue Code: Title VI - Tax Administration and Compliance" (JCX-17-14) February 26, 2014 </a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-17-14.pdf" target="_self">"Technical Explanation of the Tax Reform Act of 2014, A Discussion Draft of the Chairman of the House Committee on Ways and Means to Reform the Internal Revenue Code: Title VI - Tax Administration and Compliance" (JCX-17-14) February 26, 2014 </a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-35-14.pdf" target="_self">Description Of Expiring Business-Related Tax Provisions Made Permanent Or Extended Under The "Tax Reform Act of 2014," A Discussion Draft Of The Chairman Of The House Committee On Ways And Means To Reform The Internal Revenue Code, Scheduled for a Meeting Before the House Committee on Ways and Means on April 8, 2014", (JCX-35-14) April 4, 2014 </a></li>	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcx-35-14.pdf" target="_self">Description Of Expiring Business-Related Tax Provisions Made Permanent Or Extended Under The "Tax Reform Act of 2014," A Discussion Draft Of The Chairman Of The House Committee On Ways And Means To Reform The Internal Revenue Code, Scheduled for a Meeting Before the House Committee on Ways and Means on April 8, 2014", (JCX-35-14) April 4, 2014 </a></li>	
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcs-1-14.pdf" target="_self">"Technical Explanation, Estimated Revenue Effects, Distributional Analysis, and Macroeconomic Analysis of the Tax Reform Act of 2014, a Discussion Draft of the Chairman of the House Committee on Ways and Means To Reform the Internal Revenue Code" (JCS-1-14), September 2014  JCS-1-14 Joint Committee on Taxation</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/113th+congress/jcs-1-14.pdf" target="_self">"Technical Explanation, Estimated Revenue Effects, Distributional Analysis, and Macroeconomic Analysis of the Tax Reform Act of 2014, a Discussion Draft of the Chairman of the House Committee on Ways and Means To Reform the Internal Revenue Code" (JCS-1-14), September 2014  JCS-1-14 Joint Committee on Taxation</a></li>
 
 <h2 id="committee-prints">Joint Committee on Taxation Prints (112th Congress)</h2>
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/112th+congress/jcx-15-11.pdf" target="_self">"Background Information on Tax Expenditure Analysis and Historical Survey Of Tax Expenditure Estimates, Scheduled for a Public Hearing Before the Senate Committee on Finance on March 1, 2011" (JCX-15-11), February 28, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/112th+congress/jcx-15-11.pdf" target="_self">"Background Information on Tax Expenditure Analysis and Historical Survey Of Tax Expenditure Estimates, Scheduled for a Public Hearing Before the Senate Committee on Finance on March 1, 2011" (JCX-15-11), February 28, 2011</a></li>
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/112th+congress/jcx-28-11.pdf" target="_self">"Roundtable Discussion on Ideas for Reforming the U.S. Internal Revenue Code", Hearing Before the Joint Committee on Taxation, April 6, 2011, JCX-28-11</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/112th+congress/jcx-28-11.pdf" target="_self">"Roundtable Discussion on Ideas for Reforming the U.S. Internal Revenue Code", Hearing Before the Joint Committee on Taxation, April 6, 2011, JCX-28-11</a></li>
 
-<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/112th+congress/jcx-33-11.pdf" target="_self">"Background and Selected Issues Related to the U.S. International Tax System and Systems That Exempt Foreign Business Income, Scheduled for a Public Hearing Before the Committee on Ways and Means on May 24, 2011", (JCX-33-11), May 20, 2011</a></li>
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/112th+congress/jcx-33-11.pdf" target="_self">"Background and Selected Issues Related to the U.S. International Tax System and Systems That Exempt Foreign Business Income, Scheduled for a Public Hearing Before the Committee on Ways and Means on May 24, 2011", (JCX-33-11), May 20, 2011</a></li>
 
-
- </a></li>	
-
-
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/112th+congress/jcx-37-11.pdf" target="_self">"Present Law and Background Related To U.S. Activities Of Foreign Persons, Scheduled for a Public Hearing Before the Subcommittee on Select Revenue Measures of the House Committee on Ways and Means on June 23, 2011" (JCX-37-11), June 22, 2011</a></li>
 	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/112th+congress/jcx-41-11.pdf" target="_self">"Present Law and Background Relating To Tax Treatment Of Business Debt, A Report to the Joint Committee on Taxation" (JCX-41-11), July 11, 2011</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/112th+congress/jcx-42-11.pdf" target="_self">"Present Law and Issues In U.S. Taxation Of Cross-Border Income, Scheduled for a Public Hearing Before the Senate Committee on Finance on September 8, 2011" (JCX-42-11), September 6, 2011</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/112th+congress/jcx-32-12.pdf" target="_self">"Present Law and Background Relating To The Tax Treatment Of Retirement Savings, Scheduled for a Public Hearing Before the House Committee on Ways and Means on April 17, 2012" (JCX-32-12), April 13, 2012</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/112th+congress/jcx-40-12.pdf" target="_self">"Overview Of Federal Tax Provisions and Analysis of Selected Issues Relating To Native American Tribes And Their Members, Scheduled for a Public Hearing Before the Senate Committee on Finance on May 15,2012" (JCX-40-12), May 14, 2012</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/112th+congress/jcx-56-12.pdf" target="_self">"New Evidence on The Tax Elasticity Of Capital Gains: A Joint Working Paper Of The Staff Of The Joint Committee On Taxation And The Congressional Budget Office" (JCX-56-12), June 2012</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/112th+congress/jcx-61-12.pdf" target="_self">"Background And Present Law Relating to Manufacturing Activities Within the United States, Scheduled for a Public Hearing Before the House Committee on Ways and Means on July 19, 2011" (JCX-61-12), July 17, 2011</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/112th+congress/jcx-66-12.pdf" target="_self">"Selected Issues Relating To Choice Of Business Entity, Scheduled for a Public Hearing Before the Senate Finance Committee on August 1, 2012" (JCX-66-12), July 27, 2012</a></li>
+	
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/jct+prints/112th+congress/jcx-72-12.pdf" target="_self">"Present Law and Background Information Related To The Taxation Of Capital Gains, Scheduled for a Public Hearing Before the Senate Committee on Finance and the House Committee on Ways and Means on September 20, 2012" (JCX-72-12) September 14, 2012</a></li>
+
+<h2 id="congressional-record-115">Congressional Record (115th Congress)</h2>
+
+	<li><a href="insert" target="_self">House consideration of tax legislation, November 15, 2017, pages H9258-H9268</a></li>
+	<li><a href="insert" target="_self">House consideration and passage of H. Res. 619 (text on page H9269 and an amendment to this resolution is on page H9278 by Hastings) and consideration of H.R. 1, November 15, 2017, pages H9269-H9280</a></li>
+	<li><a href="insert" target="_self">House consideration of H.R. 1 as amended (text on pages H9302-9345), November 15, 2017, pages H9302-9361</a></li>
+	<li><a href="insert" target="_self">House consideration of tax legislation, November 15, 2017, pages H9361-H9374</a></li>
+	<li><a href="insert" target="_self">Senate consideration of tax legislation, November 15, 2017, pages S7225-S7229</a></li>
+	<li><a href="insert" target="_self">Senate consideration of tax legislation, November 17, 2017, pages S7231-S7243</a></li>
+	<li><a href="insert" target="_self">Senate consideration of tax legislation, Sen. Durbin, November 15, 2017, page S7245</a></li>
+	<li><a href="insert" target="_self">Senate consideration of tax legislation, November 15, 2017, pages S7252-S7255</a></li>
+	<li><a href="insert" target="_self">House consideration and passage of H.R. 1 (vote on page H9413), November 16, 2017, pages H9380-H9418</a></li>
+	<li><a href="insert" target="_self">Senate consideration of tax legislation, November 16, 2017, pages S7269-S7270</a></li>
+	<li><a href="insert" target="_self">Senate consideration of tax legislation, November 16, 2017, pages S7281-S7285</a></li>
+	<li><a href="insert" target="_self">Senate consideration of tax legislation, November 27, 2017, Sen. McConnell, Sen. Schumer and Sen. Cornyn, pages S7319-S7324</a></li>
+	<li><a href="insert" target="_self">House consideration of tax legislation, November 28, 2017, Rep. Schneider, page H9440</a></li>
+	<li><a href="insert" target="_self">House consideration of tax legislation, November 28, 2017, Rep. Krishnamoorthi, Rep. Hoyer, Rep. Levin and Rep. Larson, pages H9456-H9462</a></li>
+	<li><a href="insert" target="_self">Senate consideration of tax legislation, November 28, 2017, Sen Durbin and Sen. Schumer, pages S7338-S7341</a></li>
+	<li><a href="insert" target="_self">Senate consideration of tax legislation, November 28, 2017, Sen. Cornyn, pages S7346-S7348 Sen. Cornyn</a></li>
+	<li><a href="insert" target="_self">Senate consideration of tax legislation, November 28, 2017, pages S7350-S7351 Sen. Rubio</a></li>
+	<li><a href="insert" target="_self">House consideration of tax legislation, November 29, 2017, pages H9472-H9473 Rep. Moore</a></li>
+	<li><a href="insert" target="_self">House consideration of tax legislation, November 29, 2017, pages H9475-H9478 Rep. Himes, Rep Pingree, Rep Bustos, Rep Waters</a></li>
+	<li><a href="insert" target="_self">House consideration of tax legislation, November 29, 2017, pages H9512-H9514 Rep. Ryan</a></li>
+	<li><a href="insert" target="_self">Senate consideration of tax legislation, November 29, 2017, pages S7368-S7402</a></li>
+	<li><a href="insert" target="_self">Senate consideration of tax legislation, November 29, 2017, pages S7499-S7505 Sen. McConnell and others</a></li>
+
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+	<li><a href="insert" target="_self">title</a></li>
+
+<h2 id="congressional-record-112">Congressional Record (112th Congress)</h2>
+
+	<li><a href="https://ustc-electronic-legh.s3.us-east-1.amazonaws.com/115th+congress/pl+115-97-not+in+dr/document/congressional+record/crec-2012-08-02-pt1-pgh5658.pdf" target="_self">House consideration and passage of H.R. 6169 (text of bill on pages H5658-5659) , August 2, 2012, pages H5658-5681</a></li>
+
 </ol>
 </div>
 
